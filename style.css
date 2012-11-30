@@ -1,0 +1,295 @@
+/*
+Theme Name: Darkfall: Unholy Wars;
+Theme URI: http://lowgaming.com/games/darkfall
+Description: Theme to support Darkfall Unholy Wars Info Site
+Author: Lords of War
+Author URI: http://lowgaming.com/
+Version: 1.0
+Tags: one-column, flexible-width, custom-menu, featured-images, microformats, sticky-post, darkfall
+License: GNU General Public License | This theme is completely free and open source to use as you like for both personal and commercial projects without any limitations.
+License URI: https://www.gnu.org/licenses/gpl.html
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{/*font-size:100%;*/font:inherit;padding:0;border:0;margin:0;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}.clear{clear:both}.sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}
+
+/* --------------------------------------------------- */
+/*
+/* Basic Styles from darkfallonline.com/uw
+/*
+/* -----------------------------------------------------*/
+
+html{height:100%;position: relative;}
+
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  background-color: #1D130E;
+  margin: 0;
+  padding: 0;
+  /*font-family: 'Smythe', cursive, serif;*/
+  /*font-weight: 400;*/
+  font-family: Myriad Pro, Helvetica, Arial, sans-serif;
+  position: relative;
+  font-size: 15px;
+}
+
+p {font-family: font-family: 'Smythe', cursive, serif; margin-bottom: 20px;}
+a {font-weight: bold; color:#231816;}
+a:hover {color:white; text-decoration: none;}
+h1 {font-weight: bold; font-size: 35px; text-transform: uppercase; color:#231816; margin-bottom: 5px;}
+h2 {font-weight: bold; font-size: 30px; text-transform: uppercase; color:#231816; margin-bottom: 5px;}
+h3 {font-weight: bold; font-size: 25px; text-transform: uppercase; color:#231816; margin-bottom: 5px;}
+code {clear: both; display: block; margin: 10px;}
+
+/* --------------------------------------------------- */
+/*
+/* Page/Post Styles
+/*
+/* -----------------------------------------------------*/
+
+#wrapper {
+  width: 960px;
+  background: url(images/bg-grey-light.jpg);
+  box-shadow: 0px 1px 2px white;
+  margin: 0 auto;
+}
+
+header{
+  min-width: 960px;
+  clear: both;
+  position: relative;
+  font-family: 'Smythe', cursive, serif;
+  font-weight: 400;
+}
+ header #branding{
+  background: url(images/bg-spire-light.jpg) 0 center;
+  height: 180px;
+  padding-top: 30px;
+}
+
+header #branding #site-title a {
+  width: 280px;
+  height: 136px;
+  background: url(images/logo.png);
+  text-indent: -9999px;
+  margin: 0 0 0 20px;
+  display: block;
+}
+
+header #branding #site-title h1 {margin-bottom: 0;}
+
+header #branding #site-description {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px white;
+  width: 280px;
+  text-align: center;
+  margin-bottom: 20px;
+  color:#150D09;
+  text-transform: uppercase;
+  margin-top: -5px;
+  margin-left: 20px;
+}
+
+header #branding #box-art
+{
+  position: absolute;
+  top: 17px;
+  left: 304px;
+  transform:rotate(7deg);
+  -ms-transform:rotate(7deg); /* IE 9 */
+  -moz-transform:rotate(7deg); /* Firefox */
+  -webkit-transform:rotate(7deg); /* Safari and Chrome */
+  -o-transform:rotate(7deg); /* Opera */
+}
+
+nav {
+  width: 100%;
+  clear: both;
+  height: 80px;
+  display: block;
+  background: url(images/bg-nav.png) repeat-x;
+  margin-top: -16px;
+  padding-top: 21px;
+  font-family: 'Smythe', cursive, serif;
+  font-weight: 400;
+  position: relative;
+}
+
+nav #search-inputs {
+  float: right;
+  margin-right: 20px;
+}
+
+input:focus, textarea:focus {
+  border-color: rgba(235, 253, 52, 0.8);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(235, 253, 52, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(235, 253, 52, 0.6);
+  outline: 0;
+  outline: thin dotted 9;
+}
+
+::-webkit-input-placeholder {
+   color: #1D130E;
+   font-weight: bold;
+}
+
+:-moz-placeholder {
+   color: #1D130E;
+   font-weight: bold;
+}
+
+nav .menu {
+  margin: 2px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav .menu a {
+  color: white;
+  font-size: 25px;
+}
+
+nav .menu a:hover {text-decoration: none;}
+
+#content {
+  float: left;
+  margin-left: 20px;
+  width: 695px;
+  border-right: 2px solid #1D130E;
+  padding-right: 20px;
+}
+
+#content .page-title {margin-bottom: 20px;}
+
+.entry-meta {
+  display: none;
+}
+.entry-content {
+  margin: 20px 0 30px;
+}
+
+.entry-footer {text-transform: uppercase;}
+.entry-footer .icon-tags {margin-top: 2px;}
+
+aside#sidebar {
+  float: right;
+  margin-right: 20px;
+  width: 180px;
+}
+
+footer {
+  width: 920px;
+  padding: 20px;
+}
+
+footer #copyright {float: left; border-top: 4px double; padding: 10px 30px 0 0;}
+
+/* --------------------------------------------------- */
+/*
+/* Buttons, Links & Inputs OH MY!
+/*
+/* -----------------------------------------------------*/
+
+#searchsubmit.btn {
+  margin-top: -9px;
+  margin-left: -7px;
+  background: #231816;
+}
+
+.edit-link {
+  float: right;
+  margin-top: -6px;
+}
+
+.post-edit-link {
+  font-weight: normal;
+  display: inline-block;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: whiteSmoke;
+  background-image: -moz-linear-gradient(top, white, #E6E6E6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
+  background-image: -webkit-linear-gradient(top, white, #E6E6E6);
+  background-image: -o-linear-gradient(top, white, #E6E6E6);
+  background-image: linear-gradient(to bottom, white, #E6E6E6);
+  background-repeat: repeat-x;
+  border: 1px solid #BBB;
+  border-color: #E6E6E6 #E6E6E6 #BFBFBF;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-bottom-color: #A2A2A2;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #363636;
+  background-image: -moz-linear-gradient(top, #444, #222);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444), to(#222));
+  background-image: -webkit-linear-gradient(top, #444, #222);
+  background-image: -o-linear-gradient(top, #444, #222);
+  background-image: linear-gradient(to bottom, #444, #222);
+  background-repeat: repeat-x;
+  border-color: #222 #222 black;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff222222', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.post-edit-link:hover {
+  color: white;
+  background-color: #222;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+
+/* --------------------------------------------------- */
+/*
+/* Dividers & Rules
+/*
+/* -----------------------------------------------------*/
+
+.divider-dotted {
+  /*background: url(images/border-dotted.png) repeat-x 0 0;*/
+  border-top: 4px double;
+  height: 2px;
+  margin: 18px 0 10px;
+  clear: both;
+  /*border: none;*/
+}
+
+.divider-solid {
+  background: url(images/border-solid.png) repeat-x 0 0;
+  height: 4px;
+  clear: both;
+  margin: 18px 0;
+  border: none;
+}
+
+/* --------------------------------------------------- */
+/*
+/* Widgets
+/*
+/* -----------------------------------------------------*/
+
+.widget-container ul {margin-bottom: 30px;}
