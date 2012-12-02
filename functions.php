@@ -291,12 +291,12 @@ function add_custom_meta_boxes()
         case "spell":
           add_meta_box('spells_description', 'Description', 'add_descr_box', 'spell', 'normal', 'default');
           add_meta_box('spells_role', 'Role', 'spell_role', 'spell', 'normal', 'default');
-          add_meta_box('spells_school', 'School', 'spell_school', 'spell', 'normal', 'default');
+          add_meta_box('spells_school', 'School', 'add_schools_box', 'spell', 'normal', 'default', array('df_type' => $post_type));
           add_meta_box('spells_ulti', 'Ultimate', 'spell_ulti', 'spell', 'normal', 'default');
           break;
         case "role":
           add_meta_box('role_description', 'Description', 'add_descr_box', 'role', 'normal', 'default');
-          add_meta_box('role_schools', 'Schools', 'add_schools_box', 'role', 'normal', 'default');
+          add_meta_box('role_schools', 'Schools', 'add_schools_box', 'role', 'normal', 'default', array('df_type' => $post_type));
           add_meta_box('role_stats', 'Base Stats', 'add_stats_box', 'role', 'normal', 'default');
           break;
         case "school":
@@ -308,16 +308,57 @@ function add_custom_meta_boxes()
 }
 
 function add_stats_box() {
-  echo '<label><span>Health</span>&nbsp;&nbsp;&nbsp;<select name="health_perc" value=""/><option value="">Select Value</option><option value="low">Low</option><option value="avg">Average</option><option value="high">High</option></select>';
-  echo '<label><span>Stamina</span>&nbsp;&nbsp;&nbsp;<select name="stamina_val" value=""/><option value="">Select Value</option><option value="low">Low</option><option value="avg">Average</option><option value="high">High</option></select>';
-  echo '<label><span>Mana</span>&nbsp;&nbsp;&nbsp;<select name="mana_val" value=""/><option value="">Select Value</option><option value="low">Low</option><option value="avg">Average</option><option value="high">High</option></select>';
-  echo '<label><span>Attack-Power</span>&nbsp;&nbsp;&nbsp;<select name="attackpower_val" value=""/><option value="">Select Value</option><option value="low">Low</option><option value="avg">Average</option><option value="high">High</option></select>';
-  echo '<label><span>Support</span>&nbsp;&nbsp;&nbsp;<select name="support_val" value=""/><option value="">Select Value</option><option value="low">Low</option><option value="avg">Average</option><option value="high">High</option></select>';
-  echo '<label><span>Defense</span>&nbsp;&nbsp;&nbsp;<select name="defense_val" value=""/><option value="">Select Value</option><option value="low">Low</option><option value="avg">Average</option><option value="high">High</option></select>';
+  global $post;
+  global $post_id;
+  $health = get_post_meta($post_id, 'health_val',true);
+  $stam = get_post_meta($post_id, 'stamina_val',true);
+  $mana = get_post_meta($post_id, 'mana_val',true);
+  $ap = get_post_meta($post_id, 'attackpower_val',true);
+  $support = get_post_meta($post_id, 'support_val',true);
+  $def = get_post_meta($post_id, 'defense_val',true);
+
+  echo '<label><span>Health</span>&nbsp;&nbsp;&nbsp;<select name="health_val" value=""/>';
+  echo get_stat_opts($health);
+  echo '</select>';
+
+  echo '<label><span>Stamina</span>&nbsp;&nbsp;&nbsp;<select name="stamina_val" value=""/>';
+  echo get_stat_opts($stam);
+  echo '</select>';
+
+  echo '<label><span>Mana</span>&nbsp;&nbsp;&nbsp;<select name="mana_val" value=""/>';
+  echo get_stat_opts($mana);
+  echo '</select>';
+
+  echo '<label><span>Attack-Power</span>&nbsp;&nbsp;&nbsp;<select name="attackpower_val" value=""/>';
+  echo get_stat_opts($ap);
+  echo '</select>';
+
+  echo '<label><span>Support</span>&nbsp;&nbsp;&nbsp;<select name="support_val" value=""/>';
+  echo get_stat_opts($support);
+  echo '</select>';
+
+  echo '<label><span>Defense</span>&nbsp;&nbsp;&nbsp;<select name="defense_val" value=""/>';
+  echo get_stat_opts($def);
+  echo '</select>';
+}
+function get_stat_opts($theVal){
+  echo '<option value="">Select Value</option>';
+  echo '<option value="low" ';
+  echo ($theVal == "low") ? ' selected="selected" ' : '  ';
+  echo ' > '.' Low '.' </option>';
+  echo '<option value="avg" ';
+  echo ($theVal == "avg") ? ' selected="selected" ' : '  ';
+  echo '>Average</option>';
+  echo '<option value="high"';
+  echo ($theVal == "high") ? ' selected="selected" ' : '  ';
+  echo '>High</option>';
 }
 
 function add_schools_box(){
   global $post;
+  global $post_type;
+  global $post_id;
+    // $post_type = $post->post_type;
     $type = 'school';
     $args = array(
         'post_type' => $type,
@@ -328,16 +369,43 @@ function add_schools_box(){
     $school_query = null;
     $school_query = new WP_Query($args);
 
-    if($school_query->have_posts()){
-      echo "<p>The Schools that are in this role.</p>";
-      echo '<input type="hidden" name="_school_noncename" value="' . wp_create_nonce('school-nonce') . '"/>';
-      while($school_query->have_posts()) : $school_query->the_post();
-        $schools_sel = explode(',', get_post_meta($post->ID, '_spell_school', true));
-        $selected = (in_array($school_query, $schools_sel)) ? ' checked="checked"' : '';
+    echo '<input type="hidden" name="_df_' . $post_type . 'noncename" value="' . wp_create_nonce('df_' . $post_type . 'nonce') . '"/>';
 
-      ?>
-        <label><input type="checkbox" name="_spell_school[]" value="<?php basename(get_permalink()); ?>" <?php echo $selected; ?>/>&nbsp;&nbsp;&nbsp;<?php the_title(); ?></label><br>
-      <?php
+    switch($post_type){
+      case 'spell':
+        echo "<p>The School that this spell is in.</p>";
+        break;
+      case 'role':
+        echo "<p>The Schools that are in this role.</p>";
+        break;
+    }
+
+
+    if($school_query->have_posts()){
+
+      switch($post_type){
+        case 'spell':
+            $school_sel = get_post_meta($post_id, '_spell_school',true);
+          break;
+        case 'role':
+            $school_sel = explode(',', get_post_meta($post_id, '_role_schools',true));
+          break;
+      }
+
+      while($school_query->have_posts()) : $school_query->the_post();
+        $slug = basename(get_permalink());
+
+        switch($post_type){
+          case 'spell':
+            $selected = ($slug == $school_sel) ? ' checked="checked"' : '';
+            echo '<label><input type="radio" name="_spell_school" value="' . basename(get_permalink()) . '"' . $selected . ' />&nbsp;&nbsp;&nbsp;' . get_the_title() . '</label><br>';
+            break;
+          case 'role':
+            $selected = (in_array($slug,$school_sel)) ? ' checked="checked"' : '';
+            echo '<label><input type="checkbox" name="_role_schools[]" value="' . basename(get_permalink()) . '"' . $selected . ' />&nbsp;&nbsp;&nbsp;' . get_the_title() . '</label><br>';
+            break;
+        }
+
       endwhile;
     }else{
       echo '<p><em>No Schools have been created.</em></p>';
@@ -356,11 +424,12 @@ function add_descr_box()
         case "spell":
           $descr = get_post_meta($post->ID, '_' . $post_type . '_descr', true);
           echo "<p>Enter a description describing the " . $post_type . "</p>";
-          echo '<textarea name="_' . $post_type . '_descr" value="' . $descr . '" class="widefat" rows="5"></textarea>';
+          echo '<textarea name="_' . $post_type . '_descr" class="widefat" rows="5">' . $descr . '</textarea>';
           echo "<p><em>Note: All HTML is stripped</em></p>";
           break;
       }
 }
+
 function spell_role()
 {
     global $post;
@@ -377,13 +446,13 @@ function spell_role()
 
     if($role_query->have_posts()){
       echo "<p>The Role that this spell is associated with.</p>";
-      echo '<input type="hidden" name="_spell_noncename" value="' . wp_create_nonce('spell_nonce') . '"/>';
+      echo '<input type="hidden" name="_df_noncename" value="' . wp_create_nonce('df_nonce') . '"/>';
+      $role_array = get_post_meta($post->ID, '_spell_role')[0];
       while($role_query->have_posts()) : $role_query->the_post();
-        $roles_sel = explode(',', get_post_meta($post->ID, '_spell_role', true));
-        $selected = (in_array($role_query, $roles_sel)) ? ' checked="checked"' : '';
-
+        $slug = basename(get_permalink());
+        $selected = ($slug == $role_array) ? ' checked="checked"' : '';
       ?>
-        <label><input type="radio" name="_spell_role[]" value="<?php basename(get_permalink()); ?>" <?php echo $selected; ?>/>&nbsp;&nbsp;&nbsp;<?php the_title(); ?></label><br>
+        <label><input type="radio" name="_spell_role" value="<?php echo $slug ?>" <?php echo $selected; ?> />&nbsp;&nbsp;&nbsp;<?php the_title(); ?></label><br>
       <?php
       endwhile;
     }else{
@@ -394,35 +463,62 @@ function spell_role()
 function spell_ulti()
 {
   global $post;
+  global $post_id;
   echo "<p>Is this spell the School's Ultimate?</p>";
-  $ulti_sel = (boolean) get_post_meta($post->ID, 'school-ulti', true);
+  $ulti_sel = get_post_meta($post_id, '_school_ulti', true);
   if($ulti_sel){
-    echo "<label><input type='radio' name='school-ulti' value='1' checked='checked' />&nbsp;&nbsp;&nbsp;Yes</label><br/>";
-    echo "<label><input type='radio' name='school-ulti' value='0'/>&nbsp;&nbsp;&nbsp;No</label><br/>";
+    echo "<label><input type='radio' name='_school_ulti' value='1' checked='checked' />&nbsp;&nbsp;&nbsp;Yes</label><br/>";
+    echo "<label><input type='radio' name='_school_ulti' value='0'/>&nbsp;&nbsp;&nbsp;No</label><br/>";
   }else{
-    echo "<label><input type='radio' name='school-ulti' value='1' />&nbsp;&nbsp;&nbsp;Yes</label><br/>";
-    echo "<label><input type='radio' name='school-ulti' value='0' checked='checked'/>&nbsp;&nbsp;&nbsp;No</label><br/>";
+    echo "<label><input type='radio' name='_school_ulti' value='1' />&nbsp;&nbsp;&nbsp;Yes</label><br/>";
+    echo "<label><input type='radio' name='_school_ulti' value='0' checked='checked'/>&nbsp;&nbsp;&nbsp;No</label><br/>";
   }
   echo "<p><em>Note: only one per school should be used<em></p>";
 }
 // Save Spell
-function save_spell($post_id, $post)
+function save_df_stuff($post_id, $post)
 {
     // verify this came from the our screen and with proper authorization,
     // because save_post can be triggered at other times
-    if (!wp_verify_nonce($_POST['_spell_noncename'], plugin_basename(__FILE__))) {
+    $post_type = $post->post_type;
+
+    if (!wp_verify_nonce($_POST['_df_' . $post_type . 'noncename'], 'df_' . $post_type . 'nonce')) {
+        return $post->ID;
+    }
+    if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
         return $post->ID;
     }
     // Is the user allowed to edit the post or page?
-    if (!current_user_can('edit_post', $post->ID))
+    if (!current_user_can('edit_post', $post->ID)){
         return $post->ID;
+    }
     // OK, we're authenticated: we need to find and save the data
-    // We'll put it into an array to make it easier to loop though.
-    $spell_meta['_spell_role'] = $_POST['_spell_role'];
-    $spell_meta['_spell_descr']     = $_POST['_spell_descr'];
-    $spell_meta['school-ulti']     = $_POST['school-ulti'];
+
+    // We'll put it into an array to make it easier to loop though. Only to our new post types
+      switch($post->post_type){
+        case 'role':
+          $the_meta['_role_descr'] = $_POST['_role_descr'];
+          $the_meta['_role_schools'] = $_POST['_role_schools'];
+          $the_meta['health_val'] = $_POST['health_val'];
+          $the_meta['stamina_val'] = $_POST['stamina_val'];
+          $the_meta['mana_val'] = $_POST['mana_val'];
+          $the_meta['attackpower_val'] = $_POST['attackpower_val'];
+          $the_meta['support_val'] = $_POST['support_val'];
+          $the_meta['defense_val'] = $_POST['defense_val'];
+          break;
+        case 'school':
+          $the_meta['_school_descr'] = $_POST['_school_descr'];
+          break;
+        case 'spell':
+          $the_meta['_spell_descr'] = $_POST['_spell_descr'];
+          $the_meta['_school_ulti'] = $_POST['_school_ulti'];
+          $the_meta['_spell_role'] = $_POST['_spell_role'];
+          $the_meta['_spell_school'] = $_POST['_spell_school'];
+          break;
+      }
+
     // Add values of $events_meta as custom fields
-    foreach ($spell_meta as $key => $value) { // Cycle through the $events_meta array!
+    foreach ($the_meta as $key => $value) { // Cycle through the $events_meta array!
         if ($post->post_type == 'revision')
             return; // Don't store custom data twice
         $value = implode(',', (array) $value); // If $value is an array, make it a CSV (unlikely)
@@ -435,7 +531,7 @@ function save_spell($post_id, $post)
             delete_post_meta($post->ID, $key); // Delete if blank
     }
 }
-add_action('save_post', 'save_spell', 1, 3); // save the custom fields
+add_action('save_post', 'save_df_stuff', 10, 2); // save the custom fields
 
 /*-----------------------------------------------------------------------------------*/
 /* Add Columns
@@ -453,7 +549,7 @@ function add_spell_columns($cols)
         array('cb' => '<input type="checkbox" />'),
         $colsstart,
         array(
-          'school-ulti' => __('Ultimate'),
+          '_school_ulti' => __('Ultimate'),
           'spell_descr' => __('Description'),
           'spell_role' => __('Role'),
           'spell_school' => __('School'),
@@ -548,47 +644,11 @@ function display_spell_content($cols)
             }
             else echo '<i>None.</i>';
             break;
-          case 'school-ulti':
-            $ulti = (boolean) get_post_meta($post->ID, 'school-ulti', true);
+          case '_school_ulti':
+            $ulti = (boolean) get_post_meta($post->ID, '_school_ulti', true);
             echo ($ulti) ? "Yes" : "No";
             break;
     }
-}
-
-/*-----------------------------------------------------------------------------------*/
-/* Add Taxonomies
-
-/*-----------------------------------------------------------------------------------*/
-add_action('init', 'build_mmo_taxonomies', 0);
-
-function build_mmo_taxonomies(){
-  register_taxonomy(
-      'schools',
-      'spells',
-      array(
-          'hierarchical' => true,
-          'label' => 'Schools',
-          'labels' => array(
-              'name' => _x( 'Schools', 'taxonomy general name' ),
-              'singular_name' => _x( 'Schools', 'taxonomy singular name' ),
-              'search_items' => __('Search Schools'),
-              'popular_items' => __('Popular Schools'),
-              'all_items' => __('All Schools'),
-              'edit_item' => __('Edit School'),
-              'update_item' => __('Update School'),
-              'add_new_item' => __('Add New School'),
-              'new_item_name' => __('New School Name'),
-              'separate_items_with_commas' => __('Separate schools with commas'),
-              'add_or_remove_items' => __('Add or remove schools'),
-              'choose_from_most_used' => __('Choose from the most used schools')
-            ),
-          'has_archive' => true,
-          'query_var' => true,
-          'rewrite' => array( 'slug' => 'games/darkfall/school','hierarchical' =>true),
-          'sort' => true
-        )
-    );
-  flush_rewrite_rules();
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -597,8 +657,13 @@ function build_mmo_taxonomies(){
 /*-----------------------------------------------------------------------------------*/
 
 function remove_quick_edit( $actions ) {
-  if(get_post_type() == 'spells')
-    unset($actions['inline hide-if-no-js']);
+  switch(get_post_type()){
+    case 'spell':
+    case 'role':
+    case 'school':
+      unset($actions['inline hide-if-no-js']);
+    break;
+  }
 
   return $actions;
 }
