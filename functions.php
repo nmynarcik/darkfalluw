@@ -538,7 +538,7 @@ add_action('save_post', 'save_df_stuff', 10, 2); // save the custom fields
 
 /*-----------------------------------------------------------------------------------*/
 add_image_size('spell_thumb', 50, 50, false);
-add_filter('manage_edit-spells_columns', 'add_spell_columns', 5);
+add_filter('manage_edit-spell_columns', 'add_spell_columns', 5);
 // Add Column
 function add_spell_columns($cols)
 {
@@ -549,7 +549,7 @@ function add_spell_columns($cols)
         array('cb' => '<input type="checkbox" />'),
         $colsstart,
         array(
-          '_school_ulti' => __('Ultimate'),
+          'school_ulti' => __('Ultimate'),
           'spell_descr' => __('Description'),
           'spell_role' => __('Role'),
           'spell_school' => __('School'),
@@ -582,30 +582,30 @@ function mmo_spell_role_column_orderby( $vars ) {
   return $vars;
 }
 
-// Make Tax Sort
-add_filter( 'posts_clauses', 'make_school_sort', 10, 2 );
-function make_school_sort( $clauses, $wp_query ) {
-  global $wpdb;
+// // Make Tax Sort
+// add_filter( 'posts_clauses', 'make_school_sort', 10, 2 );
+// function make_school_sort( $clauses, $wp_query ) {
+//   global $wpdb;
 
-  if ( isset( $wp_query->query['orderby'] ) && 'roles' == $wp_query->query['orderby'] ) {
+//   if ( isset( $wp_query->query['orderby'] ) && 'roles' == $wp_query->query['orderby'] ) {
 
-    $clauses['join'] .= <<<SQL
-LEFT OUTER JOIN {$wpdb->term_relationships} ON {$wpdb->posts}.ID={$wpdb->term_relationships}.object_id
-LEFT OUTER JOIN {$wpdb->term_taxonomy} USING (term_taxonomy_id)
-LEFT OUTER JOIN {$wpdb->terms} USING (term_id)
-SQL;
+//     $clauses['join'] .= <<<SQL
+// LEFT OUTER JOIN {$wpdb->term_relationships} ON {$wpdb->posts}.ID={$wpdb->term_relationships}.object_id
+// LEFT OUTER JOIN {$wpdb->term_taxonomy} USING (term_taxonomy_id)
+// LEFT OUTER JOIN {$wpdb->terms} USING (term_id)
+// SQL;
 
-    $clauses['where'] .= " AND (taxonomy = 'spell_school' OR taxonomy IS NULL)";
-    $clauses['groupby'] = "object_id";
-    $clauses['orderby']  = "GROUP_CONCAT({$wpdb->terms}.name ORDER BY name ASC) ";
-    $clauses['orderby'] .= ( 'ASC' == strtoupper( $wp_query->get('order') ) ) ? 'ASC' : 'DESC';
-  }
+//     $clauses['where'] .= " AND (taxonomy = 'spell_school' OR taxonomy IS NULL)";
+//     $clauses['groupby'] = "object_id";
+//     $clauses['orderby']  = "GROUP_CONCAT({$wpdb->terms}.name ORDER BY name ASC) ";
+//     $clauses['orderby'] .= ( 'ASC' == strtoupper( $wp_query->get('order') ) ) ? 'ASC' : 'DESC';
+//   }
 
-  return $clauses;
-}
+//   return $clauses;
+// }
 
 //Hook unto the posts column managin
-add_action('manage_spells_posts_custom_column', 'display_spell_content');
+add_action('manage_spell_posts_custom_column', 'display_spell_content');
 
 function display_spell_content($cols)
 {
@@ -618,7 +618,6 @@ function display_spell_content($cols)
                 echo 'Not supported in theme';
             break;
         case 'spell_descr':
-            // $descr = get_post_meta($post_id, '_spellID', true);
             $descr = get_post_meta($post->ID, '_spell_descr', true);
             if (empty($descr))
                 echo __('Not Entered');
@@ -634,17 +633,13 @@ function display_spell_content($cols)
                 printf(__('%s'), $class);
             break;
          case 'spell_school':
-            $taxonomy = $cols;
-            $post_type = get_post_type($post->ID);
-            $terms = get_the_terms($post->ID, 'schools');
-            if ( !empty($terms) ) {
-                foreach ( $terms as $term )
-                    $post_terms[] = esc_html(sanitize_term_field('name', $term->name, $term->term_id, $taxonomy, 'edit'));
-                echo join( ', ', $post_terms );
+            $schools = get_post_meta($post->ID, '_spell_school', true);
+            if ( !empty($schools) ) {
+                echo $schools;
             }
             else echo '<i>None.</i>';
             break;
-          case '_school_ulti':
+          case 'school_ulti':
             $ulti = (boolean) get_post_meta($post->ID, '_school_ulti', true);
             echo ($ulti) ? "Yes" : "No";
             break;
