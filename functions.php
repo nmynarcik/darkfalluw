@@ -342,7 +342,7 @@ function add_stats_box() {
   echo '</select>';
 }
 function get_stat_opts($theVal){
-  echo '<option value="">Select Value</option>';
+  // echo '<option value="">Select Value</option>';
   echo '<option value="low" ';
   echo ($theVal == "low") ? ' selected="selected" ' : '  ';
   echo ' > '.' Low '.' </option>';
@@ -538,76 +538,79 @@ add_action('save_post', 'save_df_stuff', 10, 2); // save the custom fields
 
 /*-----------------------------------------------------------------------------------*/
 add_image_size('spell_thumb', 50, 50, false);
-add_filter('manage_edit-spell_columns', 'add_spell_columns', 5);
+add_image_size('role_thumb', 50, 50, false);
+add_image_size('school_thumb', 50, 50, false);
+add_filter('manage_edit-spell_columns', 'add_custom_dfuw_columns', 5);
+add_filter('manage_edit-role_columns', 'add_custom_dfuw_columns', 5);
+add_filter('manage_edit-school_columns', 'add_custom_dfuw_columns', 5);
 // Add Column
-function add_spell_columns($cols)
+function add_custom_dfuw_columns($cols)
 {
-  unset($cols['date']);
+    global $post_type;
+    unset($cols['date']);
+    switch($post_type){
+        case 'role':
+           $customArray = array(
+            'role_descr' => __('Description'),
+            'role_schools' => __('Schools'),
+            'role_thumb' => __('Role Icon')
+          );
+          break;
+        case 'school':
+          $customArray = array(
+             'school_descr' => __('Description'),
+             'school_thumb' => __('School Icon')
+          );
+          break;
+        case 'spell':
+          $customArray = array(
+            'school_ulti' => __('Ultimate'),
+            'spell_descr' => __('Description'),
+            'spell_role' => __('Role'),
+            'spell_school' => __('School'),
+            'spell_thumb' => __('Spell Icon')
+          );
+          break;
+      }
     $colsstart = array_slice($cols, 1, 1, true);
     $colsend   = array_slice($cols, 1, null, true);
     $cols      = array_merge(
         array('cb' => '<input type="checkbox" />'),
         $colsstart,
-        array(
-          'school_ulti' => __('Ultimate'),
-          'spell_descr' => __('Description'),
-          'spell_role' => __('Role'),
-          'spell_school' => __('School'),
-          'spell_thumb' => __('Spell Icon')
-        ),
+        $customArray,
         $colsend
     );
     return $cols;
 }
 
 // Register the column as sortable
-add_filter( 'manage_edit-spells_sortable_columns', 'mmo_column_register_sortable' );
-function mmo_column_register_sortable( $columns ) {
-  $columns['spell_role'] = 'spell_role';
-  $columns['spell_school'] = 'spell_school';
+add_filter( 'manage_edit-spell_sortable_columns', 'dfuw_column_register_sortable' );
+function dfuw_column_register_sortable( $columns ) {
+  // $columns['spell_role'] = 'spell_role';
+  // $columns['spell_school'] = 'spell_school';
+  // $columns['school_ulti'] = 'school_ulti';
+  // $columns['spell_descr'] = 'spell_descr';
 
   return $columns;
 }
 
 // Spell Class Sort
-add_filter( 'request', 'mmo_spell_role_column_orderby' );
-function mmo_spell_role_column_orderby( $vars ) {
-  if ( isset( $vars['orderby'] ) && 'spell_role' == $vars['orderby'] ) {
-    $vars = array_merge( $vars, array(
-      'meta_key' => '_spell_role',
-      'orderby' => 'meta_value'
-    ) );
-  }
-
-  return $vars;
-}
-
-// // Make Tax Sort
-// add_filter( 'posts_clauses', 'make_school_sort', 10, 2 );
-// function make_school_sort( $clauses, $wp_query ) {
-//   global $wpdb;
-
-//   if ( isset( $wp_query->query['orderby'] ) && 'roles' == $wp_query->query['orderby'] ) {
-
-//     $clauses['join'] .= <<<SQL
-// LEFT OUTER JOIN {$wpdb->term_relationships} ON {$wpdb->posts}.ID={$wpdb->term_relationships}.object_id
-// LEFT OUTER JOIN {$wpdb->term_taxonomy} USING (term_taxonomy_id)
-// LEFT OUTER JOIN {$wpdb->terms} USING (term_id)
-// SQL;
-
-//     $clauses['where'] .= " AND (taxonomy = 'spell_school' OR taxonomy IS NULL)";
-//     $clauses['groupby'] = "object_id";
-//     $clauses['orderby']  = "GROUP_CONCAT({$wpdb->terms}.name ORDER BY name ASC) ";
-//     $clauses['orderby'] .= ( 'ASC' == strtoupper( $wp_query->get('order') ) ) ? 'ASC' : 'DESC';
-//   }
-
-//   return $clauses;
+//add_filter( 'request', 'dfuw_spell_role_column_orderby' );
+// function dfuw_spell_role_column_orderby( $vars ) {
+  // if ( isset( $vars['orderby'] ) && 'spell_role' == $vars['orderby'] ) {
+  //   $vars = array_merge( $vars, array(
+  //     'meta_key' => '_spell_role',
+  //     'orderby' => 'meta_value'
+  //   ) );
+  // }
+  // return $vars;
 // }
 
-//Hook unto the posts column managin
 add_action('manage_spell_posts_custom_column', 'display_spell_content');
+add_action('manage_role_posts_custom_column', 'display_spell_content');
+add_action('manage_school_posts_custom_column', 'display_spell_content');
 
-function display_spell_content($cols)
+function display_spell_content($cols) //insert the content from db per custom column
 {
     global $post;
     switch ($cols) {
@@ -643,8 +646,65 @@ function display_spell_content($cols)
             $ulti = (boolean) get_post_meta($post->ID, '_school_ulti', true);
             echo ($ulti) ? "Yes" : "No";
             break;
+          case 'role_descr':
+            $descr = get_post_meta($post->ID, '_role_descr', true);
+            if (empty($descr))
+                echo __('Not Entered');
+            else
+                printf(__('%s'), $descr);
+            break;
+          case "school_descr":
+            $descr = get_post_meta($post->ID, '_school_descr', true);
+            if (empty($descr))
+                echo __('Not Entered');
+            else
+                printf(__('%s'), $descr);
+            break;
+          case 'role_schools':
+            $schools = get_post_meta($post->ID, '_role_schools', true);
+            if ( !empty($schools) ) {
+                echo $schools;
+            }
+            else echo '<i>None.</i>';
+            break;
     }
 }
+
+// /*-----------------------------------------------------------------------------------*/
+// /* Add Taxonomies
+
+// /*-----------------------------------------------------------------------------------*/
+// add_action('init', 'build_role_taxonomies', 0);
+
+// function build_role_taxonomies(){
+//   register_taxonomy(
+//       'main-stats',
+//       'role',
+//       array(
+//           'hierarchical' => true,
+//           'label' => 'Main Stats',
+//           'labels' => array(
+//               'name' => _x( 'Main Stats', 'taxonomy general name' ),
+//               'singular_name' => _x( 'Main Stat', 'taxonomy singular name' ),
+//               'search_items' => __('Search Main Stats'),
+//               'popular_items' => __('Popular Main Stats'),
+//               'all_items' => __('All Main Stats'),
+//               'edit_item' => __('Edit Stat'),
+//               'update_item' => __('Update Stat'),
+//               'add_new_item' => __('Add New Stat'),
+//               'new_item_name' => __('New Stat Name'),
+//               'separate_items_with_commas' => __('Separate stats with commas'),
+//               'add_or_remove_items' => __('Add or remove stats'),
+//               'choose_from_most_used' => __('Choose from the most used stats')
+//             ),
+//           'has_archive' => true,
+//           'query_var' => true,
+//           'rewrite' => array( 'slug' => 'main-stats','hierarchical' =>true),
+//           'sort' => true
+//         )
+//     );
+//   flush_rewrite_rules();
+// }
 
 /*-----------------------------------------------------------------------------------*/
 /* Edit Admin Quick Edit
@@ -665,86 +725,16 @@ function remove_quick_edit( $actions ) {
 add_filter('post_row_actions','remove_quick_edit',10,1);
 
 /*-----------------------------------------------------------------------------------*/
-/* Add Custom Icons
+/* Admin Styles
 
 /*-----------------------------------------------------------------------------------*/
 add_action( 'admin_head', 'dfuw_admin_styles' );
 function dfuw_admin_styles() {
-    ?>
-    <style type="text/css" media="screen">
-        #menu-posts-spell .wp-menu-image {
-            background: url(<?php echo get_template_directory_uri(); ?>/images/spell16.png) no-repeat 6px 7px !important;
-        }
-  #menu-posts-spell:hover .wp-menu-image, #menu-posts-spell.wp-has-current-submenu .wp-menu-image {
-            background-position:6px 7px !important;
-        }
-        #icon-edit.icon32-posts-spell {
-          background: url(<?php echo get_template_directory_uri(); ?>/images/spell32.png) no-repeat;
-        }
-
-        #menu-posts-role .wp-menu-image {
-            background: url(<?php echo get_template_directory_uri(); ?>/images/role16.png) no-repeat 6px 7px !important;
-        }
-  #menu-posts-role:hover .wp-menu-image, #menu-posts-role.wp-has-current-submenu .wp-menu-image {
-            background-position:6px 7px !important;
-        }
-        #icon-edit.icon32-posts-role {
-          background: url(<?php echo get_template_directory_uri(); ?>/images/role32.png) no-repeat;
-        }
-
-        #menu-posts-school .wp-menu-image {
-            background: url(<?php echo get_template_directory_uri(); ?>/images/school16.png) no-repeat 6px 7px !important;
-        }
-  #menu-posts-school:hover .wp-menu-image, #menu-posts-school.wp-has-current-submenu .wp-menu-image {
-            background-position:6px 7px !important;
-        }
-        #icon-edit.icon32-posts-school {
-          background: url(<?php echo get_template_directory_uri(); ?>/images/school32.png) no-repeat;
-        }
-
-        /* META BOXES */
-        #spells_role, #spells_school, #spells_ulti {
-          width: 30%;
-          float: left;
-          margin-right: 4%;
-        }
-         #spells_ulti {
-          margin-right: 0;
-          float: right;
-         }
-         #role_schools, #role_stats {
-          width: 100px;
-          float:left;
-          margin-right: 20px;
-         }
-         #role_stats {
-          text-align: right;
-         }
-         #role_stats h3 {
-          text-align: center;
-         }
-         #role_stats label {
-          display: block;
-          clear:both;
-         }
-         #role_stats label span {
-          padding-top: 4px;
-          display: block;
-          float: left;
-          vertical-align: middle;
-          height: 25px;
-          margin-left: 14px;
-         }
-         #role_stats select {
-          float: right;
-          margin-right: 40px;
-         }
-    </style>
-<?php
+    echo '<link rel="stylesheet" type="text/css" href="' . get_template_directory_uri() .  '/css/admin.css"/>';
 }
 
 /*-----------------------------------------------------------------------------------*/
-/* Custome Page Template
+/* Custom Page Template
 
 /*-----------------------------------------------------------------------------------*/
 add_filter('single_template', 'mmo_spell_template');

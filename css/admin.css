@@ -1,0 +1,71 @@
+#menu-posts-spell .wp-menu-image {
+    background: url(../images/spell16.png) no-repeat 6px 7px !important;
+}
+#menu-posts-spell:hover .wp-menu-image, #menu-posts-spell.wp-has-current-submenu .wp-menu-image {
+    background-position:6px 7px !important;
+}
+#icon-edit.icon32-posts-spell {
+  background: url(../images/spell32.png) no-repeat;
+}
+
+#menu-posts-role .wp-menu-image {
+    background: url(../images/role16.png) no-repeat 6px 7px !important;
+}
+#menu-posts-role:hover .wp-menu-image, #menu-posts-role.wp-has-current-submenu .wp-menu-image {
+    background-position:6px 7px !important;
+}
+#icon-edit.icon32-posts-role {
+  background: url(../images/role32.png) no-repeat;
+}
+
+#menu-posts-school .wp-menu-image {
+    background: url(../images/school16.png) no-repeat 6px 7px !important;
+}
+#menu-posts-school:hover .wp-menu-image, #menu-posts-school.wp-has-current-submenu .wp-menu-image {
+    background-position:6px 7px !important;
+}
+#icon-edit.icon32-posts-school {
+  background: url(../images/school32.png) no-repeat;
+}
+
+/* META BOXES */
+#spells_role, #spells_school, #spells_ulti {
+  width: 30%;
+  float: left;
+  margin-right: 4%;
+}
+ #spells_ulti {
+  margin-right: 0;
+  float: right;
+ }
+ #role_schools, #role_stats {
+  width: 100px;
+  float:left;
+  margin-right: 20px;
+ }
+ #role_stats {
+  text-align: right;
+ }
+ #role_stats h3 {
+  text-align: center;
+ }
+ #role_stats label {
+  display: block;
+  clear:both;
+ }
+ #role_stats label span {
+  padding-top: 4px;
+  display: block;
+  float: left;
+  vertical-align: middle;
+  height: 25px;
+  margin-left: 14px;
+ }
+ #role_stats select {
+  float: right;
+  margin-right: 40px;
+ }
+
+th#role_schools.column-role_schools {
+  width: 100%;
+}

@@ -36,11 +36,12 @@ body {
 
 p {font-family: font-family: 'Smythe', cursive, serif; margin-bottom: 20px;}
 a {font-weight: bold; color:#231816;}
-a:hover {color:white; text-decoration: none;}
+a:hover {color:#5b5b5b; text-decoration: none;}
 h1 {font-weight: bold; font-size: 35px; text-transform: uppercase; color:#231816; margin-bottom: 5px;}
 h2 {font-weight: bold; font-size: 30px; text-transform: uppercase; color:#231816; margin-bottom: 5px;}
 h3 {font-weight: bold; font-size: 25px; text-transform: uppercase; color:#231816; margin-bottom: 5px; border-bottom: 4px double;}
 code {clear: both; display: block; margin: 10px;}
+
 
 /* --------------------------------------------------- */
 /*
@@ -148,12 +149,14 @@ nav .menu {
   font-weight: bold;
 }
 
+nav .menu li {float: left; margin-right: 15px;}
+
 nav .menu a {
   color: white;
   font-size: 25px;
 }
 
-nav .menu a:hover {text-decoration: none;}
+nav .menu a:hover {text-decoration: none; color:#5b5b5b;}
 
 #content {
   float: left;
@@ -179,6 +182,19 @@ aside#sidebar {
   float: right;
   margin-right: 20px;
   width: 180px;
+}
+
+#sidebar ul li ul li {
+  background: url(images/bullet.png) no-repeat left center;
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+#sidebar ul li ul li:hover {
+  background: url(images/role16.png) no-repeat left center;
 }
 
 footer {
@@ -293,3 +309,150 @@ footer #copyright {float: left; border-top: 4px double; padding: 10px 30px 0 0;}
 /* -----------------------------------------------------*/
 
 .widget-container ul {margin-bottom: 30px;}
+
+
+/* --------------------------------------------------- */
+/*
+/* Accordions
+/*
+/* -----------------------------------------------------*/
+
+.ui-accordion .ui-accordion-header {
+  background: url(images/accordion-header.png) no-repeat;
+  color: white;
+  font-family: 'Smythe', cursive, serif;
+  font-size: 20px;
+}
+
+.ui-accordion .ui-accordion-content {
+  background: url(images/accordion-pane.png);
+  width: 637px;
+  margin: -10px auto;
+  border: 2px solid #221613;
+  padding: 2em 1.2em !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-state-active {
+  border: none !important;
+}
+
+.ui-accordion-header a {
+  color: white !important;
+  letter-spacing: 1px;
+}
+
+.ui-accordion .pane .thumb {
+  float: left;
+  background: black;
+  padding: 10px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  margin: 0 20px 20px 0;
+}
+
+.ui-accordion .pane .descr {
+  float: right;
+  margin-top: 20px;
+  width: 430px;
+}
+
+.ui-accordion .pane h2 {
+  font-size: 18px;
+}
+
+.ui-accordion .pane .descr .detail-list {
+  text-align: left;
+  clear: none;
+  width: 200px;
+  float: left;
+}
+
+.ui-accordion .pane .descr .detail-list.last h2 {
+  text-align: center;
+}
+
+.ui-accordion .label {
+  background: none !important;
+}
+
+.bars {
+  list-style: none;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+.bars li {
+  height: 20px;
+}
+
+.bars li span {
+  display: block;
+}
+
+.bars li span.label {
+  float: left;
+  width: 43%;
+  text-align: right;
+}
+
+.bars li span.bar {
+  border: 2px solid #5B5B5B;
+  background: black;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 13px;
+  padding: 1px;
+  float: right;
+  width: 50%;
+}
+
+.bars li span.fill {
+  height: 11px;
+  width: 98%;
+  overflow: hidden;
+  margin: 1px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.bars li.health span.fill {background: red;}
+.bars li.stamina span.fill {background: yellow;}
+.bars li.mana span.fill {background: blue;}
+.bars li.attack-power span.fill {background: orange;}
+.bars li.support span.fill {background: green;}
+.bars li.defense span.fill {background: purple;}
+
+.bars li.low span.fill {width: 30%;}
+.bars li.avg span.fill {width: 50%;}
+.bars li.high span.fill {width: 70%;}
+
+ul.school-list li {float:left; margin-right: 10px;}
+ul.school-list li .icon {
+  background: black;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 32px;
+  width: 32px;
+  display: block;
+  padding: 3px;
+}
+
+.ui-state-default .ui-icon {
+  background: url(images/bullet.png) no-repeat 0 0 !important;
+}
+
+.ui-state-active .ui-icon {
+  background: url(images/role16.png) no-repeat 0 0 !important;
+}
+
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+  position: absolute;
+  left: 16px !important;
+  margin-top: 3px !important;
+  top: 11px !important;
+}
