@@ -1,6 +1,6 @@
 <?php
 /*
-* Template Name: Roles
+* Template Name: Role Archive
 *
 *
 */
@@ -14,7 +14,8 @@ wp_enqueue_script('df_js', $dir . '/js/dfuw.js',false,$ver,'all');
 ?>
 <div id="container">
 <div id="content">
-
+<a id="expand-all" class="btn btn-inverse"><i class="icon-plus-sign icon-white"></i> <span>Expand All</span></a>
+<div class="clear"></div>
 <?php
 $type = 'role';
 $args=array(

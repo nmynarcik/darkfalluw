@@ -49,6 +49,8 @@ function darkfalluw_add_shortcodes() {
 add_filter('widget_text', 'do_shortcode');
 add_shortcode('wp_caption', 'fixed_img_caption_shortcode');
 add_shortcode('caption', 'fixed_img_caption_shortcode');
+add_shortcode('ytvid','yt_vid');
+add_filter('the_content','do_shortcode');
 }
 function fixed_img_caption_shortcode($attr, $content = null) {
 $output = apply_filters('img_caption_shortcode', '', $attr, $content);
@@ -774,4 +776,16 @@ function df_template_redirect($requested_url=null, $do_redirect=true) {
   return;
 }
 
+// Defining the function used for displaying the Custom Project Post.
+function yt_vid( $atts ) {
+  // Extracting the arguments for the shortcode.
+  extract( shortcode_atts( array(
+    'vid' => '_T8FuVGXEMw'
+  ), $atts ) );
+  /* This is were we will write the code for fetching data
+   * and build the HTML structure to be returned in the $output variable
+   */
+  $output = 'video id = {'.$vid.'}';
+  return $output;
+}
 ?>
