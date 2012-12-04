@@ -449,7 +449,7 @@ function spell_role()
     if($role_query->have_posts()){
       echo "<p>The Role that this spell is associated with.</p>";
       echo '<input type="hidden" name="_df_noncename" value="' . wp_create_nonce('df_nonce') . '"/>';
-      $role_array = get_post_meta($post->ID, '_spell_role')[0];
+      $role_array = get_post_meta($post->ID, '_spell_role',true);
       while($role_query->have_posts()) : $role_query->the_post();
         $slug = basename(get_permalink());
         $selected = ($slug == $role_array) ? ' checked="checked"' : '';
