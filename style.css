@@ -212,7 +212,7 @@ aside#sidebar {
 }
 
 #sidebar ul li ul li:hover {
-  background: url(images/role16.png) no-repeat left center;
+  background: url(images/role16.png) no-repeat;
 }
 
 footer {
