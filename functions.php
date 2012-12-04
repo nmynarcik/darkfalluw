@@ -371,7 +371,7 @@ function add_schools_box(){
     $school_query = null;
     $school_query = new WP_Query($args);
 
-    echo '<input type="hidden" name="_df_' . $post_type . 'noncename" value="' . wp_create_nonce('df_' . $post_type . 'nonce') . '"/>';
+    // echo '<input type="hidden" name="_df_' . $post_type . 'noncename" value="' . wp_create_nonce('df_' . $post_type . 'nonce') . '"/>';
 
     switch($post_type){
       case 'spell':
@@ -419,7 +419,7 @@ function add_descr_box()
 {
     global $post;
     $post_type = $post->post_type;
-
+    echo '<input type="hidden" name="_df_' . $post_type . 'noncename" value="' . wp_create_nonce('df_' . $post_type . 'nonce') . '"/>';
       switch($post_type){
         case "role":
         case "school":
@@ -669,6 +669,12 @@ function display_spell_content($cols) //insert the content from db per custom co
             }
             else echo '<i>None.</i>';
             break;
+            case 'role_thumb':
+            case 'spell_thumb':
+            case 'school_thumb':
+              if (function_exists('the_post_thumbnail'))
+                echo the_post_thumbnail(array(50,50));
+              break;
     }
 }
 
