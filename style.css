@@ -594,6 +594,11 @@ div.features {float: right; text-shadow: 1px 1px #ccc; font-family: 'Englebert',
 }
 
 /* Social */
+.page-template-page-darkfall-php .df-social {
+  float:left;
+  width: 162px;
+}
+
 .df-social .social-list li {
   width: 32px;
   height: 32px;
