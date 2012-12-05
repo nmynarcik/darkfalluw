@@ -25,9 +25,9 @@ $slug = basename(get_permalink($post->ID));
       }
       ?>
   </div>
-  <div class="descr">
+  <p class="descr">
     <?php echo strip_tags(get_post_meta($post->ID, '_school_descr',true)); ?>
-  </div>
+  </p>
 </div>
 
 <?php
