@@ -215,6 +215,11 @@ aside#sidebar {
   background: url(images/role16.png) no-repeat;
 }
 
+#sidebar select{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
 footer {
   width: 920px;
   padding: 20px;
@@ -537,4 +542,52 @@ div.features {float: right; text-shadow: 1px 1px #ccc; font-family: 'Englebert',
   vertical-align: middle;
   margin-bottom: 10px;
   padding-left: 20px;
+}
+
+/* Post Pages */
+.type-post .attachment-post-thumbnail {
+  float: left;
+  background: black;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  margin: 0 20px 20px 0;
+}
+
+.type-post .entry-meta {
+  display: block;
+}
+
+.single-post .type-post .entry-content p {
+  float: left;
+  margin-bottom: 20px;
+}
+
+/* specific to category archive poss */
+.category .type-post .entry-meta .edit-link {
+  display: none;
+}
+.category .type-post .entry-summary {
+  clear: both;
+}
+
+.category .type-post .entry-meta, .category .type-post .entry-title  {
+  float: left;
+  margin-right: 15px;
+}
+
+.category .type-post {
+  margin-bottom: 30px;
+  float: left;
+  margin-top: 8px;
+  border-bottom: 1px dotted;
+}
+
+.category .attachment-50x50 {
+   float: left;
+  background: black;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0 15px 20px 0;
 }
