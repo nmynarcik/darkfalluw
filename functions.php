@@ -50,7 +50,15 @@ add_filter('widget_text', 'do_shortcode');
 add_shortcode('wp_caption', 'fixed_img_caption_shortcode');
 add_shortcode('caption', 'fixed_img_caption_shortcode');
 add_shortcode('ytvid','yt_vid');
+add_shortcode('bracket','challonge_bracket');
 add_filter('the_content','do_shortcode');
+}
+function challonge_bracket($attr){
+  extract(shortcode_atts(array(
+      'id' => 'NO_ID'
+    ), $attr));
+  $output = '<iframe src="http://challonge.com/'.$id.'/module?width=695&height=600" width="695" height="600" frameborder="0" scrolling="no" allowtransparency="true"></iframe>';
+  return $output;
 }
 function fixed_img_caption_shortcode($attr, $content = null) {
 $output = apply_filters('img_caption_shortcode', '', $attr, $content);
