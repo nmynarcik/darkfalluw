@@ -8,7 +8,7 @@
 <?php get_template_part( 'nav', 'above' ); ?>
 <?php while ( have_posts() ) : the_post(); ?>
 <?php if(has_post_thumbnail()){
-  echo '<a href="'.get_permalink().'">';
+  echo '<a href="'.get_permalink().'" class="icon">';
   the_post_thumbnail(array(50,50),array(
                                                             'title'=>$post->post_title,
                                                             'alt'=>$post->post_title
