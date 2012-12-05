@@ -338,6 +338,7 @@ footer #copyright {float: left; border-top: 4px double; padding: 10px 30px 0 0;}
 /* -----------------------------------------------------*/
 
 .widget-container ul {margin-bottom: 30px;}
+.widget-area {margin-bottom: 30px;}
 
 
 /* --------------------------------------------------- */
@@ -591,3 +592,23 @@ div.features {float: right; text-shadow: 1px 1px #ccc; font-family: 'Englebert',
   border-radius: 5px;
   margin: 0 15px 20px 0;
 }
+
+/* Social */
+.df-social .social-list li {
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-right: 3px;
+  text-indent: -9999px;
+  background: url(images/icons-social.png);
+}
+
+.df-social .social-list li a {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+.df-social .social-list li.reddit{background-position: 0 96px;}
+.df-social .social-list li.twitter{background-position: 0 64px;}
+.df-social .social-list li.fb{background-position: 0 32px;}
