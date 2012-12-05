@@ -51,7 +51,7 @@ if( $my_query->have_posts() ) {
           <?php
             $schools = explode(',',get_post_meta($post->ID, '_role_schools', true));
             if($schools[0] == ''){
-              echo '<li>Not Available</li>';
+              echo '<li class="none">Not Available</li>';
             }else{
               foreach($schools as $school){
                 $school_post = get_page_by_path($school, OBJECT, 'school');
