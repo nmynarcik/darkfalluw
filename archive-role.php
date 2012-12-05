@@ -50,16 +50,20 @@ if( $my_query->have_posts() ) {
         <ul class="school-list">
           <?php
             $schools = explode(',',get_post_meta($post->ID, '_role_schools', true));
-            foreach($schools as $school){
-              $school_post = get_page_by_path($school, OBJECT, 'school');
-              $url = '../schools/'.$school;
-              $title = get_the_title($school_post->ID);
-              $default_attr = array(
-                'alt' => trim(strip_tags( $attachment->$title )),
-                'title' => trim(strip_tags( $attachment->$title ))
-              );
-              $thumb = (has_post_thumbnail($school_post->ID)) ? get_the_post_thumbnail($school_post->ID,array(32,32),$default_attr) : '<img src="' . get_template_directory_uri() . '/images/no-image.png" width="32" height="32"/>';
-              echo '<li><a href="'. $url . '" class="icon" title="'.$title.'" alt="'.$title.'">'.$thumb.'</a></li>';
+            if($schools[0] == ''){
+              echo '<li>Not Available</li>';
+            }else{
+              foreach($schools as $school){
+                $school_post = get_page_by_path($school, OBJECT, 'school');
+                $url = '../schools/'.$school;
+                $title = get_the_title($school_post->ID);
+                $default_attr = array(
+                  'alt' => trim(strip_tags( $attachment->$title )),
+                  'title' => trim(strip_tags( $attachment->$title ))
+                );
+                $thumb = (has_post_thumbnail($school_post->ID)) ? get_the_post_thumbnail($school_post->ID,array(32,32),$default_attr) : '<img src="' . get_template_directory_uri() . '/images/no-image.png" width="32" height="32"/>';
+                echo '<li><a href="'. $url . '" class="icon" title="'.$title.'" alt="'.$title.'">'.$thumb.'</a></li>';
+              }
             }
           ?>
         </ul>
