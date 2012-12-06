@@ -5,7 +5,7 @@
 <title><?php wp_title(' | ', true, 'right'); ?></title>
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" />
 <link href='http://fonts.googleapis.com/css?family=Smythe|Englebert' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?ver=1.0" />
+<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?ver=1.1" />
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
