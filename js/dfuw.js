@@ -32,6 +32,9 @@ jQuery(function($){
             $('.accordion').accordion('destroy').accordion({ collapsible: true });
           }
         });
+          $('#school_selector').change(function(){
+            window.location = $(this).val();
+          });
       }
     }
 

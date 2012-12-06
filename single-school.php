@@ -44,7 +44,7 @@ $slug = basename(get_permalink($post->ID));
           echo '<option value="">Other Schools</options>';
           while ($my_query->have_posts()) : $my_query->the_post();
           if($slug != basename(get_permalink())){
-            echo '<option>'. get_the_title() .'</option>';
+            echo '<option value="'.get_permalink().'">'. get_the_title() .'</option>';
           }
           endwhile;
           echo '</select>';
