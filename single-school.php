@@ -11,8 +11,25 @@ $slug = basename(get_permalink($post->ID));
 <article id="content">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <h2><?php the_title(); ?></h2>
-
+<div id="school-details">
+  <div class="thumb">
     <?php
+      if(has_post_thumbnail()){
+        $default_attr = array(
+             'alt' => trim(strip_tags(  $post->post_title )),
+              'title' => trim(strip_tags( $post->post_title ))
+        );
+        echo get_the_post_thumbnail( $post->ID, array(150,150), $default_attr );
+      }else{
+        echo "<img src='" . get_template_directory_uri() . "/images/no-image.png' width='150' height='150' title='No Image' alt='No Image' />";
+      }
+      ?>
+  </div>
+  <p class="descr">
+    <?php echo strip_tags(get_post_meta($post->ID, '_school_descr',true)); ?>
+  </p>
+</div>
+<?php
       $type = 'school';
       $args=array(
         'post_type' => $type,
@@ -34,25 +51,6 @@ $slug = basename(get_permalink($post->ID));
           wp_reset_query();
         }
     ?>
-<div id="school-details">
-  <div class="thumb">
-    <?php
-      if(has_post_thumbnail()){
-        $default_attr = array(
-             'alt' => trim(strip_tags(  $post->post_title )),
-              'title' => trim(strip_tags( $post->post_title ))
-        );
-        echo get_the_post_thumbnail( $post->ID, array(150,150), $default_attr );
-      }else{
-        echo "<img src='" . get_template_directory_uri() . "/images/no-image.png' width='150' height='150' title='No Image' alt='No Image' />";
-      }
-      ?>
-  </div>
-  <p class="descr">
-    <?php echo strip_tags(get_post_meta($post->ID, '_school_descr',true)); ?>
-  </p>
-</div>
-
 <?php
 $type = 'spell';
 $args=array(
