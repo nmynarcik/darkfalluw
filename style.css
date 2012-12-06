@@ -190,6 +190,7 @@ nav .menu a:hover {text-decoration: none; color:#5b5b5b;}
   width: 695px;
   /*border-right: 2px solid #1D130E;*/
   padding-right: 20px;
+  position: relative;
 }
 
 #content .page-title {margin-bottom: 20px;}
@@ -413,14 +414,14 @@ footer #copyright {float: left; border-top: 4px double; padding: 10px 30px 0 0;}
 
 .ui-accordion .pane .descr {
   float: left;
-  margin-top: 20px;
+  margin-top: 10px;
   width: 430px;
 }
 
 .single-school .descr {
   float: left;
   width: 498px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 #content > h2 {
@@ -656,7 +657,31 @@ div.features {float: right; text-shadow: 1px 1px #ccc; font-family: 'Englebert',
   height: 32px;
 }
 
+.df-social .social-list li:hover {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 .df-social .social-list li.reddit{background-position: 0 128px;}
 .df-social .social-list li.twitter{background-position: 0 96px;}
 .df-social .social-list li.fb{background-position: 0 64px;}
 .df-social .social-list li.yt{background-position: 0 32px;}
+
+select {
+  width: 220px;
+  background-color: #231914;
+  color: white;
+  border: 0;
+  font-family: 'Englebert', sans-serif;
+  font-size: 18px;
+}
+
+select#school_selector {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  width: 134px;
+}

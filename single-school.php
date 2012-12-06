@@ -11,6 +11,29 @@ $slug = basename(get_permalink($post->ID));
 <article id="content">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <h2><?php the_title(); ?></h2>
+
+    <?php
+      $type = 'school';
+      $args=array(
+        'post_type' => $type,
+        'post_status' => 'publish',
+        'posts_per_page' => -1,
+        'caller_get_posts'=> 1);
+
+        $my_query = null;
+        $my_query = new WP_Query($args);
+        if( $my_query->have_posts() ) {
+          echo '<select id="school_selector">';
+          echo '<option value="">Other Schools</options>';
+          while ($my_query->have_posts()) : $my_query->the_post();
+          if($slug != basename(get_permalink())){
+            echo '<option>'. get_the_title() .'</option>';
+          }
+          endwhile;
+          echo '</select>';
+          wp_reset_query();
+        }
+    ?>
 <div id="school-details">
   <div class="thumb">
     <?php
