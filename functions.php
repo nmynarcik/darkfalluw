@@ -318,6 +318,7 @@ function register_post_types()
         'supports' => array(
             'title'
         ),
+        'taxonomies' => array('post_tag'),
         'register_meta_box_cb' => 'add_custom_meta_boxes'
     ));
 
