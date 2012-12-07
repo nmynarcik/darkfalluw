@@ -28,6 +28,16 @@
   background: url(../images/school32.png) no-repeat;
 }
 
+#menu-posts-video .wp-menu-image {
+    background: url(../images/video16.png) no-repeat 6px 7px !important;
+}
+#menu-posts-video:hover .wp-menu-image, #menu-posts-video.wp-has-current-submenu .wp-menu-image {
+    background-position:6px 7px !important;
+}
+#icon-edit.icon32-posts-video {
+  background: url(../images/video32.png) no-repeat;
+}
+
 /* META BOXES */
 #spells_role, #spells_school, #spells_ulti {
   width: 30%;

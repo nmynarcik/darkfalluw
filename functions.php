@@ -286,6 +286,41 @@ function register_post_types()
         ),
         'register_meta_box_cb' => 'add_custom_meta_boxes'
     ));
+
+    // Videos
+    register_post_type('video', array(
+        'labels' => array(
+            'name' => __('Videos'),
+            'singular_name' => __('Video'),
+            'add_new' => __('Add Video'),
+            'add_new_item' => __('Add New Video'),
+            'edit' => __('Edit'),
+            'edit_item' => __('Edit Video'),
+            'new_item' => __('New Video'),
+            'view' => __('View Video'),
+            'view_item' => __('View Video'),
+            'search_items' => __('Search Videos'),
+            'not_found' => __('No videos found'),
+            'not_found_in_trash' => __('No videos found in Trash'),
+            'parent' => __('Parent Video')
+        ),
+        'public' => true,
+        'publicly_queryable' => true,
+        'show_in_nav_menus' => true,
+        'show_ui' => true,
+        'exclude_from_search' => false,
+        'hierarchical' => false,
+        'menu_position' => 21,
+        'has_archive' => false,
+        'rewrite' => array(
+            'slug' => 'videos'
+        ),
+        'supports' => array(
+            'title'
+        ),
+        'register_meta_box_cb' => 'add_custom_meta_boxes'
+    ));
+
     flush_rewrite_rules();
 }
 
@@ -312,9 +347,22 @@ function add_custom_meta_boxes()
         case "school":
           add_meta_box('school_description', 'Description', 'add_descr_box', 'school', 'normal', 'default');
           break;
+        case "video":
+          add_meta_box('video_description', 'Description', 'add_descr_box', 'video', 'normal', 'default');
+          add_meta_box('video_id', 'Video ID', 'add_video_id_box', 'video', 'normal', 'default');
+          break;
       }
     }
 
+}
+
+function add_video_id_box(){
+  global $post;
+  global $post_id;
+  $id = get_post_meta($post_id, '_video_id',true);
+  echo "<p>Add the video ID from Youtube.</p>";
+  echo "<input type='text' name='_video_id' value='" . $id . "'/>";
+  echo "<p><em>Example: http://www.youtube.com/watch?v=<span style='color:red;'><b>_T8FuVGXEMw</b></span></em></p>";
 }
 
 function add_stats_box() {
@@ -432,8 +480,9 @@ function add_descr_box()
         case "role":
         case "school":
         case "spell":
+        case "video":
           $descr = get_post_meta($post->ID, '_' . $post_type . '_descr', true);
-          echo "<p>Enter a description describing the " . $post_type . "</p>";
+          echo "<p>Enter a description for the " . $post_type . "</p>";
           echo '<textarea name="_' . $post_type . '_descr" class="widefat" rows="5">' . $descr . '</textarea>';
           echo "<p><em>Note: All HTML is stripped</em></p>";
           break;
@@ -524,6 +573,10 @@ function save_df_stuff($post_id, $post)
           $the_meta['_school_ulti'] = $_POST['_school_ulti'];
           $the_meta['_spell_role'] = $_POST['_spell_role'];
           $the_meta['_spell_school'] = $_POST['_spell_school'];
+          break;
+        case 'video':
+          $the_meta['_video_descr'] = $_POST['_video_descr'];
+          $the_meta['_video_id'] = $_POST['_video_id'];
           break;
       }
 

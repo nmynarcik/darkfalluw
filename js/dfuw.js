@@ -38,6 +38,15 @@ jQuery(function($){
       }
     }
 
+    var video = {
+      init: function(){
+        $('.video h2, .video p').ellipsis();
+      }
+    }
+
     if($('.post-type-archive-role, .post-type-archive-school, .post-type-archive-spell, .single-school').length)
       schools.init();
+
+    if($('.page-template-archive-video-php').length)
+      video.init();
 });

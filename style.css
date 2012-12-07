@@ -689,3 +689,24 @@ select {
   clear: left;
   margin-left: 12px;
 }
+
+/* Videos */
+.video {
+  width: 340px;
+  float: left;
+}
+
+.video h2 {
+  height: 25px;
+  padding-top: 5px;
+  overflow: hidden;
+}
+
+.video p {
+  height: 70px;
+  overflow: hidden;
+}
+
+.video.right {
+  float: right;
+}
