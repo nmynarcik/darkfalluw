@@ -38,8 +38,6 @@ jQuery(function($){
       }
     }
 
-
-
     if($('.post-type-archive-role, .post-type-archive-school, .post-type-archive-spell, .single-school').length)
       schools.init();
 });

@@ -10,6 +10,10 @@
 <div class="clear"></div>
 </footer>
 </div>
-<?php wp_footer(); ?>
+<?php wp_footer();?>
 </body>
+<?php if(!is_user_logged_in()){ ?>
+<!--<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/ga.tracking.js"></script>-->
+<?php } ?>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/dfuw.js"></script>
 </html>

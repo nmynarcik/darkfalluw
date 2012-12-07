@@ -4,7 +4,6 @@ $dir = get_template_directory_uri();
 wp_enqueue_style('jquery_styles', 'http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css',false,$ver,'all');
 wp_enqueue_script('dfuw_jquery','http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js',false,$ver,'all');
 wp_enqueue_script('dfuw_jquery_ui','http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js',false,$ver,'all');
-wp_enqueue_script('df_js', $dir . '/js/dfuw.js',false,$ver,'all');
 
 $slug = basename(get_permalink($post->ID));
 ?>

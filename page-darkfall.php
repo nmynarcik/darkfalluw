@@ -3,9 +3,7 @@
 Template Name: Darkfall Home Page
 */
 get_header();
-$dir = get_bloginfo('url') . '/wp-content/plugins/df_content_info';
-    wp_enqueue_style('df_styles', $dir . '/css/spell-styles.css',false,'1.6','all');
-    wp_enqueue_script('df_js', $dir . '/js/df_content_info.js',false,'1.6','all');
+wp_enqueue_script('dfuw_jquery','http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js',false,'2.0','all');
 ?>
   <!-- CONTENT -->
     <div id="content" class="full-width">
