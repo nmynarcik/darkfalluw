@@ -249,6 +249,15 @@ footer #copyright {float: left; border-top: 4px double; padding: 10px 30px 0 0;}
   background: #231816;
 }
 
+.pop-out {
+  float: right;
+  margin-bottom: 15px !important;
+}
+
+#geck-map {
+  clear: both;
+}
+
 .edit-link {
   float: right;
   margin-top: -6px;
@@ -710,3 +719,4 @@ select {
 .video.right {
   float: right;
 }
+
