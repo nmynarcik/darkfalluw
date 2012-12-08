@@ -3,6 +3,13 @@
 <head>
 <meta http-equiv="content-type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <title><?php wp_title(' | ', true, 'right'); ?></title>
+<meta description="Your go to information database about everything Darkfall Unholy Wars."/>
+<meta property="og:title" content="<?php wp_title(' | ', true, 'right'); ?>"/>
+<meta property="og:site_name" content="<?php wp_title(' | ', true, 'right'); ?>"/>
+<meta property="og:type" content="website"/>
+<meta property="og:description"
+          content="Your go to information database about everything Darkfall Unholy Wars."/>
+<meta property="og:image" content="<?php echo get_template_directory_uri();  ?>/screenshot.png"/>
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" />
 <!-- <link href='http://fonts.googleapis.com/css?family=Smythe|Englebert' rel='stylesheet' type='text/css'> -->
 <link href='http://fonts.googleapis.com/css?family=Smythe|Monda:400,700' rel='stylesheet' type='text/css'>
