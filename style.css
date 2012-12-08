@@ -2,10 +2,10 @@
 Theme Name: Darkfall: Unholy Wars;
 Theme URI: http://lowgaming.com/games/darkfall
 Description: Theme to support Darkfall Unholy Wars Info Site
-Author: Lords of War
-Author URI: http://lowgaming.com/
-Version: 1.0
-Tags: one-column, flexible-width, custom-menu, featured-images, microformats, sticky-post, darkfall
+Author: Nathan Mynarcik
+Author URI: http://www.mynarcik.com/
+Version: 1.1
+Tags: darkfall
 License: GNU General Public License | This theme is completely free and open source to use as you like for both personal and commercial projects without any limitations.
 License URI: https://www.gnu.org/licenses/gpl.html
 */
@@ -750,4 +750,4 @@ select {
 #nav-below .btn {padding-top: 0;}
 #nav-below .btn i {margin-top: 6px;}
 
-h2 {height: 22px; overflow: hidden;}
+h2 {height: 22px; overflow: hidden; line-height: 22px;}
