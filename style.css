@@ -33,27 +33,24 @@ body {
   background-color: #1D130E;
   margin: 0;
   padding: 0;
-  font-family: 'Englebert', sans-serif;
-  /*font-weight: 400;*/
-  /*font-family: Myriad Pro, Helvetica, Arial, sans-serif;*/
+  font-family: 'Monda', sans-serif;
+  font-weight: 400;
   position: relative;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 p {
   margin-bottom: 20px;
-  text-shadow: 1px 1px #ccc;
-  font-family: 'Englebert', sans-serif;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 1px;
+  /*text-shadow: 1px 1px #ccc;*/
+  font-family: 'Monda', sans-serif;
+  font-weight: 400;
 }
 a {font-weight: bold; color:#231816;}
 a:hover {color:#ECD547; text-decoration: none; text-shadow: -1px -1px black;}
-h1 {font-weight: bold; font-size: 35px; text-transform: uppercase; color:#231816; margin-bottom: 5px; text-shadow: 1px 1px #CCC;}
-h2 {font-weight: bold; font-size: 30px; text-transform: uppercase; color:#231816; margin-bottom: 5px; text-shadow: 1px 1px #CCC;}
-h3 {font-weight: bold; font-size: 25px; text-transform: uppercase; color:#231816; margin-bottom: 5px; border-bottom: 4px double; text-shadow: 1px 1px #CCC;}
+h1 {font-weight: bold; font-size: 30px; color:#231816; margin-bottom: 5px; text-shadow: 1px 1px #CCC;}
+h2 {font-weight: bold; font-size: 24px; color:#231816; margin-bottom: 5px; text-shadow: 1px 1px #CCC;}
+h3 {font-weight: bold; font-size: 20px; color:#231816; margin-bottom: 5px; border-bottom: 4px double; text-shadow: 1px 1px #CCC;}
 code {clear: both; display: block; margin: 10px;}
 
 
@@ -139,6 +136,7 @@ nav {
 nav #search-inputs {
   float: right;
   margin-right: 20px;
+  color: black;
 }
 
 input:focus, textarea:focus {
@@ -216,7 +214,6 @@ aside#sidebar {
   vertical-align: middle;
   margin-bottom: 10px;
   padding-left: 20px;
-  font-size: 22px;
 }
 
 #sidebar ul li ul li:hover {
@@ -244,8 +241,8 @@ footer #copyright {float: left; border-top: 4px double; padding: 10px 30px 0 0;}
 /* -----------------------------------------------------*/
 
 #searchsubmit.btn {
-  margin-top: -9px;
-  margin-left: -7px;
+  margin-top: -12px;
+  margin-left: -10px;
   background: #231816;
 }
 
@@ -367,9 +364,9 @@ footer #copyright {float: left; border-top: 4px double; padding: 10px 30px 0 0;}
 .ui-accordion .ui-accordion-header {
   background: url(images/accordion-header.png) no-repeat;
   color: white;
-  font-family: 'Englebert', sans-serif;
+  font-family: 'Monda', sans-serif;
+  font-weight: 400;
   font-size: 20px;
-  text-transform: uppercase;
 }
 
 .ui-accordion p {
@@ -392,7 +389,6 @@ footer #copyright {float: left; border-top: 4px double; padding: 10px 30px 0 0;}
 
 .ui-accordion-header a {
   color: white !important;
-  letter-spacing: 1px;
 }
 
 .ui-accordion .pane .thumb, .single-school #school-details .thumb {
@@ -406,8 +402,9 @@ footer #copyright {float: left; border-top: 4px double; padding: 10px 30px 0 0;}
 }
 
 .ui-widget li.none {
-  font-family: 'Englebert', sans-serif;
-  text-shadow: 1px 1px 9px #CCC;
+  font-family: 'Monda', sans-serif;
+  font-weight: 400;
+  /*text-shadow: 1px 1px 9px #CCC;*/
 }
 
 .thumb img {
@@ -574,7 +571,7 @@ ul.school-list li .icon:hover{
 
 .home .left {width: 460px; float: left;}
 
-div.features {float: right; text-shadow: 1px 1px #ccc; font-family: 'Englebert', sans-serif;}
+div.features {float: right;}
 
 .features ul {width: 400px;}
 
@@ -645,7 +642,7 @@ div.features {float: right; text-shadow: 1px 1px #ccc; font-family: 'Englebert',
 /* Social */
 .page-template-page-darkfall-php .df-social {
   float:left;
-  width: 180px;
+  width: 370px;
   clear: left;
 }
 
@@ -688,8 +685,8 @@ select {
   background-color: #231914;
   color: white;
   border: 0;
-  font-family: 'Englebert', sans-serif;
-  font-size: 18px;
+  font-family: 'Monda', sans-serif;
+  font-weight: 400;
 }
 
 #school_selector {
