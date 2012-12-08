@@ -49,4 +49,7 @@ jQuery(function($){
 
     if($('.page-template-archive-video-php').length)
       video.init();
+
+    if($('h2').length)
+      $('h2').ellipsis();
 });

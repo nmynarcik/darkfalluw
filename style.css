@@ -741,3 +741,9 @@ select {
 .gad {
   margin-bottom: 20px;
 }
+
+#nav-below {clear:both;}
+#nav-below .btn {padding-top: 0;}
+#nav-below .btn i {margin-top: 6px;}
+
+h2 {height: 22px; overflow: hidden;}
