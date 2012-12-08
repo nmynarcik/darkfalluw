@@ -7,17 +7,17 @@
 
 Dynamic content created within the admin section of WP
 
-* Custome Post Types
-** Spells
-** Roles
-** Schools
+* Custom Post Types
+  * Spells
+  * Roles
+  * Schools
 * Custom Page Templates
 
 ## Screenshot
 
 ![][1]
 
-  [1]: https://github.com/nmynarcik/darkfalluw/blob/master/screenshot.png
+  [1]: https://raw.github.com/nmynarcik/darkfalluw/master/screenshot.png
 
 ## Installation
 
