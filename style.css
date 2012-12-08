@@ -46,6 +46,20 @@ p {
   font-family: 'Monda', sans-serif;
   font-weight: 400;
 }
+
+p::first-letter {
+  float: left;
+  font-size: 32px;
+  line-height: 30px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px white;
+}
+
+#site-description::first-letter {
+  float:none;
+  font-size: 30px
+}
+
 a {font-weight: bold; color:#231816;}
 a:hover {color:#ECD547; text-decoration: none; text-shadow: -1px -1px black;}
 h1 {font-weight: bold; font-size: 30px; color:#231816; margin-bottom: 5px; text-shadow: 1px 1px #CCC;}
@@ -228,8 +242,6 @@ aside#sidebar {
 footer {
   width: 920px;
   padding: 20px;
-  /*font-family: Verdana,Arial,sans-serif;*/
-  font-size: 16px;
 }
 
 footer #copyright {float: left; border-top: 4px double; padding: 10px 30px 0 0;}
@@ -650,6 +662,10 @@ div.features {float: right;}
   font-size: 15px;
   margin-bottom: 5px;
   letter-spacing: 0;
+}
+
+.social-list {
+  margin-top: 5px;
 }
 
 .df-social .social-list li {

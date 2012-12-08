@@ -24,7 +24,7 @@ wp_enqueue_script('dfuw_jquery','http://ajax.googleapis.com/ajax/libs/jquery/1.8
           <!-- </p> -->
           <div class="df-social">
           <h3>Social Media</h3>
-          <p>Stay up to date with Darkfall's social communities</p>
+          <span>Stay up to date with Darkfall's social communities</span>
           <ul class="social-list">
             <li class="main"><a href="http://darkfallonline.com/uw/" alt="Darkfall Unholy Wars Official Website" title="Darkfall Unholy Wars Official Website" target="_blank">Main Site</a></li>
             <li class="reddit"><a href="http://www.reddit.com/r/darkfall" alt="Darkfall Reddit" title="Darkfall on Reddit" target="_blank">Reddit</a></li>
