@@ -63,7 +63,9 @@ jQuery(function($){
             var $id = $(this).data('vidId');
             $('#df-vid').attr('src','http://www.youtube.com/embed/'+$id+'?rel=0');
           }
-        })
+        });
+
+        $('.bottom .blogfeed ul li, .bottom .eventfeed ul li').ellipsis();
       }
     }
 

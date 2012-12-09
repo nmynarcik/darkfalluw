@@ -4,6 +4,7 @@ Template Name: Darkfall Home Page
 */
 get_header();
 wp_enqueue_script('dfuw_jquery','http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js',false,'2.0','all');
+wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoellipsis.min.js',false,'2.0','all');
 ?>
   <!-- CONTENT -->
     <div id="content" class="full-width">
