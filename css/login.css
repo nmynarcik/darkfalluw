@@ -1,0 +1,43 @@
+body.login {
+  background-color: #1D130E;
+  font-family: 'Monda', sans-serif;
+  font-weight: 400;
+  background: url(../images/bg-grey-dark.jpg);
+}
+
+#login h1 a {
+  background-image: url(../images/admin-logo.png);
+  width: 280px;
+  height: 170px;
+  margin: 0 auto;
+  background-size: 100%;
+}
+
+#login {
+  width: 410px;
+}
+
+.login #nav a, .login #backtoblog a {
+ color: #231816 !important;
+ font-weight: 700;
+ text-shadow: 0 0 0;
+ font-size: 15px;
+}
+
+.login #nav a:hover, .login #backtoblog a:hover {
+  color: #ECD547 !important;
+}
+
+.login label {
+  color: white;
+  font-weight: 700;
+  text-shadow: 0 0 0;
+}
+
+.login form {
+  background: #1D130E;
+  border: 3px solid black;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(235, 253, 52, 0.6) !important;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6) !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(235, 253, 52, 0.6) !important;
+}

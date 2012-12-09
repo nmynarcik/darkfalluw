@@ -856,4 +856,23 @@ function yt_vid( $atts ) {
   $output = 'video id = {'.$vid.'}';
   return $output;
 }
+
+/* Login Page Stuff */
+function dfuw_url_login(){
+  return get_bloginfo('url');
+}
+add_filter('login_headerurl','dfuw_url_login');
+
+// Custom WordPress Login Logo
+function login_css() {
+  wp_enqueue_style( 'login_css', get_template_directory_uri() . '/css/login.css' );
+}
+add_action('login_head', 'login_css');
+
+// Custom WordPress Footer
+function remove_footer_admin () {
+  echo sprintf( __( '%1$s %2$s %3$s. All Rights Reserved. <br>All other trademarks or registered trademarks are property of their respective owners.', 'darkfalluw' ), '&copy;', date('Y'), esc_html(get_bloginfo('name').' '. get_bloginfo('description')) );
+}
+add_filter('admin_footer_text', 'remove_footer_admin');
+
 ?>
