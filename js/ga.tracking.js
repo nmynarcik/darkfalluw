@@ -22,7 +22,7 @@ jQuery(function(){
 
     // add if(_gaq)
     $('a').click(function(){
-        var label = ($(this).attr('title') != undefined) ? $(this).attr('title').replace(' ', ''); : $(this).text().replace(' ', '');
+        var label = ($(this).attr('title') != undefined) ? $(this).attr('title').replace(' ', '') : $(this).text().replace(' ', '');
         var cat = 'Buttons/Links';
         var optVal = window.location.pathname;
         _trackEvent(cat, 'click', label, optVal);
