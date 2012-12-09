@@ -36,7 +36,7 @@ wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoe
                 $args = array(
                                       'numberposts'     => 5,
                                       'orderby'         => 'post_date',
-                                      'order'           => 'ASC',
+                                      'order'           => 'DESC',
                                       'post_type'       => 'video',
                                       'post_status'     => 'publish');
 

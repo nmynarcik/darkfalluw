@@ -58,6 +58,9 @@ jQuery(function($){
         //     console.log('error: ',arguments, textStatus, errorThrown);
         //   }
         // });
+
+        $('#df-vid').attr('src','http://www.youtube.com/embed/'+$('#featured-list li:first-child a').data('vidId')+'?rel=0');
+
         $('#featured-list li a').on({
           'click':function(){
             var $id = $(this).data('vidId');
