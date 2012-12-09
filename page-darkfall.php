@@ -93,12 +93,25 @@ wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoe
 
                 $my_query = null;
                 $my_query = get_posts($args);
-                echo '<ul>';
+                $count = 0;
                 foreach( $my_query as $post ) :  setup_postdata($post); ?>
-                  <li><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>"><?php the_title(); ?></a></li>
+                <?php $count++; ?>
+                <div class="item <?php echo ($count == 1) ? 'first' : ''; ?>">
+                  <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>">
+                    <?php
+                      if(has_post_thumbnail()){
+                        the_post_thumbnail(array(50,50),array(
+                                                            'title'=>$post->post_title,
+                                                            'alt'=>$post->post_title,
+                                                            'class' => "icon"
+                                                            ));
+                      }
+                      echo get_the_title();
+                    ?>
+                  </a>
+                </div>
                    <?php
                   endforeach;
-                  echo '</ul>';
               ?>
             </div>
             <div class="item last">

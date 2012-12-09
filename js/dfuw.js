@@ -68,7 +68,7 @@ jQuery(function($){
           }
         });
 
-        $('.bottom .blogfeed ul li, .bottom .eventfeed ul li').ellipsis();
+        $('.bottom .blogfeed ul li, .bottom .eventfeed a').ellipsis();
       }
     }
 

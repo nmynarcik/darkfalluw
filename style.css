@@ -595,7 +595,7 @@ ul.school-list li .icon:hover{
 
 /* Home Page */
 
-#df-vid {float:left;}
+#df-vid {float:left; background: black;}
 
 #featured-vids {
   background: url(images/bg-featured-vids.png) no-repeat;
@@ -663,6 +663,24 @@ ul.school-list li .icon:hover{
   background: url(images/role16.png) no-repeat;
 }
 
+.eventfeed .item {
+  border-top: 1px dotted;
+}
+
+.eventfeed .item a {
+  display: block;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 50px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.eventfeed .item.first {
+  border-top: none;
+}
+
 /* Post Pages */
 .type-post .attachment-post-thumbnail {
   float: left;
@@ -709,7 +727,7 @@ ul.school-list li .icon:hover{
   max-width: 630px;
 }
 
-.category a.icon {
+.category a.icon, .eventfeed img.icon {
    float: left;
   background: black;
   -moz-border-radius: 5px;
