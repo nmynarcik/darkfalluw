@@ -157,6 +157,14 @@ nav #search-inputs {
   color: black;
 }
 
+#search-inputs input[type="text"] {
+  height: 24px;
+  font-weight: normal !important;
+  padding: 3px 6px;
+}
+
+
+
 input:focus, textarea:focus {
   border-color: rgba(235, 253, 52, 0.8) !important;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(235, 253, 52, 0.6) !important;
@@ -260,6 +268,10 @@ footer #copyright {float: left; border-top: 4px double; padding: 10px 30px 0 0;}
   margin-top: -12px;
   margin-left: -10px;
   background: #231816;
+  -moz-border-radius: 0px 4px 4px 0px;
+  -webkit-border-radius: 0px 4px 4px 0px;
+  border-radius: 0px 4px 4px 0px;
+  height: 33px;
 }
 
 .pop-out {
@@ -751,3 +763,23 @@ select {
 #nav-below .btn i {margin-top: 6px;}
 
 h2 {height: 22px; overflow: hidden; line-height: 22px;}
+
+/* 4 OH 4 */
+.error404 h1 {
+  text-align: center;
+  font-size: 130px;
+  height: 130px;
+  padding: 0;
+  margin: 0;
+  line-height: 130px;
+}
+
+.error404 .df-404 {
+  margin: 20px auto;
+  width: 520px;
+}
+
+.error404 .entry-content {
+  width: 520px;
+  margin: 0 auto
+}
