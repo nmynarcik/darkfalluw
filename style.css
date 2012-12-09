@@ -630,6 +630,28 @@ ul.school-list li .icon:hover{
 #featured-list li {
   text-align: center;
   margin-bottom: 10px;
+  position: relative;
+}
+
+#featured-list li .icon-play {
+  position: absolute;
+  z-index: 10;
+  width:43px;
+  height:42px;
+  top: 20px;
+  left: 78px;
+  background: none;
+}
+
+#featured-list li:hover .icon-play {
+  opacity: 0.75;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 75);
+  filter: alpha(opacity = 75);
+}
+
+#featured-list li .thumb {
+  width: 120px;
+  height: 90px;
 }
 
 .home .bottom {
@@ -736,6 +758,13 @@ ul.school-list li .icon:hover{
   margin: 0 15px 20px 0;
   width: 50px;
   height: 50px;
+}
+
+#featured-list img {
+  background: black;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
 
 /* Social */
