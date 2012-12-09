@@ -38,6 +38,35 @@ jQuery(function($){
       }
     }
 
+    var home = {
+
+      init: function(){
+        // $.ajax({
+        //   url: 'wp-content/themes/darkfalluw/proxy.php?url=http://www.darkfallonline.com/blog/?feed=rss2',
+        //   dataType: 'xml',
+        //   async: false,
+        //   type: 'GET',
+        //   success: function(data){
+        //       var list = "<ul>";
+        //       $(data).find('item').each(function(){
+        //         list += '<li>'+$(this).find('title').text()+'</li>';
+        //       });
+        //       list += '</ul>';
+        //     $('.bottom .blogfeed').append(list);
+        //   },
+        //   error: function(jqXHR, textStatus, errorThrown){
+        //     console.log('error: ',arguments, textStatus, errorThrown);
+        //   }
+        // });
+        $('#featured-list li a').on({
+          'click':function(){
+            var $id = $(this).data('vidId');
+            $('#df-vid').attr('src','http://www.youtube.com/embed/'+$id+'?rel=0');
+          }
+        })
+      }
+    }
+
     var video = {
       init: function(){
         $('.video h2, .video p').ellipsis();
@@ -52,4 +81,7 @@ jQuery(function($){
 
     if($('h2').length)
       $('h2').ellipsis();
+
+    if($('.home').length)
+      home.init();
 });
