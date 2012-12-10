@@ -896,3 +896,11 @@ h2 {height: 22px; overflow: hidden; line-height: 22px;}
   width: 520px;
   margin: 0 auto
 }
+
+/* AddThis */
+
+.addthis_toolbox {
+  position: absolute;
+  left: -100px !important;
+  top: 270px !important;
+}
