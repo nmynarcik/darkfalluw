@@ -50,7 +50,7 @@ wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoe
               <p>The latest from the Official Darkfall Blog</p>
               <?php
                 $args = array(
-                                      'numberposts'     => 5,
+                                      'numberposts'     => 10,
                                       'category'        => get_category_by_slug('blog')->term_id,
                                       'orderby'         => 'post_date',
                                       'order'           => 'DESC',
