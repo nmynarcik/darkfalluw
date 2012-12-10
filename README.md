@@ -25,10 +25,10 @@ Dynamic content created within the admin section of WP
 ![][5]
 
   [1]: https://raw.github.com/nmynarcik/darkfalluw/master/screenshot.png
-  [1]: https://raw.github.com/nmynarcik/darkfalluw/master/screenshot2.png
-  [1]: https://raw.github.com/nmynarcik/darkfalluw/master/screenshot3.png
-  [1]: https://raw.github.com/nmynarcik/darkfalluw/master/screenshot4.png
-  [1]: https://raw.github.com/nmynarcik/darkfalluw/master/screenshot5.png
+  [2]: https://raw.github.com/nmynarcik/darkfalluw/master/screenshot2.png
+  [3]: https://raw.github.com/nmynarcik/darkfalluw/master/screenshot3.png
+  [4]: https://raw.github.com/nmynarcik/darkfalluw/master/screenshot4.png
+  [5]: https://raw.github.com/nmynarcik/darkfalluw/master/screenshot5.png
 
 ## Installation
 
