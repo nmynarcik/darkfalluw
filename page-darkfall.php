@@ -3,8 +3,8 @@
 Template Name: Darkfall Home Page
 */
 get_header();
-wp_enqueue_script('dfuw_jquery','http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js',false,'2.0','all');
-wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoellipsis.min.js',false,'2.0','all');
+wp_enqueue_script('dfuw_jquery','http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js',false,'2.2','all');
+wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoellipsis.min.js',false,'2.2','all');
 ?>
   <!-- CONTENT -->
     <div id="content" class="full-width">
@@ -59,7 +59,7 @@ wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoe
           <div class="clear"></div>
           <div class="bottom">
             <div class="item blogfeed">
-              <h3>The Feed</h3>
+              <h3>The Feed <a href="<?php echo get_bloginfo('url'); ?>/category/blog/feed/" target="_blank" class="icon-rss"></a></h3>
               <p>The latest from the Official Darkfall Blog</p>
               <?php
                 $args = array(
@@ -81,7 +81,7 @@ wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoe
               ?>
             </div>
             <div class="item eventfeed">
-              <h3>Current Events</h3>
+              <h3>Current Events <a href="<?php echo get_bloginfo('url'); ?>/category/tournaments/feed/" target="_blank" class="icon-rss"></a></h3>
               <p>The latest events going on in Agon</p>
               <?php
                 $args = array(
@@ -116,7 +116,7 @@ wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoe
               ?>
             </div>
             <div class="item forumfeed last">
-              <h3>Latest ForumFall</h3>
+              <h3>Latest ForumFall <a href="http://forums.darkfallonline.com/external.php?type=RSS2" target="_blank" class="icon-rss"></a></h3>
               <p>The latest posts on Darkfall's Forums</p>
             </div>
             <div class="clear"></div>

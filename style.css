@@ -728,6 +728,13 @@ ul.school-list li .icon:hover{
   height: 35px;
 }
 
+.icon-rss {
+  width: 16px;
+  height: 16px;
+  background: url(images/rss_16.png) no-repeat;
+  margin-top: 8px;
+}
+
 
 /* Post Pages */
 .type-post .attachment-post-thumbnail {
