@@ -11,13 +11,24 @@ Dynamic content created within the admin section of WP
   * Spells
   * Roles
   * Schools
+  * Videos
 * Custom Page Templates
+* Dynamic data pulled in from Official Sites
+* More to come...
 
 ## Screenshot
 
 ![][1]
+![][2]
+![][3]
+![][4]
+![][5]
 
   [1]: https://raw.github.com/nmynarcik/darkfalluw/master/screenshot.png
+  [1]: https://raw.github.com/nmynarcik/darkfalluw/master/screenshot2.png
+  [1]: https://raw.github.com/nmynarcik/darkfalluw/master/screenshot3.png
+  [1]: https://raw.github.com/nmynarcik/darkfalluw/master/screenshot4.png
+  [1]: https://raw.github.com/nmynarcik/darkfalluw/master/screenshot5.png
 
 ## Installation
 
