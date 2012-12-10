@@ -233,9 +233,14 @@ nav .menu li ul {
 nav .menu li ul li {
   float: none;
   border: 0;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   white-space:nowrap;
+  border-bottom: 1px dotted white;
+}
+
+nav .menu li ul li:last-child {
+  border: none;
 }
 
 #content {
