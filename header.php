@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="content-type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <title><?php wp_title(' | ', true, 'right'); ?></title>
-<meta description="Your go to information database about everything Darkfall Unholy Wars."/>
+<meta description="A collection of information about everything Darkfall Unholy Wars. Your go to spot to find out the latest events, posts, and videos."/>
 <meta property="og:title" content="<?php wp_title(' | ', true, 'right'); ?>"/>
 <meta property="og:site_name" content="<?php wp_title(' | ', true, 'right'); ?>"/>
 <meta property="og:type" content="website"/>

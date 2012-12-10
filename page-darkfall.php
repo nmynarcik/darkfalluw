@@ -83,7 +83,7 @@ wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoe
                 $my_query = get_posts($args);
                 $count = 0;
                 if(!count($my_query)){
-                  echo '<p>None, yet...</p>';
+                  echo '<p style="font-weight:700;">None, yet...</p>';
                 }else{
                 foreach( $my_query as $post ) :  setup_postdata($post); ?>
                 <?php $count++; ?>
