@@ -255,9 +255,10 @@ aside#sidebar {
 footer {
   width: 920px;
   padding: 20px;
+  border-top: 4px double;
 }
 
-footer #copyright {float: left; border-top: 4px double; padding: 10px 30px 0 0;}
+footer #copyright {float: left; bpadding: 10px 30px 0 0;}
 
 /* --------------------------------------------------- */
 /*
@@ -807,6 +808,24 @@ ul.school-list li .icon:hover{
 
 .social-list {
   margin-top: 5px;
+}
+
+footer .social-list {
+  margin-top: 0;
+}
+
+footer .df-social {
+  width: 290px;
+  float: right;
+}
+
+footer .df-social p {
+  width: 115px;
+  float: left;
+  font-weight: 700;
+  line-height: 32px;
+  height: 32px;
+  margin: 0;
 }
 
 .df-social .social-list li {
