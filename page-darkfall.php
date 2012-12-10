@@ -115,18 +115,9 @@ wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoe
                   endforeach;
               ?>
             </div>
-            <div class="item last">
-              <div class="df-social">
-                <h3>Social Media</h3>
-                <span>Stay up to date with Darkfall's social communities</span>
-                <ul class="social-list">
-                  <li class="main"><a href="http://darkfallonline.com/uw/" alt="Darkfall Unholy Wars Official Website" title="Darkfall Unholy Wars Official Website" target="_blank">Main Site</a></li>
-                  <li class="reddit"><a href="http://www.reddit.com/r/darkfall" alt="Darkfall Reddit" title="Darkfall on Reddit" target="_blank">Reddit</a></li>
-                  <li class="twitter"><a href="https://twitter.com/darkfallmmorpg" alt="Darkfall on Twitter" title="Darkfall on Twitter" target="_blank">Twitter</a></li>
-                  <li class="fb"><a href="http://www.facebook.com/darkfalluw" alt="Darkfall on Facebook" title="Darkfall on Facebook" target="_blank">Facebook</a></li>
-                  <li class="yt"><a href="http://www.youtube.com/user/DarkfallOnline" alt="Darkfall on YouTube" title="Darkfall on YouTube" target="_blank">YouTube</a></li>
-                </ul>
-              </div>
+            <div class="item forumfeed last">
+              <h3>Latest ForumFall</h3>
+              <p>The latest posts on Darkfall's Forums</p>
             </div>
             <div class="clear"></div>
           </div>

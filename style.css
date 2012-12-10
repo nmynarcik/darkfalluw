@@ -908,6 +908,25 @@ select {
 
 h2 {height: 22px; overflow: hidden; line-height: 22px;}
 
+/*Forumfall Feed */
+.forumfeed li a {
+  height: 20px;
+  overflow: hidden;
+  display: block;
+}
+
+.forumfeed li .descr {
+  max-height: 56px;
+  overflow: hidden;
+  display: block;
+}
+
+.forumfeed li {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #1D130E;
+}
+
 /* 4 OH 4 */
 .error404 h1 {
   text-align: center;

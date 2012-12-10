@@ -41,23 +41,26 @@ jQuery(function($){
     var home = {
 
       init: function(){
-        // $.ajax({
-        //   url: 'wp-content/themes/darkfalluw/proxy.php?url=http://www.darkfallonline.com/blog/?feed=rss2',
-        //   dataType: 'xml',
-        //   async: false,
-        //   type: 'GET',
-        //   success: function(data){
-        //       var list = "<ul>";
-        //       $(data).find('item').each(function(){
-        //         list += '<li>'+$(this).find('title').text()+'</li>';
-        //       });
-        //       list += '</ul>';
-        //     $('.bottom .blogfeed').append(list);
-        //   },
-        //   error: function(jqXHR, textStatus, errorThrown){
-        //     console.log('error: ',arguments, textStatus, errorThrown);
-        //   }
-        // });
+        $.ajax({
+          // url: 'wp-content/themes/darkfalluw/proxy.php?url=http://www.darkfallonline.com/blog/?feed=rss2', //DF Blog
+          url: 'wp-content/themes/darkfalluw/proxy.php?url=http://forums.darkfallonline.com/external.php?type=RSS2', //DF Forums
+          dataType: 'xml',
+          async: false,
+          type: 'GET',
+          success: function(data){
+              var list = "<ul>";
+              $(data).find('item').each(function(i){
+                if(i > 9)
+                  return false;
+                list += '<li><a href="'+$(this).find('link').text()+'" target="_blank"><span class="title">'+$(this).find('title').text()+'</span></a> <div class="descr">'+$(this).find('description').text()+'</div></li>';
+              });
+              list += '</ul>';
+            $('.bottom .forumfeed').append(list);
+          },
+          error: function(jqXHR, textStatus, errorThrown){
+            console.log('error: ',arguments, textStatus, errorThrown);
+          }
+        });
 
         $('#df-vid').attr('src','http://www.youtube.com/embed/'+$('#featured-list li:first-child a').data('vidId')+'?rel=0&autoplay=0&iv_load_policy=3&modestbranding=1');
 
@@ -68,7 +71,7 @@ jQuery(function($){
           }
         });
 
-        $('.bottom .blogfeed ul li, .bottom .eventfeed a').ellipsis();
+        $('.bottom .blogfeed ul li, .bottom .eventfeed a, .forumfeed li a, .forumfeed li .descr').ellipsis();
       }
     }
 
