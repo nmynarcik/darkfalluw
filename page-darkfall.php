@@ -9,19 +9,6 @@ wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoe
   <!-- CONTENT -->
     <div id="content" class="full-width">
       <section class="main-content full-height darkfall" role="main">
-        <div class="gad">
-          <script type="text/javascript"><!--
-          google_ad_client = "ca-pub-0373971494255887";
-          /* DFUW Info Site */
-          google_ad_slot = "4637838709";
-          google_ad_width = 728;
-          google_ad_height = 90;
-          //-->
-          </script>
-          <script type="text/javascript"
-          src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-          </script>
-        </div>
         <article>
         <?php while ( have_posts() ) : the_post(); ?>
         <header>
@@ -124,6 +111,19 @@ wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoe
           <div class="clear"></div>
         </div>
         <?php endwhile; ?>
+        <div class="gad">
+            <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-0373971494255887";
+            /* DFUW Info Site */
+            google_ad_slot = "4637838709";
+            google_ad_width = 728;
+            google_ad_height = 90;
+            //-->
+            </script>
+            <script type="text/javascript"
+            src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+            </script>
+          </div>
         </article>
       </section>
     <div class="clear"></div>

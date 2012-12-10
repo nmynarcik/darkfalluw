@@ -901,12 +901,11 @@ select {
 }
 
 .home .gad {
-  margin: 0 auto;
   width: 728px;
 }
 
 .gad {
-  margin-bottom: 20px;
+  margin: 20px auto;
 }
 
 #nav-below {clear:both;}
