@@ -50,7 +50,7 @@ jQuery(function($){
           success: function(data){
               var list = "<ul>";
               $(data).find('item').each(function(i){
-                if(i > 4)
+                if(i > 2)
                   return false;
                 list += '<li><a href="'+$(this).find('link').text()+'" target="_blank"><span class="title">'+$(this).find('title').text()+'</span></a> <div class="descr">'+$(this).find('description').text()+'</div></li>';
               });
