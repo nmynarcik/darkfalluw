@@ -692,10 +692,10 @@ ul.school-list li .icon:hover{
 
 .eventfeed .item a {
   display: block;
-  height: 50px;
-  font-size: 17px;
+  height: 35px;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 50px;
+  line-height: 35px;
   vertical-align: middle;
   overflow: hidden;
 }
@@ -703,6 +703,18 @@ ul.school-list li .icon:hover{
 .eventfeed .item.first {
   border-top: none;
 }
+
+.eventfeed img.icon {
+  float: left;
+  background: black;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0 10px 10px 0;
+  width: 35px;
+  height: 35px;
+}
+
 
 /* Post Pages */
 .type-post .attachment-post-thumbnail {
@@ -750,7 +762,7 @@ ul.school-list li .icon:hover{
   max-width: 630px;
 }
 
-.category a.icon, .eventfeed img.icon {
+.category a.icon, {
    float: left;
   background: black;
   -moz-border-radius: 5px;

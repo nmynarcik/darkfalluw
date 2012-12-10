@@ -28,7 +28,7 @@ wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoe
           <!-- <h2><?php the_title(); ?></h2> -->
         </header>
         <div class="entry-content">
-          <iframe id="df-vid" width="659" height="371" src="http://www.youtube.com/embed/_T8FuVGXEMw?rel=0" frameborder="0" allowfullscreen></iframe>
+          <iframe id="df-vid" width="659" height="371" src="http://www.youtube.com/embed/_T8FuVGXEMw?rel=0&iv_load_policy=3&modestbranding=1" frameborder="0" allowfullscreen></iframe>
           <div id="featured-vids">
             <h3>Featured Videos</h3>
             <div id="vid-wrapper">
@@ -101,7 +101,7 @@ wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoe
                   <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>">
                     <?php
                       if(has_post_thumbnail()){
-                        the_post_thumbnail(array(50,50),array(
+                        the_post_thumbnail(array(35,35),array(
                                                             'title'=>$post->post_title,
                                                             'alt'=>$post->post_title,
                                                             'class' => "icon"

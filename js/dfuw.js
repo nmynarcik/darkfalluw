@@ -59,12 +59,12 @@ jQuery(function($){
         //   }
         // });
 
-        $('#df-vid').attr('src','http://www.youtube.com/embed/'+$('#featured-list li:first-child a').data('vidId')+'?rel=0');
+        $('#df-vid').attr('src','http://www.youtube.com/embed/'+$('#featured-list li:first-child a').data('vidId')+'?rel=0&autoplay=0&iv_load_policy=3&modestbranding=1');
 
         $('#featured-list li a').on({
           'click':function(){
             var $id = $(this).data('vidId');
-            $('#df-vid').attr('src','http://www.youtube.com/embed/'+$id+'?rel=0');
+            $('#df-vid').attr('src','http://www.youtube.com/embed/'+$id+'?rel=0&autoplay=1&iv_load_policy=3&modestbranding=1');
           }
         });
 
