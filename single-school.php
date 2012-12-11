@@ -33,6 +33,8 @@ $slug = basename(get_permalink($post->ID));
       $args=array(
         'post_type' => $type,
         'post_status' => 'publish',
+        'orderby' => 'title',
+        'order' => 'ASC',
         'posts_per_page' => -1,
         'caller_get_posts'=> 1);
 
@@ -50,6 +52,7 @@ $slug = basename(get_permalink($post->ID));
           wp_reset_query();
         }
     ?>
+    <label class="ulti-legend"><i class="icon-certificate icon-white"></i> = School Ulimate</label>
 <?php
 $type = 'spell';
 $args=array(
@@ -57,6 +60,8 @@ $args=array(
   'post_status' => 'publish',
   'posts_per_page' => -1,
   'caller_get_posts'=> 1,
+  'orderby' => 'title',
+  'order' => 'ASC',
   'meta_key' => '_spell_school',
   'meta_value' => $slug);
 
@@ -67,7 +72,7 @@ if( $my_query->have_posts() ) {
   echo '<div class="clear"></div>';
   echo '<div class="accordion">'; //start accordion
   while ($my_query->have_posts()) : $my_query->the_post(); ?>
-    <h4 class="accordion-header current"><a href="#"><?php the_title(); ?></a></h4>
+    <h4 class="accordion-header current"><a href="#"><?php the_title(); ?> <?php echo (get_post_meta($post->ID, '_school_ulti')) ? '<i class="icon-certificate icon-white"></i>' : ''; ?></a></h4>
     <div class="pane" style="display: block;">
     <div class="thumb">
       <?php

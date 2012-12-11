@@ -449,6 +449,16 @@ footer #copyright {float: left; bpadding: 10px 30px 0 0;}
   font-size: 20px;
 }
 
+.ui-accordion-header a {
+  position: relative;
+}
+
+.ui-accordion-header a i {
+  position: absolute;
+  top: 6px;
+  right: -20px;
+}
+
 .ui-accordion p {
   text-shadow: 1px 1px 9px #CCC;
 }
@@ -460,7 +470,7 @@ footer #copyright {float: left; bpadding: 10px 30px 0 0;}
   border: 2px solid #221613;
   padding: 2em 1.2em !important;
   min-height: 100px;
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-state-active {
@@ -1013,4 +1023,21 @@ h2 {height: 22px; overflow: hidden; line-height: 22px;}
   position: absolute;
   left: -100px !important;
   top: 270px !important;
+}
+
+
+/* Single School Page */
+label.ulti-legend {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background: #221715;
+  float: left;
+  margin-left: 20px;
+  color: white;
+  padding: 4px 10px;
+}
+
+.ulti-legend i {
+  margin-top: 4px;
 }
