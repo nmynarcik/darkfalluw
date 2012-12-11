@@ -1070,3 +1070,36 @@ label.ulti-legend {
 .ulti-legend i {
   margin-top: 4px;
 }
+
+/* Feedback page */
+
+.feedback {
+  margin-top: 20px;
+}
+
+.feedback .name {
+  float: left;
+  margin-right: 20px;
+}
+
+.feedback .email {
+  float: left;
+}
+
+.feedback .subject {
+  clear: both;
+}
+
+.feedback textarea {
+  width: 500px;
+}
+
+.wpcf7-response-output {
+  background: #221715;
+   -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  padding: 10px;
+}
