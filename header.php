@@ -25,7 +25,7 @@
 <a class="addthis_button_google_plusone" g:plusone:size="tall"></a>
 <a class="addthis_counter"></a>
 </div>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-50c58e77607d7916"></script>
+<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-50c58e77607d7916"></script> -->
 <!-- AddThis Button END -->
 <header>
 <div id="branding">

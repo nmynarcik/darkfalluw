@@ -26,4 +26,5 @@
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/ga.tracking.js"></script>
 <?php } ?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/dfuw.js"></script>
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=xa-50c58e77607d7916"></script>
 </html>
