@@ -71,7 +71,7 @@ jQuery(function($){
           }
         });
 
-        $('.bottom .blogfeed ul li, .bottom .eventfeed a, .forumfeed li a, .forumfeed li .descr').ellipsis();
+        $('.bottom .blogfeed .entry-content p, .bottom .eventfeed a, .forumfeed li a, .forumfeed li .descr').ellipsis();
       }
     }
 
@@ -97,7 +97,6 @@ jQuery(function($){
 var swears = ['fuck','shit','fag',' ass ','pussy','pussies','nigger','nigga','bitch','asshole','dick','penis','vagina'];
 
 function filterText(text){
-  console.log('text',text);
   var rgx = new RegExp(swears.join("|"), "gi");
   return text.replace(rgx, "****");
 }

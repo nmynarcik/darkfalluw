@@ -47,10 +47,10 @@ wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoe
           <div class="bottom">
             <div class="item blogfeed">
               <h3>The Feed <a href="<?php echo get_bloginfo('url'); ?>/category/blog/feed/" target="_blank" class="icon-rss"></a></h3>
-              <p>The latest from the Official Darkfall Blog</p>
+              <p>Accumulation of all things Darkfall</p>
               <?php
                 $args = array(
-                                      'numberposts'     => 10,
+                                      'numberposts'     => 5,
                                       'category'        => get_category_by_slug('blog')->term_id,
                                       'orderby'         => 'post_date',
                                       'order'           => 'DESC',
@@ -59,12 +59,11 @@ wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoe
 
                 $my_query = null;
                 $my_query = get_posts($args);
-                echo '<ul>';
                 foreach( $my_query as $post ) :  setup_postdata($post); ?>
-                  <li><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>"><?php the_title(); ?></a></li>
+                    <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>"><?php the_title(); ?></a>
+                      <p><?php echo get_the_excerpt(); ?></p>
                    <?php
                   endforeach;
-                  echo '</ul>';
               ?>
             </div>
             <div class="item eventfeed">
@@ -73,7 +72,7 @@ wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoe
               <?php
                 $args = array(
                                       'numberposts'     => 5,
-                                      'category'        => get_category_by_slug('tournaments')->term_id,
+                                      'category'        => '"'.get_category_by_slug('tournaments')->term_id.','.get_category_by_slug('events')->term_id,
                                       'orderby'         => 'post_date',
                                       'order'           => 'DESC',
                                       'post_type'       => 'post',
@@ -96,6 +95,8 @@ wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoe
                                                             'alt'=>$post->post_title,
                                                             'class' => "icon"
                                                             ));
+                      }else{
+                        echo '<img src="'.get_template_directory_uri().'/images/no-image.png" class="icon" />';
                       }
                       echo get_the_title();
                     ?>

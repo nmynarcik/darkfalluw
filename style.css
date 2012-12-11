@@ -707,9 +707,9 @@ ul.school-list li .icon:hover{
   background: none;
   margin-left: -21px;
   margin-top: -21px;
-  opacity: 0.75;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 75);
-  filter: alpha(opacity = 75);
+  opacity: 0.50;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 50);
+  filter: alpha(opacity = 50);
 }
 
 #featured-list li:hover .icon-play {
@@ -739,8 +739,7 @@ ul.school-list li .icon:hover{
 .bottom .item {
   width: 292px;
   float: left;
-  padding-right: 10px;
-  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .bottom .item.last {
@@ -749,14 +748,31 @@ ul.school-list li .icon:hover{
   border-right: none;
 }
 
-.bottom .blogfeed ul li, .bottom .eventfeed ul li {
+.bottom .blogfeed {
+  width: 588px;
+}
+
+.blogfeed .entry-content p {
+  height: 55px;
+  overflow: hidden;
+}
+.blogfeed .edit-link {
+  display: none;
+}
+
+.bottom .eventfeed, .bottom .forumfeed {
+  float: right;
+  clear:right;
+}
+
+/*.bottom .blogfeed ul li, .bottom .eventfeed ul li {
   background: url(images/bullet.png) no-repeat;
   vertical-align: middle;
   margin-bottom: 10px;
   padding-left: 20px;
   height: 20px;
   overflow: hidden;
-}
+}*/
 
 .bottom .blogfeed ul li:hover, .bottom .eventfeed ul li:hover {
   background: url(images/role16.png) no-repeat;
@@ -764,6 +780,7 @@ ul.school-list li .icon:hover{
 
 .eventfeed .item {
   border-top: 1px dotted;
+  padding-top: 10px;
 }
 
 .eventfeed .item a {
@@ -789,6 +806,10 @@ ul.school-list li .icon:hover{
   margin: 0 10px 10px 0;
   width: 35px;
   height: 35px;
+}
+
+.eventfeed p {
+  margin-bottom: 0;
 }
 
 .icon-rss {
@@ -979,6 +1000,11 @@ select {
 h2 {height: 22px; overflow: hidden; line-height: 22px;}
 
 /*Forumfall Feed */
+.forumfeed {
+  height:350px;
+  overflow: hidden;
+}
+
 .forumfeed li a {
   height: 20px;
   overflow: hidden;
