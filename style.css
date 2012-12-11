@@ -291,6 +291,7 @@ footer {
   width: 920px;
   padding: 20px;
   border-top: 4px double;
+  margin-top: 40px;
 }
 
 footer #copyright {float: left; bpadding: 10px 30px 0 0;}
@@ -314,6 +315,20 @@ footer #copyright {float: left; bpadding: 10px 30px 0 0;}
 .pop-out {
   float: right;
   margin-bottom: 15px !important;
+}
+
+.pop-out.top {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.pop-out i.icon-fullscreen {
+  margin-top: 4px;
+}
+
+.page-template-page-map-php h1 {
+  margin-bottom: 10px;
 }
 
 #geck-map {
@@ -682,12 +697,15 @@ ul.school-list li .icon:hover{
   background: none;
   margin-left: -21px;
   margin-top: -21px;
-}
-
-#featured-list li:hover .icon-play {
   opacity: 0.75;
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 75);
   filter: alpha(opacity = 75);
+}
+
+#featured-list li:hover .icon-play {
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 100);
+  filter: alpha(opacity = 100);
 }
 
 #featured-list li a {
@@ -937,6 +955,7 @@ select {
 
 .home .gad {
   width: 728px;
+  margin-bottom: 0;
 }
 
 .gad {

@@ -8,7 +8,7 @@
 ?>
 </div>
 <div class="df-social">
-  <p>Stay Connected</p>
+  <p>Stay Connected:</p>
   <ul class="social-list">
     <li class="main"><a href="http://darkfallonline.com/uw/" alt="Darkfall Unholy Wars Official Website" title="Darkfall Unholy Wars Official Website" target="_blank">Main Site</a></li>
     <li class="reddit"><a href="http://www.reddit.com/r/darkfall" alt="Darkfall Reddit" title="Darkfall on Reddit" target="_blank">Reddit</a></li>
