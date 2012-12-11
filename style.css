@@ -967,21 +967,24 @@ select {
 .video {
   width: 340px;
   float: left;
+  clear: left;
 }
 
 .video h2 {
   height: 25px;
   padding-top: 5px;
   overflow: hidden;
+  font-size: 18px;
 }
 
 .video p {
-  height: 70px;
+  max-height: 70px;
   overflow: hidden;
 }
 
 .video.right {
   float: right;
+  clear: right;
 }
 
 .home .gad {
@@ -1001,8 +1004,8 @@ h2 {height: 22px; overflow: hidden; line-height: 22px;}
 
 /*Forumfall Feed */
 .forumfeed {
-  height:350px;
-  overflow: hidden;
+  /*height:350px;
+  overflow: hidden;*/
 }
 
 .forumfeed li a {
