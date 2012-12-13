@@ -2,16 +2,17 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta http-equiv="content-type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
-<title><?php wp_title(' | ', true, 'right'); ?></title>
-<meta description="A collection of information about everything Darkfall Unholy Wars. Your go to spot to find out the latest events, posts, and videos."/>
-<meta property="og:title" content="<?php wp_title(' | ', true, 'right'); ?>"/>
-<meta property="og:site_name" content="<?php wp_title(' | ', true, 'right'); ?>"/>
+<title><?php wp_title(' | ', true, 'right'); ?> Info Site</title>
+<meta name ="description" content="A collection of information about everything Darkfall Unholy Wars. Your go to spot to find out the latest events, posts, and videos."/>
+<meta name="keywords" content="darkfall, aventurine, unholy, wars, information, agon, blog, game, mmo, multiplayer, videos, spells, schools, roles"/>
+<meta property="og:title" content="<?php wp_title(' | ', true, 'right'); ?> Info Site"/>
+<meta property="og:site_name" content="<?php wp_title(' | ', true, 'right'); ?> Info Site"/>
 <meta property="og:type" content="website"/>
 <meta property="og:description"
           content="Your go to information database about everything Darkfall Unholy Wars."/>
+<meta property="og:image" content="<?php echo get_template_directory_uri();  ?>/images/game.png"/>
 <meta property="og:image" content="<?php echo get_template_directory_uri();  ?>/screenshot.png"/>
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" />
-<!-- <link href='http://fonts.googleapis.com/css?family=Smythe|Englebert' rel='stylesheet' type='text/css'> -->
 <link href='http://fonts.googleapis.com/css?family=Smythe|Monda:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?ver=1.1" />
 <?php wp_head(); ?>
@@ -30,7 +31,7 @@
 <header>
 <div id="branding">
 <div id="site-title"><?php if ( is_singular() ) {} else {echo '<h1>';} ?><a href="<?php echo home_url() ?>/" title="<?php bloginfo( 'name' ) ?>" rel="home"><?php bloginfo( 'name' ) ?></a><?php if ( is_singular() ) {} else {echo '</h1>';} ?></div>
-<div id="box-art"><img src="<?php echo get_template_directory_uri(); ?>/images/game.png"/></div>
+<div id="box-art"><img src="<?php echo get_template_directory_uri(); ?>/images/game.png" alt="Darkfall: Unholy Wars Game"/></div>
 <p id="site-description"><?php bloginfo( 'description' ) ?></p>
 </div>
 <nav>

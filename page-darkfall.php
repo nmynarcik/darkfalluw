@@ -34,7 +34,7 @@ wp_enqueue_script('dfuw_ellipsis',get_template_directory_uri().'/js/jquery.autoe
                   if(has_tag('featured',$post)){
                 ?>
                   <li><a href="javascript:void(0);" title="<?php the_title(); ?>" alt="<?php the_title(); ?>" style="background: url(http://img.youtube.com/vi/<?php echo get_post_meta($post->ID, '_video_id',true); ?>/1.jpg) no-repeat center;" data-vid-id="<?php echo get_post_meta($post->ID, '_video_id',true); ?>">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/play-icon.png" class="icon-play"/>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/play-icon.png" class="icon-play" alt="Play"/>
                     <!-- <img src="http://img.youtube.com/vi/<?php echo get_post_meta($post->ID, '_video_id',true); ?>/1.jpg" class="thumb"/> -->
                   </a></li>
                    <?php }

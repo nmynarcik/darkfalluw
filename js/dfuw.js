@@ -50,7 +50,7 @@ jQuery(function($){
           success: function(data){
               var list = "<ul>";
               $(data).find('item').each(function(i){
-                if(i > 2)
+                if(i > 4)
                   return false;
                 list += '<li><a href="'+$(this).find('link').text()+'" target="_blank"><span class="title">'+filterText($(this).find('title').text())+'</span></a> <div class="descr">'+filterText($(this).find('description').text())+'</div></li>';
               });
@@ -94,7 +94,7 @@ jQuery(function($){
       home.init();
 });
 
-var swears = ['fuck','shit','fag',' ass ','pussy','pussies','nigger','nigga','bitch','asshole','dick','penis','vagina'];
+var swears = ['fuck','shit','fag',' ass','pussy','pussies','nigger','nigga','bitch','asshole','dick','penis','vagina'];
 
 function filterText(text){
   var rgx = new RegExp(swears.join("|"), "gi");
