@@ -14,6 +14,7 @@
 <meta property="og:image" content="<?php echo get_template_directory_uri();  ?>/screenshot.png"/>
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" />
 <link href='http://fonts.googleapis.com/css?family=Smythe|Monda:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?ver=1.1" />
 <?php wp_head(); ?>
 </head>

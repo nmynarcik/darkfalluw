@@ -1,4 +1,4 @@
-jQuery(function(){
+(function($){
 
      var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-19670756-11']);
@@ -36,5 +36,5 @@ jQuery(function(){
       _gaq.push(['_trackEvent', cat,'click', pieces[pieces.length -  2], optVal]);
     });
 
-});
+}(jQuery));
 

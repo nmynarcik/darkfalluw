@@ -1,4 +1,4 @@
-jQuery(function($){
+(function($){
     if($(".accordion").length){
       $('.accordion').accordion({ collapsible: true });
       //$(".accordion").tabs(".pane", {tabs: 'h4', effect: 'slide'});
@@ -81,6 +81,13 @@ jQuery(function($){
       }
     }
 
+    var swears = ['fuck','shit','fag',' ass','pussy','pussies','nigger','nigga','bitch','asshole','dick','penis','vagina'];
+
+    function filterText(text){
+      var rgx = new RegExp(swears.join("|"), "gi");
+      return text.replace(rgx, "****");
+    }
+
     if($('.post-type-archive-role, .post-type-archive-school, .post-type-archive-spell, .single-school').length)
       schools.init();
 
@@ -92,11 +99,4 @@ jQuery(function($){
 
     if($('.home').length)
       home.init();
-});
-
-var swears = ['fuck','shit','fag',' ass','pussy','pussies','nigger','nigga','bitch','asshole','dick','penis','vagina'];
-
-function filterText(text){
-  var rgx = new RegExp(swears.join("|"), "gi");
-  return text.replace(rgx, "****");
-}
+}(jQuery));
