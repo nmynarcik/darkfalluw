@@ -322,6 +322,41 @@ function register_post_types()
         'register_meta_box_cb' => 'add_custom_meta_boxes'
     ));
 
+    // Clans
+    register_post_type('clan', array(
+        'labels' => array(
+            'name' => __('Clans'),
+            'singular_name' => __('Clan'),
+            'add_new' => __('Add Clan'),
+            'add_new_item' => __('Add New Clan'),
+            'edit' => __('Edit'),
+            'edit_item' => __('Edit Clan'),
+            'new_item' => __('New Clan'),
+            'view' => __('View Clan'),
+            'view_item' => __('View Clan'),
+            'search_items' => __('Search Clans'),
+            'not_found' => __('No clans found'),
+            'not_found_in_trash' => __('No clans found in Trash'),
+            'parent' => __('Parent Clan')
+        ),
+        'public' => true,
+        'publicly_queryable' => true,
+        'show_in_nav_menus' => true,
+        'show_ui' => true,
+        'exclude_from_search' => false,
+        'hierarchical' => false,
+        'menu_position' => 27,
+        'has_archive' => true,
+        'rewrite' => array(
+            'slug' => 'clans'
+        ),
+        'supports' => array(
+            'title',
+            'thumbnail'
+        ),
+        'register_meta_box_cb' => 'add_custom_meta_boxes'
+    ));
+
     flush_rewrite_rules();
 }
 
@@ -352,9 +387,39 @@ function add_custom_meta_boxes()
           add_meta_box('video_description', 'Description', 'add_descr_box', 'video', 'normal', 'default');
           add_meta_box('video_id', 'Video ID', 'add_video_id_box', 'video', 'normal', 'default');
           break;
+        case "clan":
+          add_meta_box('clan_descr', 'Description', 'add_descr_box', 'clan', 'normal', 'default');
+          add_meta_box('clan_url', 'Website Url', 'add_url_box', 'clan', 'normal', 'default');
+          add_meta_box('leader_ign', 'Leader IGN', 'add_leader_ign_box', 'clan', 'normal', 'default');
+          add_meta_box('leader_forum', 'Leader Forums', 'add_leader_forum_box', 'clan', 'normal', 'default');
+          break;
       }
     }
 
+}
+
+function add_url_box(){
+  global $post;
+  global $post_id;
+  $url = get_post_meta($post_id, '_clan_url',true);
+  echo "<p>Clan Website</p>";
+  echo "<input type='text' name='_clan_url' value='" . $url . "'/>";
+}
+
+function add_leader_ign_box(){
+  global $post;
+  global $post_id;
+  $ign = get_post_meta($post_id, '_clan_leader_ign',true);
+  echo "<p>Clan Leader - IGN</p>";
+  echo "<input type='text' name='_clan_leader_ign' value='" . $ign . "'/>";
+}
+
+function add_leader_forum_box(){
+  global $post;
+  global $post_id;
+  $ign = get_post_meta($post_id, '_clan_leader_forum',true);
+  echo "<p>Clan Leader - ForumFall</p>";
+  echo "<input type='text' name='_clan_leader_forum' value='" . $ign . "'/>";
 }
 
 function add_video_id_box(){
@@ -482,6 +547,7 @@ function add_descr_box()
         case "school":
         case "spell":
         case "video":
+        case "clan":
           $descr = get_post_meta($post->ID, '_' . $post_type . '_descr', true);
           echo "<p>Enter a description for the " . $post_type . "</p>";
           echo '<textarea name="_' . $post_type . '_descr" class="widefat" rows="5">' . $descr . '</textarea>';
@@ -578,6 +644,12 @@ function save_df_stuff($post_id, $post)
         case 'video':
           $the_meta['_video_descr'] = $_POST['_video_descr'];
           $the_meta['_video_id'] = $_POST['_video_id'];
+          break;
+        case 'clan':
+          $the_meta['_clan_descr'] = $_POST['_clan_descr'];
+          $the_meta['_clan_url'] = $_POST['_clan_url'];
+          $the_meta['_clan_leader_ign'] = $_POST['_clan_leader_ign'];
+          $the_meta['_clan_leader_forum'] = $_POST['_clan_leader_forum'];
           break;
       }
 

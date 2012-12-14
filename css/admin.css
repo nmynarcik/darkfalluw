@@ -38,13 +38,24 @@
   background: url(../images/video32.png) no-repeat;
 }
 
+#menu-posts-clan .wp-menu-image {
+    background: url(../images/clans16.png) no-repeat 6px 7px !important;
+}
+#menu-posts-clan:hover .wp-menu-image, #menu-posts-clan.wp-has-current-submenu .wp-menu-image {
+    background-position:6px 7px !important;
+}
+#icon-edit.icon32-posts-clan {
+  background: url(../images/clans32.png) no-repeat;
+}
+
+
 /* META BOXES */
-#spells_role, #spells_school, #spells_ulti {
+#spells_role, #spells_school, #spells_ulti, #clan_url, #leader_ign, #leader_forum{
   width: 30%;
   float: left;
   margin-right: 4%;
 }
- #spells_ulti {
+ #spells_ulti, #leader_forum {
   margin-right: 0;
   float: right;
  }
