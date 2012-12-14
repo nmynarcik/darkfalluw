@@ -4,7 +4,20 @@
 <h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'darkfalluw' ), '<span>' . get_search_query()  . '</span>' ); ?></h1>
 <?php get_template_part( 'nav', 'above' ); ?>
 <?php while ( have_posts() ) : the_post() ?>
-<?php get_template_part( 'entry' ); ?>
+<?php
+  if(has_post_thumbnail()){
+    $default_attr = array(
+      'src' => $src,
+      'class' => "attachment",
+      'alt' => trim(strip_tags( $attachment->post_title )),
+      'title' => trim(strip_tags( $attachment->post_title )),
+    );
+    echo get_the_post_thumbnail($post->ID, array(50,50));
+    echo get_the_title() . '<br/>';
+  }else{
+    get_template_part( 'entry' );
+  }
+?>
 <?php endwhile; ?>
 <?php get_template_part( 'nav', 'below' ); ?>
 <?php else : ?>
