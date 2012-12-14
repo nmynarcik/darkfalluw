@@ -36,7 +36,8 @@
 <header>
 <div id="branding">
 <div id="site-title"><?php if ( is_singular() ) {} else {echo '<h1>';} ?><a href="<?php echo home_url() ?>/" title="<?php bloginfo( 'name' ) ?>" rel="home"><?php bloginfo( 'name' ) ?></a><?php if ( is_singular() ) {} else {echo '</h1>';} ?></div>
-<div id="box-art"><img src="<?php echo get_template_directory_uri(); ?>/images/game.png" alt="Darkfall: Unholy Wars Game"/></div>
+<div id="box-art"><a href="https://ams.darkfallonline.com/AMS/" target="_blank" title="Pre-Order NOW!" alt="Pre-Order NOW!"><img src="<?php echo get_template_directory_uri(); ?>/images/game.png" alt="Darkfall: Unholy Wars Game"/></a></div>
+<a href="https://ams.darkfallonline.com/AMS/" target="_blank" class="df-btn" title="Pre-Order NOW!" alt="Pre-Order NOW!">PRE-ORDER NOW</a>
 <p id="site-description"><?php bloginfo( 'description' ) ?></p>
 </div>
 <nav>

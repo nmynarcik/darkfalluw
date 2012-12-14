@@ -61,6 +61,20 @@ p {
 }*/
 
 a {font-weight: bold; color:#231816;}
+a.df-btn {
+  display: block;
+  width: 161px;
+  height: 29px;
+  text-align: center;
+  background: url(images/df-btn.png);
+  font-size: 20px;
+  color: white;
+  padding: 10px 0;
+  position: absolute;
+  top: 130px;
+  left: 350px;
+  font-weight: normal;
+}
 a:hover {color:#ECD547; text-decoration: none; text-shadow: -1px -1px black;}
 li a:hover {text-shadow: 0 0 black;}
 h1 {font-weight: bold; font-size: 30px; color:#231816; margin-bottom: 5px; text-shadow: 1px 1px #CCC;}
