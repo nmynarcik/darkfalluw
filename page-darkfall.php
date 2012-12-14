@@ -13,7 +13,7 @@ get_header();
           <!-- <h2><?php the_title(); ?></h2> -->
         </header>
         <div class="entry-content">
-          <iframe id="df-vid" width="659" height="371" src="http://www.youtube.com/embed/_T8FuVGXEMw?rel=0&iv_load_policy=3&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+          <iframe id="df-vid" width="659" height="371" src="http://www.youtube.com/embed/_T8FuVGXEMw?rel=0&iv_load_policy=3&modestbranding=1&wmode=opaque" frameborder="0" allowfullscreen></iframe>
           <div id="featured-vids">
             <h3>Featured Videos</h3>
             <div id="vid-wrapper">
