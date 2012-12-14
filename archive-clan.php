@@ -16,7 +16,7 @@ wp_enqueue_script('dfuw_table_sort', get_template_directory_uri().'/js/jquery.ta
   <tbody>
   <?php
     $count = 0;
-    query_posts($query_string . '&orderby=title&order=ASC');
+    query_posts($query_string . '&orderby=title&order=ASC&posts_per_page=-1');
    while ( have_posts() ) : the_post();
    $count++;
    if($count % 2 != 0){
@@ -26,7 +26,14 @@ wp_enqueue_script('dfuw_table_sort', get_template_directory_uri().'/js/jquery.ta
     }
    ?>
   <tr class="<?php echo $extra_class; ?>">
-    <td class="clan_name"><a href="<?php echo get_post_meta($post->ID, '_clan_url', true) ?>" target="_blank"><?php echo get_the_title();?></a></td>
+    <td class="clan_name">
+    <?php
+      if(get_post_meta($post->ID, '_clan_url', true) != ''){ ?>
+        <a href="<?php echo get_post_meta($post->ID, '_clan_url', true) ?>" target="_blank"><?php echo get_the_title();?></a>
+      <?php } else { ?>
+        <?php echo get_the_title();?>
+      <?php } ?>
+    </td>
     <td><?php echo get_post_meta($post->ID, '_clan_leader_ign', true) ?></td>
     <td><?php echo get_post_meta($post->ID, '_clan_leader_forum', true) ?></td>
     <td class="server"><?php echo get_post_meta($post->ID, '_clan_server', true) ?></td>
@@ -34,6 +41,7 @@ wp_enqueue_script('dfuw_table_sort', get_template_directory_uri().'/js/jquery.ta
   <?php endwhile; ?>
   </tbody>
 </table>
+<?php get_template_part( 'nav', 'below' ); ?>
 </div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
