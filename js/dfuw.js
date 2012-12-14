@@ -38,6 +38,14 @@
       }
     }
 
+    var clans = {
+      init: function(){
+        $("#clans-list").tablesorter({
+          widgets: ['zebra']
+        });
+      }
+    }
+
     var home = {
 
       init: function(){
@@ -99,4 +107,7 @@
 
     if($('.home').length)
       home.init();
+
+    if($('.clans').length)
+      clans.init();
 }(jQuery));

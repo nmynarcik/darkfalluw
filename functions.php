@@ -392,10 +392,31 @@ function add_custom_meta_boxes()
           add_meta_box('clan_url', 'Website Url', 'add_url_box', 'clan', 'normal', 'default');
           add_meta_box('leader_ign', 'Leader IGN', 'add_leader_ign_box', 'clan', 'normal', 'default');
           add_meta_box('leader_forum', 'Leader Forums', 'add_leader_forum_box', 'clan', 'normal', 'default');
+           add_meta_box('clan_server', 'Server', 'add_server_box', 'clan', 'normal', 'default');
           break;
       }
     }
 
+}
+
+function add_server_box(){
+  global $post;
+  global $post_id;
+  $server = get_post_meta($post_id, '_clan_server',true);
+  echo '<p>Clan Server</p>';
+  echo '<select name="_clan_server">';
+  echo '<option val="">Select Server</option>';
+  if($server == 'na'){
+    echo '<option value="na" selected="selected">NA</option>';
+    echo '<option value="eu">EU</option>';
+  }else if($server == 'eu'){
+    echo '<option value="na">NA</option>';
+    echo '<option value="eu" selected="selected">EU</option>';
+  }else{
+     echo '<option value="na">NA</option>';
+    echo '<option value="eu">EU</option>';
+  }
+  echo '</select>';
 }
 
 function add_url_box(){
@@ -650,6 +671,7 @@ function save_df_stuff($post_id, $post)
           $the_meta['_clan_url'] = $_POST['_clan_url'];
           $the_meta['_clan_leader_ign'] = $_POST['_clan_leader_ign'];
           $the_meta['_clan_leader_forum'] = $_POST['_clan_leader_forum'];
+          $the_meta['_clan_server'] = $_POST['_clan_server'];
           break;
       }
 

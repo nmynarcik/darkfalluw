@@ -1116,3 +1116,74 @@ label.ulti-legend {
   border: none;
   padding: 10px;
 }
+
+/* Clan Shit */
+.clans {
+  width: 695px;
+}
+
+#clans-list {
+  margin-top: 30px;
+}
+
+#clans-list .clan_name {
+  text-align: left;
+  padding-left: 10px;
+}
+
+#clans-list td {
+  text-align: center;
+  padding: 10px 0;
+  border-right: 1px solid #231816;
+}
+
+#clans-list td.server {
+  border-right: 0;
+}
+
+#clans-list th {
+  color: white;
+  padding: 10px 0;
+  font-weight: bold;
+  background: #221715;
+  position: relative;
+  cursor: pointer;
+  border-right: 1px solid white;
+}
+
+#clans-list th.last {
+  border-right: 0;
+}
+
+#clans-list tr {
+  background: #ccc;
+}
+
+#clans-list tr.odd {
+  background: #e7e7e7;
+}
+
+#clans-list .server {
+  text-transform: uppercase;
+}
+
+#clans-list .headerSortUp, #clans-list .headerSortDown {
+  background: #3A1E09;
+}
+
+#clans-list i {
+  background-image: url("img/glyphicons-halflings-white.png");
+  display: none;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+#clans-list .headerSortDown i {
+  background-position: -288px -120px;
+  display: inline-table;
+}
+
+#clans-list .headerSortUp i {
+  background-position: -313px -119px;
+  display: inline-table;
+}
