@@ -43,6 +43,10 @@
         $("#clans-list").tablesorter({
           widgets: ['zebra']
         });
+
+        $('#server_select').change(function(){
+          window.location = '../'+$(this).val();
+        });
       }
     }
 

@@ -1151,7 +1151,7 @@ label.ulti-legend {
   border-right: 1px solid #231816;
 }
 
-#clans-list td.server {
+#clans-list td.last {
   border-right: 0;
 }
 
@@ -1200,4 +1200,14 @@ label.ulti-legend {
 #clans-list .headerSortUp i {
   background-position: -313px -119px;
   display: inline-table;
+}
+
+.clans select {
+  width: 62px;
+  float: left;
+  margin-left: 10px;
+}
+
+.clans h2 {
+  float: left;
 }

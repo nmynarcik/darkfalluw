@@ -2,16 +2,27 @@
 get_header();
 $server = $wp_query->query_vars['server'];
 wp_enqueue_script('dfuw_table_sort', get_template_directory_uri().'/js/jquery.tablesorter.min.js',false,$ver,'all');
+
+$selectBox = '<select id="server_select">';
+if($server == "na"){
+  $selectBox .= '<option value="na" selected="selected">NA</option>';
+  $selectBox .= '<option value="eu">EU</option>';
+}else{
+  $selectBox .= '<option value="na">NA</option>';
+  $selectBox .= '<option value="eu" selected="selected">EU</option>';
+}
+$selectBox .= '</select>';
 ?>
 <div id="content" class="clans">
-  <h2>Darkfall: Unholy Wars Clans - <?php echo strtoupper($server); ?></h2>
+  <h2>Darkfall: Unholy Wars Clans -</h2><?php echo $selectBox; ?>
+  <div class="clear"></div>
 <table id="clans-list" class="tablesorter" width="695" border="0" cellpadding="0" cellspacing="0">
   <thead>
   <tr>
     <th>Name <i class="icon-chevron-up icon-white"></i></th>
     <th>Leader IGN <i class="icon-chevron-down icon-white"></i></th>
-    <th>Leader ForumFall <i class="icon-chevron-up icon-white"></i></th>
-    <th class="last">Server <i class="icon-chevron-up icon-white"></i></th>
+    <th class="last">Leader ForumFall <i class="icon-chevron-up icon-white"></i></th>
+    <!-- <th class="last">Server <i class="icon-chevron-up icon-white"></i></th> -->
   </tr>
   </thead>
   <tbody>
@@ -36,8 +47,8 @@ wp_enqueue_script('dfuw_table_sort', get_template_directory_uri().'/js/jquery.ta
       <?php } ?>
     </td>
     <td><?php echo get_post_meta($post->ID, '_clan_leader_ign', true) ?></td>
-    <td><?php echo get_post_meta($post->ID, '_clan_leader_forum', true) ?></td>
-    <td class="server"><?php echo get_post_meta($post->ID, '_clan_server', true) ?></td>
+    <td class="last"><?php echo get_post_meta($post->ID, '_clan_leader_forum', true) ?></td>
+    <!-- <td class="server"><?php echo get_post_meta($post->ID, '_clan_server', true) ?></td> -->
   </tr>
   <?php endwhile; ?>
   </tbody>
