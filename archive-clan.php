@@ -1,9 +1,10 @@
 <?php
 get_header();
+$server = $wp_query->query_vars['server'];
 wp_enqueue_script('dfuw_table_sort', get_template_directory_uri().'/js/jquery.tablesorter.min.js',false,$ver,'all');
 ?>
 <div id="content" class="clans">
-  <h2>Darkfall: Unholy Wars Clans</h2>
+  <h2>Darkfall: Unholy Wars Clans - <?php echo strtoupper($server); ?></h2>
 <table id="clans-list" class="tablesorter" width="695" border="0" cellpadding="0" cellspacing="0">
   <thead>
   <tr>
@@ -16,7 +17,7 @@ wp_enqueue_script('dfuw_table_sort', get_template_directory_uri().'/js/jquery.ta
   <tbody>
   <?php
     $count = 0;
-    query_posts($query_string . '&orderby=title&order=ASC&posts_per_page=-1');
+    query_posts($query_string . '&meta_key=_clan_server&meta_value='.$server.'&orderby=title&order=ASC&posts_per_page=-1');
    while ( have_posts() ) : the_post();
    $count++;
    if($count % 2 != 0){

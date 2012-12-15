@@ -969,4 +969,7 @@ function remove_footer_admin () {
 }
 add_filter('admin_footer_text', 'remove_footer_admin');
 
+/* Clan Shit */
+add_rewrite_rule('^clans/([^/]*)/?','index.php?post_type=clan&server=$matches[1]','top');
+add_rewrite_tag('%server%','([^&]+)');
 ?>
