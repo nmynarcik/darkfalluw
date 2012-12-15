@@ -90,14 +90,14 @@
               $('.load-wrapper').stop(true,true).fadeOut();
               setTimeout(function(){
                 home.getForumFallFeed();
-              }, 10000);
+              }, 180000);
             },
             error: function(jqXHR, textStatus, errorThrown){
               console.log('error: ',arguments, textStatus, errorThrown);
               $('.loading, .loader').stop(true,true).fadeOut();
                 setTimeout(function(){
                   home.getForumFallFeed();
-                }, 10000);
+                }, 180000);
             }
           });
       }
