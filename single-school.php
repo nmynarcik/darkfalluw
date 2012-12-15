@@ -63,11 +63,11 @@ $args=array(
 $my_query = null;
 $my_query = new WP_Query($args);
 if( $my_query->have_posts() ) {
-  echo '<a id="expand-all" class="btn btn-inverse"><i class="icon-plus-sign icon-white"></i> <span>Expand All</span></a>';
+  echo '<a href="javascript:void(0);" id="expand-all" class="btn btn-inverse"><i class="icon-plus-sign icon-white"></i> <span>Expand All</span></a>';
   echo '<div class="clear"></div>';
   echo '<div class="accordion">'; //start accordion
   while ($my_query->have_posts()) : $my_query->the_post(); ?>
-    <h4 class="accordion-header current"><a href="#"><?php the_title(); ?> <?php echo (get_post_meta($post->ID, '_school_ulti')) ? '<i class="icon-certificate icon-white"></i>' : ''; ?></a></h4>
+    <h4 class="accordion-header current"><a href="javascript:void(0);"><?php the_title(); ?> <?php echo (get_post_meta($post->ID, '_school_ulti')) ? '<i class="icon-certificate icon-white"></i>' : ''; ?></a></h4>
     <div class="pane" style="display: block;">
     <div class="thumb">
       <?php

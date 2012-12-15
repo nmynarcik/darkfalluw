@@ -227,7 +227,7 @@ nav .menu a {
 nav .menu a:hover {text-decoration: none; color:#ECD547; text-shadow: -1px -1px 1px black;}
 
 /*Nav Dropdowns*/
-nav .menu li:hover ul {
+nav .menu li:hover > ul {
   display: block;
 }
 
@@ -256,6 +256,13 @@ nav .menu li ul li {
 
 nav .menu li ul li:last-child {
   border: none;
+}
+
+nav .menu ul ul {
+  position: absolute;
+  left: 120px;
+  top: -10px;
+  display: none;
 }
 
 #content {
@@ -465,6 +472,8 @@ footer #copyright {float: left; bpadding: 10px 30px 0 0;}
 
 .ui-accordion-header a {
   position: relative;
+  width: 100%;
+  display: block;
 }
 
 .ui-accordion-header a i {
@@ -1210,4 +1219,17 @@ label.ulti-legend {
 
 .clans h2 {
   float: left;
+}
+
+.clans p.tip {
+  float: right;
+  margin-bottom: 0;
+}
+
+.clans p.tip i {
+  margin-top: 5px;
+}
+
+.clans p.totals {
+  font-weight: 700;
 }

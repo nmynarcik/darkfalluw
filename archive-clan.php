@@ -16,6 +16,7 @@ $selectBox .= '</select>';
 <div id="content" class="clans">
   <h2>Darkfall: Unholy Wars Clans -</h2><?php echo $selectBox; ?>
   <div class="clear"></div>
+  <p  class='tip'><i class="icon-info-sign"></i> Columns are sortable</p>
 <table id="clans-list" class="tablesorter" width="695" border="0" cellpadding="0" cellspacing="0">
   <thead>
   <tr>
@@ -53,6 +54,7 @@ $selectBox .= '</select>';
   <?php endwhile; ?>
   </tbody>
 </table>
+<p class="totals">Total Clans: <?php echo $count; ?></p>
 <?php get_template_part( 'nav', 'below' ); ?>
 </div>
 <?php get_sidebar(); ?>
