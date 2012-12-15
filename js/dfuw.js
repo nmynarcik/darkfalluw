@@ -53,26 +53,6 @@
     var home = {
 
       init: function(){
-        $.ajax({
-          // url: 'wp-content/themes/darkfalluw/proxy.php?url=http://www.darkfallonline.com/blog/?feed=rss2', //DF Blog
-          url: 'wp-content/themes/darkfalluw/proxy.php?url=http://forums.darkfallonline.com/external.php?type=RSS2', //DF Forums
-          dataType: 'xml',
-          async: false,
-          type: 'GET',
-          success: function(data){
-              var list = "<ul>";
-              $(data).find('item').each(function(i){
-                if(i > 4)
-                  return false;
-                list += '<li><a href="'+$(this).find('link').text()+'" target="_blank"><span class="title">'+filterText($(this).find('title').text())+'</span></a> <div class="descr">'+filterText($(this).find('description').text())+'</div></li>';
-              });
-              list += '</ul>';
-            $('.bottom .forumfeed').append(list);
-          },
-          error: function(jqXHR, textStatus, errorThrown){
-            console.log('error: ',arguments, textStatus, errorThrown);
-          }
-        });
 
         $('#df-vid').attr('src','http://www.youtube.com/embed/'+$('#featured-list li:first-child a').data('vidId')+'?rel=0&autoplay=0&iv_load_policy=3&modestbranding=1&wmode=opaque');
 
@@ -84,6 +64,42 @@
         });
 
         $('.bottom .blogfeed .entry-content p, .bottom .eventfeed a, .forumfeed li a, .forumfeed li .descr').ellipsis();
+
+        home.getForumFallFeed();
+      },
+
+      getForumFallFeed: function(){
+        $('.load-wrapper').stop(true,true).fadeIn('fast');
+        $.ajax({
+            url: 'wp-content/themes/darkfalluw/proxy.php?url=http://forums.darkfallonline.com/external.php?type=RSS2', //DF Forums
+            dataType: 'xml',
+            async: false,
+            type: 'GET',
+            success: function(data){
+                var list = "<ul>";
+                $(data).find('item').each(function(i){
+                  if(i > 4)
+                    return false;
+                  list += '<li><a href="'+$(this).find('link').text()+'" target="_blank"><span class="title">'+filterText($(this).find('title').text())+'</span></a> <div class="descr">'+filterText($(this).find('description').text())+'</div></li>';
+                });
+                list += '</ul>';
+                if($('.bottom .forumfeed ul').length){
+                  $('.bottom .forumfeed ul').remove();
+                }
+              $('.bottom .forumfeed').append(list);
+              $('.load-wrapper').stop(true,true).fadeOut();
+              setTimeout(function(){
+                home.getForumFallFeed();
+              }, 10000);
+            },
+            error: function(jqXHR, textStatus, errorThrown){
+              console.log('error: ',arguments, textStatus, errorThrown);
+              $('.loading, .loader').stop(true,true).fadeOut();
+                setTimeout(function(){
+                  home.getForumFallFeed();
+                }, 10000);
+            }
+          });
       }
     }
 

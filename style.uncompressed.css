@@ -798,6 +798,7 @@ ul.school-list li .icon:hover{
 .bottom .eventfeed, .bottom .forumfeed {
   float: right;
   clear:right;
+  position: relative;
 }
 
 /*.bottom .blogfeed ul li, .bottom .eventfeed ul li {
@@ -1232,4 +1233,32 @@ label.ulti-legend {
 
 .clans p.totals {
   font-weight: 700;
+}
+
+/* Loading */
+.load-wrapper {
+  display: none;
+}
+.loading {
+  position: absolute;
+  top: 34px;
+  bottom:0;
+  left: 0;
+  right: 0;
+  opacity: 0.6;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 60);
+  filter: alpha(opacity = 60);
+  background: black;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -14px;
+  margin-top: -14px;
+  z-index: 10;
 }
