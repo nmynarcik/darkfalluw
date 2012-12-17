@@ -34,10 +34,10 @@ if( $my_query->have_posts() ) {
               'title' => trim(strip_tags( $post->post_title ))
             );
           if(has_post_thumbnail())
-            echo get_the_post_thumbnail( $post->ID, array(150,150), $default_attr );
+            echo get_the_post_thumbnail( $post->ID, 'post-thumbnail', $default_attr );
             // the_post_thumbnail('thumbnail',$default_attr);
           else
-            echo "<img src='" . get_template_directory_uri() . "/images/no-image.png' width='150' height='150' title='No Image' alt='No Image' />";
+            echo "<img src='" . get_template_directory_uri() . "/images/no-image.png' width='64' height='64' title='No Image' alt='No Image' />";
         ?>
     </div>
     <div class="descr">

@@ -527,10 +527,10 @@ footer #copyright {float: left; bpadding: 10px 30px 0 0;}
   vertical-align: middle;
 }
 
-.ui-accordion .pane .thumb img.attachment-150x150, .single-school #school-details .thumb img {
+/*.ui-accordion .pane .thumb img.attachment-150x150, .single-school #school-details .thumb img {
   width: 150px !important;
   height: 150px !important;
-}
+}*/
 
 .ui-accordion .pane .descr {
   float: left;

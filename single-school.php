@@ -13,9 +13,9 @@ $slug = basename(get_permalink($post->ID));
              'alt' => trim(strip_tags(  $post->post_title )),
               'title' => trim(strip_tags( $post->post_title ))
         );
-        echo get_the_post_thumbnail( $post->ID, array(150,150), $default_attr );
+        echo get_the_post_thumbnail( $post->ID, 'post-thumbnail', $default_attr );
       }else{
-        echo "<img src='" . get_template_directory_uri() . "/images/no-image.png' width='150' height='150' title='No Image' alt='No Image' />";
+        echo "<img src='" . get_template_directory_uri() . "/images/no-image.png' width='64' height='64' title='No Image' alt='No Image' />";
       }
       ?>
   </div>
