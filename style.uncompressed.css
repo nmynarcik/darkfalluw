@@ -1131,8 +1131,18 @@ label.ulti-legend {
   width: 500px;
 }
 
-.feedback .clan-details {
+.feedback .clan-details, .feedback .event-details {
   display: none;
+  clear: both;
+}
+
+.feedback .clan-details p {
+  float: left;
+  margin-right: 30px;
+}
+
+.feedback .clan-details p.cname, .feedback .clan-details p.cli, .feedback .clan-details p.cs, .feedback .clan-details p.ca {
+  clear: left;
 }
 
 .wpcf7-response-output {

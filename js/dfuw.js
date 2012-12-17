@@ -108,8 +108,13 @@
         $('.your-subject').change(function(){
           if($('.your-subject option:selected').val() == "Add My Clan"){
             $('.feedback .clan-details').slideDown();
+            $('.feedback .event-details').slideUp();
+          }else if($('.your-subject option:selected').val() == "Add My Event"){
+            $('.feedback .clan-details').slideUp();
+            $('.feedback .event-details').slideDown();
           }else{
             $('.feedback .clan-details').slideUp();
+            $('.feedback .event-details').slideUp();
           }
         });
       }
