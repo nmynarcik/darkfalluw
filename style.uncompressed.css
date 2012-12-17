@@ -1131,6 +1131,10 @@ label.ulti-legend {
   width: 500px;
 }
 
+.feedback .clan-details {
+  display: none;
+}
+
 .wpcf7-response-output {
   background: #221715;
    -moz-border-radius: 5px;
@@ -1261,4 +1265,9 @@ label.ulti-legend {
   margin-left: -14px;
   margin-top: -14px;
   z-index: 10;
+}
+
+/* Thank You */
+.page-template-page-thankyou-php #content {
+  text-align: center;
 }

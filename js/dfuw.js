@@ -103,6 +103,18 @@
       }
     }
 
+    var feedback = {
+      init: function(){
+        $('.your-subject').change(function(){
+          if($('.your-subject option:selected').val() == "Add My Clan"){
+            $('.feedback .clan-details').slideDown();
+          }else{
+            $('.feedback .clan-details').slideUp();
+          }
+        });
+      }
+    }
+
     var video = {
       init: function(){
         $('.video h2, .video p').ellipsis();
@@ -130,4 +142,7 @@
 
     if($('.clans').length)
       clans.init();
+
+    if($('.feedback').length)
+      feedback.init();
 }(jQuery));
