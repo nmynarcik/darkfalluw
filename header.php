@@ -16,8 +16,8 @@
 <link href='http://fonts.googleapis.com/css?family=Smythe|Monda:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
 <?php
-  $GLOBALS['ver'] = '2.3';
-  $ver =  '2.3';
+  $GLOBALS['ver'] = '2.4';
+  $ver =  '2.4';
 ?>
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?ver=<?php echo $ver; ?>" />
 <?php wp_head(); ?>
