@@ -357,6 +357,41 @@ function register_post_types()
         'register_meta_box_cb' => 'add_custom_meta_boxes'
     ));
 
+    // Common SKills
+    register_post_type('skill', array(
+        'labels' => array(
+            'name' => __('Skills'),
+            'singular_name' => __('Skill'),
+            'add_new' => __('Add Skill'),
+            'add_new_item' => __('Add New Skill'),
+            'edit' => __('Edit'),
+            'edit_item' => __('Edit Skill'),
+            'new_item' => __('New Skill'),
+            'view' => __('View Skill'),
+            'view_item' => __('View Skill'),
+            'search_items' => __('Search Skills'),
+            'not_found' => __('No skills found'),
+            'not_found_in_trash' => __('No skills found in Trash'),
+            'parent' => __('Parent Skill')
+        ),
+        'public' => true,
+        'publicly_queryable' => true,
+        'show_in_nav_menus' => true,
+        'show_ui' => true,
+        'exclude_from_search' => false,
+        'hierarchical' => false,
+        'menu_position' => 27,
+        'has_archive' => true,
+        'rewrite' => array(
+            'slug' => 'skills'
+        ),
+        'supports' => array(
+            'title',
+            'thumbnail'
+        ),
+        'register_meta_box_cb' => 'add_custom_meta_boxes'
+    ));
+
     flush_rewrite_rules();
 }
 
@@ -393,6 +428,9 @@ function add_custom_meta_boxes()
           add_meta_box('leader_ign', 'Leader IGN', 'add_leader_ign_box', 'clan', 'normal', 'default');
           add_meta_box('leader_forum', 'Leader Forums', 'add_leader_forum_box', 'clan', 'normal', 'default');
            add_meta_box('clan_server', 'Server', 'add_server_box', 'clan', 'normal', 'default');
+          break;
+        case "skill":
+          add_meta_box('skill_descr', 'Description', 'add_descr_box', 'skill', 'normal', 'default');
           break;
       }
     }
@@ -569,6 +607,7 @@ function add_descr_box()
         case "spell":
         case "video":
         case "clan":
+        case "skill":
           $descr = get_post_meta($post->ID, '_' . $post_type . '_descr', true);
           echo "<p>Enter a description for the " . $post_type . "</p>";
           echo '<textarea name="_' . $post_type . '_descr" class="widefat" rows="5">' . $descr . '</textarea>';
@@ -672,6 +711,9 @@ function save_df_stuff($post_id, $post)
           $the_meta['_clan_leader_ign'] = $_POST['_clan_leader_ign'];
           $the_meta['_clan_leader_forum'] = $_POST['_clan_leader_forum'];
           $the_meta['_clan_server'] = $_POST['_clan_server'];
+          break;
+         case 'skill':
+          $the_meta['_skill_descr'] = $_POST['_skill_descr'];
           break;
       }
 
@@ -972,4 +1014,18 @@ add_filter('admin_footer_text', 'remove_footer_admin');
 /* Clan Shit */
 add_rewrite_rule('^clans/([^/]*)/?','index.php?post_type=clan&server=$matches[1]','top');
 add_rewrite_tag('%server%','([^&]+)');
+
+/* remove comments menu item */
+function remove_menus () {
+global $menu;
+  $restricted = array(__('Comments'));
+  end ($menu);
+  while (prev($menu)){
+    $value = explode(' ',$menu[key($menu)][0]);
+    if(in_array($value[0] != NULL?$value[0]:"" , $restricted)){unset($menu[key($menu)]);}
+  }
+}
+add_action('admin_menu', 'remove_menus');
+
+
 ?>
