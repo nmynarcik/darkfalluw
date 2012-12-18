@@ -1281,3 +1281,32 @@ label.ulti-legend {
 .page-template-page-thankyou-php #content {
   text-align: center;
 }
+
+/* Misc */
+blockquote {
+  width: 90%;
+  margin: 30px auto;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  opacity: 0.80;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 80);
+  filter: alpha(opacity = 80);
+  color: white;
+  clear: both;
+  background: black;
+  padding: 10px;
+  font-style: italic;
+}
+
+blockquote p {
+  float: none !important;
+}
+
+.archive .post {
+  margin-bottom: 30px;
+}
+
+canvas {
+  background: black;
+}
