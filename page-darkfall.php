@@ -58,7 +58,14 @@ get_header();
                 $my_query = null;
                 $my_query = get_posts($args);
                 foreach( $my_query as $post ) :  setup_postdata($post); ?>
-                    <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>"><?php the_title(); ?></a>
+                <?php
+                  $posttags = get_the_tags();
+                  ?>
+                    <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>" class="<?php if ($posttags) {
+                    foreach($posttags as $tag) {
+                      echo $tag->name . ' ';
+                    }
+                  } ?>"><i class="icon"></i> <?php the_title(); ?></a>
                       <p><?php echo get_the_excerpt(); ?></p>
                    <?php
                   endforeach;

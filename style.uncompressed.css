@@ -79,7 +79,7 @@ a:hover {color:#ECD547; text-decoration: none; text-shadow: -1px -1px black;}
 li a:hover {text-shadow: 0 0 black;}
 h1 {font-weight: bold; font-size: 30px; color:#231816; margin-bottom: 5px; text-shadow: 1px 1px #CCC;}
 h2 {font-weight: bold; font-size: 24px; color:#231816; margin-bottom: 5px; text-shadow: 1px 1px #CCC;}
-h3 {font-weight: bold; font-size: 20px; color:#231816; margin-bottom: 5px; border-bottom: 4px double; text-shadow: 1px 1px #CCC;}
+h3 {font-weight: bold; font-size: 20px; color:#231816; margin-bottom: 5px; border-bottom: 4px double; text-shadow: 1px 1px #CCC; padding-bottom: 4px;}
 code {clear: both; display: block; margin: 10px;}
 
 
@@ -776,6 +776,20 @@ ul.school-list li .icon:hover{
 
 .bottom .blogfeed {
   width: 588px;
+}
+
+.blogfeed a i.icon {
+  background: url(images/icon-dfblog.png) no-repeat;
+  width: 16px;
+  height: 15px;
+  float: left;
+  margin-right: 3px;
+}
+
+.blogfeed a.MMORPG i.icon {
+  background: url(images/icon-mmorpg.png) no-repeat;
+  width: 16px;
+  height: 16px;
 }
 
 .blogfeed .entry-content p {
