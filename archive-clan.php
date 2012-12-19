@@ -42,7 +42,7 @@ $selectBox .= '</select>';
     <td class="clan_name">
     <?php
       if(get_post_meta($post->ID, '_clan_url', true) != ''){ ?>
-        <a href="<?php echo get_post_meta($post->ID, '_clan_url', true) ?>" target="_blank"><?php echo get_the_title();?></a>
+        <a href="<?php echo get_post_meta($post->ID, '_clan_url', true) ?>" target="_blank" rel="nofollow"><?php echo get_the_title();?></a>
       <?php } else { ?>
         <?php echo get_the_title();?>
       <?php } ?>

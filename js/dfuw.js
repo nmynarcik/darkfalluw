@@ -80,7 +80,7 @@
                 $(data).find('item').each(function(i){
                   if(i > 4)
                     return false;
-                  list += '<li><a href="'+$(this).find('link').text()+'" target="_blank"><span class="title">'+filterText($(this).find('title').text())+'</span></a> <div class="descr">'+filterText($(this).find('description').text())+'</div></li>';
+                  list += '<li><a href="'+$(this).find('link').text()+'" target="_blank" rel="nofollow"><span class="title">'+filterText($(this).find('title').text())+'</span></a> <div class="descr">'+filterText($(this).find('description').text())+'</div></li>';
                 });
                 list += '</ul>';
                 if($('.bottom .forumfeed ul').length){

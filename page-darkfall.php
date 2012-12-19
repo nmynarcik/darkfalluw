@@ -44,7 +44,7 @@ get_header();
           <div class="clear"></div>
           <div class="bottom">
             <div class="item blogfeed">
-              <h3>The Feed <a href="<?php echo get_bloginfo('url'); ?>/category/blog/feed/" target="_blank" class="icon-rss"></a></h3>
+              <h3>The Feed <a href="<?php echo get_bloginfo('url'); ?>/category/blog/feed/" target="_blank" class="icon-rss" rel="nofollow"></a></h3>
               <p>Accumulation of all things Darkfall</p>
               <?php
                 $args = array(
@@ -72,7 +72,7 @@ get_header();
               ?>
             </div>
             <div class="item eventfeed">
-              <h3>Current Events <a href="<?php echo get_bloginfo('url'); ?>/category/tournaments/feed/" target="_blank" class="icon-rss"></a></h3>
+              <h3>Current Events <a href="<?php echo get_bloginfo('url'); ?>/category/tournaments/feed/" target="_blank" class="icon-rss" rel="nofollow"></a></h3>
               <p>The latest events going on in Agon</p>
               <?php
                 $args = array(
@@ -117,7 +117,7 @@ get_header();
                 <img class="loader" src="<?php echo get_template_directory_uri(); ?>/images/ajax-loader.gif" alt="loading..."/>
                 <div class="loading"></div>
               </div>
-              <h3>Latest ForumFall <a href="http://forums.darkfallonline.com/external.php?type=RSS2" target="_blank" class="icon-rss"></a></h3>
+              <h3>Latest ForumFall <a href="http://forums.darkfallonline.com/external.php?type=RSS2" target="_blank" class="icon-rss" rel="nofollow"></a></h3>
               <p>The latest posts on Darkfall's Forums</p>
             </div>
             <div class="clear"></div>
