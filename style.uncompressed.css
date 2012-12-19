@@ -1356,7 +1356,7 @@ canvas {
 #server-status {
   background: #1D130E;
   display: none;
-  width: 130px;
+  width: 195px;
   font-size: 26px;
   padding: 5px 10px;
   position: absolute;
@@ -1386,6 +1386,7 @@ canvas {
   height: 21px;
   display: block;
   float: right;
+  margin-left: 5px;
 }
 
 #server-status i.down {
@@ -1393,13 +1394,10 @@ canvas {
 }
 
 #server-status span {
-  width: 37%;
   float: left;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
-#server-status span.eu {
-  float: right;
-  margin-left: 0;
-  margin-right: 10px;
+#server-status span.login {
+  margin-right:  0;
 }
