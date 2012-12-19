@@ -106,7 +106,7 @@
     var server_status = {
       getStatus: function(){
         $.ajax({
-          url: '/wp-content/themes/darkfalluw/serverstatus.php',
+          url: 'wp-content/themes/darkfalluw/serverstatus.php',
           dataType: 'json',
           success: function(data){
             console.log(data);
