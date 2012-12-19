@@ -103,6 +103,32 @@
       }
     }
 
+    var server_status = {
+      getStatus: function(){
+        $.ajax({
+          url: '/wp-content/themes/darkfalluw/serverstatus.php',
+          dataType: 'json',
+          success: function(data){
+            console.log(data);
+              var status = '<div id="server-status"><h2>Server Status:</h2>';
+              for (var key in data) {
+                if (data.hasOwnProperty(key)) {
+                  status += '<span class="'+key+'">'+key.toUpperCase()+'<i class="icon '+data[key]+'"></i></span>';
+                }
+              }
+              status += '</div>'
+              console.log(status);
+              $('#branding').append(status).fadeIn();
+          },
+          error: function(jqXHR, textStatus, errorThrown){
+            var status = '<div id="server-status"><h2>Server Status:</h2>';
+            status += 'Error: '+textStatus+'</div>';
+            $('#branding').append(status).fadeIn();
+          }
+        })
+      }
+    }
+
     var feedback = {
       init: function(){
         $('.your-subject').change(function(){
@@ -150,4 +176,7 @@
 
     if($('.feedback').length)
       feedback.init();
+
+    if($('#branding').length)
+      server_status.getStatus();
 }(jQuery));

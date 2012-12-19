@@ -1351,3 +1351,54 @@ canvas {
 ::-webkit-scrollbar-thumb:window-inactive {
   background: rgba(29,19,14,0.4);
 }
+
+/* Server Status */
+#server-status {
+  background: #1D130E;
+  width: 130px;
+  font-size: 26px;
+  padding: 5px 10px;
+  position: absolute;
+  right: 20px;
+  bottom: 104px;
+  color: white;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 2px 2px 5px #000000;
+  -webkit-box-shadow: 2px 2px 5px #000000;
+  box-shadow: 2px 2px 5px #000000;
+  filter: progid:DXImageTransform.Microsoft.Shadow(strength = 2, direction = 135, color = '#000000');
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength = 2, Direction = 135, Color = '#000000')";
+}
+
+#server-status h2 {
+  color: white;
+  text-shadow: 0px 0px 0px #CCC;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#server-status i.icon {
+  background: url(images/icon-server-status.png) no-repeat;
+  width: 21px;
+  height: 21px;
+  display: block;
+  float: right;
+}
+
+#server-status i.down {
+  background-position: 0 bottom;
+}
+
+#server-status span {
+  width: 37%;
+  float: left;
+  margin-left: 10px;
+}
+
+#server-status span.eu {
+  float: right;
+  margin-left: 0;
+  margin-right: 10px;
+}
