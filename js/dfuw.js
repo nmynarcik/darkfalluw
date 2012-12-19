@@ -106,10 +106,9 @@
     var server_status = {
       getStatus: function(){
         $.ajax({
-          url: 'wp-content/themes/darkfalluw/serverstatus.php',
+          url: '/wp-content/themes/darkfalluw/serverstatus.php',
           dataType: 'json',
           success: function(data){
-            console.log(data);
               var status = '<div id="server-status"><h2>Server Status:</h2>';
               for (var key in data) {
                 if (data.hasOwnProperty(key)) {
@@ -117,15 +116,23 @@
                 }
               }
               status += '</div>'
-              console.log(status);
+              if('#branding #server-status'){
+                $('#branding #server-status').remove();
+              }
               $('#branding').append(status).fadeIn();
           },
           error: function(jqXHR, textStatus, errorThrown){
             var status = '<div id="server-status"><h2>Server Status:</h2>';
             status += 'Error: '+textStatus+'</div>';
+            if('#branding #server-status'){
+              $('#branding #server-status').remove();
+            }
             $('#branding').append(status).fadeIn();
           }
-        })
+        });
+        setTimeout(function(){
+          server_status.getStatus();
+        },120000);
       }
     }
 
