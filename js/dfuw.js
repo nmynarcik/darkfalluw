@@ -116,18 +116,20 @@
                 }
               }
               status += '</div>'
-              if('#branding #server-status'){
-                $('#branding #server-status').remove();
+              if('#server-status'){
+                $('#server-status').remove();
               }
-              $('#branding').append(status).fadeIn();
+              $('#branding').append(status);
+              $('#server-status').fadeIn();
           },
           error: function(jqXHR, textStatus, errorThrown){
             var status = '<div id="server-status"><h2>Server Status:</h2>';
             status += 'Error: '+textStatus+'</div>';
-            if('#branding #server-status'){
-              $('#branding #server-status').remove();
+            if('#server-status'){
+              $('#server-status').remove();
             }
-            $('#branding').append(status).fadeIn();
+            $('#branding').append(status);
+            $('#server-status').fadeIn();
           }
         });
         setTimeout(function(){

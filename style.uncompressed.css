@@ -1355,6 +1355,7 @@ canvas {
 /* Server Status */
 #server-status {
   background: #1D130E;
+  display: none;
   width: 130px;
   font-size: 26px;
   padding: 5px 10px;
