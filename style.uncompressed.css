@@ -726,7 +726,7 @@ ul.school-list li .icon:hover{
   padding-left: 0;
 }
 
-#featured-list li .icon-play {
+#featured-list li .icon-play, .video .thumb .icon-play {
   position: absolute;
   z-index: 10;
   width:43px;
@@ -1043,6 +1043,23 @@ select {
 
 .type-video {
   width: 100%;
+}
+
+.video .thumb {
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  border: 2px solid #1D130E;
+  position: relative;
+  width: 340px;
+  height: 191px;
+  display: block;
+}
+
+.video .thumb:hover .icon-play {
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 100);
+  filter: alpha(opacity = 100);
 }
 
 /* Ads */
