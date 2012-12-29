@@ -500,30 +500,11 @@ function add_stats_box() {
   $support = get_post_meta($post_id, 'support_val',true);
   $def = get_post_meta($post_id, 'defense_val',true);
 
-  echo '<label><span>Health</span>&nbsp;&nbsp;&nbsp;<select name="health_val" value=""/>';
-  echo get_stat_opts($health);
-  echo '</select>';
-
-  echo '<label><span>Stamina</span>&nbsp;&nbsp;&nbsp;<select name="stamina_val" value=""/>';
-  echo get_stat_opts($stam);
-  echo '</select>';
-
-  echo '<label><span>Mana</span>&nbsp;&nbsp;&nbsp;<select name="mana_val" value=""/>';
-  echo get_stat_opts($mana);
-  echo '</select>';
-
-  echo '<label><span>Attack-Power</span>&nbsp;&nbsp;&nbsp;<select name="attackpower_val" value=""/>';
-  echo get_stat_opts($ap);
-  echo '</select>';
-
-  echo '<label><span>Support</span>&nbsp;&nbsp;&nbsp;<select name="support_val" value=""/>';
-  echo get_stat_opts($support);
-  echo '</select>';
-
-  echo '<label><span>Defense</span>&nbsp;&nbsp;&nbsp;<select name="defense_val" value=""/>';
-  echo get_stat_opts($def);
-  echo '</select>';
+  echo '<p><label><span>Health</span>&nbsp;&nbsp;&nbsp;<input type="number" max="309" min="1" name="health_val" value="'.$health.'" /></label></p>';
+  echo '<p><label><span>Stamina</span>&nbsp;&nbsp;&nbsp;<input type="number" max="309" min="1" name="stamina_val" value="'.$stam.'"/></label></p>';
+  echo '<p><label><span>Mana</span>&nbsp;&nbsp;&nbsp;<input type="number" max="309" min="1" name="mana_val" value="'.$mana.'"/></label></p>';
 }
+
 function get_stat_opts($theVal){
   // echo '<option value="">Select Value</option>';
   echo '<option value="low" ';

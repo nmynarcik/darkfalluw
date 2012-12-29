@@ -612,6 +612,9 @@ footer #copyright {float: left; bpadding: 10px 30px 0 0;}
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
+  font-size: 9px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .bars li.health span.fill {background: red;}
@@ -621,9 +624,9 @@ footer #copyright {float: left; bpadding: 10px 30px 0 0;}
 .bars li.support span.fill {background: green;}
 .bars li.defense span.fill {background: purple;}
 
-.bars li.low span.fill {width: 30%;}
+/*.bars li.low span.fill {width: 30%;}
 .bars li.avg span.fill {width: 50%;}
-.bars li.high span.fill {width: 70%;}
+.bars li.high span.fill {width: 70%;}*/
 
 ul.school-list li {float:left; margin-right: 10px;}
 ul.school-list li .icon {

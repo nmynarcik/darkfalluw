@@ -67,12 +67,12 @@ if( $my_query->have_posts() ) {
       <div class="detail-list last">
         <h2>Base Stats:</h2>
         <ul class="bars">
-          <li class="health <?php echo get_post_meta($post->ID, 'health_val',true); ?>"><span class='label'>Health</span> <span class="bar"><span class="fill"></span></span></li>
-          <li class="stamina <?php echo get_post_meta($post->ID, 'stamina_val',true); ?>"><span class='label'>Stamina</span> <span class="bar"><span class="fill"></span></span></li>
-          <li class="mana <?php echo get_post_meta($post->ID, 'mana_val',true); ?>"><span class='label'>Mana</span> <span class="bar"><span class="fill"></span></span></li>
-          <li class="attack-power <?php echo get_post_meta($post->ID, 'attackpower_val',true); ?>"><span class='label'>Attack-Power</span> <span class="bar"><span class="fill"></span></span></li>
+          <li class="health"><span class='label'>Health</span> <span class="bar"><span class="fill" style="width: <?php echo (get_post_meta($post->ID, 'health_val',true)/350)*100; ?>%"><?php echo get_post_meta($post->ID, 'health_val',true); ?></span></span></li>
+          <li class="stamina <?php echo get_post_meta($post->ID, 'stamina_val',true); ?>"><span class='label'>Stamina</span> <span class="bar"><span class="fill" style="width: <?php echo (get_post_meta($post->ID, 'stamina_val',true)/350)*100; ?>%"><?php echo get_post_meta($post->ID, 'stamina_val',true); ?></span></span></li>
+          <li class="mana <?php echo get_post_meta($post->ID, 'mana_val',true); ?>"><span class='label'>Mana</span> <span class="bar"><span class="fill" style="width: <?php echo (get_post_meta($post->ID, 'mana_val',true)/350)*100; ?>%"><?php echo get_post_meta($post->ID, 'mana_val',true); ?></span></span></li>
+          <!-- <li class="attack-power <?php echo get_post_meta($post->ID, 'attackpower_val',true); ?>"><span class='label'>Attack-Power</span> <span class="bar"><span class="fill"></span></span></li>
           <li class="support <?php echo get_post_meta($post->ID, 'support_val',true); ?>"><span class='label'>Support</span> <span class="bar"><span class="fill"></span></span></li>
-          <li class="defense <?php echo get_post_meta($post->ID, 'defense_val',true); ?>"><span class='label'>Defense</span> <span class="bar"><span class="fill"></span></span></li>
+          <li class="defense <?php echo get_post_meta($post->ID, 'defense_val',true); ?>"><span class='label'>Defense</span> <span class="bar"><span class="fill"></span></span></li> -->
         </ul>
       </div>
     </div>
