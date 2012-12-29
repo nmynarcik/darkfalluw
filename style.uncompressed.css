@@ -1041,6 +1041,12 @@ select {
   clear: right;
 }
 
+.type-video {
+  width: 100%;
+}
+
+/* Ads */
+
 .home .gad {
   width: 728px;
   margin-bottom: 0;

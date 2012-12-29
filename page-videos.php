@@ -36,7 +36,7 @@ if( $my_query->have_posts() ) {
   ?>
   <div class="video <?php echo $extra_class; ?>">
     <iframe width="340" height="191" src="http://www.youtube.com/embed/<?php echo get_post_meta($post->ID, '_video_id',true); ?>?rel=0" frameborder="0" allowfullscreen></iframe>
-    <h2><?php echo get_the_title();?></h2>
+    <h2><a href="<?php echo the_permalink();?>"><?php echo get_the_title();?></a></h2>
     <p> <?php echo strip_tags(get_post_meta($post->ID, '_video_descr',true)); ?></p>
   </div>
 <?php
