@@ -1,7 +1,23 @@
 (function($){
     if($(".accordion").length){
       $('.accordion').accordion({ collapsible: true });
+      console.log('ACCORDION!');
       //$(".accordion").tabs(".pane", {tabs: 'h4', effect: 'slide'});
+    }
+
+    if($('#expand-all').length){
+      $('#expand-all').click(function(){
+            if($('#expand-all span').text() == "Expand All"){
+              $('.accordion .pane').show();
+              $('#expand-all span').text('Collapse All');
+              $('#expand-all i').removeClass('icon-plus-sign').addClass('icon-minus-sign');
+            }else{
+              $('.accordion-header').removeClass('current');
+              $('#expand-all span').text('Expand All');
+              $('#expand-all i').removeClass('icon-minus-sign').addClass('icon-plus-sign');
+              $('.accordion').accordion('destroy').accordion({ collapsible: true });
+            }
+          });
     }
 
     //$('input[placeholder], textarea[placeholder]').placeholder();
@@ -20,19 +36,7 @@
 
     var schools = {
       init: function(){
-        $('#expand-all').click(function(){
-          if($('#expand-all span').text() == "Expand All"){
-            $('.accordion .pane').show();
-            $('#expand-all span').text('Collapse All');
-            $('#expand-all i').removeClass('icon-plus-sign').addClass('icon-minus-sign');
-          }else{
-            $('.accordion-header').removeClass('current');
-            $('#expand-all span').text('Expand All');
-            $('#expand-all i').removeClass('icon-minus-sign').addClass('icon-plus-sign');
-            $('.accordion').accordion('destroy').accordion({ collapsible: true });
-          }
-        });
-          $('#school_selector').change(function(){
+         $('#school_selector').change(function(){
             window.location = $(this).val();
           });
       }
