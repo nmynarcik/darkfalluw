@@ -16,8 +16,8 @@
 <link href='http://fonts.googleapis.com/css?family=Smythe|Monda:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
 <?php
-  $GLOBALS['ver'] = '2.6';
-  $ver =  '2.6';
+  $GLOBALS['ver'] = '2.7';
+  $ver =  '2.7';
 ?>
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?ver=<?php echo $ver; ?>" />
 <?php wp_head(); ?>
@@ -39,6 +39,12 @@
 <div id="box-art"><a href="https://ams.darkfallonline.com/AMS/" target="_blank" title="Pre-Order NOW!" alt="Pre-Order NOW!"><img src="<?php echo get_template_directory_uri(); ?>/images/game.png" alt="Darkfall: Unholy Wars Game"/></a></div>
 <a href="https://ams.darkfallonline.com/AMS/" target="_blank" class="df-btn" title="Pre-Order NOW!" alt="Pre-Order NOW!">PRE-ORDER NOW</a>
 <p id="site-description"><?php bloginfo( 'description' ) ?></p>
+<div id="server-status">
+  <h2>Server Status:</h2>
+  <span class="na">NA<i class="icon"></i></span>
+  <span class="eu">EU<i class="icon"></i></span>
+  <span class="login">LOGIN<i class="icon"></i></span>
+</div>
 </div>
 <nav>
 <div id="search">

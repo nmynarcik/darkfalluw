@@ -109,27 +109,16 @@
           url: '/wp-content/themes/darkfalluw/serverstatus.php',
           dataType: 'json',
           success: function(data){
-              var status = '<div id="server-status"><h2>Server Status:</h2>';
+            $('#server-status').find('span i').removeClass('up down');
               for (var key in data) {
                 if (data.hasOwnProperty(key)) {
-                  status += '<span class="'+key+'">'+key.toUpperCase()+'<i class="icon '+data[key]+'"></i></span>';
+                  $('#server-status').find('.'+key).find('i').addClass(data[key]);
                 }
               }
-              status += '</div>'
-              if('#server-status'){
-                $('#server-status').remove();
-              }
-              $('#branding').append(status);
-              $('#server-status').fadeIn();
           },
           error: function(jqXHR, textStatus, errorThrown){
-            var status = '<div id="server-status"><h2>Server Status:</h2>';
-            status += 'Error: '+textStatus+'</div>';
-            if('#server-status'){
-              $('#server-status').remove();
-            }
-            $('#branding').append(status);
-            $('#server-status').fadeIn();
+            console.log(textStatus, errorThrown);
+            $('#server-status').find('span i').removeClass('up down');
           }
         });
         setTimeout(function(){
