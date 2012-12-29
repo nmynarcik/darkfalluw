@@ -33,7 +33,7 @@ body {
   background-color: #1D130E;
   margin: 0;
   padding: 0;
-  font-family: 'Monda', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 400;
   position: relative;
   font-size: 14px;
@@ -43,7 +43,7 @@ body {
 p {
   margin-bottom: 20px;
   /*text-shadow: 1px 1px #ccc;*/
-  font-family: 'Monda', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 400;
 }
 
@@ -465,7 +465,7 @@ footer #copyright {float: left; bpadding: 10px 30px 0 0;}
 .ui-accordion .ui-accordion-header {
   background: url(images/accordion-header.png) no-repeat;
   color: white;
-  font-family: 'Monda', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: 20px;
 }
@@ -515,7 +515,7 @@ footer #copyright {float: left; bpadding: 10px 30px 0 0;}
 }
 
 .ui-widget li.none {
-  font-family: 'Monda', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 400;
   /*text-shadow: 1px 1px 9px #CCC;*/
 }
@@ -781,12 +781,17 @@ ul.school-list li .icon:hover{
   width: 588px;
 }
 
+.bottom .blogfeed a {
+  font-size: 22px;
+}
+
 .blogfeed a i.icon {
   background: url(images/icon-dfblog.png) no-repeat;
   width: 16px;
   height: 15px;
   float: left;
   margin-right: 3px;
+  margin-top: 1px;
 }
 
 .blogfeed a.MMORPG i.icon {
@@ -1006,7 +1011,7 @@ select {
   background-color: #231914;
   color: white;
   border: 0;
-  font-family: 'Monda', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 400;
 }
 
@@ -1090,6 +1095,7 @@ h2 {height: 22px; overflow: hidden; line-height: 22px;}
   height: 20px;
   overflow: hidden;
   display: block;
+  font-size: 16px;
 }
 
 .forumfeed li .descr {
@@ -1429,4 +1435,9 @@ canvas {
 
 #server-status span.login {
   margin-right:  0;
+}
+
+/* Skills */
+.post-type-archive-skill .ui-accordion .pane .descr{
+  width: 545px;
 }
