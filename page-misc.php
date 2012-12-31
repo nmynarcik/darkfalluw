@@ -12,7 +12,7 @@ wp_enqueue_script('dfuw_table_sort', get_template_directory_uri().'/js/jquery.ta
 <div class="entry-content">
   <p  class='tip'><i class="icon-info-sign"></i> Table columns are sortable</p>
   <div class='misc-info left'>
-    <h3>Weapon Reaches and Arcs</h3>
+    <h3>Weapon Reaches, Arcs, Crits</h3>
 
     <table cellspacing="0" cellpadding="2" border="1">
       <thead>
