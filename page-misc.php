@@ -10,6 +10,7 @@ wp_enqueue_script('dfuw_table_sort', get_template_directory_uri().'/js/jquery.ta
 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <h1 class="entry-title"><?php the_title(); ?></h1>
 <div class="entry-content">
+  <p  class='tip'><i class="icon-info-sign"></i> Table columns are sortable</p>
   <div class='misc-info left'>
     <h3>Weapon Reaches and Arcs</h3>
 

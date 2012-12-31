@@ -1295,8 +1295,14 @@ label.ulti-legend {
   margin-bottom: 0;
 }
 
-.clans p.tip i {
+.clans p.tip i, .misc-game-info .tip i {
   margin-top: 5px;
+}
+
+.misc-game-info .tip {
+  position: absolute;
+  top: 0;
+  right: 20px;
 }
 
 .clans p.totals {
