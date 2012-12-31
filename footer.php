@@ -38,6 +38,7 @@
 </div>
 <?php wp_footer();?>
 </body>
+<?php if($_SERVER['DEV_ENV'] != "BLUEMONSTER"){?>
 <?php if(!is_user_logged_in()){ ?>
 <script type="text/javascript">
   var _gaq = _gaq || [];
@@ -61,6 +62,7 @@
     })('00');
 </script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/ga.tracking.min.js"></script>
+<?php } ?>
 <?php } ?>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.autoellipsis.min.js"></script>

@@ -800,9 +800,10 @@ ul.school-list li .icon:hover{
   height: 16px;
 }
 
-.blogfeed .entry-content p {
-  height: 55px;
-  overflow: hidden;
+.blogfeed p {
+  /*height: 55px;
+  overflow: hidden;*/
+  margin-top: 5px;
 }
 .blogfeed .edit-link {
   display: none;
@@ -900,6 +901,12 @@ ul.school-list li .icon:hover{
   margin-top: 10px;
 }
 
+.single #content h2 {
+  padding-left: 0;
+  margin-bottom: 10px;
+  height: 28px;
+}
+
 /* specific to category archive poss */
 .category .type-post .entry-meta .edit-link {
   display: none;
@@ -910,6 +917,7 @@ ul.school-list li .icon:hover{
 
 .category .type-post .entry-meta, .category .type-post .entry-title  {
   float: left;
+  clear: left;
   margin-right: 15px;
 }
 
@@ -965,12 +973,12 @@ footer .social-list {
 }
 
 footer .df-social {
-  width: 290px;
+  width: 275px;
   float: right;
 }
 
 footer .df-social p {
-  width: 115px;
+  width: 100px;
   float: left;
   font-weight: 700;
   line-height: 32px;
@@ -1083,7 +1091,7 @@ select {
 #nav-below .btn {padding-top: 0;}
 #nav-below .btn i {margin-top: 6px;}
 
-h2 {height: 22px; overflow: hidden; line-height: 22px;}
+h2 {height: 27px; overflow: hidden; line-height: 22px;}
 
 /*Forumfall Feed */
 .forumfeed {
@@ -1092,7 +1100,7 @@ h2 {height: 22px; overflow: hidden; line-height: 22px;}
 }
 
 .forumfeed li a {
-  height: 20px;
+  height: 19px;
   overflow: hidden;
   display: block;
   font-size: 16px;

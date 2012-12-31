@@ -67,7 +67,7 @@
           }
         });
 
-        $('.bottom .blogfeed .entry-content p, .bottom .eventfeed a, .forumfeed li a, .forumfeed li .descr').ellipsis();
+        $('.bottom .blogfeed a, .bottom .eventfeed a, .forumfeed li a, .forumfeed li .descr').ellipsis();
 
         home.getForumFallFeed();
       },
@@ -181,4 +181,8 @@
 
     if($('#branding').length)
       server_status.getStatus();
+
+    if($('#map_canvas').length){
+      map_initialize();
+    }
 }(jQuery));

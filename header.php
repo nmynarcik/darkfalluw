@@ -22,6 +22,9 @@
 ?>
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?ver=<?php echo $ver; ?>" />
 <?php wp_head(); ?>
+<script type="text/javascript">
+  var templateDir = "<?php bloginfo('template_directory') ?>";
+</script>
 </head>
 <body <?php body_class(); ?>>
 <div id="wrapper" class="hfeed">
