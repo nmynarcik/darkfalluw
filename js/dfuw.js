@@ -110,7 +110,7 @@
     var server_status = {
       getStatus: function(){
         $.ajax({
-          url: '/wp-content/themes/darkfalluw/serverstatus.php',
+          url: templateDir+'/serverstatus.php',
           dataType: 'json',
           success: function(data){
             $('#server-status').find('span i').removeClass('up down');
