@@ -1470,6 +1470,7 @@ canvas {
 .misc-info.full {
   width: 100%;
   clear: both;
+  padding: 0;
 }
 
 .misc-info h4 {
@@ -1488,17 +1489,44 @@ canvas {
   background: #1D130E;
   color: white;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.misc-info table th:first-child, .misc-info table td:first-child {
+  text-align: left;
+  padding-left: 15px;
 }
 
 .misc-info table td {
-  padding: 5px 0 5px 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+.misc-game-info table .headerSortUp, .misc-game-info table .headerSortDown {
+  background: #3A1E09;
+}
+
+.misc-game-info table i {
+  background-image: url("img/glyphicons-halflings-white.png");
+  display: none;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.misc-game-info table .headerSortDown i {
+  background-position: -288px -120px;
+  display: inline-table;
+}
+
+.misc-game-info table .headerSortUp i {
+  background-position: -313px -119px;
+  display: inline-table;
 }
 
 .disclaimer {
   background: #1D130E;
   color: white;
   padding: 5px 10px;
-  width: 100%;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;

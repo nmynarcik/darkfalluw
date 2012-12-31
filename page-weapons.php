@@ -11,6 +11,7 @@ get_header();
 <div class="entry-content">
   <?php the_content(); ?>
   <iframe class="gdoc" width="100%" height="750" src="https://docs.google.com/spreadsheet/lv?key=0Aj1bEOdIK16ldDlqRjZ1SzhXYVdwMEhlMjBhSjJ2UFE&output=html"></iframe>
+  <div class="disclaimer">** Content provided by Kelet</div>
 </div>
 </div>
 </article>

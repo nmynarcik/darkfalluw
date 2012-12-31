@@ -185,4 +185,10 @@
     if($('#map_canvas').length){
       map_initialize();
     }
+
+    if($('.misc-game-info').length){
+      $('table').tablesorter({
+          widgets: ['zebra']
+        });
+    }
 }(jQuery));
