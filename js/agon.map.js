@@ -19,7 +19,7 @@ var map;
 var CustomMapType = new CustomMapType();
 function map_initialize() {
   var mapOptions = {
-      minZoom: 2,
+      minZoom: 3,
     maxZoom: 7,
     isPng: true,
       mapTypeControl: false,

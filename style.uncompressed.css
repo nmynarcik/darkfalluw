@@ -280,7 +280,7 @@ nav .menu ul ul {
   display: none;
 }
 .entry-content {
-  margin: 0 0 30px;
+  margin: 30px 0;
 }
 
 .entry-footer {text-transform: uppercase;}
@@ -472,7 +472,7 @@ footer #copyright {float: left; bpadding: 10px 30px 0 0;}
 .ui-accordion-header a {
   position: relative;
   width: 100%;
-  display: block;
+  display: inline;
 }
 
 .ui-accordion-header a i {
@@ -1447,4 +1447,64 @@ canvas {
 /* Skills */
 .post-type-archive-skill .ui-accordion .pane .descr{
   width: 545px;
+}
+
+/* Data Mine Stuff */
+.misc-info {
+  width: 45%;
+  padding: 15px;
+}
+
+.misc-info.left {
+  float: left;
+  clear: left;
+  padding-left: 0;
+}
+
+.misc-info.right {
+  float: right;
+  clear: right;
+  padding-right: 0;
+}
+
+.misc-info.full {
+  width: 100%;
+  clear: both;
+}
+
+.misc-info h4 {
+  font-weight: bold;
+}
+
+.misc-info table {
+  width: 100%;
+}
+
+.misc-info table td, .misc-info table th {
+  border: 1px solid #1D130E;
+}
+
+.misc-info table th {
+  background: #1D130E;
+  color: white;
+  text-transform: uppercase;
+}
+
+.misc-info table td {
+  padding: 5px 0 5px 15px;
+}
+
+.disclaimer {
+  background: #1D130E;
+  color: white;
+  padding: 5px 10px;
+  width: 100%;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.gdoc {
+  background: #FFFFFF;
 }
