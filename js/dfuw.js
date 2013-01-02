@@ -184,6 +184,19 @@
 
     if($('#map_canvas').length){
       map_initialize();
+      $('.fsbtn').click(function(){
+        if(!fullscreen){
+          $('#map-container').appendTo('body');
+          $('.fsbtn i').removeClass('icon-fullscreen').addClass('icon-resize-small');
+          fullscreen = true;
+          map_initialize();
+        }else{
+          $('#map-container').appendTo('.entry-content');
+          $('.fsbtn i').removeClass('icon-resize-small').addClass('icon-fullscreen');
+          fullscreen = false;
+          map_initialize();
+        }
+      });
     }
 
     if($('.misc-game-info').length){

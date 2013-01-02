@@ -3,7 +3,7 @@
 Template Name: DF Map
 */
 get_header();
-wp_enqueue_script('dfuw_jquery','http://maps.googleapis.com/maps/api/js?sensor=false',false,'1.6','all');
+wp_enqueue_script('dfuw_jquery','http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false',false,'1.6','all');
 wp_enqueue_script('dfuw_map',get_template_directory_uri().'/js/agon.map.js',false,'1.6','all');
 ?>
 <article id="content">
@@ -12,7 +12,10 @@ wp_enqueue_script('dfuw_map',get_template_directory_uri().'/js/agon.map.js',fals
 <h1 class="entry-title"><?php the_title(); ?></h1>
 <div class="entry-content">
   <?php the_content(); ?>
-  <div id="map_canvas" style="background: #1B2D33;"></div>
+  <div id="map-container">
+    <a href="javascript:void(0);" class="fsbtn" title="Fullscreen Toggle"><i class="icon-fullscreen"></i></a>
+    <div id="map_canvas" style="background: #1B2D33;"></div>
+  </div>
 </div>
 </div>
 </article>
