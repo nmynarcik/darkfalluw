@@ -188,6 +188,7 @@
         if(!fullscreen){
           $('#map-container').appendTo('body');
           $('.fsbtn i').removeClass('icon-fullscreen').addClass('icon-resize-small');
+          $('body').scrollTop(0);
           fullscreen = true;
           map_initialize();
         }else{
