@@ -4,7 +4,7 @@
   {
   die('Could not connect: ' . mysql_error());
   }
-  mysql_select_db("db147351_dfuw", $con);
+  mysql_select_db("db", $con);
 
   $results = mysql_query("
          SELECT
