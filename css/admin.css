@@ -48,6 +48,26 @@
   background: url(../images/clans32.png) no-repeat;
 }
 
+#menu-posts-skill .wp-menu-image {
+    background: url(../images/skills16.png) no-repeat 6px 7px !important;
+}
+#menu-posts-skill:hover .wp-menu-image, #menu-posts-skill.wp-has-current-submenu .wp-menu-image {
+    background-position:6px 7px !important;
+}
+#icon-edit.icon32-posts-skill {
+  background: url(../images/skills32.png) no-repeat;
+}
+
+#menu-posts-poi .wp-menu-image {
+    background: url(../images/pois16.png) no-repeat 6px 7px !important;
+}
+#menu-posts-poi:hover .wp-menu-image, #menu-posts-poi.wp-has-current-submenu .wp-menu-image {
+    background-position:6px 7px !important;
+}
+#icon-edit.icon32-posts-poi {
+  background: url(../images/pois32.png) no-repeat;
+}
+
 
 /* META BOXES */
 #spells_role, #spells_school, #spells_ulti {
@@ -59,7 +79,7 @@
   margin-right: 0;
   float: right;
  }
-#clan_url, #leader_ign, #leader_forum {
+#clan_url, #leader_ign, #leader_forum, #poi_type, #poi_level, #poi_loc {
   width: 25%;
   float: left;
   margin-right: 23px;

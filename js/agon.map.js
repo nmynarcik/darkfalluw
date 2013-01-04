@@ -8,7 +8,7 @@ CustomMapType.prototype.getTile = function(coord, zoom, ownerDocument) {
     baseURL += zoom + '_' + coord.x + '_' + coord.y + '.png';
     div.style.width = this.tileSize.width + 'px';
     div.style.height = this.tileSize.height + 'px';
-    div.style.backgroundColor = '#1B2D33';
+    div.style.backgroundColor = '#00000';
     div.style.backgroundImage = 'url(' + baseURL + ')';
     return div;
 };
@@ -18,10 +18,17 @@ CustomMapType.prototype.alt = "Tile Coordinate Map Type";
 var map;
 var CustomMapType = new CustomMapType();
 var fullscreen = false;
+var showMobs = false;
+var showBanks = false;
+var showCrafts = false;
+var showBinds = false;
+var showPortals = false;
 var mobs = [];
 var banks = [];
 var binds = [];
 var crafts = [];
+var portals = [];
+var chambers = [];
 
 function map_initialize() {
 
@@ -32,7 +39,7 @@ function map_initialize() {
       mapTypeControl: false,
       streetViewControl: false,
         center: new google.maps.LatLng(73,-109),
-      zoom: 3,
+      zoom: 4,
     mapTypeControlOptions: {
       mapTypeIds: ['custom', google.maps.MapTypeId.ROADMAP],
       style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
@@ -46,75 +53,148 @@ function map_initialize() {
     placeMarker(event.latLng);
   });
 
-  // createMarkers();
+  getPOIs();
 }
 
 var marker;
+var poiArray;
 
 function placeMarker(location) {
   if ( marker ) {
     marker.setPosition(location);
+    marker.title = location.lat()+'|'+location.lng();
   } else {
     marker = new google.maps.Marker({
       position: location,
       map: map,
       icon: templateDir+"/images/poi-default.png",
-      title: 'lat: '+location.lat()+' lng: '+location.lng()
+      title: location.lat()+'|'+location.lng()
+    });
+
+    google.maps.event.addListener(marker, 'click', function() {
+      copyToClipboard(marker);
     });
   }
-  map.setMapTypeId('custom');
+  // map.setZoom(7);
+  // map.setCenter(marker.getPosition());
+}
+
+function copyToClipboard (marker) {
+  window.prompt ("Copy to clipboard: Ctrl+C, Enter", marker.title);
+}
+
+function getPOIs(){
+  //get the pois from the database
+  jQuery.ajax({
+      url: templateDir+'/getPOIs.php',
+      dataType: 'json',
+      success: function(data){
+        console.log(data);
+        poiArray = data.pois;
+        createMarkers();
+      },
+      error: function(jqXHR, textStatus, errorThrown){
+        console.log(textStatus, errorThrown);
+        alert('Problem with Map. Please contact us through the feedback form describing what happened! Thanks!')
+      }
+    });
 }
 
 function createMarkers(){
-  console.log(poiArray);
-  var image = 'poi-default.png';
+ console.log('creating markers');
   var overlay = null;
-
+  var image;
   for(var i = 0; i < poiArray.length; i++){
-    switch(poiArray[i].type){
-      case 'banks':
+    switch(poiArray[i]._poi_type){
+      case 'bank':
         image = templateDir+'/images/poi-bank.png';
+        overlay = banks;
         break;
       case 'mob':
-        image = templateDir+'/images/poi-mob.png';
+        if(poiArray[i]._poi_level == ""){
+          image = templateDir+'/images/poi-mob.png';
+        }else{
+          image = templateDir+'/images/poi-mob-'+poiArray[i]._poi_level+'.png';
+        }
         overlay = mobs;
         break;
       case 'bindstones':
         image = templateDir+'/images/poi-bind.png';
+        overlay = binds;
         break;
       case 'craft':
         image = templateDir+'/images/poi-craft.png';
+        overlay = crafts;
+        break;
+       case 'portal':
+        image = templateDir+'/images/poi-portal.png';
+        overlay = portals;
+        break;
+      case 'chamber':
+        image = templateDir+'/images/poi-chamber.png';
+        overlay = portals;
         break;
     }
 
-    var poiLatLng = new google.maps.LatLng(poiArray[i].x, poiArray[i].y);
+    var poiLoc = poiArray[i]._poi_loc.split('|');
+
+    var poiLatLng = new google.maps.LatLng(poiLoc[0], poiLoc[1]);
     var poiMarker = new google.maps.Marker({
         position: poiLatLng,
-        map: map,
+        map: null,
         icon: image,
-        title: poiArray[i].name
+        title: poiArray[i].title
     });
     overlay.push(poiMarker);
   }
 }
 
-var poiArray = [
-    {
-      'type':'mob',
-      'name':'mob 1',
-      x:73,
-      y:-109
-    },
-    {
-      'type':'mob',
-      'name':'mob 2',
-      x:150,
-      y:-300
-    },
-    {
-      'type':'mob',
-      'name':'mob 3',
-      x:400,
-      y:-150
-    }
-]
+function showMarkers(type){
+  console.log('showing markers', type);
+  var markerArray;
+  switch(type){
+    case "mobs":
+      markerArray = mobs;
+      break;
+    case "banks":
+      markerArray = banks;
+      break;
+    case "crafts":
+      markerArray = crafts;
+      break;
+    case "binds":
+      markerArray = binds;
+      break;
+    case "portals":
+      markerArray = portals;
+      break;
+  }
+  for(var i = 0; i < markerArray.length; i++){
+    markerArray[i].setMap(map);
+  }
+}
+
+function hideMarkers(type){
+  console.log('hiding markers', type);
+  var markerArray;
+  switch(type){
+    case "mobs":
+      markerArray = mobs;
+      break;
+    case "banks":
+      markerArray = banks;
+      break;
+    case "crafts":
+      markerArray = crafts;
+      break;
+    case "binds":
+      markerArray = binds;
+      break;
+    case "portals":
+      markerArray = portals;
+      break;
+  }
+  for(var i = 0; i < markerArray.length; i++){
+    markerArray[i].setMap(null);
+  }
+}

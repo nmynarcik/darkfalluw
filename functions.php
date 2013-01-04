@@ -392,6 +392,40 @@ function register_post_types()
         'register_meta_box_cb' => 'add_custom_meta_boxes'
     ));
 
+    // Common SKills
+    register_post_type('poi', array(
+        'labels' => array(
+            'name' => __('POIs'),
+            'singular_name' => __('POI'),
+            'add_new' => __('Add POI'),
+            'add_new_item' => __('Add New POI'),
+            'edit' => __('Edit'),
+            'edit_item' => __('Edit POI'),
+            'new_item' => __('New POI'),
+            'view' => __('View POI'),
+            'view_item' => __('View POI'),
+            'search_items' => __('Search POIs'),
+            'not_found' => __('No skills found'),
+            'not_found_in_trash' => __('No POIs found in Trash'),
+            'parent' => __('Parent POI')
+        ),
+        'public' => true,
+        'publicly_queryable' => true,
+        'show_in_nav_menus' => true,
+        'show_ui' => true,
+        'exclude_from_search' => true,
+        'hierarchical' => false,
+        'menu_position' => 28,
+        'has_archive' => true,
+        'rewrite' => array(
+            'slug' => 'pois'
+        ),
+        'supports' => array(
+            'title'
+        ),
+        'register_meta_box_cb' => 'add_custom_meta_boxes'
+    ));
+
     flush_rewrite_rules();
 }
 
@@ -432,9 +466,53 @@ function add_custom_meta_boxes()
         case "skill":
           add_meta_box('skill_descr', 'Description', 'add_descr_box', 'skill', 'normal', 'default');
           break;
+        case "poi":
+            add_meta_box('poi_type', 'Type', 'add_poi_type', 'poi', 'normal', 'default');
+            add_meta_box('poi_level', 'Level', 'add_poi_level', 'poi', 'normal', 'default');
+            add_meta_box('poi_loc', 'Location', 'add_poi_loc', 'poi', 'normal', 'default');
+            break;
       }
     }
 
+}
+
+function add_poi_type(){
+    global $post;
+    global $post_id;
+    $post_type = $post->post_type;
+    echo '<input type="hidden" name="_df_' . $post_type . 'noncename" value="' . wp_create_nonce('df_' . $post_type . 'nonce') . '"/>';
+    $poi_type = get_post_meta($post_id, '_poi_type',true);
+    echo '<select name="_poi_type">';
+    echo '<option val="">Select Type</option>';
+    echo '<option value="bank" ' . (($poi_type == 'bank') ? 'selected="selected" ' : ' ') . '>Bank</option>';
+    echo '<option value="bind"' . (($poi_type == 'bind') ? 'selected="selected"' : '') . '>Bindstone</option>';
+    echo '<option value="craft"' . (($poi_type == 'craft') ? 'selected="selected"' : '') . '>Craft Station</option>';
+    echo '<option value="mob"' . (($poi_type == 'mob') ? 'selected="selected"' : '') . '>Mob</option>';
+    echo '<option value="portal"' . (($poi_type == 'portal') ? 'selected="selected"' : '') . '>Portal</option>';
+    echo '<option value="pchamber"' . (($poi_type == 'pchamber') ? 'selected="selected"' : '') . '>Portal Chamber</option>';
+    echo '</select>';
+}
+
+function add_poi_level(){
+    global $post;
+    global $post_id;
+    $poi_level = get_post_meta($post_id, '_poi_level',true);
+    echo '<select name="_poi_level">';
+    echo '<option val="">Select Type</option>';
+    echo '<option value="easy" ' . (($poi_level == 'easy') ? 'selected="selected" ' : ' ') . '>Easy</option>';
+    echo '<option value="med"' . (($poi_level == 'med') ? 'selected="selected"' : '') . '>Medium</option>';
+    echo '<option value="hard"' . (($poi_level == 'hard') ? 'selected="selected"' : '') . '>Hard</option>';
+    echo '</select><br/><br/>';
+    echo '<em>Only needed for mobs</em>';
+}
+
+function add_poi_loc(){
+    global $post;
+    global $post_id;
+    $poi_loc = get_post_meta($post_id, '_poi_loc',true);
+    $poi_loc = explode('|', $poi_loc);
+    echo 'lat: <input type="text" name="_poi_lat" value="'.$poi_loc[0].'"/><br/>';
+    echo 'lng: <input type="text" name="_poi_lng"  value="'.$poi_loc[1].'" />';
 }
 
 function add_server_box(){
@@ -696,6 +774,11 @@ function save_df_stuff($post_id, $post)
          case 'skill':
           $the_meta['_skill_descr'] = $_POST['_skill_descr'];
           break;
+        case 'poi':
+            $the_meta['_poi_type'] = $_POST['_poi_type'];
+            $the_meta['_poi_level'] = $_POST['_poi_level'];
+            $the_meta['_poi_loc'] = $_POST['_poi_lat'].'|'.$_POST['_poi_lng'];
+            break;
       }
 
     // Add values of $events_meta as custom fields
