@@ -807,6 +807,7 @@ add_image_size('school_thumb', 50, 50, false);
 add_filter('manage_edit-spell_columns', 'add_custom_dfuw_columns', 5);
 add_filter('manage_edit-role_columns', 'add_custom_dfuw_columns', 5);
 add_filter('manage_edit-school_columns', 'add_custom_dfuw_columns', 5);
+add_filter('manage_edit-poi_columns', 'add_custom_dfuw_columns', 5);
 // Add Column
 function add_custom_dfuw_columns($cols)
 {
@@ -835,6 +836,13 @@ function add_custom_dfuw_columns($cols)
             'spell_thumb' => __('Spell Icon')
           );
           break;
+        case 'poi':
+            $customArray = array(
+                'adm_poi_type' => __('Type'),
+                'adm_poi_lat' => __('Lat'),
+                'adm_poi_lng' => __('Lng')
+            );
+            break;
       }
     $colsstart = array_slice($cols, 1, 1, true);
     $colsend   = array_slice($cols, 1, null, true);
@@ -848,33 +856,39 @@ function add_custom_dfuw_columns($cols)
 }
 
 // Register the column as sortable
-add_filter( 'manage_edit-spell_sortable_columns', 'dfuw_column_register_sortable' );
+add_filter( 'manage_edit-poi_sortable_columns', 'dfuw_column_register_sortable' );
 function dfuw_column_register_sortable( $columns ) {
-  // $columns['spell_role'] = 'spell_role';
-  // $columns['spell_school'] = 'spell_school';
-  // $columns['school_ulti'] = 'school_ulti';
-  // $columns['spell_descr'] = 'spell_descr';
+  $columns['adm_poi_type'] = 'adm_poi_type';
+  $columns['adm_poi_lat'] = 'adm_poi_lat';
 
   return $columns;
 }
 
-// Spell Class Sort
-//add_filter( 'request', 'dfuw_spell_role_column_orderby' );
-// function dfuw_spell_role_column_orderby( $vars ) {
-  // if ( isset( $vars['orderby'] ) && 'spell_role' == $vars['orderby'] ) {
-  //   $vars = array_merge( $vars, array(
-  //     'meta_key' => '_spell_role',
-  //     'orderby' => 'meta_value'
-  //   ) );
-  // }
-  // return $vars;
-// }
+// Custom Column Sort
+add_filter( 'request', 'dfuw_poi_column_orderby' );
+function dfuw_poi_column_orderby( $vars ) {
+  if ( isset( $vars['orderby'] ) && 'adm_poi_type' == $vars['orderby'] ) {
+    $vars = array_merge( $vars, array(
+      'meta_key' => '_poi_type',
+      'orderby' => 'meta_value'
+    ) );
+  }
+  if ( isset( $vars['orderby'] ) && 'adm_poi_lat' == $vars['orderby'] ) {
+    $vars = array_merge( $vars, array(
+      'meta_key' => '_poi_loc',
+      'orderby' => 'meta_value'
+    ) );
+  }
+  return $vars;
+}
 
-add_action('manage_spell_posts_custom_column', 'display_spell_content');
-add_action('manage_role_posts_custom_column', 'display_spell_content');
-add_action('manage_school_posts_custom_column', 'display_spell_content');
+add_action('manage_spell_posts_custom_column', 'display_custom_content');
+add_action('manage_role_posts_custom_column', 'display_custom_content');
+add_action('manage_school_posts_custom_column', 'display_custom_content');
+add_action('manage_poi_posts_custom_column', 'display_custom_content');
 
-function display_spell_content($cols) //insert the content from db per custom column
+//insert the content from db per custom column
+function display_custom_content($cols)
 {
     global $post;
     switch ($cols) {
@@ -937,6 +951,27 @@ function display_spell_content($cols) //insert the content from db per custom co
               if (function_exists('the_post_thumbnail'))
                 echo the_post_thumbnail(array(50,50));
               break;
+            case "adm_poi_type":
+             $poi_type = get_post_meta($post->ID,'_poi_type',true);
+             if ( !empty($poi_type) ) {
+                echo $poi_type;
+            }
+            else echo '<i>Not Set</i>';
+            break;
+            case "adm_poi_lat":
+             $poi_loc = get_post_meta($post->ID,'_poi_loc',true);
+             if ( !empty($poi_loc) ) {
+                $poi_loc = explode('|',$poi_loc);
+                echo $poi_loc[0];
+            }
+            break;
+            case "adm_poi_lng":
+             $poi_loc = get_post_meta($post->ID,'_poi_loc',true);
+             if ( !empty($poi_loc) ) {
+                $poi_loc = explode('|',$poi_loc);
+                echo $poi_loc[1];
+            }
+            break;
     }
 }
 
@@ -1090,6 +1125,5 @@ global $menu;
   }
 }
 add_action('admin_menu', 'remove_menus');
-
 
 ?>
