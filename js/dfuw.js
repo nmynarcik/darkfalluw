@@ -39,6 +39,55 @@
          $('#school_selector').change(function(){
             window.location = $(this).val();
           });
+
+         if($('#content.air').length){
+            $('.excl-legend span').text('Earth');
+         }
+         if($('#content.earth').length){
+            $('.excl-legend span').text('Air');
+         }
+         if($('#content.pain').length){
+            $('.excl-legend span').text('Life');
+         }
+         if($('#content.life').length){
+            $('.excl-legend span').text('Pain');
+         }
+         if($('#content.law').length){
+            $('.excl-legend span').text('Chaos');
+         }
+         if($('#content.chaos').length){
+            $('.excl-legend span').text('Law');
+         }
+         if($('#content.brawler').length){
+            $('.excl-legend span').text('Blackguard');
+         }
+         if($('#content.blackguard').length){
+            $('.excl-legend span').text('Brawler');
+         }
+         if($('#content.deadeye').length){
+            $('.excl-legend span').text('Duelist');
+         }
+         if($('#content.duelist').length){
+            $('.excl-legend span').text('Deadeye');
+         }
+         if($('#content.baresark').length){
+            $('.excl-legend span').text('Champion');
+         }
+         if($('#content.champion').length){
+            $('.excl-legend span').text('Baresark');
+         }
+         if($('#content.battle-brand').length){
+            $('.excl-legend span').text('Slayer');
+         }
+         if($('#content.slayer').length){
+            $('.excl-legend span').text('Battle Brand');
+         }
+         if($('#content.fire').length){
+            $('.excl-legend span').text('Water');
+         }
+         if($('#content.water').length){
+            $('.excl-legend span').text('Fire');
+         }
       }
     }
 

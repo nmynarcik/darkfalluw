@@ -1218,7 +1218,7 @@ h2 {height: 27px; overflow: hidden; line-height: 22px;}
 
 
 /* Single School Page */
-label.ulti-legend {
+label.ulti-legend, label.excl-legend {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -1229,7 +1229,11 @@ label.ulti-legend {
   padding: 4px 10px;
 }
 
-.ulti-legend i {
+label.excl-legend {
+  background: #990000;
+}
+
+.ulti-legend i, .excl-legend i {
   margin-top: 4px;
 }
 

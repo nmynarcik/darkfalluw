@@ -2,7 +2,7 @@
 
 $slug = basename(get_permalink($post->ID));
 ?>
-<article id="content">
+<article id="content" class="<?php echo $slug; ?>">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <h2><?php the_title(); ?></h2>
 <div id="school-details">
@@ -48,6 +48,7 @@ $slug = basename(get_permalink($post->ID));
         }
     ?>
     <label class="ulti-legend"><i class="icon-certificate icon-white"></i> = School Ulimate</label>
+    <label class="excl-legend"><i class="icon-remove-circle icon-white"></i> <span></span> is Excluded</label>
 <?php
 $type = 'spell';
 $args=array(
