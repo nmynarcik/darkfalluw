@@ -17,8 +17,8 @@
 <link href='http://fonts.googleapis.com/css?family=Smythe|Oswald:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
 <?php
-  $GLOBALS['ver'] = '3.0';
-  $ver =  '3.0';
+  $GLOBALS['ver'] = '3.1';
+  $ver =  '3.1';
 ?>
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?ver=<?php echo $ver; ?>" />
 <?php wp_head(); ?>

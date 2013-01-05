@@ -416,15 +416,15 @@ article #map-container .gad {
 #map-legend a.active {
   background-color: #687A34 !important;
 }
-#map-legend a.fs-btn.active {background-color: white !important;}
+#map-legend #fs-btn.active {background-color: white !important;}
 
-#map-legend a.fs-btn i {background-position: 0 0}
-#map-legend a.fs-btn.active i {background-position: 0 -16px}
-#map-legend a.mob-btn i {background-position: 0 -80px}
-#map-legend a.bank-btn i {background-position: 0 -48px}
-#map-legend a.craft-btn i {background-position: 0 -96px}
-#map-legend a.bind-btn i {background-position: 0 -32px}
-#map-legend a.portal-btn i {background-position: 0 -64px}
+#map-legend #fs-btn i {background-position: 0 0}
+#map-legend #fs-btn.active i {background-position: 0 -16px}
+#map-legend #mob-btn i {background-position: 0 -80px}
+#map-legend #bank-btn i {background-position: 0 -48px}
+#map-legend #craft-btn i {background-position: 0 -96px}
+#map-legend #bind-btn i {background-position: 0 -32px}
+#map-legend #portal-btn i {background-position: 0 -64px}
 
 .edit-link {
   float: right;
@@ -1318,11 +1318,11 @@ label.ulti-legend {
   border-right: 0;
 }
 
-#clans-list tr {
+#clans-list tr, .misc-info tr {
   background: #ccc;
 }
 
-#clans-list tr.odd {
+#clans-list tr.odd, .misc-info tr.odd {
   background: #e7e7e7;
 }
 
@@ -1378,6 +1378,16 @@ label.ulti-legend {
 
 .clans p.totals {
   font-weight: 700;
+}
+
+#clans-list .clan_name a i {
+  background: url(images/icon-link.png) no-repeat;
+  width: 16px;
+  height: 16px;
+  display: block;
+  float: left;
+  margin-right: 5px;
+  margin-top: 2px;
 }
 
 /* Loading */
@@ -1563,6 +1573,7 @@ blockquote p {
   color: white;
   text-transform: uppercase;
   cursor: pointer;
+  padding: 5px 0;
 }
 
 .misc-info table th:first-child, .misc-info table td:first-child {
@@ -1609,3 +1620,11 @@ blockquote p {
 .gdoc {
   background: #FFFFFF;
 }
+
+/* FAQs Page */
+#post-954 ul {margin-bottom: 20px;}
+#post-954 ul ul {margin-top: 5px;}
+#post-954 ul li {font-weight: bold; font-size: 20px; background: none;  padding-left: 0; line-height: 23px;}
+#post-954 ul li li {font-weight: normal; font-size: 14px; line-height: 20px;}
+
+strong {font-weight: bold;}

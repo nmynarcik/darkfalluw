@@ -79,29 +79,36 @@ function placeMarker(location) {
   // map.setCenter(marker.getPosition());
 }
 
-function copyToClipboard (marker) {
-  window.prompt ("Copy to clipboard: Ctrl+C, Enter", marker.title);
+function copyToClipboard (poi) {
+  if(marker == poi){
+    window.prompt ("Copy to clipboard: Ctrl+C, Enter", marker.title);
+  }else{
+    window.prompt ("Copy to clipboard: Ctrl+C, Enter", poi.getPosition().lat()+"|"+poi.getPosition().lng());
+  }
 }
 
 function getPOIs(){
+  if(mobs.length){ //have we done this already?
+    return;
+  }
   //get the pois from the database
   jQuery.ajax({
       url: templateDir+'/getPOIs.php',
       dataType: 'json',
       success: function(data){
-        console.log(data);
+        // console.log(data);
         poiArray = data.pois;
         createMarkers();
       },
       error: function(jqXHR, textStatus, errorThrown){
-        console.log(textStatus, errorThrown);
+        // console.log(textStatus, errorThrown);
         alert('Problem with Map. Please contact us through the feedback form describing what happened! Thanks!')
       }
     });
 }
 
 function createMarkers(){
- console.log('creating markers');
+ // console.log('creating markers');
   var overlay = null;
   var image;
   for(var i = 0; i < poiArray.length; i++){
@@ -145,12 +152,17 @@ function createMarkers(){
         icon: image,
         title: poiArray[i].title
     });
+
+    google.maps.event.addListener(poiMarker, 'click', function() {
+      copyToClipboard(poiMarker);
+    });
+
     overlay.push(poiMarker);
   }
 }
 
 function showMarkers(type){
-  console.log('showing markers', type);
+  // console.log('showing markers', type);
   var markerArray;
   switch(type){
     case "mobs":
@@ -169,13 +181,16 @@ function showMarkers(type){
       markerArray = portals;
       break;
   }
+  var bounds = new google.maps.LatLngBounds();
   for(var i = 0; i < markerArray.length; i++){
     markerArray[i].setMap(map);
+    bounds.extend(markerArray[i].getPosition());
+    map.fitBounds(bounds);
   }
 }
 
 function hideMarkers(type){
-  console.log('hiding markers', type);
+  // console.log('hiding markers', type);
   var markerArray;
   switch(type){
     case "mobs":
@@ -197,4 +212,28 @@ function hideMarkers(type){
   for(var i = 0; i < markerArray.length; i++){
     markerArray[i].setMap(null);
   }
+}
+
+function checkToggles(){
+  jQuery.each(jQuery('#map-legend a'), function(){
+    if(jQuery(this).hasClass('active')){
+      switch(jQuery(this).attr('id')){
+        case 'mob-btn':
+          showMarkers('mobs');
+          break;
+        case 'bank-btn':
+          showMarkers('banks');
+          break;
+        case 'craft-btn':
+          showMarkers('crafts');
+          break;
+        case 'bind-btn':
+          showMarkers('binds');
+          break;
+        case 'portal-btn':
+          showMarkers('portals');
+          break;
+      }
+    }
+  });
 }

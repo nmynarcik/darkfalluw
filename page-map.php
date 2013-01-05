@@ -5,7 +5,7 @@ Template Name: DF Map
 global $ver;
 get_header();
 wp_enqueue_script('dfuw_jquery','http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false',false,'1.6','all');
-wp_enqueue_script('dfuw_map',get_template_directory_uri().'/js/agon.map.js',false,$ver,'all');
+wp_enqueue_script('dfuw_map',get_template_directory_uri().'/js/agon.map.min.js',false,$ver,'all');
 ?>
 <article id="content" class='full-width map'>
 <?php the_post(); ?>
@@ -28,12 +28,12 @@ wp_enqueue_script('dfuw_map',get_template_directory_uri().'/js/agon.map.js',fals
       </script>
     </div>
     <div id="map-legend">
-      <a href="javascript:void(0);" class="fs-btn" title="Toggle Fullscreen"><i>Toggle Fullscreen</i></a>
-      <a href="javascript:void(0);" class="mob-btn" title="Toggle Mobs"><i>Toggle Mobs</i></a>
-      <a href="javascript:void(0);" class="bank-btn" title="Toggle Banks"><i>Toggle Banks</i></a>
-      <a href="javascript:void(0);" class="craft-btn" title="Toggle Crafting Stations"><i>Toggle Crafting Stations</i></a>
-      <a href="javascript:void(0);" class="bind-btn" title="Toggle Bindstones"><i>Toggle Bindstones</i></a>
-      <a href="javascript:void(0);" class="portal-btn" title="Toggle Portals"><i>Toggle Portals</i></a>
+      <a href="javascript:void(0);" id="fs-btn" title="Toggle Fullscreen"><i>Toggle Fullscreen</i></a>
+      <a href="javascript:void(0);" id="mob-btn" title="Toggle Mobs"><i>Toggle Mobs</i></a>
+      <a href="javascript:void(0);" id="bank-btn" title="Toggle Banks"><i>Toggle Banks</i></a>
+      <a href="javascript:void(0);" id="craft-btn" title="Toggle Crafting Stations"><i>Toggle Crafting Stations</i></a>
+      <a href="javascript:void(0);" id="bind-btn" title="Toggle Bindstones"><i>Toggle Bindstones</i></a>
+      <a href="javascript:void(0);" id="portal-btn" title="Toggle Portals"><i>Toggle Portals</i></a>
     </div>
     <div id="map_canvas"></div>
   </div>

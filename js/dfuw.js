@@ -1,7 +1,7 @@
 (function($){
     if($(".accordion").length){
       $('.accordion').accordion({ collapsible: true });
-      console.log('ACCORDION!');
+      // console.log('ACCORDION!');
       //$(".accordion").tabs(".pane", {tabs: 'h4', effect: 'slide'});
     }
 
@@ -97,7 +97,7 @@
               }, 180000);
             },
             error: function(jqXHR, textStatus, errorThrown){
-              console.log('error: ',arguments, textStatus, errorThrown);
+              // console.log('error: ',arguments, textStatus, errorThrown);
               $('.loading, .loader').stop(true,true).fadeOut();
                 setTimeout(function(){
                   home.getForumFallFeed();
@@ -121,7 +121,7 @@
               }
           },
           error: function(jqXHR, textStatus, errorThrown){
-            console.log(textStatus, errorThrown);
+            // console.log(textStatus, errorThrown);
             $('#server-status').find('span i').removeClass('up down');
           }
         });
@@ -150,87 +150,89 @@
 
     var map_legend = {
       init:  function(){
-        console.log('adding listeners');
+        // console.log('adding listeners');
           // fullscreen bind
-          $('.fs-btn').click(function(){
+          $('#fs-btn').click(function(){
             if(!fullscreen){
               $('#map-container').appendTo('body');
-              $('.fs-btn').addClass('active');
+              $('#fs-btn').addClass('active');
               $('body').scrollTop(0);
               fullscreen = true;
               map_initialize();
+              checkToggles();
               if(marker)
                 marker.setMap(map);
             }else{
               $('#map-container').appendTo('.entry-content');
-              $('.fs-btn').removeClass('active');
+              $('#fs-btn').removeClass('active');
               fullscreen = false;
               map_initialize();
+              checkToggles();
               if(marker)
                 marker.setMap(map);
             }
           });
 
             // mob bind
-            $('.mob-btn').click(function(){
+            $('#mob-btn').click(function(){
               if(!showMobs){
-                $('.mob-btn').addClass('active');
+                $('#mob-btn').addClass('active');
                 showMobs = true;
                 showMarkers('mobs');
               }else{
-                $('.mob-btn').removeClass('active');
+                $('#mob-btn').removeClass('active');
                 showMobs = false;
                 hideMarkers('mobs');
               }
             });
 
             // bank bind
-            $('.bank-btn').click(function(){
+            $('#bank-btn').click(function(){
               if(!showBanks){
-                $('.bank-btn').addClass('active');
+                $('#bank-btn').addClass('active');
                 showBanks = true;
                 showMarkers('banks');
               }else{
-                $('.bank-btn').removeClass('active');
+                $('#bank-btn').removeClass('active');
                 showBanks = false;
                 hideMarkers('banks');
               }
             });
 
              // craft bind
-            $('.craft-btn').click(function(){
+            $('#craft-btn').click(function(){
               if(!showCrafts){
-                $('.craft-btn').addClass('active');
+                $('#craft-btn').addClass('active');
                 showCrafts = true;
                 showMarkers('crafts');
               }else{
-                $('.craft-btn').removeClass('active');
+                $('#craft-btn').removeClass('active');
                 showCrafts = false;
                 hideMarkers('crafts');
               }
             });
 
              // bind bind
-            $('.bind-btn').click(function(){
+            $('#bind-btn').click(function(){
               if(!showBinds){
-                $('.bind-btn').addClass('active');
+                $('#bind-btn').addClass('active');
                 showBinds = true;
                 showMarkers('binds');
               }else{
-                $('.bind-btn').removeClass('active');
+                $('#bind-btn').removeClass('active');
                 showBinds = false;
                 hideMarkers('binds');
               }
             });
 
              // portal bind
-            $('.portal-btn').click(function(){
+            $('#portal-btn').click(function(){
               if(!showPortals){
-                $('.portal-btn').addClass('active');
+                $('#portal-btn').addClass('active');
                 showPortals = true;
                 showMarkers('portals');
               }else{
-                $('.portal-btn').removeClass('active');
+                $('#portal-btn').removeClass('active');
                 showPortals = false;
                 hideMarkers('portals');
               }
@@ -244,7 +246,7 @@
       }
     }
 
-    var swears = ['fuck','shit','fag',' ass','pussy','pussies','nigger','nigga','bitch','asshole','dick','penis','vagina'];
+    var swears = ['fuck','shit','fag',' ass','puss','nigg','bitch','asshole','dick','penis','vagina'];
 
     function filterText(text){
       var rgx = new RegExp(swears.join("|"), "gi");
