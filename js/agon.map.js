@@ -62,13 +62,13 @@ var poiArray;
 function placeMarker(location) {
   if ( marker ) {
     marker.setPosition(location);
-    marker.title = location.lat()+'|'+location.lng();
+    marker.title = 'Click Me!';
   } else {
     marker = new google.maps.Marker({
       position: location,
       map: map,
       icon: templateDir+"/images/poi-default.png",
-      title: location.lat()+'|'+location.lng()
+      title: 'Click Me!'
     });
 
     google.maps.event.addListener(marker, 'click', function() {
@@ -80,11 +80,7 @@ function placeMarker(location) {
 }
 
 function copyToClipboard (poi) {
-  if(marker == poi){
-    window.prompt ("Copy to clipboard: Ctrl+C, Enter", marker.title);
-  }else{
     window.prompt ("Copy to clipboard: Ctrl+C, Enter", poi.getPosition().lat()+"|"+poi.getPosition().lng());
-  }
 }
 
 function getPOIs(){
@@ -236,4 +232,30 @@ function checkToggles(){
       }
     }
   });
+}
+
+var roads = [
+  new google.maps.LatLng(70.22602804114847,-84.5672607421875),
+  new google.maps.LatLng(70.1403642720717,-84.1937255859375),
+  new google.maps.LatLng(70.13663169260924,-83.7432861328125),
+  new google.maps.LatLng(70.06558465579644,-83.2598876953125),
+  new google.maps.LatLng(69.96796725849451,-82.7655029296875),
+  new google.maps.LatLng(69.96796725849451,-82.7655029296875),
+  new google.maps.LatLng(69.80551647017177,-82.3260498046875),
+  new google.maps.LatLng(69.80551647017177,-82.3260498046875),
+  new google.maps.LatLng(69.64562538650985,-82.2271728515625),
+  new google.maps.LatLng(69.54987728327795,-82.0404052734375),
+  new google.maps.LatLng(69.42282952635378,-82.7545166015625),
+  new google.maps.LatLng(69.37257336614788,-83.4136962890625)
+]
+
+function createRoads(){
+  var line = new google.maps.Polyline({
+    path: roads,
+    geodesic: false,
+    strokeColor: '#000000',
+    strokeOpacity: 1,
+    strokeWeight: 3
+  });
+  line.setMap(map);
 }
