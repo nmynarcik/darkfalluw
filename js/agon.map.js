@@ -131,8 +131,12 @@ function createMarkers(){
         image = templateDir+'/images/poi-hamlet.png';
         overlay = holdings;
         break;
-      case 'bindstones':
-        image = templateDir+'/images/poi-bind.png';
+      case 'cbind':
+        image = templateDir+'/images/poi-bind-chaos.png';
+        overlay = binds;
+        break;
+      case 'sbind':
+        image = templateDir+'/images/poi-bind-safe.png';
         overlay = binds;
         break;
       case 'craft':
