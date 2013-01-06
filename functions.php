@@ -486,7 +486,9 @@ function add_poi_type(){
     echo '<option val="">Select Type</option>';
     echo '<option value="bank" ' . (($poi_type == 'bank') ? 'selected="selected" ' : ' ') . '>Bank</option>';
     echo '<option value="bind"' . (($poi_type == 'bind') ? 'selected="selected"' : '') . '>Bindstone</option>';
+    echo '<option value="city"' . (($poi_type == 'city') ? 'selected="selected"' : '') . '>City</option>';
     echo '<option value="craft"' . (($poi_type == 'craft') ? 'selected="selected"' : '') . '>Craft Station</option>';
+    echo '<option value="hamlet"' . (($poi_type == 'hamlet') ? 'selected="selected"' : '') . '>Hamlet</option>';
     echo '<option value="mob"' . (($poi_type == 'mob') ? 'selected="selected"' : '') . '>Mob</option>';
     echo '<option value="portal"' . (($poi_type == 'portal') ? 'selected="selected"' : '') . '>Portal</option>';
     echo '<option value="pchamber"' . (($poi_type == 'pchamber') ? 'selected="selected"' : '') . '>Portal Chamber</option>';
@@ -498,7 +500,7 @@ function add_poi_level(){
     global $post_id;
     $poi_level = get_post_meta($post_id, '_poi_level',true);
     echo '<select name="_poi_level">';
-    echo '<option val="">Select Type</option>';
+    echo '<option val="">Select Level</option>';
     echo '<option value="easy" ' . (($poi_level == 'easy') ? 'selected="selected" ' : ' ') . '>Easy</option>';
     echo '<option value="med"' . (($poi_level == 'med') ? 'selected="selected"' : '') . '>Medium</option>';
     echo '<option value="hard"' . (($poi_level == 'hard') ? 'selected="selected"' : '') . '>Hard</option>';

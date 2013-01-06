@@ -286,6 +286,19 @@
                 hideMarkers('portals');
               }
             });
+
+             // holding bind
+            $('#holding-btn').click(function(){
+              if(!showHoldings){
+                $('#holding-btn').addClass('active');
+                showHoldings = true;
+                showMarkers('holdings');
+              }else{
+                $('#holding-btn').removeClass('active');
+                showHoldings = false;
+                hideMarkers('holdings');
+              }
+            });
         }
     }
 

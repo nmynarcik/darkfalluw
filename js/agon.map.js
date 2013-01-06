@@ -23,12 +23,14 @@ var showBanks = false;
 var showCrafts = false;
 var showBinds = false;
 var showPortals = false;
+var showHoldings = false;
 var mobs = [];
 var banks = [];
 var binds = [];
 var crafts = [];
 var portals = [];
 var chambers = [];
+var holdings = [];
 
 function map_initialize() {
 
@@ -121,6 +123,14 @@ function createMarkers(){
         }
         overlay = mobs;
         break;
+      case 'city':
+        image = templateDir+'/images/poi-city.png';
+        overlay = holdings;
+        break;
+      case 'hamlet':
+        image = templateDir+'/images/poi-hamlet.png';
+        overlay = holdings;
+        break;
       case 'bindstones':
         image = templateDir+'/images/poi-bind.png';
         overlay = binds;
@@ -133,7 +143,7 @@ function createMarkers(){
         image = templateDir+'/images/poi-portal.png';
         overlay = portals;
         break;
-      case 'chamber':
+      case 'pchamber':
         image = templateDir+'/images/poi-chamber.png';
         overlay = portals;
         break;
@@ -176,6 +186,9 @@ function showMarkers(type){
     case "portals":
       markerArray = portals;
       break;
+    case 'holdings':
+      markerArray = holdings;
+        break;
   }
   var bounds = new google.maps.LatLngBounds();
   for(var i = 0; i < markerArray.length; i++){
@@ -204,6 +217,9 @@ function hideMarkers(type){
     case "portals":
       markerArray = portals;
       break;
+    case 'holdings':
+      markerArray = holdings;
+      break;
   }
   for(var i = 0; i < markerArray.length; i++){
     markerArray[i].setMap(null);
@@ -229,33 +245,36 @@ function checkToggles(){
         case 'portal-btn':
           showMarkers('portals');
           break;
+        case 'holding-btn':
+          showMarkers('holdings');
+          break;
       }
     }
   });
 }
 
-var roads = [
-  new google.maps.LatLng(70.22602804114847,-84.5672607421875),
-  new google.maps.LatLng(70.1403642720717,-84.1937255859375),
-  new google.maps.LatLng(70.13663169260924,-83.7432861328125),
-  new google.maps.LatLng(70.06558465579644,-83.2598876953125),
-  new google.maps.LatLng(69.96796725849451,-82.7655029296875),
-  new google.maps.LatLng(69.96796725849451,-82.7655029296875),
-  new google.maps.LatLng(69.80551647017177,-82.3260498046875),
-  new google.maps.LatLng(69.80551647017177,-82.3260498046875),
-  new google.maps.LatLng(69.64562538650985,-82.2271728515625),
-  new google.maps.LatLng(69.54987728327795,-82.0404052734375),
-  new google.maps.LatLng(69.42282952635378,-82.7545166015625),
-  new google.maps.LatLng(69.37257336614788,-83.4136962890625)
-]
+// var roads = [
+//   new google.maps.LatLng(70.22602804114847,-84.5672607421875),
+//   new google.maps.LatLng(70.1403642720717,-84.1937255859375),
+//   new google.maps.LatLng(70.13663169260924,-83.7432861328125),
+//   new google.maps.LatLng(70.06558465579644,-83.2598876953125),
+//   new google.maps.LatLng(69.96796725849451,-82.7655029296875),
+//   new google.maps.LatLng(69.96796725849451,-82.7655029296875),
+//   new google.maps.LatLng(69.80551647017177,-82.3260498046875),
+//   new google.maps.LatLng(69.80551647017177,-82.3260498046875),
+//   new google.maps.LatLng(69.64562538650985,-82.2271728515625),
+//   new google.maps.LatLng(69.54987728327795,-82.0404052734375),
+//   new google.maps.LatLng(69.42282952635378,-82.7545166015625),
+//   new google.maps.LatLng(69.37257336614788,-83.4136962890625)
+// ]
 
-function createRoads(){
-  var line = new google.maps.Polyline({
-    path: roads,
-    geodesic: false,
-    strokeColor: '#000000',
-    strokeOpacity: 1,
-    strokeWeight: 3
-  });
-  line.setMap(map);
-}
+// function createRoads(){
+//   var line = new google.maps.Polyline({
+//     path: roads,
+//     geodesic: false,
+//     strokeColor: '#000000',
+//     strokeOpacity: 1,
+//     strokeWeight: 3
+//   });
+//   line.setMap(map);
+// }
