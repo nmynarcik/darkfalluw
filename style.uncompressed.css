@@ -890,6 +890,12 @@ ul.school-list li .icon:hover{
   height: 16px;
 }
 
+.blogfeed a.dfuwfb i.icon {
+  background: url(images/icon-fb.png) no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
 .blogfeed p {
   /*height: 55px;
   overflow: hidden;*/

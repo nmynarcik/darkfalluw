@@ -513,9 +513,7 @@ function add_poi_loc(){
     global $post;
     global $post_id;
     $poi_loc = get_post_meta($post_id, '_poi_loc',true);
-    $poi_loc = explode('|', $poi_loc);
-    echo 'lat: <input type="text" name="_poi_lat" value="'.$poi_loc[0].'"/><br/>';
-    echo 'lng: <input type="text" name="_poi_lng"  value="'.$poi_loc[1].'" />';
+    echo 'lat|lng: <input type="text" name="_poi_loc" value="'.$poi_loc.'"/><br/>';
 }
 
 function add_server_box(){
@@ -780,7 +778,7 @@ function save_df_stuff($post_id, $post)
         case 'poi':
             $the_meta['_poi_type'] = $_POST['_poi_type'];
             $the_meta['_poi_level'] = $_POST['_poi_level'];
-            $the_meta['_poi_loc'] = $_POST['_poi_lat'].'|'.$_POST['_poi_lng'];
+            $the_meta['_poi_loc'] = $_POST['_poi_loc'];
             break;
       }
 
