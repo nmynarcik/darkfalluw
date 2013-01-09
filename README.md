@@ -12,9 +12,10 @@ Dynamic content created within the admin section of WP
   * Roles
   * Schools
   * Videos
+  * Specific Game Info
+  * Interactive Game Map
 * Custom Page Templates
 * Dynamic data pulled in from Official Sites
-* More to come...
 
 ## Screenshot
 
