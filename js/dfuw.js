@@ -138,10 +138,15 @@
                 if($('.bottom .forumfeed ul').length){
                   $('.bottom .forumfeed ul').remove();
                 }
-              $('.bottom .forumfeed').append(list);
-              console.log(list);
+                if(list == "<ul></ul>"){
+                  list = "<ul><li><strong>Forums currently offline!</strong></li></ul>";
+                  $('.bottom .forumfeed').append(list);
+                }else{
+                  $('.bottom .forumfeed').append(list);
+                  $('.bottom .blogfeed a, .bottom .eventfeed a, .forumfeed li a, .forumfeed li .descr').ellipsis();
+                }
               $('.load-wrapper').stop(true,true).fadeOut();
-              $('.bottom .blogfeed a, .bottom .eventfeed a, .forumfeed li a, .forumfeed li .descr').ellipsis();
+
               setTimeout(function(){
                 home.getForumFallFeed();
               }, 180000);
