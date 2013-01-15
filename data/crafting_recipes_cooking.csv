@@ -1,0 +1,9 @@
+id,Name,Icon,Skill,Min Level,Max Level,Quantity,Gold,Potato,Onion,Carrot,Meat,Spices,Bass,Cod,Additional,Copy Pasta
+r_Baked Potato,Baked Potato,http://darkfallunholywars.info/images/icons/crafting/food_baked_potato.png,Cooking,1,25,1,1,1,0,0,0,0,0,0,,1 Baked Potato: 1 Gold; 1 Potato
+r_Vegetable Soup,Vegetable Soup,http://darkfallunholywars.info/images/icons/crafting/food_vegetable_soup.png,Cooking,1,25,1,1,2,2,2,0,0,0,0,,1 Vegetable Soup: 1 Gold; 2 Potato; 2 Onion; 2 Carrot
+r_Grilled Meat,Grilled Meat,http://darkfallunholywars.info/images/icons/crafting/food_grilled_meat.png,Cooking,25,50,1,8,3,0,0,1,1,0,0,,1 Grilled Meat: 8 Gold; 1 Meat; 3 Potato; 1 Spices
+r_Meat Stew,Meat Stew,http://darkfallunholywars.info/images/icons/crafting/food_meat_stew.png,Cooking,25,50,1,8,5,2,3,3,0,0,0,,1 Meat Stew: 8 Gold; 3 Meat; 5 Potato; 2 Onion; 3 Carrot
+r_Grilled Bass,Grilled Bass,http://darkfallunholywars.info/images/icons/crafting/food_grilled_bass.png,Cooking,50,75,1,25,0,5,0,0,3,2,0,,1 Grilled Bass: 25 Gold; 2 Bass; 5 Onion; 3 Spices
+r_Bass Stew,Bass Stew,http://darkfallunholywars.info/images/icons/crafting/food_bass_stew.png,Cooking,50,75,1,25,7,5,5,0,0,3,0,,1 Bass Stew: 25 Gold; 3 Bass; 7 Potato; 5 Onion; 5 Carrot
+r_Grilled Cod,Grilled Cod,http://darkfallunholywars.info/images/icons/crafting/food_grilled_cod.png,Cooking,75,100,1,50,8,0,0,0,5,0,4,,1 Grilled Cod: 50 Gold; 4 Cod; 8 Potato; 5 Spices
+r_Cod Stew,Cod Stew,http://darkfallunholywars.info/images/icons/crafting/food_cod_stew.png,Cooking,75,100,1,50,10,8,8,0,0,0,6,,1 Cod Stew: 50 Gold; 6 Cod; 10 Potato; 8 Onion; 8 Carrot

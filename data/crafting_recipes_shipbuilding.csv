@@ -1,0 +1,4 @@
+id,Name,Icon,Skill,Min Level,Max Level,Quantity,Gold,Wood,Iron Ingot,Cloth,Ship Module,Additional,Copy Pasta
+r_Figurine Ship Wherry,Wherry Figurine,http://darkfallunholywars.info/images/icons/crafting/figurine_boat_playercontrolled_raft_01.png,Shipbuilding,1,25,1,1000,100,25,15,0,,1 Wherry Figurine: 1000 Gold; 100 Wood; 25 Iron Ingot; 15 Cloth
+r_Module Ship,Ship Module,http://darkfallunholywars.info/images/icons/crafting/construction_unit_01.png,Shipbuilding,10,50,1,300,150,50,40,0,,1 Ship Module: 300 Gold; 150 Wood; 50 Iron Ingot; 40 Cloth
+r_Figurine Ship Launch,Launch Figurine,http://darkfallunholywars.info/images/icons/crafting/figurine_boat_playercontrolled_raft_01.png,Shipbuilding,25,50,1,8000,0,0,0,10,,1 Launch Figurine: 8000 Gold; 10 Ship Module

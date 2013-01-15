@@ -1,0 +1,7 @@
+id,Name,Icon,Skill,Min Level,Max Level,Quantity,Gold,Cotton,Mandrake,Additional,Copy Pasta
+r_Cloth,Cloth,http://darkfallunholywars.info/images/icons/crafting/item_cloth_normal.png,Weaving,1,100,2,1,5,0,,2 Cloth: 1 Gold; 5 Cotton
+r_Selentine Cloth,Selentine Cloth,http://darkfallunholywars.info/images/icons/crafting/item_cloth_selentine.png,Weaving Mastery,1,25,1,30,3,1,2 Selentine Essence,1 Selentine Cloth: 30 Gold; 2 Selentine Essence; 1 Mandrake; 3 Cotton
+r_Veilron Cloth,Veilron Cloth,http://darkfallunholywars.info/images/icons/crafting/item_cloth_veilron.png,Weaving Mastery,25,50,1,50,3,1,2 Veilron Essence,1 Veilron Cloth: 50 Gold; 2 Veilron Essence; 1 Mandrake; 3 Cotton
+r_Neithal Cloth,Neithal Cloth,http://darkfallunholywars.info/images/icons/crafting/item_cloth_neithal.png,Weaving Mastery,50,75,1,80,3,1,2 Neithal Essence,1 Neithal Cloth: 80 Gold; 2 Neithal Essence; 1 Mandrake; 3 Cotton
+r_Leenspar Cloth,Leenspar Cloth,http://darkfallunholywars.info/images/icons/crafting/item_cloth_leenspar.png,Weaving Mastery,75,100,1,115,3,1,2 Leenspar Essence,1 Leenspar Cloth: 115 Gold; 2 Leenspar Essence; 1 Mandrake; 3 Cotton
+r_Theyril Cloth,Theyril Cloth,http://darkfallunholywars.info/images/icons/crafting/item_cloth_theyril.png,Weaving Mastery,100,125,1,160,3,1,2 Theyril Essence,1 Theyril Cloth: 160 Gold; 2 Theyril Essence; 1 Mandrake; 3 Cotton

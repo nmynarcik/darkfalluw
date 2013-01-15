@@ -116,15 +116,14 @@
           }
         });
 
-        $('.bottom .blogfeed a, .bottom .eventfeed a, .forumfeed li a, .forumfeed li .descr').ellipsis();
-
         home.getForumFallFeed();
+
       },
 
       getForumFallFeed: function(){
         $('.load-wrapper').stop(true,true).fadeIn('fast');
         $.ajax({
-            url: 'wp-content/themes/darkfalluw/proxy.php?url=http://forums.darkfallonline.com/external.php?type=RSS2', //DF Forums
+            url: templateDir+'/proxy.php?url=http://forums.darkfallonline.com/external.php?type=RSS2', //DF Forums
             dataType: 'xml',
             async: false,
             type: 'GET',
@@ -140,7 +139,9 @@
                   $('.bottom .forumfeed ul').remove();
                 }
               $('.bottom .forumfeed').append(list);
+              console.log(list);
               $('.load-wrapper').stop(true,true).fadeOut();
+              $('.bottom .blogfeed a, .bottom .eventfeed a, .forumfeed li a, .forumfeed li .descr').ellipsis();
               setTimeout(function(){
                 home.getForumFallFeed();
               }, 180000);

@@ -1,0 +1,7 @@
+id,Name,Icon,Skill,Min Level,Max Level,Quantity,Gold,Rawhide,Nacre,Additional,Copy Pasta
+r_Leather,Leather,http://darkfallunholywars.info/images/icons/crafting/item_leather_normal.png,Tanning,1,100,2,1,3,0,,2 Leather: 1 Gold; 3 Rawhide
+r_Selentine Leather,Selentine Leather,http://darkfallunholywars.info/images/icons/crafting/item_leather_selentine.png,Tanning Mastery,1,25,1,30,2,1,2 Selentine Essence,1 Selentine Leather: 30 Gold; 2 Selentine Essence; 1 Nacre; 2 Rawhide
+r_Veilron Leather,Veilron Leather,http://darkfallunholywars.info/images/icons/crafting/item_leather_veilron.png,Tanning Mastery,25,50,1,50,2,1,2 Veilron Essence,1 Veilron Leather: 50 Gold; 2 Veilron Essence; 1 Nacre; 2 Rawhide
+r_Neithal Leather,Neithal Leather,http://darkfallunholywars.info/images/icons/crafting/item_leather_neithal.png,Tanning Mastery,50,75,1,80,2,1,2 Neithal Essence,1 Neithal Leather: 80 Gold; 2 Neithal Essence; 1 Nacre; 2 Rawhide
+r_Leenspar Leather,Leenspar Leather,http://darkfallunholywars.info/images/icons/crafting/item_leather_leenspar.png,Tanning Mastery,75,100,1,115,2,1,2 Leenspar Essence,1 Leenspar Leather: 115 Gold; 2 Leenspar Essence; 1 Nacre; 2 Rawhide
+r_Theyril Leather,Theyril Leather,http://darkfallunholywars.info/images/icons/crafting/item_leather_theyril.png,Tanning Mastery,100,125,1,160,2,1,2 Theyril Essence,1 Theyril Leather: 160 Gold; 2 Theyril Essence; 1 Nacre; 2 Rawhide

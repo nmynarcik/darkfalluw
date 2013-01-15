@@ -1,0 +1,6 @@
+id,Name,Icon,Skill,Min Level,Max Level,Quantity,Gold,Black Powder,Iron Ingot,Additional,Copy Pasta
+r_Black Powder,Black Powder,http://darkfallunholywars.info/images/icons/crafting/black_powder_01.png,Engineering,1,10,10,5,0,0,5 Fossil; 10 Sulfur,10 Black Powder: 5 Gold; 5 Fossil; 10 Sulfur
+r_Grenade_01,Light Battlespike,http://darkfallunholywars.info/images/icons/crafting/waw_grenade_01.png,Engineering,1,25,4,2,2,1,,4 Light Battlespike: 2 Gold; 2 Black Powder; 1 Iron Ingot
+r_Grenade_02,Battlespike,http://darkfallunholywars.info/images/icons/crafting/waw_grenade_02.png,Engineering,25,50,4,16,5,2,2 Inferior Anima (Q1); 2 Impure Anima (Q2),4 Battlespike: 2 Inferior Anima (Q1); 16 Gold; 5 Black Powder; 2 Iron Ingot; 2 Impure Anima (Q2)
+r_Siege Hammer,Siege Hammer,http://darkfallunholywars.info/images/icons/crafting/waw_sieginghammer_01.png,Engineering,50,75,1,25,0,30,12 Wood; 5 Impure Glyph (Q2); 2 Fine Glyph (Q3),1 Siege Hammer: 25 Gold; 30 Iron Ingot; 12 Wood; 5 Impure Glyph (Q2); 2 Fine Glyph (Q3)
+r_Grenade_03,Heavy Battlespike,http://darkfallunholywars.info/images/icons/crafting/waw_grenade_03.png,Engineering,75,100,4,100,10,3,4 Fine Anima (Q3),4 Heavy Battlespike: 100 Gold; 10 Black Powder; 3 Iron Ingot; 4 Fine Anima (Q3)
