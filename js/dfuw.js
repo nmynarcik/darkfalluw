@@ -127,6 +127,7 @@
             dataType: 'xml',
             async: false,
             type: 'GET',
+            timeout: 60000,
             success: function(data){
                 var list = "<ul>";
                 $(data).find('item').each(function(i){
@@ -167,6 +168,7 @@
         $.ajax({
           url: templateDir+'/serverstatus.php',
           dataType: 'json',
+          timeout: 60000,
           success: function(data){
             $('#server-status').find('span i').removeClass('up down');
               for (var key in data) {
