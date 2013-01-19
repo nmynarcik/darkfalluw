@@ -434,6 +434,7 @@ article #map-container .gad {
 #map-legend #bind-btn i {background-position: 0 -32px}
 #map-legend #portal-btn i {background-position: 0 -64px}
 #map-legend #holding-btn i {background-position: 0 -112px}
+#map-legend #village-btn i {background-position: 0 -128px}
 
 #map-container .dfuw_logo {
   background: url(images/dfuw-map-logo.png) no-repeat;

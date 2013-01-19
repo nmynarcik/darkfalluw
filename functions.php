@@ -493,6 +493,7 @@ function add_poi_type(){
     echo '<option value="mob"' . (($poi_type == 'mob') ? 'selected="selected"' : '') . '>Mob</option>';
     echo '<option value="portal"' . (($poi_type == 'portal') ? 'selected="selected"' : '') . '>Portal</option>';
     echo '<option value="pchamber"' . (($poi_type == 'pchamber') ? 'selected="selected"' : '') . '>Portal Chamber</option>';
+    echo '<option value="village"' . (($poi_type == 'village') ? 'selected="selected"' : '') . '>Village</option>';
     echo '</select>';
 }
 

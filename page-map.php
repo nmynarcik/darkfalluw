@@ -32,6 +32,7 @@ wp_enqueue_script('dfuw_map',get_template_directory_uri().'/js/agon.map.min.js',
       <a href="javascript:void(0);" id="mob-btn" title="Toggle Mobs"><i>Toggle Mobs</i></a>
       <a href="javascript:void(0);" id="bank-btn" title="Toggle Banks"><i>Toggle Banks</i></a>
       <a href="javascript:void(0);" id="holding-btn" title="Toggle Holdings"><i>Toggle Holdings</i></a>
+      <a href="javascript:void(0);" id="village-btn" title="Toggle Villages"><i>Toggle Villages</i></a>
       <a href="javascript:void(0);" id="craft-btn" title="Toggle Crafting Stations"><i>Toggle Crafting Stations</i></a>
       <a href="javascript:void(0);" id="bind-btn" title="Toggle Bindstones"><i>Toggle Bindstones</i></a>
       <a href="javascript:void(0);" id="portal-btn" title="Toggle Portals"><i>Toggle Portals</i></a>

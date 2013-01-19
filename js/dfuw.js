@@ -305,6 +305,19 @@
                 hideMarkers('holdings');
               }
             });
+
+            // village bind
+            $('#village-btn').click(function(){
+              if(!showVillages){
+                $('#village-btn').addClass('active');
+                showVillages = true;
+                showMarkers('villages');
+              }else{
+                $('#village-btn').removeClass('active');
+                showVillages = false;
+                hideMarkers('villages');
+              }
+            });
         }
     }
 
