@@ -21,7 +21,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 ::selection {
   background: #211614;
   color: white;
-  text-shadow: 0 0 0;
+  text-shadow: 0px 0px #000;
 }
 
 html{height:100%;position: relative;}
@@ -76,7 +76,7 @@ a.df-btn {
   font-weight: normal;
 }
 a:hover {color:#ECD547; text-decoration: none; text-shadow: -1px -1px black;}
-li a:hover {text-shadow: 0 0 black;}
+li a:hover {text-shadow: 0px 0px black;}
 h1 {font-weight: bold; font-size: 30px; color:#231816; margin-bottom: 5px; text-shadow: 1px 1px #CCC;}
 h2 {font-weight: bold; font-size: 24px; color:#231816; margin-bottom: 5px; text-shadow: 1px 1px #CCC;}
 h3 {font-weight: bold; font-size: 20px; color:#231816; margin-bottom: 5px; border-bottom: 4px double; text-shadow: 1px 1px #CCC; padding-bottom: 4px;}
@@ -565,6 +565,7 @@ article #map-container .gad {
   position: relative;
   width: 100%;
   display: inline;
+  font-weight: normal;
 }
 
 .ui-accordion-header a i {
@@ -795,7 +796,7 @@ ul.school-list li .icon:hover{
   margin-top: 7px;
   text-align: center;
   color: white;
-  text-shadow: 0 0 0;
+  text-shadow: 0px 0px #000;
   font-size: 24px;
   font-family: 'Smythe', sans-serif;
   text-transform: uppercase;
@@ -1732,15 +1733,15 @@ strong {font-weight: bold;}
   font-size: 18px !important;
 }
 
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+#craftingGrid .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
   background: #e7e7e7 !important;
 }
 
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+#craftingGrid .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
   background: #ccc !important;
 }
 
-.slick-header .ui-state-default {
+#craftingGrid .slick-header .ui-state-default {
   background: #221715 !important;
 }
 
