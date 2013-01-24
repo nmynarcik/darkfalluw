@@ -64,9 +64,7 @@ var marker;
 var poiArray;
 
 function getUserLoc(loc){
-  window.console.log('Got Loc',loc);
   var phpLoc = loc.split('|');
-  window.console.log(phpLoc);
   var userLoc = new google.maps.LatLng(phpLoc[0], phpLoc[1]);
   placeMarker(userLoc);
   if(map){
