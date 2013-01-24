@@ -63,6 +63,18 @@ function map_initialize() {
 var marker;
 var poiArray;
 
+function getUserLoc(loc){
+  window.console.log('Got Loc',loc);
+  var phpLoc = loc.split('|');
+  window.console.log(phpLoc);
+  var userLoc = new google.maps.LatLng(phpLoc[0], phpLoc[1]);
+  placeMarker(userLoc);
+  if(map){
+    map.setZoom(7);
+    map.setCenter(userLoc);
+  }
+}
+
 function placeMarker(location) {
   if ( marker ) {
     marker.setPosition(location);
@@ -79,6 +91,8 @@ function placeMarker(location) {
       copyToClipboard(marker);
     });
   }
+
+window.location.hash = marker.getPosition().lat()+"|"+marker.getPosition().lng();
   // map.setZoom(7);
   // map.setCenter(marker.getPosition());
 }
@@ -101,10 +115,13 @@ function getPOIs(){
         createMarkers();
       },
       error: function(jqXHR, textStatus, errorThrown){
-        // console.log(textStatus, errorThrown);
+        // window.console.log(textStatus, errorThrown);
         alert('Problem with Map. Please contact us through the feedback form describing what happened! Thanks!')
       }
     });
+  if(userPOI != ""){
+    getUserLoc(userPOI);
+  }
 }
 
 function createMarkers(){

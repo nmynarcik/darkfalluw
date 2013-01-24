@@ -7,6 +7,10 @@ get_header();
 wp_enqueue_script('dfuw_jquery','http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false',false,'1.6','all');
 wp_enqueue_script('dfuw_map',get_template_directory_uri().'/js/agon.map.min.js',false,$ver,'all');
 ?>
+<script type="text/javascript">
+  // var userPOI = "<?php echo $_GET['loc'] ?>";
+  var userPOI = window.location.hash.substr(1);
+</script>
 <article id="content" class='full-width map'>
 <?php the_post(); ?>
 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
