@@ -16,7 +16,7 @@ wp_enqueue_script('dfuw_slickeditor', get_template_directory_uri().'/js/lib/slic
 wp_enqueue_script('dfuw_slickformat', get_template_directory_uri().'/js/lib/slick.formatters.js',false,$er,'all');
 wp_enqueue_script('dfuw_slickgrid', get_template_directory_uri().'/js/slick.grid.js',false,$er,'all');
 wp_enqueue_style( 'dfuw_slick_styles', get_template_directory_uri().'/css/slick.grid.css', false, $ver, 'all' );
-wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.js',false,$ver,'all');
+wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.min.js',false,$ver,'all');
 ?>
 <article id="content" class="full-width">
 <?php the_post(); ?>

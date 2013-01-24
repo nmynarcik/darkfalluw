@@ -171,7 +171,7 @@ function createTable(csv){
         {
           var c = craftingGrid.getColumns()[craftingGrid.getColumnIndex(columnId)];
 
-          var filterTxt = columnFilters[columnId];
+          var filterTxt = columnFilters[columnId].toLowerCase();
 
           var isGT = false;
           if(filterTxt.charAt(0) == ">")
@@ -191,13 +191,13 @@ function createTable(csv){
           if(isFinite(item[c.field]))
             isNumber = true;
 
-          if(!isNumber && item[c.field].indexOf(columnFilters[columnId]) == -1)
+          if(!isNumber && item[c.field].toLowerCase().indexOf(columnFilters[columnId].toLowerCase()) == -1)
             return false;
-          else if(isNumber && isGT && parseFloat(filterTxt) >= parseFloat(item[c.field]))
+          else if(isNumber && isGT && parseFloat(filterTxt) >= parseFloat(item[c.field].toLowerCase()))
             return false;
-          else if(isNumber && isLT && parseFloat(filterTxt) <= parseFloat(item[c.field]))
+          else if(isNumber && isLT && parseFloat(filterTxt) <= parseFloat(item[c.field].toLowerCase()))
             return false;
-          else if(isNumber && !isGT && !isLT && item[c.field] != filterTxt)
+          else if(isNumber && !isGT && !isLT && item[c.field].toLowerCase() != filterTxt)
             return false;
         }
       }
