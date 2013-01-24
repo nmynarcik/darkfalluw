@@ -64,7 +64,7 @@ var marker;
 var poiArray;
 
 function getUserLoc(loc){
-  var phpLoc = loc.split('|');
+  var phpLoc = loc.split('%7C');
   var userLoc = new google.maps.LatLng(phpLoc[0], phpLoc[1]);
   placeMarker(userLoc);
   if(map){
@@ -90,7 +90,7 @@ function placeMarker(location) {
     });
   }
 
-window.location.hash = marker.getPosition().lat()+"|"+marker.getPosition().lng();
+  window.location.hash = marker.getPosition().lat()+"%7C"+marker.getPosition().lng();
   // map.setZoom(7);
   // map.setCenter(marker.getPosition());
 }
