@@ -122,20 +122,31 @@ function createTable(csv){
         editor: Slick.Editors.Text,
         headerCssClass: headers[i].toLowerCase().replace(' ','')
       }
-      if(headerObj.id == 'copypasta'){
-        headerObj.formatter = DescriptionFormatter;
-      }else if(headerObj.id == 'icon'){
-        headerObj.formatter = ImageFormatter;
-        headerObj.width = 64;
-      }else if(headerObj.id == 'quantity'){
-        headerObj.formatter = QuantityFormatter;
-        headerObj.width = 75;
-      }else if(headerObj.id == 'emptybottle'){
-        headerObj.formatter = CheckmarkFormatterStr;
-        headerObj.width = 75;
-      }else if(headerObj.id == 'additional'){
-        headerObj.formatter = AdditionalFormatter;
-        headerObj.width = 300;
+      switch(headerObj.id){
+        case 'copypasta':
+          headerObj.formatter = DescriptionFormatter;
+          break;
+        case 'icon':
+          headerObj.formatter = ImageFormatter;
+          headerObj.width = 64;
+          break;
+        case 'quantity':
+          headerObj.formatter = QuantityFormatter;
+          headerObj.width = 75;
+          break;
+        case 'emptybottle':
+          headerObj.formatter = CheckmarkFormatterStr;
+          headerObj.width = 75;
+          break;
+        case 'additional':
+          headerObj.formatter = AdditionalFormatter;
+          headerObj.width = 300;
+          break;
+        case 'minlevel':
+        case 'maxlevel':
+        case 'gold':
+          headerObj.width = 50;
+          break;
       }
       columns.push(headerObj);
     }
