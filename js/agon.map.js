@@ -189,8 +189,8 @@ function createMarkers(){
     });
 
     google.maps.event.addListener(poiMarker, 'click', function(e) {
-      map.setCenter(poiMarker.getPosition());
       map.setZoom(7);
+      map.setCenter(e.latLng);
     });
 
     overlay.push(poiMarker);
