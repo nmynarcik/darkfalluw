@@ -184,8 +184,13 @@ function createMarkers(){
         title: poiArray[i].title
     });
 
-    google.maps.event.addListener(poiMarker, 'click', function() {
+    google.maps.event.addListener(poiMarker, 'dblclick', function() {
       copyToClipboard(poiMarker);
+    });
+
+    google.maps.event.addListener(poiMarker, 'click', function(e) {
+      map.setCenter(poiMarker.getPosition());
+      map.setZoom(7);
     });
 
     overlay.push(poiMarker);

@@ -145,6 +145,29 @@ function createTable(csv){
         case 'minlevel':
         case 'maxlevel':
         case 'gold':
+        case 'ironingot':
+        case 'leather':
+        case 'wood':
+        case 'potato':
+        case 'onion':
+        case 'carrot':
+        case 'meat':
+        case 'spices':
+        case 'bass':
+        case 'cod':
+        case 'blackpowder':
+        case 'steedgrass':
+        case 'inferioranima':
+        case 'cloth':
+        case 'shipmodule':
+        case 'ironore':
+        case 'sulfur':
+        case 'rawhide':
+        case 'nacre':
+        case 'cotton':
+        case 'mandrake':
+        case 'timber':
+        case 'resin':
           headerObj.width = 50;
           break;
       }

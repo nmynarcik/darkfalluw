@@ -1716,6 +1716,12 @@ strong {font-weight: bold;}
 .slick-headerrow-column {
   min-height: 25px;
   padding: 0 !important;
+  border-top: 1px solid #221715 !important;
+  border-left: 1px solid #221715 !important;
+  border-bottom: 1px solid #221715 !important;
+}
+.slick-headerrow-column:last-child {
+  border-right: 1px solid #221715 !important;
 }
 
 .slick-header-column.ui-state-default {
@@ -1763,13 +1769,16 @@ div.slick-cell {
 }
 
 input.filter {
-  font-size: 14px !important;
+  font-size: 100% !important;
   font-weight: normal !important;
   padding: 5px;
-  border-left: 1px solid #221715;
+  /*border-left: 1px solid #221715;
   border-top: 1px solid #221715;
-  border-bottom: 1px solid #221715;
-  height: 15px;
+  border-bottom: 1px solid #221715;*/
+  height: 25px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 #craftingGrid {
