@@ -48,7 +48,7 @@ get_header();
               <p>Accumulation of all things Darkfall</p>
               <?php
                 $args = array(
-                                      'numberposts'     => 5,
+                                      'numberposts'     => 6,
                                       'category'        => get_category_by_slug('blog')->term_id,
                                       'orderby'         => 'post_date',
                                       'order'           => 'DESC',
