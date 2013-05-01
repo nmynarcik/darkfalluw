@@ -44,12 +44,12 @@
 <div id="box-art"><a href="https://ams.darkfallonline.com/AMS/" target="_blank" title="BUY NOW!" alt="BUY NOW!"><img src="<?php echo get_template_directory_uri(); ?>/images/game.png" alt="Darkfall: Unholy Wars Game"/></a></div>
 <a href="https://ams.darkfallonline.com/AMS/" target="_blank" class="df-btn" title="BUY NOW!" alt="BUY NOW!">BUY NOW</a>
 <p id="site-description"><?php bloginfo( 'description' ) ?></p>
-<div id="server-status">
+<!-- <div id="server-status">
   <h2>Server Status:</h2>
   <span class="na">NA<i class="icon"></i></span>
   <span class="eu">EU<i class="icon"></i></span>
   <span class="login">LOGIN<i class="icon"></i></span>
-</div>
+</div> -->
 </div>
 <nav>
 <div id="search">

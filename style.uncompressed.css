@@ -1859,3 +1859,7 @@ input.filter {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
 }
+
+body.search-results .post {
+  margin-bottom: 20px;
+}
