@@ -33,6 +33,8 @@ var portals = [];
 var chambers = [];
 var holdings = [];
 var villages = [];
+var searchArray = [];
+var searchResults = [];
 
 function map_initialize() {
 
@@ -113,12 +115,66 @@ function getPOIs(){
         createMarkers();
       },
       error: function(jqXHR, textStatus, errorThrown){
-        // window.console.log(textStatus, errorThrown);
+        // window.console.log(jqXHR, textStatus, errorThrown);
         alert('Problem with Map. Please contact us through the feedback form describing what happened! Thanks!')
       }
     });
   if(userPOI != ""){
     getUserLoc(userPOI);
+  }
+}
+
+function searchPOIs(text){
+  console.log('searching pois');
+
+  for(var i = 0; i < searchResults.length; i++){ //clear results from map
+    searchResults[i].setMap(null);
+  }
+
+  searchArray = [];
+  for(var i = 0; i < poiArray.length; i++){
+    // console.log(poiArray[i].title);
+    if(poiArray[i].title == null){
+      //do nothing
+    }else{
+      var n =poiArray[i].title.toLowerCase().match(text.toLowerCase());
+      if(n != null){
+        searchArray.push(poiArray[i]);
+      }
+    }
+  }
+  showSearchResults(searchArray);
+}
+
+function showSearchResults(arr){
+  console.log('showing results');
+   searchResults = [];
+
+  for(var i = 0; i < arr.length; i++){
+
+    var poiLoc = arr[i]._poi_loc.split('|');
+
+    var poiLatLng = new google.maps.LatLng(poiLoc[0], poiLoc[1]);
+
+    var result = new google.maps.Marker({
+      position: poiLatLng,
+      map: map,
+      icon: templateDir+"/images/poi-default.png",
+      title: arr[i].title
+    });
+
+    google.maps.event.addListener(result, 'click', function() {
+      copyToClipboard(result);
+    });
+    console.log('result',result);
+    searchResults.push(result);
+  }
+
+  var bounds = new google.maps.LatLngBounds();
+  for(var i = 0; i < searchResults.length; i++){
+    searchResults[i].setMap(map);
+    bounds.extend(searchResults[i].getPosition());
+    map.fitBounds(bounds);
   }
 }
 

@@ -31,6 +31,10 @@ wp_enqueue_script('dfuw_map',get_template_directory_uri().'/js/agon.map.min.js',
       src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
       </script>
     </div>
+    <div id="map-search">
+      <input type="text" id="mapsearch-text" placeholder="SEARCH"/>
+      <button class="btn" id="searchmap"><i class="icon-search icon-white"></i></button>
+    </div>
     <div id="map-legend">
       <a href="javascript:void(0);" id="fs-btn" title="Toggle Fullscreen"><i>Toggle Fullscreen</i></a>
       <a href="javascript:void(0);" id="mob-btn" title="Toggle Mobs"><i>Toggle Mobs</i></a>

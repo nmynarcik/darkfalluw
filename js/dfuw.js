@@ -165,26 +165,26 @@
 
     var server_status = {
       getStatus: function(){
-        $.ajax({
-          url: templateDir+'/serverstatus.php',
-          dataType: 'json',
-          timeout: 60000,
-          success: function(data){
-            $('#server-status').find('span i').removeClass('up down');
-              for (var key in data) {
-                if (data.hasOwnProperty(key)) {
-                  $('#server-status').find('.'+key).find('i').addClass(data[key]);
-                }
-              }
-          },
-          error: function(jqXHR, textStatus, errorThrown){
-            // console.log(textStatus, errorThrown);
-            $('#server-status').find('span i').removeClass('up down');
-          }
-        });
-        setTimeout(function(){
-          server_status.getStatus();
-        },120000);
+        // $.ajax({
+        //   url: templateDir+'/serverstatus.php',
+        //   dataType: 'json',
+        //   timeout: 60000,
+        //   success: function(data){
+        //     $('#server-status').find('span i').removeClass('up down');
+        //       for (var key in data) {
+        //         if (data.hasOwnProperty(key)) {
+        //           $('#server-status').find('.'+key).find('i').addClass(data[key]);
+        //         }
+        //       }
+        //   },
+        //   error: function(jqXHR, textStatus, errorThrown){
+        //     // console.log(textStatus, errorThrown);
+        //     $('#server-status').find('span i').removeClass('up down');
+        //   }
+        // });
+        // setTimeout(function(){
+        //   server_status.getStatus();
+        // },120000);
       }
     }
 
@@ -320,6 +320,12 @@
                 hideMarkers('villages');
               }
             });
+
+            //Map Search Bind
+            $('#searchmap').click(function(){
+              console.log($('#mapsearch-text').val());
+              searchPOIs($('#mapsearch-text').val());
+            });
         }
     }
 
@@ -329,7 +335,7 @@
       }
     }
 
-    var swears = ['fuck','shit','fag',' ass','puss','nigg','bitch','asshole','dick','penis','vagina'];
+    var swears = ['fuck','shit','fag',' ass','puss','nigg','bitch','asshole','dick','penis','vagina','cunt'];
 
     function filterText(text){
       var rgx = new RegExp(swears.join("|"), "gi");

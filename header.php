@@ -18,8 +18,8 @@
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <?php
-  $GLOBALS['ver'] = '3.3';
-  $ver =  '3.3';
+  $GLOBALS['ver'] = '3.4';
+  $ver =  '3.4';
 ?>
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?ver=<?php echo $ver; ?>" />
 <?php wp_head(); ?>
