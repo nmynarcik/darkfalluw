@@ -1130,6 +1130,8 @@ footer .df-social p {
 .df-social .social-list .fb{background-position: 0 64px;}
 .df-social .social-list .yt{background-position: 0 32px;}
 
+.twitter-follow-button {position: absolute; right: 20px; bottom: 100px;}
+
 select {
   width: 220px;
   background-color: #231914;

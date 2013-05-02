@@ -44,6 +44,7 @@
 <div id="box-art"><a href="https://ams.darkfallonline.com/AMS/" target="_blank" title="BUY NOW!" alt="BUY NOW!"><img src="<?php echo get_template_directory_uri(); ?>/images/game.png" alt="Darkfall: Unholy Wars Game"/></a></div>
 <a href="https://ams.darkfallonline.com/AMS/" target="_blank" class="df-btn" title="BUY NOW!" alt="BUY NOW!">BUY NOW</a>
 <p id="site-description"><?php bloginfo( 'description' ) ?></p>
+<a href="https://twitter.com/dfuwinfo" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @DFUWInfo</a>
 <!-- <div id="server-status">
   <h2>Server Status:</h2>
   <span class="na">NA<i class="icon"></i></span>
