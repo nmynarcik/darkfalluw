@@ -159,7 +159,7 @@ function showSearchResults(arr){
     var result = new google.maps.Marker({
       position: poiLatLng,
       map: map,
-      icon: templateDir+"/images/poi-default.png",
+      icon: templateDir+"/images/bullet.png",
       title: arr[i].title
     });
 
