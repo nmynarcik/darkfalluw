@@ -10,7 +10,7 @@ get_header();
 <h1 class="entry-title"><?php the_title(); ?></h1>
 <div class="entry-content">
   <?php the_content(); ?>
-  <iframe class="gdoc" width="100%" height="750" src="https://docs.google.com/spreadsheet/lv?key=0Aj1bEOdIK16ldEFPcnlKY3BCaW9IRGhSZlNmTWV4TFE&output=html"></iframe>
+  <iframe class="gdoc" width="100%" height="750" src="https://docs.google.com/spreadsheet/lv?key=0ArLeTh1m7WnrdGRlaDhRUHhBSGFxZGUxem9LUk9hV1E&output=html"></iframe>
   <div class="disclaimer">** Content provided by Kelet</div>
 </div>
 </div>
