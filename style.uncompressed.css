@@ -1865,3 +1865,27 @@ input.filter {
 body.search-results .post {
   margin-bottom: 20px;
 }
+
+/* Y-Poll Style Tweaks */
+.yop-poll-container {
+  width: 160px !important;
+}
+
+.yop-poll-container ul li {
+  background: none !important;
+  padding-left: 0 !important;
+}
+
+.yop-poll-container ul li input {
+  float: left !important;
+  margin-right: 6px !important;
+}
+
+.yop-poll-container ul li label {
+  float: left !important;
+}
+
+.yop-poll-container ul li.yop-poll-li-result-2 label {float: none !important;}
+
+.Yop.Poll.Widget {margin-bottom: 20px;}
+
