@@ -120,6 +120,7 @@ get_header();
               <h3>Latest ForumFall <a href="http://forums.darkfallonline.com/external.php?type=RSS2" target="_blank" class="icon-rss" rel="nofollow"></a></h3>
               <p>The latest posts on Darkfall's Forums</p>
             </div>
+            <?php get_sidebar(); ?>
             <div class="clear"></div>
           </div>
           <div class="clear"></div>
