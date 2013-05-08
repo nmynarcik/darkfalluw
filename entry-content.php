@@ -6,4 +6,5 @@ the_post_thumbnail();
 ?>
 <?php the_content(); ?>
 <?php wp_link_pages('before=<div class="page-link">' . __( 'Pages:', 'darkfalluw' ) . '&after=</div>') ?>
+<div class="clear"></div>
 </div>

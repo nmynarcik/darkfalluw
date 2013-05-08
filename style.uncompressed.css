@@ -283,7 +283,7 @@ nav .menu ul ul {
   margin: 30px 0;
 }
 
-.entry-footer {text-transform: uppercase;}
+.entry-footer {text-transform: uppercase; clear:both;}
 .entry-footer .icon-tags {margin-top: 2px;}
 
 aside#sidebar {
@@ -1011,7 +1011,7 @@ ul.school-list li .icon:hover{
 }
 
 .single-post .type-post .entry-content p {
-  float: left;
+  /*float: left; why is this here?*/
   margin-bottom: 20px;
   max-width: 545px;
   margin-top: 10px;
@@ -1885,7 +1885,13 @@ body.search-results .post {
   float: left !important;
 }
 
+.yop-poll-container input[name='yop_poll_other_answer'] {margin-left: 20px !important;}
+
 .yop-poll-container ul li.yop-poll-li-result-2 label {float: none !important;}
 
 .Yop.Poll.Widget {margin-bottom: 20px;}
 
+textarea#comment {width: 486px;}
+
+.item.home-widget-area {float: right; clear: right; position: relative;}
+.home-widget-area .yop-poll-container {width: 272px !important;}
