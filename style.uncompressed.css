@@ -1869,6 +1869,9 @@ body.search-results .post {
 /* Y-Poll Style Tweaks */
 .yop-poll-container {
   width: 160px !important;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
 }
 
 .yop-poll-container ul li {
@@ -1890,6 +1893,8 @@ body.search-results .post {
 .yop-poll-container ul li.yop-poll-li-result-2 label {float: none !important;}
 
 .Yop.Poll.Widget {margin-bottom: 20px;}
+
+.yop-poll-answers li div {display: block; clear: left;}
 
 textarea#comment {width: 486px;}
 
