@@ -163,8 +163,8 @@
       }
     }
 
-    var server_status = {
-      getStatus: function(){
+    // var server_status = {
+      // getStatus: function(){
         // $.ajax({
         //   url: templateDir+'/serverstatus.php',
         //   dataType: 'json',
@@ -185,8 +185,8 @@
         // setTimeout(function(){
         //   server_status.getStatus();
         // },120000);
-      }
-    }
+      // }
+    // }
 
     var feedback = {
       init: function(){
@@ -360,8 +360,8 @@
     if($('.feedback').length)
       feedback.init();
 
-    if($('#branding').length)
-      server_status.getStatus();
+    // if($('#branding').length)
+    //   server_status.getStatus();
 
     if($('#map_canvas').length){
       map_initialize(); // in agon.map.js
