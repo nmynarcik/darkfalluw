@@ -215,6 +215,8 @@ function register_post_types()
         'hierarchical' => false,
         'menu_position' => 24,
         'has_archive' => true,
+        'capability_type' => array('spells', 'spell'),
+        'map_meta_cap' => true,
         'rewrite' => array(
             'slug' => 'spells'
         ),
@@ -250,6 +252,8 @@ function register_post_types()
         'hierarchical' => false,
         'menu_position' => 22,
         'has_archive' => true,
+        'capability_type' => array('roles', 'role'),
+        'map_meta_cap' => true,
         'rewrite' => array(
             'slug' => 'roles'
         ),
@@ -285,6 +289,8 @@ function register_post_types()
         'hierarchical' => false,
         'menu_position' => 23,
         'has_archive' => true,
+        'capability_type' => array('schools', 'school'),
+        'map_meta_cap' => true,
         'rewrite' => array(
             'slug' => 'schools'
         ),
@@ -319,6 +325,8 @@ function register_post_types()
         'exclude_from_search' => false,
         'hierarchical' => false,
         'menu_position' => 21,
+        'capability_type' => array('videos', 'video'),
+        'map_meta_cap' => true,
         'has_archive' => false,
         'rewrite' => array(
             'slug' => 'videos'
@@ -354,6 +362,8 @@ function register_post_types()
         'exclude_from_search' => false,
         'hierarchical' => false,
         'menu_position' => 27,
+        'capability_type' => array('clans', 'clan'),
+        'map_meta_cap' => true,
         'has_archive' => true,
         'rewrite' => array(
             'slug' => 'clans'
@@ -390,6 +400,8 @@ function register_post_types()
         'hierarchical' => false,
         'menu_position' => 27,
         'has_archive' => true,
+        'capability_type' => array('skill', 'skills'),
+        'map_meta_cap' => true,
         'rewrite' => array(
             'slug' => 'skills'
         ),
@@ -400,7 +412,7 @@ function register_post_types()
         'register_meta_box_cb' => 'add_custom_meta_boxes'
     ));
 
-    // Common SKills
+    // POIs
     register_post_type('poi', array(
         'labels' => array(
             'name' => __('POIs'),
@@ -424,6 +436,8 @@ function register_post_types()
         'exclude_from_search' => true,
         'hierarchical' => false,
         'menu_position' => 28,
+        'capability_type' => array('pois', 'poi'),
+        'map_meta_cap' => true,
         'has_archive' => true,
         'rewrite' => array(
             'slug' => 'pois'
@@ -1135,5 +1149,60 @@ global $menu;
   }
 }
 add_action('admin_menu', 'remove_menus');
+
+function add_theme_caps() {
+    // gets the author role
+    // $role = get_role( 'administrator' );
+    $roles = array(
+            'administrator',
+            'editor'
+        );
+
+    $postTypes = array(
+            'poi',
+            'spell',
+            'video',
+            'role',
+            'skill',
+            'clan',
+            'school'
+        );
+
+    $caps = array(
+        "edit_%CAP%",
+        "edit_%CAP%s",
+        "read_%CAP%",
+        "read_%CAP%s",
+        "delete_%CAP%",
+        "delete_%CAP%s",
+        "edit_others_%CAP%",
+        "edit_others_%CAP%s",
+        "publish_%CAP%",
+        "publish_%CAP%s",
+        "read_private_%CAP%",
+        "read_private_%CAP%s",
+        "delete_private_%CAP%",
+        "delete_private_%CAP%s",
+        "delete_published_%CAP%",
+        "delete_published_%CAP%s",
+        "delete_others_%CAP%",
+        "delete_others_%CAP%s",
+        "edit_private_%CAP%",
+        "edit_private_%CAP%s",
+        "edit_published_%CAP%",
+        "edit_published_%CAP%s"
+        );
+
+        foreach($roles as $role){
+            $theRole = get_role( $role );
+            foreach($postTypes as $postT){
+                foreach($caps as $cap){
+                    $cap = str_replace('%CAP%',$postT, $cap);
+                    $theRole->add_cap( $cap );
+                }
+            }
+        }
+}
+add_action( 'admin_init', 'add_theme_caps');
 
 ?>
