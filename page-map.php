@@ -44,6 +44,7 @@ wp_enqueue_script('dfuw_map',get_template_directory_uri().'/js/agon.map.min.js',
       <a href="javascript:void(0);" id="craft-btn" title="Toggle Crafting Stations"><i>Toggle Crafting Stations</i></a>
       <a href="javascript:void(0);" id="bind-btn" title="Toggle Bindstones"><i>Toggle Bindstones</i></a>
       <a href="javascript:void(0);" id="portal-btn" title="Toggle Portals"><i>Toggle Portals</i></a>
+      <a href="javascript:void(0);" id="chest-btn" title="Toggle Chests"><i>Toggle Portals</i></a>
     </div>
     <div class="dfuw_logo"></div>
     <div id="map_canvas"></div>

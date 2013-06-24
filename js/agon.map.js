@@ -23,6 +23,7 @@ var showBanks = false;
 var showCrafts = false;
 var showBinds = false;
 var showPortals = false;
+var showChests = false;
 var showHoldings = false;
 var showVillages = false;
 var mobs = [];
@@ -31,6 +32,7 @@ var binds = [];
 var crafts = [];
 var portals = [];
 var chambers = [];
+var chests = [];
 var holdings = [];
 var villages = [];
 var searchArray = [];
@@ -228,6 +230,10 @@ function createMarkers(){
         image = templateDir+'/images/poi-village.png';
         overlay = villages;
         break;
+      case 'chest':
+        image = templateDir+'/images/poi-chest.png';
+        overlay = chests;
+        break;
     }
 
     var poiLoc = poiArray[i]._poi_loc.split('|');
@@ -278,6 +284,9 @@ function showMarkers(type){
     case 'villages':
       markerArray = villages;
       break;
+    case 'chests':
+      markerArray = chests;
+      break;
   }
   var bounds = new google.maps.LatLngBounds();
   for(var i = 0; i < markerArray.length; i++){
@@ -312,6 +321,9 @@ function hideMarkers(type){
     case 'villages':
       markerArray = villages;
       break;
+    case 'chests':
+      markerArray = chests;
+      break;
   }
   for(var i = 0; i < markerArray.length; i++){
     markerArray[i].setMap(null);
@@ -342,6 +354,9 @@ function checkToggles(){
           break;
         case 'village-btn':
           showMarkers('villages');
+          break;
+        case 'chest-btn':
+          showMarkers('chests');
           break;
       }
     }

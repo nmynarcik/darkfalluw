@@ -507,6 +507,7 @@ function add_poi_type(){
     echo '<select name="_poi_type">';
     echo '<option val="">Select Type</option>';
     echo '<option value="bank" ' . (($poi_type == 'bank') ? 'selected="selected" ' : ' ') . '>Bank</option>';
+    echo '<option value="chest"' . (($poi_type == 'chest') ? 'selected="selected"' : '') . '>Chest</option>';
     echo '<option value="cbind"' . (($poi_type == 'cbind') ? 'selected="selected"' : '') . '>Bindstone-Chaos</option>';
     echo '<option value="sbind"' . (($poi_type == 'sbind') ? 'selected="selected"' : '') . '>Bindstone-Safe</option>';
     echo '<option value="city"' . (($poi_type == 'city') ? 'selected="selected"' : '') . '>City</option>';

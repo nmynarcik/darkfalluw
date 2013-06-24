@@ -435,6 +435,7 @@ article #map-container .gad {
 #map-legend #portal-btn i {background-position: 0 -64px}
 #map-legend #holding-btn i {background-position: 0 -112px}
 #map-legend #village-btn i {background-position: 0 -128px}
+#map-legend #chest-btn i {background-position: 0 -144px}
 
 /* Map Search */
 #map-search {
@@ -1067,6 +1068,17 @@ ul.school-list li .icon:hover{
   border-radius: 10px;
 }
 
+img.alignleft {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+img.alignright {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
 /* Social */
 /*.page-template-page-darkfall-php .df-social {
   float:left;

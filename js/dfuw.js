@@ -256,6 +256,19 @@
               }
             });
 
+            // chest bind
+            $('#chest-btn').click(function(){
+              if(!showBanks){
+                $('#chest-btn').addClass('active');
+                showBanks = true;
+                showMarkers('chests');
+              }else{
+                $('#chest-btn').removeClass('active');
+                showBanks = false;
+                hideMarkers('chests');
+              }
+            });
+
              // craft bind
             $('#craft-btn').click(function(){
               if(!showCrafts){
