@@ -95,11 +95,29 @@ function AdditionalFormatter(row, cell, value, columnDef, dataContext)
 
 jQuery.noConflict();
 (function($){
-  createTable('alchemy');
+  console.log('crafting init');
 
   $('select#trade_select').change(function(){
-      createTable($(this).val());
+      // createTable($(this).val());
+      window.location.hash = $(this).val();
   });
+
+  $(window).on('hashchange', function() {
+    var csv = window.location.hash.substr(1);
+    createTable(csv);
+    $('select#trade_select').val(csv);
+  });
+
+  setTimeout(function(){
+    if(window.location.hash === ''){
+      window.location.hash = 'alchemy';
+      $('select#trade_select').val('alchemy');
+    }else{
+      var csv = window.location.hash.substr(1);
+      createTable(csv);
+      $('select#trade_select').val(csv);
+    }
+  },2000);
 
 })(jQuery);
 
