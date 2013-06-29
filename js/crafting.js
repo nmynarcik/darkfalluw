@@ -95,7 +95,7 @@ function AdditionalFormatter(row, cell, value, columnDef, dataContext)
 
 jQuery.noConflict();
 (function($){
-  console.log('crafting init');
+  // console.log('crafting init');
 
   $('select#trade_select').change(function(){
       // createTable($(this).val());

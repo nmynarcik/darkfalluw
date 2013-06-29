@@ -37,7 +37,7 @@ wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.mi
         <option value="leatherworking">Leather</option>
         <option value="mountsummoning">Mounts</option>
         <option value="shieldcrafting">Shields</option>
-        <option value="shipbuilding">Ships</option>
+        <option value="shipbuilding">Ship Building</option>
         <option value="smelting">Smelting</option>
         <option value="staffcrafting">Staffs</option>
         <option value="tailoring">Tailoring</option>
