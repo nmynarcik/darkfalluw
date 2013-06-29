@@ -122,7 +122,8 @@ jQuery.noConflict();
 })(jQuery);
 
 function createTable(csv){
-  jQuery.get(templateDir+'/data/crafting_recipes_'+csv+'.csv', function (data)
+  var cb = new Date().getTime();
+  jQuery.get(templateDir+'/data/crafting_recipes_'+csv+'.csv?cb='+cb, function (data)
   {
     var columnFilters = {};
     var alchemyGrid;
