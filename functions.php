@@ -1113,7 +1113,8 @@ function yt_vid( $atts ) {
   /* This is were we will write the code for fetching data
    * and build the HTML structure to be returned in the $output variable
    */
-  $output = 'video id = {'.$vid.'}';
+  // $output = 'video id = {'.$vid.'}';
+  $output = '<center><iframe width="640" height="360" src="//www.youtube.com/embed/'.$vid.'" frameborder="0" allowfullscreen></iframe></center>';
   return $output;
 }
 
