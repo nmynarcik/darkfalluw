@@ -100,7 +100,7 @@ function placeMarker(location) {
 }
 
 function copyToClipboard (poi) {
-    window.prompt ("Copy to clipboard: Ctrl+C, Enter", 'http://darkfallunholywars.info/world-map/#'+poi.getPosition().lat()+"|"+poi.getPosition().lng());
+    window.prompt ("Copy to clipboard: Ctrl+C, Enter", 'http://darkfallunholywars.info/world-map/#'+poi.getPosition().lat()+"%7C"+poi.getPosition().lng());
 }
 
 function getPOIs(){
