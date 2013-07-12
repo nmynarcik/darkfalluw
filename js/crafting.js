@@ -142,6 +142,9 @@ function createTable(csv){
         headerCssClass: headers[i].toLowerCase().replace(' ','')
       }
       switch(headerObj.id){
+        case 'skill':
+          headerObj.width = 120;
+          break;
         case 'copypasta':
           headerObj.formatter = DescriptionFormatter;
           break;
