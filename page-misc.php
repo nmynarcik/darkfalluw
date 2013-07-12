@@ -313,6 +313,11 @@ wp_enqueue_script('dfuw_table_sort', get_template_directory_uri().'/js/jquery.ta
     </table>
   </div>
 
+  <div class="misc-info left">
+      <h3>Diminishing Returns</h3>
+      <a href="<?php echo get_template_directory_uri();?>/images/diminishing-returns.png" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/diminishing-returns.png"/></a>
+    </div>
+
   <div class="misc-info full">
     <h3>Crosshair Wobble</h3>
 
@@ -373,6 +378,7 @@ wp_enqueue_script('dfuw_table_sort', get_template_directory_uri().'/js/jquery.ta
         </tr>
       </tbody>
     </table>
+    <div class="clearfix"></div>
   </div>
 
   <div class="disclaimer">
