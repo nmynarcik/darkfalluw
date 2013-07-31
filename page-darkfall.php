@@ -48,7 +48,7 @@ get_header();
               <p>Accumulation of all things Darkfall</p>
               <?php
                 $args = array(
-                                      'numberposts'     => 10,
+                                      'numberposts'     => 5,
                                       'category'        => get_category_by_slug('blog')->term_id,
                                       'orderby'         => 'post_date',
                                       'order'           => 'DESC',
@@ -120,7 +120,7 @@ get_header();
               <h3>Latest ForumFall <a href="http://forums.darkfallonline.com/external.php?type=RSS2" target="_blank" class="icon-rss" rel="nofollow"></a></h3>
               <p>The latest posts on Darkfall's Forums</p>
             </div>
-            <?php get_sidebar(); ?>
+            <!-- <?php get_sidebar(); ?> -->
             <div class="clear"></div>
           </div>
           <div class="clear"></div>
