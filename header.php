@@ -18,14 +18,15 @@
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <?php
-  $GLOBALS['ver'] = '3.54';
-  $ver =  '3.54';
+  $GLOBALS['ver'] = '3.6';
+  $ver =  '3.6';
 ?>
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?ver=<?php echo $ver; ?>" />
 <?php wp_head(); ?>
 <script type="text/javascript">
   var templateDir = "<?php bloginfo('template_directory') ?>";
 </script>
+<meta name="google-translate-customization" content="b8c2eefcc5a845dd-390b510496c46f40-gd41aa60898e3037c-1b"></meta>
 </head>
 <body <?php body_class(); ?>>
 <div id="wrapper" class="hfeed">
@@ -39,6 +40,11 @@
 <!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-50c58e77607d7916"></script> -->
 <!-- AddThis Button END -->
 <header>
+  <div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-19670756-11'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <div id="branding">
 <div id="site-title"><?php if ( is_singular() ) {} else {echo '<h1>';} ?><a href="<?php echo home_url() ?>/" title="<?php bloginfo( 'name' ) ?>" rel="home"><?php bloginfo( 'name' ) ?></a><?php if ( is_singular() ) {} else {echo '</h1>';} ?></div>
 <div id="box-art"><a href="https://ams.darkfallonline.com/AMS/" target="_blank" title="BUY NOW!" alt="BUY NOW!"><img src="<?php echo get_template_directory_uri(); ?>/images/game.png" alt="Darkfall: Unholy Wars Game"/></a></div>
