@@ -317,6 +317,16 @@ wp_enqueue_script('dfuw_table_sort', get_template_directory_uri().'/js/jquery.ta
       <h3>Diminishing Returns</h3>
       <a href="<?php echo get_template_directory_uri();?>/images/diminishing-returns.png" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/diminishing-returns.png"/></a>
     </div>
+    <div class="misc-info right">
+      <h3>Damage Formula</h3>
+      [ (0.2 * <strong>MS</strong> + 0.05 * <strong>WS</strong> + 0.03 * <strong>WM</strong>) + <strong>WD</strong> - <strong>AR</strong> ]
+      <br><br>
+        <strong>MS</strong> = Main Stat<br>
+        <strong>WS</strong> = Weapon Skill<br>
+        <strong>WM</strong> = Weapon Mastery<br>
+        <strong>WD</strong> = Weapon Damage<br>
+        <strong>AR</strong> = Armor Resist<br>
+    </div>
 
   <div class="misc-info full">
     <h3>Crosshair Wobble</h3>
