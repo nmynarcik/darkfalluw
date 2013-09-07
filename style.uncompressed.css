@@ -892,7 +892,7 @@ ul.school-list li .icon:hover{
   width: 588px;
 }
 
-.bottom .blogfeed a {
+.bottom .blogfeed a.post {
   font-size: 22px;
   height: 25px;
   width: 580px;

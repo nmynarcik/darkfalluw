@@ -61,7 +61,7 @@ get_header();
                 <?php
                   $posttags = get_the_tags();
                   ?>
-                    <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>" class="<?php if ($posttags) {
+                    <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>" class="post <?php if ($posttags) {
                     foreach($posttags as $tag) {
                       echo $tag->name . ' ';
                     }

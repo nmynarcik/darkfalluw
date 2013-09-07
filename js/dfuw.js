@@ -117,7 +117,7 @@
         });
 
         home.getForumFallFeed();
-        $('.blogfeed a').ellipsis();
+        $('.blogfeed a.post').ellipsis();
       },
 
       getForumFallFeed: function(){
