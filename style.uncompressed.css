@@ -894,6 +894,11 @@ ul.school-list li .icon:hover{
 
 .bottom .blogfeed a {
   font-size: 22px;
+  height: 25px;
+  width: 580px;
+  /*white-space: nowrap;*/
+  /*overflow: hidden;*/
+  display: block;
 }
 
 .blogfeed a i.icon {

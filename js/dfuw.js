@@ -117,7 +117,7 @@
         });
 
         home.getForumFallFeed();
-
+        $('.blogfeed a').ellipsis();
       },
 
       getForumFallFeed: function(){
@@ -144,7 +144,7 @@
                   $('.bottom .forumfeed').append(list);
                 }else{
                   $('.bottom .forumfeed').append(list);
-                  $('.bottom .blogfeed a, .bottom .eventfeed a, .forumfeed li a, .forumfeed li .descr').ellipsis();
+                  $('.forumfeed li a, .forumfeed li .descr').ellipsis();
                 }
               $('.load-wrapper').stop(true,true).fadeOut();
 
