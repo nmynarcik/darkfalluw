@@ -18,8 +18,8 @@
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <?php
-  $GLOBALS['ver'] = '3.6';
-  $ver =  '3.6';
+  $GLOBALS['ver'] = '3.7';
+  $ver =  '3.7';
 ?>
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?ver=<?php echo $ver; ?>" />
 <?php wp_head(); ?>
@@ -51,12 +51,11 @@ function googleTranslateElementInit() {
 <a href="https://ams.darkfallonline.com/AMS/" target="_blank" class="df-btn" title="BUY NOW!" alt="BUY NOW!">BUY NOW</a>
 <p id="site-description"><?php bloginfo( 'description' ) ?></p>
 <a href="https://twitter.com/dfuwinfo" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @DFUWInfo</a>
-<!-- <div id="server-status">
+<div id="server-status">
   <h2>Server Status:</h2>
-  <span class="na">NA<i class="icon"></i></span>
-  <span class="eu">EU<i class="icon"></i></span>
-  <span class="login">LOGIN<i class="icon"></i></span>
-</div> -->
+  <span class="us1">NA<i class="icon"></i></span>
+  <span class="eu1">EU<i class="icon"></i></span>
+</div>
 </div>
 <nav>
 <div id="search">

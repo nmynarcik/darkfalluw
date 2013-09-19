@@ -1147,7 +1147,7 @@ footer .df-social p {
 .df-social .social-list .fb{background-position: 0 64px;}
 .df-social .social-list .yt{background-position: 0 32px;}
 
-.twitter-follow-button {position: absolute; right: 20px; bottom: 100px;}
+.twitter-follow-button {position: absolute; right: 20px; bottom: 180px;}
 
 select {
   width: 220px;
@@ -1546,7 +1546,7 @@ blockquote p {
 /* Server Status */
 #server-status {
   background: #1D130E;
-  width: 195px;
+  width: 115px;
   font-size: 26px;
   padding: 5px 10px;
   position: absolute;
@@ -1579,11 +1579,18 @@ blockquote p {
   margin-left: 5px;
 }
 
-#server-status i.down {
+#server-status i.gm,
+#server-status i.mastergm,
+#server-status i.admin,
+{
   background-position: 0 bottom;
 }
 
-#server-status i.up {
+#server-status i.down {
+  background-position: 0 -42px;
+}
+
+#server-status i.player {
   background-position: 0 -21px;
 }
 

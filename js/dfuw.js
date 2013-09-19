@@ -163,30 +163,36 @@
       }
     }
 
-    // var server_status = {
-      // getStatus: function(){
-        // $.ajax({
-        //   url: templateDir+'/serverstatus.php',
-        //   dataType: 'json',
-        //   timeout: 60000,
-        //   success: function(data){
-        //     $('#server-status').find('span i').removeClass('up down');
-        //       for (var key in data) {
-        //         if (data.hasOwnProperty(key)) {
-        //           $('#server-status').find('.'+key).find('i').addClass(data[key]);
-        //         }
-        //       }
-        //   },
-        //   error: function(jqXHR, textStatus, errorThrown){
-        //     // console.log(textStatus, errorThrown);
-        //     $('#server-status').find('span i').removeClass('up down');
-        //   }
-        // });
-        // setTimeout(function(){
-        //   server_status.getStatus();
-        // },120000);
-      // }
-    // }
+    var server_status = {
+      getStatus: function(){
+        $.ajax({
+          url: templateDir+'/serverstatus.php',
+          dataType: 'json',
+          timeout: 60000,
+          success: function(data){
+            if(data['@attributes'].Result == 'SUCCESS'){
+
+              $('#server-status').find('span i').removeClass('up down');
+
+              var obj = data.Servers.ServerStatus;
+
+              for(var i = 0; i < obj.length; i++){
+                console.log(obj[i]['@attributes']);
+                var region = obj[i]['@attributes'].ID.toLowerCase();
+                $('#server-status').find('.'+region).find('i').addClass(obj[i]['@attributes'].Status.toLowerCase());
+              }
+            }
+          },
+          error: function(jqXHR, textStatus, errorThrown){
+            // console.log(textStatus, errorThrown);
+            $('#server-status').find('span i').removeClass('up down');
+          }
+        });
+        setTimeout(function(){
+          server_status.getStatus();
+        },120000);
+      }
+    }
 
     var feedback = {
       init: function(){
@@ -373,8 +379,8 @@
     if($('.feedback').length)
       feedback.init();
 
-    // if($('#branding').length)
-    //   server_status.getStatus();
+    if($('#branding').length)
+      server_status.getStatus();
 
     if($('#map_canvas').length){
       map_initialize(); // in agon.map.js
