@@ -1546,7 +1546,6 @@ blockquote p {
 /* Server Status */
 #server-status {
   background: #1D130E;
-  width: 118px;
   font-size: 26px;
   padding: 5px 10px;
   position: absolute;
