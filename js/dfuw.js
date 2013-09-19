@@ -177,7 +177,7 @@
               var obj = data.Servers.ServerStatus;
 
               for(var i = 0; i < obj.length; i++){
-                console.log(obj[i]['@attributes']);
+                // console.log(obj[i]['@attributes']);
                 var region = obj[i]['@attributes'].ID.toLowerCase();
                 $('#server-status').find('.'+region).find('i').addClass(obj[i]['@attributes'].Status.toLowerCase());
               }
@@ -342,7 +342,7 @@
 
             //Map Search Bind
             $('#searchmap').click(function(){
-              console.log($('#mapsearch-text').val());
+              // console.log($('#mapsearch-text').val());
               searchPOIs($('#mapsearch-text').val());
             });
         }

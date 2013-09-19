@@ -127,7 +127,7 @@ function getPOIs(){
 }
 
 function searchPOIs(text){
-  console.log('searching pois');
+  // console.log('searching pois');
 
   for(var i = 0; i < searchResults.length; i++){ //clear results from map
     searchResults[i].setMap(null);
@@ -168,7 +168,7 @@ function showSearchResults(arr){
     google.maps.event.addListener(result, 'click', function() {
       copyToClipboard(result);
     });
-    console.log('result',result);
+    // console.log('result',result);
     searchResults.push(result);
   }
 
