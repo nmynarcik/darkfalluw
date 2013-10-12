@@ -9,6 +9,7 @@ get_header();
       <section class="main-content full-height darkfall" role="main">
         <article>
         <?php while ( have_posts() ) : the_post(); ?>
+          <pre>Want to know if the servers are up while on the go? Get the <a href="https://play.google.com/store/apps/details?id=com.dfuwinfo.dfstatus" target="_blank">DFUW Status App</a> on Android NOW!</pre>
         <header>
           <!-- <h2><?php the_title(); ?></h2> -->
         </header>
