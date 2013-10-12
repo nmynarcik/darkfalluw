@@ -174,7 +174,7 @@ nav #search-inputs {
 }
 
 #search-inputs input[type="text"] {
-  height: 24px;
+  height: 23px;
   font-weight: normal !important;
   padding: 3px 6px;
 }
