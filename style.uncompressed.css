@@ -1947,13 +1947,13 @@ textarea#comment {width: 486px;}
 
 /* No Adblocker */
 #anti-ads {
-  position: relative;
+  position: fixed;
   width: 100%;
   height: 45px;
   background: #ee3330;
   color: white;
   text-align: center;
-  z-index: 1;
+  z-index: 2;
   line-height: 40px;
   vertical-align: middle;
   font-size: 20px;
