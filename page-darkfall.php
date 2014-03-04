@@ -9,7 +9,20 @@ get_header();
       <section class="main-content full-height darkfall" role="main">
         <article>
         <?php while ( have_posts() ) : the_post(); ?>
-          <pre>Want to know if the servers are up while on the go? Get the <a href="https://play.google.com/store/apps/details?id=com.dfuwinfo.dfstatus" target="_blank">DFUW Status App</a> on Android NOW!</pre>
+          <!-- <pre>Want to know if the servers are up while on the go? Get the <a href="https://play.google.com/store/apps/details?id=com.dfuwinfo.dfstatus" target="_blank">DFUW Status App</a> on Android NOW!</pre> -->
+          <div class="gad">
+              <script type="text/javascript"><!--
+              google_ad_client = "ca-pub-0373971494255887";
+              /* DFUW Info Site */
+              google_ad_slot = "4637838709";
+              google_ad_width = 728;
+              google_ad_height = 90;
+              //-->
+              </script>
+              <script type="text/javascript"
+              src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+              </script>
+            </div>
         <header>
           <!-- <h2><?php the_title(); ?></h2> -->
         </header>
