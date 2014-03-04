@@ -1222,6 +1222,27 @@ select {
   text-align: center;
 }
 
+.gad.blocked {
+  background: #ee3330;
+  border: 1px solid #1D130E;
+  color: white;
+  font-weight: bold;
+}
+
+#wrapper > .gad.blocked, article > .gad.blocked {
+  width: 728px;
+  height: 90px;
+  line-height: 90px;
+  font-size: 50px;
+}
+
+#sidebar .gad.blocked {
+  width: 180px;
+  height: 150px;
+  line-height: 150px;
+  font-size: 19px;
+}
+
 #nav-below {clear:both;}
 #nav-below .btn {padding-top: 0;}
 #nav-below .btn i {margin-top: 6px;}
@@ -1923,6 +1944,32 @@ textarea#comment {width: 486px;}
 
 .item.home-widget-area {float: right; clear: right; position: relative;}
 .home-widget-area .yop-poll-container {width: 272px !important;}
+
+/* No Adblocker */
+#anti-ads {
+  position: relative;
+  width: 100%;
+  height: 45px;
+  background: #ee3330;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  line-height: 40px;
+  vertical-align: middle;
+  font-size: 20px;
+  display: none;
+  cursor: pointer;
+}
+#anti-ads i {
+ position: absolute;
+ right: 20px;
+ top: 50%;
+ margin-top: -8px;
+}
+
+article > .gad {
+  margin-top: 0;
+}
 
 /* Google Translate Dropdown */
 #google_translate_element {

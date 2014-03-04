@@ -392,4 +392,15 @@
           widgets: ['zebra']
         });
     }
+
+    if($('.gad').height() == 0){
+      $('body').prepend('<div id="anti-ads">You are currently disabling ads. To help support this site, please consider allowing ads to show.<i class="icon-remove icon-white"></i></div>');
+      // $('.gad').addClass('blocked').append('You Disabled Me :(');
+        setTimeout(function(){
+          $('#anti-ads').slideDown();
+        }, 5000);
+        $('#anti-ads').bind('click', function(){
+          $(this).slideUp();
+        });
+    }
 }(jQuery));
