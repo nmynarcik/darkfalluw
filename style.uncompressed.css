@@ -1953,7 +1953,7 @@ textarea#comment {width: 486px;}
   background: #ee3330;
   color: white;
   text-align: center;
-  z-index: 2;
+  z-index: 100;
   line-height: 40px;
   vertical-align: middle;
   font-size: 20px;
