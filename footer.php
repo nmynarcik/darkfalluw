@@ -3,7 +3,7 @@
 ?>
 <div class="clear"></div>
 </div>
-<div class="gad">
+<div class="gad" data-ad-type="long">
   <script type="text/javascript"><!--
   google_ad_client = "ca-pub-0373971494255887";
   /* DFUW Info Site */

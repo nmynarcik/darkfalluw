@@ -17,7 +17,6 @@ wp_enqueue_script('dfuw_map',get_template_directory_uri().'/js/agon.map.min.js',
 <h1 class="entry-title"><?php the_title(); ?></h1>
 <div class="entry-content">
   <?php the_content(); ?>
-  <pre>Want to know if the servers are up while on the go? Get the <a href="https://play.google.com/store/apps/details?id=com.dfuwinfo.dfstatus" target="_blank">DFUW Status App</a> on Android NOW!</pre>
   <div id="map-container">
     <div class="gad">
      <script type="text/javascript"><!--

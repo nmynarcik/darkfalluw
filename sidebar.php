@@ -7,7 +7,7 @@ if ( is_front_page() ) { ?>
     </div>
 <?php } else { ?>
     <aside id="sidebar">
-      <div class="gad">
+      <div class="gad" data-ad-type="square">
         <script type="text/javascript"><!--
         google_ad_client = "ca-pub-0373971494255887";
         /* DFUW Sidebar */
