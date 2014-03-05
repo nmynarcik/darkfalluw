@@ -394,13 +394,15 @@
     }
 
     if($('.gad').height() == 0){
-      $('body').prepend('<div id="anti-ads">You are currently disabling ads. To help support this site, please consider allowing ads to show.<i class="icon-remove icon-white"></i></div>');
-      // $('.gad').addClass('blocked').append('You Disabled Me :(');
-        setTimeout(function(){
-          $('#anti-ads').slideDown();
-        }, 5000);
-        $('#anti-ads').bind('click', function(){
-          $(this).slideUp();
-        });
+      // $('body').prepend('<div id="anti-ads">You are currently disabling ads. To help support this site, please consider allowing ads to show.<i class="icon-remove icon-white"></i></div>');
+      $('.gad').addClass('blocked');
+      $('#wrapper > .gad, article > .gad').append('<a href="http://www.gamefanshop.com/partner-IamRedSeal/" target="_blank"><img src="http://www.gamefanshop.com/StoreFiles/Styles/vip/banner1.jpg" alt="gamefanshop partner banner" /></a>');
+      $('#sidebar > .gad').append('<a href="http://www.gamefanshop.com/partner-IamRedSeal/" target="_blank"><img src="http://www.gamefanshop.com/StoreFiles/Styles/vip/banner2t.jpg" width="180" alt="gamefanshop partner banner" /></a>');
+        // setTimeout(function(){
+        //   $('#anti-ads').slideDown();
+        // }, 5000);
+        // $('#anti-ads').bind('click', function(){
+        //   $(this).slideUp();
+        // });
     }
 }(jQuery));
