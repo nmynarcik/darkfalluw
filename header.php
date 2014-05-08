@@ -48,7 +48,7 @@ function googleTranslateElementInit() {
 <div id="branding">
 <div id="site-title"><?php if ( is_singular() ) {} else {echo '<h1>';} ?><a href="<?php echo home_url() ?>/" title="<?php bloginfo( 'name' ) ?>" rel="home"><?php bloginfo( 'name' ) ?></a><?php if ( is_singular() ) {} else {echo '</h1>';} ?></div>
 <div id="box-art"><a href="https://ams.darkfallonline.com/AMS/" target="_blank" title="BUY NOW!" alt="BUY NOW!"><img src="<?php echo get_template_directory_uri(); ?>/images/game.png" alt="Darkfall: Unholy Wars Game"/></a></div>
-<a href="https://ams.darkfallonline.com/AMS/" target="_blank" class="df-btn" title="BUY NOW!" alt="BUY NOW!">BUY NOW</a>
+<a href="https://ams.darkfallonline.com/AMS/?ref=<?php echo home_url() ?>" target="_blank" class="df-btn" title="BUY NOW!" alt="BUY NOW!">BUY NOW</a>
 <p id="site-description"><?php bloginfo( 'description' ) ?></p>
 <a href="https://twitter.com/dfuwinfo" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @DFUWInfo</a>
 <div id="server-status">

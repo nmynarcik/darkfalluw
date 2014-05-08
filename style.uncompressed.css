@@ -24,6 +24,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   text-shadow: 0px 0px #000;
 }
 
+/* override auto posts text color */
+.entry-content font {color: #333 !important;}
+
 html{height:100%;position: relative;}
 
 body {
