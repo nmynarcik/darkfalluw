@@ -152,6 +152,11 @@ function showSearchResults(arr){
   console.log('showing results');
    searchResults = [];
 
+   if(arr.length == 0){
+    alert('No Results Found. :(');
+      return;
+   }
+
   for(var i = 0; i < arr.length; i++){
 
     var poiLoc = arr[i]._poi_loc.split('|');

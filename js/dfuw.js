@@ -345,6 +345,12 @@
               // console.log($('#mapsearch-text').val());
               searchPOIs($('#mapsearch-text').val());
             });
+
+            $('#mapsearch-text').keypress(function(e) {
+                if(e.which == 13) {
+                    searchPOIs($('#mapsearch-text').val());
+                }
+            });
         }
     }
 
