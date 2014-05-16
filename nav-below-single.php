@@ -1,4 +1,4 @@
 <div id="nav-below" class="navigation">
-<div class="nav-next"><?php next_post_link( '%link', '<span class="meta-nav">&laquo;</span> %title' ) ?></div>
-<div class="nav-previous"><?php previous_post_link( '%link', '%title <span class="meta-nav">&raquo;</span>' ) ?></div>
+<?php next_post_link(sprintf(__( '<div class="btn btn-inverse next">%s older</div>', 'darkfalluw' ),' <i class="icon-circle-arrow-left icon-white"></i>')) ?>
+<?php previous_post_link( sprintf(__( '<div class="btn btn-inverse prev">newer %s</div>', 'darkfalluw' ),'<i class="icon-circle-arrow-right icon-white"></i>')) ?>
 </div>
