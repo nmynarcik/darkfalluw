@@ -54,6 +54,9 @@ get_header();
                   echo '</ul>';
               ?>
             </div>
+            <div class="twitch-live-cont">
+              <a href="javascript:void(0);" id="twitch-live"><img src="<?php echo get_template_directory_uri(); ?>/images/twitch-logo-32x32.png" width="16" height="16"/> WATCH {NAME} LIVE NOW!</a>
+            </div>
           </div>
           <div class="clear"></div>
           <div class="bottom">

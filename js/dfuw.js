@@ -106,8 +106,9 @@
     var home = {
 
       init: function(){
+        home.twitchLiveStreams()
 
-        $('#df-vid').attr('src','http://www.youtube.com/embed/'+$('#featured-list li:first-child a').data('vidId')+'?rel=0&autoplay=0&iv_load_policy=3&modestbranding=1&wmode=opaque');
+          $('#df-vid').attr('src','http://www.youtube.com/embed/'+$('#featured-list li:first-child a').data('vidId')+'?rel=0&autoplay=0&iv_load_policy=3&modestbranding=1&wmode=opaque');
 
         $('#featured-list li a').on({
           'click':function(){
@@ -118,6 +119,32 @@
 
         home.getForumFallFeed();
         $('.blogfeed a.post').ellipsis();
+      },
+
+      showTwitchChannel: function(list){
+        console.log('SHOW TWITCH CHANNEL FOR MAIN VIDEO');
+        var streamer = list.streams[0].channel.display_name;
+        console.log('das streamer: ',streamer);
+        $('#df-vid').attr('src', 'http://www.twitch.tv/widgets/live_embed_player.swf?channel='+streamer);
+        var newText = $('#twitch-live').html();
+        newText = newText.replace('{NAME}',streamer.toUpperCase());
+        $('#twitch-live').data('streamer',streamer).html(newText).show();
+        $('#twitch-live').click(function(){
+          $('#df-vid').attr('src', 'http://www.twitch.tv/widgets/live_embed_player.swf?channel='+$(this).data('streamer'));
+          return false;
+        });
+      },
+
+      twitchLiveStreams: function(){
+          Twitch.init({clientId: '207ndj3uuk5rmh6sdazihsx8aw53mm4'}, function(error, status) {
+            console.log('Twitch Initiated!');
+            Twitch.api({method: 'streams', params: {game:'Darkfall Unholy Wars', limit:3} }, function(error, list) {
+              if(list.streams.length > 0) {
+                window.dfuwTwitchList = list;
+                home.showTwitchChannel(list);
+              }
+            });
+          });
       },
 
       getForumFallFeed: function(){

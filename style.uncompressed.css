@@ -1980,6 +1980,23 @@ article > .gad {
   font-size: 19px;
 }*/
 
+/* Homepage Twitch Stuff */
+.twitch-live-cont {
+  text-align: center;
+  padding-top: 8px;
+}
+.twitch-live-cont a {
+  height: 20px;
+  line-height: 20px;
+  vertical-align: top;
+  text-align: center;
+  color: white;
+  display: none;
+}
+.twitch-live-cont a img {
+  margin-top: 2px;
+  display: inline-block;
+}
 
 /* Google Translate Dropdown */
 #google_translate_element {
