@@ -87,6 +87,7 @@ get_header();
                    <?php
                   endforeach;
               ?>
+              <a class="btn btn-inverse" href="<?php echo get_bloginfo('url'); ?>/category/blog">View More &raquo;</a>
             </div>
             <div class="item eventfeed">
               <h3>Current Events <a href="<?php echo get_bloginfo('url'); ?>/category/tournaments/feed/" target="_blank" class="icon-rss" rel="nofollow"></a></h3>
