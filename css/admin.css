@@ -115,3 +115,12 @@
 th#role_schools.column-role_schools {
   width: 100%;
 }
+
+/* Overrides */
+.dashicons-admin-post:before, .dashicons-format-standard:before {
+  display: none;
+}
+
+#menu-posts .dashicons-admin-post:before {
+  display: inline-block;
+}
