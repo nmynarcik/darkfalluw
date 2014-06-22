@@ -1906,7 +1906,7 @@ input.filter {
   -moz-border-radius: 0;
 }
 
-body.search-results .post {
+body.search-results .hentry {
   margin-bottom: 20px;
 }
 
@@ -2054,4 +2054,14 @@ article > .gad {
 
 pre {
   padding: 10px;
+}
+
+#single-spell-details .descr {
+  font-size: 20px;
+  line-height: 27px;
+}
+#single-spell-details .thumb {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 300px;
 }
