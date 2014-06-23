@@ -57,7 +57,7 @@ function challonge_bracket($attr){
   extract(shortcode_atts(array(
       'id' => 'NO_ID'
     ), $attr));
-  $output = '<iframe src="http://challonge.com/'.$id.'/module?width=695&height=600" width="695" height="600" frameborder="0" scrolling="no" allowtransparency="true"></iframe>';
+  $output = '<iframe src="http://http://darkfallunholywars.challonge.com/'.$id.'/module?width=695&height=600" width="695" height="600" frameborder="0" scrolling="yes" allowtransparency="true"></iframe>';
   return $output;
 }
 function fixed_img_caption_shortcode($attr, $content = null) {
