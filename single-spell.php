@@ -55,6 +55,11 @@ $slug = basename(get_permalink($post->ID));
     ?>
     <br><br>
     <?php echo strip_tags(get_post_meta($post->ID, '_spell_descr',true)); ?>
+    <?php if(get_post_meta($post->ID, '_item_cost', true) != '') { ?>
+      <span class="badge badge-inverse">
+        <img src="<?php echo get_template_directory_uri();?>/images/prowess_icon.png"/> <?php echo get_post_meta($post->ID, '_item_cost', true); ?>
+      </span>
+      <? } ?>
   </p>
 </div>
 <?php comments_template('', true); ?>

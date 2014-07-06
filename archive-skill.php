@@ -42,6 +42,11 @@ if( $my_query->have_posts() ) {
     </div>
     <div class="descr">
       <p><?php echo strip_tags(get_post_meta($post->ID, '_skill_descr', true)); ?></p>
+      <?php if(get_post_meta($post->ID, '_item_cost', true) != '') { ?>
+      <span class="badge badge-inverse">
+        <img src="<?php echo get_template_directory_uri();?>/images/prowess_icon.png"/> <?php echo get_post_meta($post->ID, '_item_cost', true); ?>
+      </span>
+      <? } ?>
       <!-- <a href="<?php echo get_permalink(); ?>" class="btn btn-inverse learn">Learn More &raquo;</a> -->
       <div class="clear"></div>
     </div>

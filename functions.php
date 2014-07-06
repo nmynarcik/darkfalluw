@@ -462,9 +462,10 @@ function add_custom_meta_boxes()
       switch($post_type){
         case "spell":
           add_meta_box('spells_description', 'Description', 'add_descr_box', 'spell', 'normal', 'default');
+          add_meta_box('item_cost', 'Cost', 'add_cost_box', 'spell', 'normal', 'default');
           add_meta_box('spells_role', 'Role', 'spell_role', 'spell', 'normal', 'default');
-          add_meta_box('spells_school', 'School', 'add_schools_box', 'spell', 'normal', 'default', array('df_type' => $post_type));
           add_meta_box('spells_ulti', 'Ultimate', 'spell_ulti', 'spell', 'normal', 'default');
+          add_meta_box('spells_school', 'School', 'add_schools_box', 'spell', 'normal', 'default', array('df_type' => $post_type));
           break;
         case "role":
           add_meta_box('role_description', 'Description', 'add_descr_box', 'role', 'normal', 'default');
@@ -487,7 +488,7 @@ function add_custom_meta_boxes()
           break;
         case "skill":
           add_meta_box('skill_descr', 'Description', 'add_descr_box', 'skill', 'normal', 'default');
-          add_meta_box('skill_cost', 'Cost', 'add_cost_box', 'skill', 'normal', 'default');
+          add_meta_box('item_cost', 'Cost', 'add_cost_box', 'skill', 'normal', 'default');
           break;
         case "poi":
             add_meta_box('poi_type', 'Type', 'add_poi_type', 'poi', 'normal', 'default');
@@ -699,21 +700,18 @@ function add_descr_box()
           echo "<p><em>Note: All HTML is stripped</em></p>";
           break;
       }
+      wp_reset_query();
 }
 
 function add_cost_box()
 {
     global $post;
     $post_type = $post->post_type;
-    echo '<input type="hidden" name="_df_' . $post_type . 'noncename" value="' . wp_create_nonce('df_' . $post_type . 'nonce') . '"/>';
-      switch($post_type){
-        case "spell":
-        case "skill":
-          $cost = get_post_meta($post->ID, '_' . $post_type . '_cost', true);
-          echo "<p>Enter the cost for the " . $post_type . "</p>";
-          echo '<img src="' . get_template_directory_uri() . '/images/prowess_icon.png"/>&nbsp;&nbsp;<input type="text" name="_' . $post_type . '_cost" value=" ' . $cost . ' " />';
-          break;
-      }
+    // echo $post->post_title;
+          $cost = get_post_meta($post->ID, '_item_cost', true);
+          echo "<p>Enter the cost for the item</p>";
+          echo '<img src="' . get_template_directory_uri() . '/images/prowess_icon.png"/>&nbsp;&nbsp;<input type="text" name="_item_cost" value=" ' . $cost . ' " />';
+      wp_reset_query();
 }
 
 function spell_role()
@@ -744,7 +742,7 @@ function spell_role()
     }else{
       echo '<p><em>No Roles have been created.</em></p>';
     }
-    wp_reset_query();
+    wp_reset_postdata();
 }
 function spell_ulti()
 {
@@ -760,6 +758,7 @@ function spell_ulti()
     echo "<label><input type='radio' name='_school_ulti' value='0' checked='checked'/>&nbsp;&nbsp;&nbsp;No</label><br/>";
   }
   echo "<p><em>Note: only one per school should be used<em></p>";
+  wp_reset_query();
 }
 // Save Spell
 function save_df_stuff($post_id, $post)
@@ -800,6 +799,7 @@ function save_df_stuff($post_id, $post)
           $the_meta['_school_ulti'] = $_POST['_school_ulti'];
           $the_meta['_spell_role'] = $_POST['_spell_role'];
           $the_meta['_spell_school'] = $_POST['_spell_school'];
+          $the_meta['_item_cost'] = $_POST['_item_cost'];
           break;
         case 'video':
           $the_meta['_video_descr'] = $_POST['_video_descr'];
@@ -814,7 +814,7 @@ function save_df_stuff($post_id, $post)
           break;
          case 'skill':
           $the_meta['_skill_descr'] = $_POST['_skill_descr'];
-          $the_meta['_skill_cost'] = $_POST['_skill_cost'];
+          $the_meta['_item_cost'] = $_POST['_item_cost'];
           break;
         case 'poi':
             $the_meta['_poi_type'] = $_POST['_poi_type'];
@@ -873,6 +873,7 @@ function add_custom_dfuw_columns($cols)
           break;
         case 'spell':
           $customArray = array(
+            'item_cost' => __('Cost'),
             'school_ulti' => __('Ultimate'),
             'spell_descr' => __('Description'),
             'spell_role' => __('Role'),
@@ -882,8 +883,8 @@ function add_custom_dfuw_columns($cols)
           break;
         case 'skill':
           $customArray = array(
+            'item_cost' => __('Cost'),
             'skill_descr' => __('Description'),
-            'skill_cost' => __('Cost'),
             'skill_thumb' => __('Spell Icon')
           );
           break;
@@ -943,6 +944,7 @@ add_action('manage_poi_posts_custom_column', 'display_custom_content');
 function display_custom_content($cols)
 {
     global $post;
+    $post_type = $post->post_type;
     switch ($cols) {
         case 'spell_thumb':
             if (function_exists('the_post_thumbnail'))
@@ -997,12 +999,12 @@ function display_custom_content($cols)
             else
                 printf(__('%s'), $descr);
             break;
-        case "skill_cost":
-            $descr = get_post_meta($post->ID, '_skill_cost', true);
-            if (empty($descr))
+        case "item_cost":
+            $cost = get_post_meta($post->ID, '_item_cost', true);
+            if (empty($cost))
                 echo __(' ');
             else
-                printf(__('<img src=" ' . get_template_directory_uri() . '/images/prowess_icon.png " /> %s'), $descr);
+                printf(__('<img src=" ' . get_template_directory_uri() . '/images/prowess_icon.png " /> %s'), $cost);
             break;
           case 'role_schools':
             $schools = get_post_meta($post->ID, '_role_schools', true);

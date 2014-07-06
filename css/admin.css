@@ -70,7 +70,7 @@
 
 
 /* META BOXES */
-#spells_role, #spells_school, #spells_ulti {
+#spells_role, #spells_school, #spells_ulti, #item_cost.postbox {
   width: 30%;
   float: left;
   margin-right: 4%;
