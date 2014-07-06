@@ -425,7 +425,7 @@ function register_post_types()
             'view' => __('View POI'),
             'view_item' => __('View POI'),
             'search_items' => __('Search POIs'),
-            'not_found' => __('No skills found'),
+            'not_found' => __('No POIs found'),
             'not_found_in_trash' => __('No POIs found in Trash'),
             'parent' => __('Parent POI')
         ),
@@ -487,6 +487,7 @@ function add_custom_meta_boxes()
           break;
         case "skill":
           add_meta_box('skill_descr', 'Description', 'add_descr_box', 'skill', 'normal', 'default');
+          add_meta_box('skill_cost', 'Cost', 'add_cost_box', 'skill', 'normal', 'default');
           break;
         case "poi":
             add_meta_box('poi_type', 'Type', 'add_poi_type', 'poi', 'normal', 'default');
@@ -700,6 +701,21 @@ function add_descr_box()
       }
 }
 
+function add_cost_box()
+{
+    global $post;
+    $post_type = $post->post_type;
+    echo '<input type="hidden" name="_df_' . $post_type . 'noncename" value="' . wp_create_nonce('df_' . $post_type . 'nonce') . '"/>';
+      switch($post_type){
+        case "spell":
+        case "skill":
+          $cost = get_post_meta($post->ID, '_' . $post_type . '_cost', true);
+          echo "<p>Enter the cost for the " . $post_type . "</p>";
+          echo '<img src="' . get_template_directory_uri() . '/images/prowess_icon.png"/>&nbsp;&nbsp;<input type="text" name="_' . $post_type . '_cost" value=" ' . $cost . ' " />';
+          break;
+      }
+}
+
 function spell_role()
 {
     global $post;
@@ -798,6 +814,7 @@ function save_df_stuff($post_id, $post)
           break;
          case 'skill':
           $the_meta['_skill_descr'] = $_POST['_skill_descr'];
+          $the_meta['_skill_cost'] = $_POST['_skill_cost'];
           break;
         case 'poi':
             $the_meta['_poi_type'] = $_POST['_poi_type'];
@@ -829,10 +846,12 @@ add_action('save_post', 'save_df_stuff', 10, 2); // save the custom fields
 add_image_size('spell_thumb', 50, 50, false);
 add_image_size('role_thumb', 50, 50, false);
 add_image_size('school_thumb', 50, 50, false);
+add_image_size('skill_thumb', 50, 50, false);
 add_filter('manage_edit-spell_columns', 'add_custom_dfuw_columns', 5);
 add_filter('manage_edit-role_columns', 'add_custom_dfuw_columns', 5);
 add_filter('manage_edit-school_columns', 'add_custom_dfuw_columns', 5);
 add_filter('manage_edit-poi_columns', 'add_custom_dfuw_columns', 5);
+add_filter('manage_edit-skill_columns', 'add_custom_dfuw_columns', 5);
 // Add Column
 function add_custom_dfuw_columns($cols)
 {
@@ -859,6 +878,13 @@ function add_custom_dfuw_columns($cols)
             'spell_role' => __('Role'),
             'spell_school' => __('School'),
             'spell_thumb' => __('Spell Icon')
+          );
+          break;
+        case 'skill':
+          $customArray = array(
+            'skill_descr' => __('Description'),
+            'skill_cost' => __('Cost'),
+            'skill_thumb' => __('Spell Icon')
           );
           break;
         case 'poi':
@@ -910,6 +936,7 @@ function dfuw_poi_column_orderby( $vars ) {
 add_action('manage_spell_posts_custom_column', 'display_custom_content');
 add_action('manage_role_posts_custom_column', 'display_custom_content');
 add_action('manage_school_posts_custom_column', 'display_custom_content');
+add_action('manage_skill_posts_custom_column', 'display_custom_content');
 add_action('manage_poi_posts_custom_column', 'display_custom_content');
 
 //insert the content from db per custom column
@@ -963,6 +990,20 @@ function display_custom_content($cols)
             else
                 printf(__('%s'), $descr);
             break;
+          case "skill_descr":
+            $descr = get_post_meta($post->ID, '_skill_descr', true);
+            if (empty($descr))
+                echo __('Not Entered');
+            else
+                printf(__('%s'), $descr);
+            break;
+        case "skill_cost":
+            $descr = get_post_meta($post->ID, '_skill_cost', true);
+            if (empty($descr))
+                echo __(' ');
+            else
+                printf(__('<img src=" ' . get_template_directory_uri() . '/images/prowess_icon.png " /> %s'), $descr);
+            break;
           case 'role_schools':
             $schools = get_post_meta($post->ID, '_role_schools', true);
             if ( !empty($schools) ) {
@@ -973,6 +1014,7 @@ function display_custom_content($cols)
             case 'role_thumb':
             case 'spell_thumb':
             case 'school_thumb':
+            case 'skill_thumb':
               if (function_exists('the_post_thumbnail'))
                 echo the_post_thumbnail(array(50,50));
               break;
