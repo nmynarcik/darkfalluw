@@ -1,7 +1,13 @@
-id,Name,Icon,Skill,Min Level,Max Level,Quantity,Gold,Iron Ore,Sulfur,Additional,Copy Pasta
-r_Iron Ingot,Iron Ingot,http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_ingot_normal_single.png,Smelting,1,100,2,1,5,0,,2 Iron Ingot: 1 Gold; 5 Iron Ore
-r_Selentine Ingot,Selentine Ingot,http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_ingot_selentine_single.png,Smelting Mastery,1,25,1,30,3,1,2 Selentine Essence,1 Selentine Ingot: 30 Gold; 3 Iron Ore; 2 Selentine Essence; 1 Sulfur
-r_Veilron Ingot,Veilron Ingot,http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_ingot_veilron_single.png,Smelting Mastery,25,50,1,50,3,1,2 Veilron Essence,1 Veilron Ingot: 50 Gold; 3 Iron Ore; 2 Veilron Essence; 1 Sulfur
-r_Neithal Ingot,Neithal Ingot,http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_ingot_neithal_single.png,Smelting Mastery,50,75,1,80,3,1,2 Neithal Essence,1 Neithal Ingot: 80 Gold; 3 Iron Ore; 2 Neithal Essence; 1 Sulfur
-r_Leenspar Ingot,Leenspar Ingot,http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_ingot_leenspar_single.png,Smelting Mastery,75,100,1,115,3,1,2 Leenspar Essence,1 Leenspar Ingot: 115 Gold; 3 Iron Ore; 2 Leenspar Essence; 1 Sulfur
-r_Theyril Ingot,Theyril Ingot,http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_ingot_theyril_single.png,Smelting Mastery,100,125,1,160,3,1,2 Theyril Essence,1 Theyril Ingot: 160 Gold; 3 Iron Ore; 2 Theyril Essence; 1 Sulfur
+id,Name,Icon,Skill,Min Level,Max Level,Quantity,Gold,Iron Ore,Coal,Additional,Copy Pasta
+r_iron ore,Iron Ore,,Smelting,1,75,1,1,,,5 Inferior ore,Iron Ore: 1 Gold; 5 Inferior Ore
+r_Iron Ingot,Iron Ingot,http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_ingot_normal_single.png,Smelting,1,100,2,1,5,1,,2 Iron Ingot: 1 Gold; 5 Iron Ore; 1 Coal
+r_selentine ore,Selentine Ore,,Smelting Mastery,1,20,1,15,3,,1 Selentine Essence,Selentine Ore: 15 gold; 3 Iron ore; 1 Selentine Essence
+r_Selentine Ingot,Selentine Ingot,http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_ingot_selentine_single.png,Smelting Mastery,1,25,1,30,,3,2 Selentine Essence,1 Selentine Ingot: 30 Gold; 2 Selentine Ore; 1 Sulfur; 3 Coal
+r_Veilron ore,Veilron Ore,,Smelting Mastery,25,45,1,25,3,,1 Veilron Essence,Veilron Ore: 25 gold; 3 Iron ore; 1 Veilron Essence
+r_Veilron Ingot,Veilron Ingot,http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_ingot_veilron_single.png,Smelting Mastery,25,50,1,50,,4,2 Veilron Essence,1 Veilron Ingot: 50 Gold; 2 Veilron Ore; 1 Sulfur; 4 Coal
+r_neithal ore,Neithal Ore,,Smelting Mastery,50,70,1,40,3,,1 Neithal Essence,Neithal Ore: 40 gold; 3 Iron ore; 1 Neithal Essence
+r_Neithal Ingot,Neithal Ingot,http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_ingot_neithal_single.png,Smelting Mastery,50,75,1,80,,5,2 Neithal Essence,1 Neithal Ingot: 80 Gold; 2 Neithal Ore; 1 Sulfur; 5 Coal
+r_leenspar ore,Leenspar Ore,,Smelting Mastery,75,95,1,58,3,,1 Leenspar Essence,Leenspar Ore: 58 gold; 3 Iron ore; 1 Leenspar Essence
+r_Leenspar Ingot,Leenspar Ingot,http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_ingot_leenspar_single.png,Smelting Mastery,75,100,1,115,,6,2 Leenspar Essence,1 Leenspar Ingot: 115 Gold; 2 Leenspar Ore; 1 Sulfur; 6 Coal
+r_theyril ore,Theyril Ore,,Smelting Mastery,100,100,1,80,3,,1 Theyril Essence,Theyril Ore: 80 gold; 3 Iron ore; 1 Theyril Essence
+r_Theyril Ingot,Theyril Ingot,http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_ingot_theyril_single.png,Smelting Mastery,100,100,1,160,,8,2 Theyril Essence,1 Theyril Ingot: 160 Gold; 2 Theyril Ore; 1 Sulfur; 8 Coal
