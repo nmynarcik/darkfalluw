@@ -1,12 +1,5 @@
 (function($){
 
-    // add if(_gaq)
-    // $('a').click(function(){
-    //     var label = ($(this).attr('title') != undefined) ? $(this).attr('title').replace(' ', '') : $(this).text().replace(' ', '');
-    //     var cat = 'Buttons/Links';
-    //     _gaq.push(['_trackEvent', 'Buttons/Links', 'click', label]);
-    //   });
-
    var pageURL = window.location.pathname;
   var linkText;
 
@@ -26,13 +19,20 @@
                 setTimeout('document.location = "' + $(this).attr('href') + '"', 150);
           }
       });
-    // $('select').change(function(){
-    //   var cat = 'Select';
-    //   var label = $(this).val();
-    //   var pieces = label.split('/');
-    //   var optVal = window.location.pathname;
-    //   _gaq.push(['_trackEvent', cat,'click', pieces[pieces.length -  2], optVal]);
-    // });
+
+    //Dramatically decrease bounce rate
+  function removeEvents() {
+        document.body.removeEventListener('click', sendInteractionEvent);
+        window.removeEventListener('scroll', sendInteractionEvent);
+    }
+
+    function sendInteractionEvent() {
+        _gaq.push(['_trackEvent', 'Page Interaction', 'event']);
+        removeEvents();
+    }
+
+    document.body.addEventListener('click', sendInteractionEvent);
+    window.addEventListener('scroll', sendInteractionEvent);
 
 }(jQuery));
 
