@@ -1,7 +1,0 @@
-id,Name,Icon,Skill,Min Level,Max Level,Quantity,Gold,Timber,Resin,Additional,Copy Pasta
-r_Wood,Wood,http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_wood_normal.png,Woodcutting,1,100,2,1,5,0,,2 Wood: 1 Gold; 5 Timber
-r_Selentine Wood,Selentine Wood,http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_wood_selentine.png,Woodcutting Mastery,1,25,1,30,3,1,2 Selentine Essence,1 Selentine Wood: 30 Gold; 2 Selentine Essence; 1 Resin; 3 Timber
-r_Veilron Wood,Veilron Wood,http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_wood_veilron.png,Woodcutting Mastery,25,50,1,50,3,1,2 Veilron Essence,1 Veilron Wood: 50 Gold; 2 Veilron Essence; 1 Resin; 3 Timber
-r_Neithal Wood,Neithal Wood,http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_wood_neithal.png,Woodcutting Mastery,50,75,1,80,3,1,2 Neithal Essence,1 Neithal Wood: 80 Gold; 2 Neithal Essence; 1 Resin; 3 Timber
-r_Leenspar Wood,Leenspar Wood,http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_wood_leenspar.png,Woodcutting Mastery,75,100,1,115,3,1,2 Leenspar Essence,1 Leenspar Wood: 115 Gold; 2 Leenspar Essence; 1 Resin; 3 Timber
-r_Theyril Wood,Theyril Wood,http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_wood_theyril.png,Woodcutting Mastery,100,125,1,160,3,1,2 Theyril Essence,1 Theyril Wood: 160 Gold; 2 Theyril Essence; 1 Resin; 3 Timber
