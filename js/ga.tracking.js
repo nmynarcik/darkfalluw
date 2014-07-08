@@ -13,7 +13,8 @@
       else if (($(this).text() === "") && ($(this).children("img") != "") && ($(this).children("img").attr("alt") === "")) {
             linkText = $(this).children("img").attr("src").split("/").pop();
       }
-      _gaq.push(['_trackEvent', pageURL, 'click', linkText]);
+      // ga.push(['_trackEvent', pageURL, 'click', linkText]);
+      ga('send', 'event', pageURL, 'click', linkText);
       if (($(this).attr('target') != '_blank') || ($(this).attr('target') != '#')) {
                 e.preventDefault();
                 setTimeout('document.location = "' + $(this).attr('href') + '"', 150);
@@ -27,7 +28,7 @@
     }
 
     function sendInteractionEvent() {
-        _gaq.push(['_trackEvent', 'Page Interaction', 'event']);
+        ga('send', 'event', 'Page Interaction', 'event');
         removeEvents();
     }
 
