@@ -25,6 +25,9 @@ wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.js
 <div class="entry-content">
   <?php the_content(); ?>
   <div class="selections">
+      <label class="checkbox">
+        <input type="checkbox" id="mastery"> Mastery
+      </label>
       <select id="trade_select">
         <option value="">Select Trade</option>
         <option value="alchemy">Alchemy</option>
@@ -45,6 +48,8 @@ wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.js
         <option value="weaving">Weaving</option>
         <option value="woodcutting">Wood Cutting</option>
       </select>
+      <select id="select-two"></select>
+      <select id="select-three"></select>
     </div>
 </div>
 </div>

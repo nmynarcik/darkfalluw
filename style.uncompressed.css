@@ -1725,6 +1725,23 @@ blockquote p {
 
 strong {font-weight: bold;}
 
+/* New Crafting */
+
+.page-template-page-crafting-php select {
+  float: left;
+  clear: left;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.selections label {
+  margin-bottom: 10px;
+}
+
+.page-template-page-crafting-php #trade_select, .page-template-page-crafting-php .btn-group {
+  display: block;
+}
+
 /* Slick Grid && Crafting */
 
 .slick-cell.selected {
