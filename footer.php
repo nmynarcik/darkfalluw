@@ -38,20 +38,20 @@
 </div>
 <?php wp_footer();?>
 </body>
-<?php if($_SERVER['DEV_ENV'] != "BLUEMONSTER"){?>
-<?php if(!is_user_logged_in()){ ?>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<?php if($_SERVER['DEV_ENV'] != "DIGIJESUS"){?>
+  <?php if(!is_user_logged_in()){ ?>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-19670756-11', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-19670756-11', 'auto');
+    ga('send', 'pageview');
 
-</script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/ga.tracking.min.js"></script>
-<?php } ?>
+  </script>
+  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/ga.tracking.min.js"></script>
+  <?php } ?>
 <?php } ?>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.autoellipsis.min.js"></script>
