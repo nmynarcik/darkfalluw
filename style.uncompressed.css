@@ -1742,6 +1742,41 @@ strong {font-weight: bold;}
   display: block;
 }
 
+#item-details {
+  float: right;
+  width: 65%;
+}
+#item-details .btn-group {
+  margin: 0 auto;
+  left: 50%;
+  margin-left: -53px;
+}
+#item-details #thumb {
+  width: 64px;
+  height: 64px;
+  border: 2px solid #221715;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  margin: 0 auto 10px;
+}
+#item-details textarea {
+  width: 83%;
+}
+#item-details input[type="number"] {
+  width: 40px;
+  vertical-align: top;
+  margin-right: 5px;
+}
+#item-details #left {
+  float: left;
+  width: 20%;
+}
+#item-details #right {
+  float: right;
+  width: 78%;
+}
+
 /* Slick Grid && Crafting */
 
 .slick-cell.selected {

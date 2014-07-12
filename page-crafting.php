@@ -51,6 +51,29 @@ wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.js
       <select id="select-two"></select>
       <select id="select-three"></select>
     </div>
+    <div id="item-details">
+
+      <!-- Item Template -->
+      <div id="item-template">
+        <div id="left">
+          <div id="thumb"></div>
+          <div class="btn-group">
+            <button class="btn" id="stoic" title="Stoic">S</button>
+            <button class="btn" id="militant" title="Militant">M</button>
+            <button class="btn" id="barbaric" title="Barbaric">B</button>
+          </div>
+        </div>
+        <div id="right">
+          <div class="well well-large">
+            Item Contents Here
+          </div>
+          <input type="number" value="1" name="quantity" min="1" max="100" id="item-count"/>
+          <textarea rows="5">Recipe Here</textarea>
+        </div>
+      </div>
+      <!-- End Item Template -->
+
+    </div>
 </div>
 </div>
 </article>
