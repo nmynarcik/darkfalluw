@@ -560,8 +560,8 @@
     "Copy Pasta":"1 Plate Cuirass: 50 Gold; 32 Iron Ingot; 10 Leather"
   },
   {
-    "id":"r_Armor Full Plate Arms",
-    "Name":"Full Plate Vambraces",
+    "id":"r_Armor Full-Plate Arms",
+    "Name":"Full-Plate Vambraces",
     "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_fullplate_arms.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":1,
@@ -571,11 +571,11 @@
     "Iron Ingot":12,
     "Leather":4,
     "Additional":"1 Selentine Ingot",
-    "Copy Pasta":"1 Full Plate Vambraces: 95 Gold; 12 Iron Ingot; 1 Selentine Ingot; 4 Leather"
+    "Copy Pasta":"1 Full-Plate Vambraces: 95 Gold; 12 Iron Ingot; 1 Selentine Ingot; 4 Leather"
   },
   {
-    "id":"r_Armor Full Plate Elbows",
-    "Name":"Full Plate Couters",
+    "id":"r_Armor Full-Plate Elbows",
+    "Name":"Full-Plate Couters",
     "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_fullplate_elbows.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":1,
@@ -585,11 +585,11 @@
     "Iron Ingot":12,
     "Leather":4,
     "Additional":"1 Selentine Ingot",
-    "Copy Pasta":"1 Full Plate Couters: 95 Gold; 12 Iron Ingot; 1 Selentine Ingot; 4 Leather"
+    "Copy Pasta":"1 Full-Plate Couters: 95 Gold; 12 Iron Ingot; 1 Selentine Ingot; 4 Leather"
   },
   {
-    "id":"r_Armor Full Plate Girdle",
-    "Name":"Full Plate Girdle",
+    "id":"r_Armor Full-Plate Girdle",
+    "Name":"Full-Plate Girdle",
     "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_fullplate_girdle.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":1,
@@ -599,11 +599,11 @@
     "Iron Ingot":12,
     "Leather":4,
     "Additional":"1 Selentine Ingot",
-    "Copy Pasta":"1 Full Plate Girdle: 95 Gold; 12 Iron Ingot; 1 Selentine Ingot; 4 Leather"
+    "Copy Pasta":"1 Full-Plate Girdle: 95 Gold; 12 Iron Ingot; 1 Selentine Ingot; 4 Leather"
   },
   {
-    "id":"r_Armor Full Plate Gloves",
-    "Name":"Full Plate Gauntlets",
+    "id":"r_Armor Full-Plate Gloves",
+    "Name":"Full-Plate Gauntlets",
     "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_fullplate_gloves.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":1,
@@ -613,11 +613,11 @@
     "Iron Ingot":12,
     "Leather":4,
     "Additional":"1 Selentine Ingot",
-    "Copy Pasta":"1 Full Plate Gauntlets: 95 Gold; 12 Iron Ingot; 1 Selentine Ingot; 4 Leather"
+    "Copy Pasta":"1 Full-Plate Gauntlets: 95 Gold; 12 Iron Ingot; 1 Selentine Ingot; 4 Leather"
   },
   {
-    "id":"r_Armor Full Plate Greaves",
-    "Name":"Full Plate Greaves",
+    "id":"r_Armor Full-Plate Greaves",
+    "Name":"Full-Plate Greaves",
     "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_fullplate_greaves.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":1,
@@ -627,11 +627,11 @@
     "Iron Ingot":12,
     "Leather":4,
     "Additional":"1 Selentine Ingot",
-    "Copy Pasta":"1 Full Plate Greaves: 95 Gold; 12 Iron Ingot; 1 Selentine Ingot; 4 Leather"
+    "Copy Pasta":"1 Full-Plate Greaves: 95 Gold; 12 Iron Ingot; 1 Selentine Ingot; 4 Leather"
   },
   {
-    "id":"r_Armor Full Plate Helmet",
-    "Name":"Full Plate Barbute",
+    "id":"r_Armor Full-Plate Helmet",
+    "Name":"Full-Plate Barbute",
     "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_fullplate_helmet.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":1,
@@ -641,11 +641,11 @@
     "Iron Ingot":20,
     "Leather":8,
     "Additional":"2 Selentine Ingot",
-    "Copy Pasta":"1 Full Plate Barbute: 95 Gold; 20 Iron Ingot; 2 Selentine Ingot; 8 Leather"
+    "Copy Pasta":"1 Full-Plate Barbute: 95 Gold; 20 Iron Ingot; 2 Selentine Ingot; 8 Leather"
   },
   {
-    "id":"r_Armor Full Plate Pants",
-    "Name":"Full Plate Legguards",
+    "id":"r_Armor Full-Plate Pants",
+    "Name":"Full-Plate Legguards",
     "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_fullplate_legs.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":1,
@@ -655,11 +655,11 @@
     "Iron Ingot":28,
     "Leather":10,
     "Additional":"2 Selentine Ingot",
-    "Copy Pasta":"1 Full Plate Legguards: 95 Gold; 28 Iron Ingot; 2 Selentine Ingot; 10 Leather"
+    "Copy Pasta":"1 Full-Plate Legguards: 95 Gold; 28 Iron Ingot; 2 Selentine Ingot; 10 Leather"
   },
   {
-    "id":"r_Armor Full Plate Shoes",
-    "Name":"Full Plate Sabatons",
+    "id":"r_Armor Full-Plate Shoes",
+    "Name":"Full-Plate Sabatons",
     "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_fullplate_footwear.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":1,
@@ -669,11 +669,11 @@
     "Iron Ingot":12,
     "Leather":4,
     "Additional":"1 Selentine Ingot",
-    "Copy Pasta":"1 Full Plate Sabatons: 95 Gold; 12 Iron Ingot; 1 Selentine Ingot; 4 Leather"
+    "Copy Pasta":"1 Full-Plate Sabatons: 95 Gold; 12 Iron Ingot; 1 Selentine Ingot; 4 Leather"
   },
   {
-    "id":"r_Armor Full Plate Shoulders",
-    "Name":"Full Plate Pauldrons",
+    "id":"r_Armor Full-Plate Shoulders",
+    "Name":"Full-Plate Pauldrons",
     "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_fullplate_shoulders.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":1,
@@ -683,11 +683,11 @@
     "Iron Ingot":12,
     "Leather":4,
     "Additional":"1 Selentine Ingot",
-    "Copy Pasta":"1 Full Plate Pauldrons: 95 Gold; 12 Iron Ingot; 1 Selentine Ingot; 4 Leather"
+    "Copy Pasta":"1 Full-Plate Pauldrons: 95 Gold; 12 Iron Ingot; 1 Selentine Ingot; 4 Leather"
   },
   {
-    "id":"r_Armor Full Plate Torso",
-    "Name":"Full Plate Cuirass",
+    "id":"r_Armor Full-Plate Torso",
+    "Name":"Full-Plate Cuirass",
     "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_fullplate_torso.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":1,
@@ -697,7 +697,7 @@
     "Iron Ingot":36,
     "Leather":15,
     "Additional":"3 Selentine Ingot",
-    "Copy Pasta":"1 Full Plate Cuirass: 95 Gold; 36 Iron Ingot; 3 Selentine Ingot; 15 Leather"
+    "Copy Pasta":"1 Full-Plate Cuirass: 95 Gold; 36 Iron Ingot; 3 Selentine Ingot; 15 Leather"
   },
   {
     "id":"r_Armor Dread Plate Arms",
