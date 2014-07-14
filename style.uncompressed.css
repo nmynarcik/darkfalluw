@@ -1729,7 +1729,6 @@ strong {font-weight: bold;}
 
 #selections {
   float: left;
-  margin-top: 30px;
 }
 
 .page-template-page-crafting-php select {
@@ -1739,17 +1738,22 @@ strong {font-weight: bold;}
   display: none;
 }
 
-.selections label {
+#selections label {
   margin-bottom: 10px;
 }
 
-.page-template-page-crafting-php #trade_select, .page-template-page-crafting-php .btn-group {
+#item-details .btn-group {
+  display: none;
+}
+
+.page-template-page-crafting-php #trade_select, .weaponsmithing .btn-group {
   display: block;
 }
 
 #item-details {
   float: right;
   width: 65%;
+  margin-top: 30px;
 }
 #item-details .btn-group {
   margin: 0 auto;
@@ -1766,12 +1770,10 @@ strong {font-weight: bold;}
   margin: 0 auto 10px;
 }
 #item-details textarea {
-  width: 83%;
+  width: 375px;
 }
 #item-details input[type="number"] {
   width: 40px;
-  vertical-align: top;
-  margin-right: 5px;
 }
 #item-details #left {
   float: left;
@@ -1781,6 +1783,14 @@ strong {font-weight: bold;}
   float: right;
   width: 78%;
 }
+#item-details #right .quantity {
+  float: left;
+}
+#item-details #right .recipe {
+  float: left;
+  margin-left: 10px;
+}
+
 
 /* Slick Grid && Crafting */
 

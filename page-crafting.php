@@ -24,7 +24,7 @@ wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.js
 <h1 class="entry-title"><?php the_title(); ?></h1>
 <div class="entry-content">
   <?php the_content(); ?>
-  <div class="selections">
+  <div id="selections">
       <label class="checkbox">
         <input type="checkbox" id="mastery"> Mastery
       </label>
@@ -71,8 +71,14 @@ wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.js
     <div class="well well-large">
       Item Contents Here
     </div>
-    <input type="number" value="1" name="quantity" min="1" max="100" id="item-count"/>
-    <textarea rows="5" readonly="readonly">Recipe Here</textarea>
+    <div class="quantity">
+      <label for="quantity">How Many?</label>
+      <input type="number" value="1" name="quantity" min="1" max="100" id="item-count" pattern="[0-9]{3}"/>
+    </div>
+    <div class="recipe">
+      <label for="recipe">Recipe</label>
+      <textarea rows="5" name="recipe" readonly="readonly">Recipe Here</textarea>
+    </div>
   </div>
 </div>
 <!-- End Item Template -->

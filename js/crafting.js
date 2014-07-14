@@ -10,6 +10,7 @@
     firstDrop: [],
     secDrop: [],
     filteredList: [],
+    item: {},
     getData: function(val){
       crafter.reset();
       crafter.skill = $('#trade_select').val();
@@ -115,13 +116,38 @@
     },
     showItem: function(item){
       console.log('Showing Item', item);
+      crafter.item = item;
       var newEl = $("#item-template").clone()
                                 .attr("id",item.id)
                                 .fadeIn("slow");
-      newEl.find('#thumb').append('<img src="'+item.Icon+'"/>');
-      newEl.find('textarea').html(item['Copy Pasta']);
-      newEl.find('.well').html('<h3>'+item.Name+'</h3>');
-      $('#item-details').html(newEl);
+      newEl.find('#thumb').append('<img src="'+templateDir+'/data/icons/'+item.Icon+'" width="64" height="64"/>');
+
+      var details = '<h3>'+item.Name+'</h3><p>';
+      details = details + '<strong>Skill:</strong> '+item.Skill+'<br>';
+      details = details + '<strong>Min Level:</strong> '+item["Min Level"]+'<br>';
+      details = details + '<strong>Max Level:</strong> '+item["Max Level"]+'<br>';
+      details = details + '<ul class="ingredients">';
+      for(var prop in item.Recipe){
+          details = details + '<li><strong>' + prop + ':</strong> ' + item.Recipe[prop] + '</li>';
+      }
+      details = details + '</ul></p>';
+      newEl.find('.well').html(details);
+
+      newEl.find('textarea').html(crafter.calculate(item));
+
+      $('#item-details').addClass(item.Skill.toLowerCase())
+                                .html(newEl);
+    },
+    calculate: function(){
+      var count = $('#item-count').val();
+      var html = crafter.item.Name+': ';
+      for(var prop in crafter.item.Recipe){
+        html = html + count*crafter.item.Recipe[prop] + ' ' + prop;
+        if(Object.keys(crafter.item.Recipe)[Object.keys(crafter.item.Recipe).length - 1] != prop){
+          html = html + ', ';
+        }
+      }
+      return html;
     }
   }
 
@@ -165,6 +191,10 @@
     if($('#trade_select').val() != ''){
       crafter.getData($('#trade_select').val());
     }
+  });
+
+  $('#item-count').live('change',function(){
+    $('#item-details').find('textarea').html(crafter.calculate(crafter.item));
   });
 })(jQuery);
 
