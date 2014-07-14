@@ -115,6 +115,13 @@
     },
     showItem: function(item){
       console.log('Showing Item', item);
+      var newEl = $("#item-template").clone()
+                                .attr("id",item.id)
+                                .fadeIn("slow");
+      newEl.find('#thumb').append('<img src="'+item.Icon+'"/>');
+      newEl.find('textarea').html(item['Copy Pasta']);
+      newEl.find('.well').html('<h3>'+item.Name+'</h3>');
+      $('#item-details').html(newEl);
     }
   }
 

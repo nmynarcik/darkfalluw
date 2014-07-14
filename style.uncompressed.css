@@ -1727,6 +1727,11 @@ strong {font-weight: bold;}
 
 /* New Crafting */
 
+#selections {
+  float: left;
+  margin-top: 30px;
+}
+
 .page-template-page-crafting-php select {
   float: left;
   clear: left;

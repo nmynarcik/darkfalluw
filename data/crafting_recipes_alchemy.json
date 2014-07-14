@@ -1,16 +1,18 @@
 [
   {
-    "id":"r_Elemental Dust",
+    "id":"r_elemental_dust",
     "Name":"Elemental Dust",
     "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_elemental_dust.png",
     "Skill":"Alchemy",
     "Min Level":1,
     "Max Level":25,
     "Quantity":4,
-    "Gold":1,
-    "Empty bottle":"0",
-    "Additional":"1 Sulfur; 1 Mandrake",
-    "Copy Pasta":"4 Elemental Dust: 1 Gold; 1 Sulfur; 1 Mandrake"
+    "Recipe": {
+            "gold": 1,
+            "elemental dust": 4,
+            "sulfur": 1,
+            "mandrake": 1
+        }
   },
   {
     "id":"r_Potion Health Minor",
