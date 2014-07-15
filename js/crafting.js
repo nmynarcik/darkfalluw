@@ -11,6 +11,7 @@
     secDrop: [],
     filteredList: [],
     item: {},
+    itemCount: 1,
     style: 'militant',
     getData: function(val){
       crafter.reset();
@@ -136,6 +137,8 @@
 
       newEl.find('.recipe .well').html(crafter.calculate(item));
 
+      newEl.find('#item-count').val(crafter.itemCount);
+
       $('#item-details').removeClass('')
                                   .addClass(item.Skill.toLowerCase())
                                   .html(newEl);
@@ -197,6 +200,7 @@
   });
 
   $('#item-count').live('change',function(){
+    crafter.itemCount = $(this).val();
     $('#item-details .recipe .well').html(crafter.calculate(crafter.item));
   });
 
