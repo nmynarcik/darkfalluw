@@ -7,164 +7,168 @@
     "Min Level":1,
     "Max Level":75,
     "Quantity":1,
-    "Gold":1,
-    "Rawhide":null,
-    "Quicklime":null,
-    "Additional":"5 Inferior Rawhide",
-    "Copy Pasta":"Rawhide: 1 Gold; 5 Inferior Rawhide"
-  },
+    "Recipe": {
+	"Gold":1,
+	"Inferior Rawhide":5
+}
+},
   {
     "id":"r_Leather",
     "Name":"Leather",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_leather_normal.png",
+    "Icon":"item_leather_normal.png",
     "Skill":"Tanning",
     "Min Level":1,
     "Max Level":100,
     "Quantity":2,
-    "Gold":1,
-    "Rawhide":3,
-    "Quicklime":1,
-    "Additional":"",
-    "Copy Pasta":"2 Leather: 1 Gold; 3 Rawhide; 1 Quicklime"
-  },
+    "Recipe": {
+	"Gold":1,
+	"Rawhide":3,
+	"Quicklime":1
+}
+},
   {
-    "id":"r_selentine rawhide",
+    "id":"r_selentine_rawhide",
     "Name":"Selentine rawhide",
     "Icon":"",
     "Skill":"Tanning Mastery",
     "Min Level":1,
     "Max Level":20,
     "Quantity":1,
-    "Gold":15,
-    "Rawhide":2,
-    "Quicklime":null,
-    "Additional":"1 Selentine Essence",
-    "Copy Pasta":"Selentine Rawhide: 15 Gold; 2 Rawhide; 1 Selentine Essence"
-  },
+    "Recipe": {
+	"Gold":15,
+	"Rawhide":2,
+	"Selentine Essence":1
+}
+},
   {
-    "id":"r_Selentine Leather",
+    "id":"r_selentine_leather",
     "Name":"Selentine Leather",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_leather_selentine.png",
+    "Icon":"item_leather_selentine.png",
     "Skill":"Tanning Mastery",
     "Min Level":1,
     "Max Level":25,
     "Quantity":1,
-    "Gold":30,
-    "Rawhide":null,
-    "Quicklime":3,
-    "Additional":"2 Selentine Rawhide; 1 Nacre",
-    "Copy Pasta":"Selentine Leather: 30 Gold; 2 Selentine Rawhide; 1 Nacre; 3 Quicklime"
-  },
+    "Recipe": {
+	"Gold":30,
+	"Quicklime":3,
+	"Selentine Rawhide":2,
+	"Nacre":1
+}
+},
   {
-    "id":"r_veilron rawhide",
+    "id":"r_veilron_rawhide",
     "Name":"Veilron Rawhide",
     "Icon":"",
     "Skill":"Tanning Mastery",
     "Min Level":25,
     "Max Level":45,
     "Quantity":1,
-    "Gold":25,
-    "Rawhide":2,
-    "Quicklime":null,
-    "Additional":"1 Veilron Essence",
-    "Copy Pasta":"Veilron Rawhide: 25 Gold; 2 Rawhide; 1 Veilron Essence"
-  },
+    "Recipe": {
+	"Gold":25,
+	"Rawhide":2,
+	"Veilron Essence":1
+}
+},
   {
-    "id":"r_Veilron Leather",
+    "id":"r_veilron_leather",
     "Name":"Veilron Leather",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_leather_veilron.png",
+    "Icon":"item_leather_veilron.png",
     "Skill":"Tanning Mastery",
     "Min Level":25,
     "Max Level":50,
     "Quantity":1,
-    "Gold":50,
-    "Rawhide":null,
-    "Quicklime":4,
-    "Additional":"2 Veilron Rawhide; 1 Nacre",
-    "Copy Pasta":"Veilron Leather: 50 Gold; 2 Veilron Rawhide; 1 Nacre; 4 Quicklime"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Quicklime":4,
+	"Veilron Rawhide":2,
+	"Nacre":1
+}
+},
   {
-    "id":"r_neithal rawhide",
+    "id":"r_neithal_rawhide",
     "Name":"Neithal Rawhide",
     "Icon":"",
     "Skill":"Tanning Mastery",
     "Min Level":50,
     "Max Level":70,
     "Quantity":1,
-    "Gold":40,
-    "Rawhide":2,
-    "Quicklime":null,
-    "Additional":"1 Neithal Essence",
-    "Copy Pasta":"Neithal Rawhide: 40 Gold; 2 Rawhide; 1 Neithal Essence"
-  },
+    "Recipe": {
+	"Gold":40,
+	"Rawhide":2,
+	"Neithal Essence":1
+}
+},
   {
-    "id":"r_Neithal Leather",
+    "id":"r_neithal_leather",
     "Name":"Neithal Leather",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_leather_neithal.png",
+    "Icon":"item_leather_neithal.png",
     "Skill":"Tanning Mastery",
     "Min Level":50,
     "Max Level":75,
     "Quantity":1,
-    "Gold":80,
-    "Rawhide":null,
-    "Quicklime":5,
-    "Additional":"2 Neithal Rawhide; 1 Nacre",
-    "Copy Pasta":"Neithal Leather: 80 Gold; 2 Neithal Rawhide; 1 Nacre; 5 Quicklime"
-  },
+    "Recipe": {
+	"Gold":80,
+	"Quicklime":5,
+	"Neithal Rawhide":2,
+	"Nacre":1
+}
+},
   {
-    "id":"r_leenspar rawhide",
+    "id":"r_leenspar_rawhide",
     "Name":"Leenspar Rawhide",
     "Icon":"",
     "Skill":"Tanning Mastery",
     "Min Level":75,
     "Max Level":95,
     "Quantity":1,
-    "Gold":58,
-    "Rawhide":2,
-    "Quicklime":null,
-    "Additional":"1 Leenspar Essence",
-    "Copy Pasta":"Leenspar Rawhide: 58 Gold; 2 Rawhide; 1 Leenspar Essence"
-  },
+    "Recipe": {
+	"Gold":58,
+	"Rawhide":2,
+	"Leenspar Essence":1
+}
+},
   {
-    "id":"r_Leenspar Leather",
+    "id":"r_leenspar_leather",
     "Name":"Leenspar Leather",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_leather_leenspar.png",
+    "Icon":"item_leather_leenspar.png",
     "Skill":"Tanning Mastery",
     "Min Level":75,
     "Max Level":100,
     "Quantity":1,
-    "Gold":115,
-    "Rawhide":null,
-    "Quicklime":6,
-    "Additional":"2 Leenspar Rawhide; 1 Nacre",
-    "Copy Pasta":"Leenspar Leather: 115 Gold; 2 Leenspar Rawhide; 1 Nacre; 6 Quicklime"
-  },
+    "Recipe": {
+	"Gold":115,
+	"Quicklime":6,
+	"Leenspar Rawhide":2,
+	"Nacre":1
+}
+},
   {
-    "id":"r_theyril rawhide",
+    "id":"r_theyril_rawhide",
     "Name":"Theyril Rawhide",
     "Icon":"",
     "Skill":"Tanning Mastery",
     "Min Level":100,
     "Max Level":100,
     "Quantity":1,
-    "Gold":80,
-    "Rawhide":2,
-    "Quicklime":null,
-    "Additional":"1 Theyril Essence",
-    "Copy Pasta":"Theyril Rawhide: 80 Gold; 2 Rawhide; 1 Theyril Essence"
-  },
+    "Recipe": {
+	"Gold":80,
+	"Rawhide":2,
+	"Theyril Essence":1
+}
+},
   {
-    "id":"r_Theyril Leather",
+    "id":"r_theyril_leather",
     "Name":"Theyril Leather",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_leather_theyril.png",
+    "Icon":"item_leather_theyril.png",
     "Skill":"Tanning Mastery",
     "Min Level":100,
     "Max Level":100,
     "Quantity":1,
-    "Gold":160,
-    "Rawhide":null,
-    "Quicklime":8,
-    "Additional":"2 Theyril Rawhide; 1 Nacre",
-    "Copy Pasta":"Theyril Leather: 160 Gold; 2 Theyril Rawhide; 1 Nacre; 8 Quicklime"
-  }
+    "Recipe": {
+	"Gold":160,
+	"Quicklime":8,
+	"Theyril Rawhide":2,
+	"Nacre":1
+}
+}
 ]

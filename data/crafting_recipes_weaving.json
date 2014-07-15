@@ -7,164 +7,168 @@
     "Min Level":1,
     "Max Level":75,
     "Quantity":1,
-    "Gold":1,
-    "Cotton":null,
-    "Lye":null,
-    "Additional":"5 Inferior Cotton",
-    "Copy Pasta":"Cotton: 1 Gold; 5 Inferior Cotton"
-  },
+    "Recipe": {
+	"Gold":1,
+	"Inferior Cotton":5
+}
+},
   {
-    "id":"r_Cloth",
+    "id":"r_cloth",
     "Name":"Cloth",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_cloth_normal.png",
+    "Icon":"item_cloth_normal.png",
     "Skill":"Weaving",
     "Min Level":1,
     "Max Level":100,
     "Quantity":2,
-    "Gold":1,
-    "Cotton":5,
-    "Lye":1,
-    "Additional":"",
-    "Copy Pasta":"2 Cloth: 1 Gold; 5 Cotton; 1 Lye"
-  },
+    "Recipe": {
+	"Gold":1,
+	"Cotton":5,
+	"Lye":1
+}
+},
   {
-    "id":"r_Selentine Cotton",
+    "id":"r_selentine_cotton",
     "Name":"Selentine Cotton",
     "Icon":"",
     "Skill":"Weaving Mastery",
     "Min Level":1,
     "Max Level":20,
     "Quantity":1,
-    "Gold":15,
-    "Cotton":3,
-    "Lye":null,
-    "Additional":"1 Selentine Essence",
-    "Copy Pasta":"Selentine Cotton: 15 Gold; 3 Cotton; 1 Selentine Essence"
-  },
+    "Recipe": {
+	"Gold":15,
+	"Cotton":3,
+	"Selentine Essence":1
+}
+},
   {
-    "id":"r_Selentine Cloth",
+    "id":"r_selentine_cloth",
     "Name":"Selentine Cloth",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_cloth_selentine.png",
+    "Icon":"item_cloth_selentine.png",
     "Skill":"Weaving Mastery",
     "Min Level":1,
     "Max Level":25,
     "Quantity":1,
-    "Gold":30,
-    "Cotton":null,
-    "Lye":3,
-    "Additional":"2 Selentine Cotton; 1 Mandrake",
-    "Copy Pasta":"Selentine Cloth: 30 Gold; 2 Selentine cotton; 1 Mandrake; 3 Lye"
-  },
+    "Recipe": {
+	"Gold":30,
+	"Lye":3,
+	"Selentine Cotton":2,
+	"Mandrake":1
+}
+},
   {
-    "id":"r_Veilron Cotton",
+    "id":"r_veilron_cotton",
     "Name":"Veilron Cotton",
     "Icon":"",
     "Skill":"Weaving Mastery",
     "Min Level":25,
     "Max Level":45,
     "Quantity":1,
-    "Gold":25,
-    "Cotton":3,
-    "Lye":null,
-    "Additional":"1 Veilron Essence",
-    "Copy Pasta":"Veilron Cotton: 25 Gold; 3 Cotton; 1 Veilron Essence"
-  },
+    "Recipe": {
+	"Gold":25,
+	"Cotton":3,
+	"Veilron Essence":1	
+}
+},
   {
-    "id":"r_Veilron Cloth",
+    "id":"r_veilron_cloth",
     "Name":"Veilron Cloth",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_cloth_veilron.png",
+    "Icon":"item_cloth_veilron.png",
     "Skill":"Weaving Mastery",
     "Min Level":25,
     "Max Level":50,
     "Quantity":1,
-    "Gold":50,
-    "Cotton":null,
-    "Lye":4,
-    "Additional":"2 Veilron Cotton; 1 Mandrake",
-    "Copy Pasta":"Veilron Cloth: 50 Gold; 2 Veilron cotton; 1 Mandrake; 4 Lye"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Lye":4,
+	"Veilron Cotton":2,
+	"Mandrake":1
+}
+},
   {
-    "id":"r_Neithal Cotton",
+    "id":"r_neithal_cotton",
     "Name":"Neithal Cotton",
     "Icon":"",
     "Skill":"Weaving Mastery",
     "Min Level":50,
     "Max Level":70,
     "Quantity":1,
-    "Gold":40,
-    "Cotton":3,
-    "Lye":null,
-    "Additional":"1 Neithal Essence",
-    "Copy Pasta":"Neithal Cotton: 40 Gold; 3 Cotton; 1 Neithal Essence"
-  },
+    "Recipe": {
+	"Gold":40,
+	"Cotton":3,
+	"Neithal Essence":1
+}
+},
   {
-    "id":"r_Neithal Cloth",
+    "id":"r_neithal_cloth",
     "Name":"Neithal Cloth",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_cloth_neithal.png",
+    "Icon":"item_cloth_neithal.png",
     "Skill":"Weaving Mastery",
     "Min Level":50,
     "Max Level":75,
     "Quantity":1,
-    "Gold":80,
-    "Cotton":null,
-    "Lye":5,
-    "Additional":"2 Neithal Cotton; 1 Mandrake",
-    "Copy Pasta":"Neithal Cloth: 80 Gold; 2 Neithal Cotton; 1 Mandrake; 5 Lye"
-  },
+    "Recipe": {
+	"Gold":80,
+	"Lye":5,
+	"Neithal Cotton":2,
+	"Mandrake":1
+}
+},
   {
-    "id":"r_Leenspar Cotton",
+    "id":"r_leenspar_cotton",
     "Name":"Leenspar Cotton",
     "Icon":"",
     "Skill":"Weaving Mastery",
     "Min Level":75,
     "Max Level":95,
     "Quantity":1,
-    "Gold":58,
-    "Cotton":3,
-    "Lye":null,
-    "Additional":"1 Leenspar Essence",
-    "Copy Pasta":"Leenspar Cotton: 58 Gold; 3 Cotton; 1 Leenspar Essence"
-  },
+    "Recipe": {
+	"Gold":58,
+	"Cotton":3,
+	"Leenspar Essence":1
+}
+},
   {
-    "id":"r_Leenspar Cloth",
+    "id":"r_leenspar_cloth",
     "Name":"Leenspar Cloth",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_cloth_leenspar.png",
+    "Icon":"item_cloth_leenspar.png",
     "Skill":"Weaving Mastery",
     "Min Level":75,
     "Max Level":100,
     "Quantity":1,
-    "Gold":115,
-    "Cotton":null,
-    "Lye":6,
-    "Additional":"2 Leenspar Cotton; 1 Mandrake",
-    "Copy Pasta":"Leenspar Cloth: 115 Gold; 2 Leenspar Cotton; 1 Mandrake; 6 Lye"
-  },
+    "Recipe": {
+	"Gold":115,
+	"Lye":6,
+	"Leenspar Cotton":2,
+	"Mandrake":1
+}
+},
   {
-    "id":"r_Theyril Cotton",
+    "id":"r_theyril_cotton",
     "Name":"Theyril Cotton",
     "Icon":"",
     "Skill":"Weaving Mastery",
     "Min Level":100,
     "Max Level":100,
     "Quantity":1,
-    "Gold":80,
-    "Cotton":3,
-    "Lye":null,
-    "Additional":"1 Theyril Essence",
-    "Copy Pasta":"Theyril Cotton: 80 Gold; 3 Cotton; 1 Theyril Essence"
-  },
+    "Recipe": {
+	"Gold":80,
+	"Cotton":3,
+	"theyril Essence":1
+}
+},
   {
-    "id":"r_Theyril Cloth",
+    "id":"r_theyril_cloth",
     "Name":"Theyril Cloth",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_cloth_theyril.png",
+    "Icon":"item_cloth_theyril.png",
     "Skill":"Weaving Mastery",
     "Min Level":100,
     "Max Level":125,
     "Quantity":1,
-    "Gold":160,
-    "Cotton":null,
-    "Lye":8,
-    "Additional":"2 Theyril Cotton; 1 Mandrake",
-    "Copy Pasta":"Theyril Cloth: 160 Gold; 2 Theyril Cotton; 1 Mandrake; 8 Lye"
-  }
+    "Recipe": {
+	"Gold":160,
+	"Lye":8,
+	"Theyril Cotton":2,
+	"Mandrake":1
+}
+}
 ]
