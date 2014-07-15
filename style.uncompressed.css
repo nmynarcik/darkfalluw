@@ -1746,7 +1746,7 @@ strong {font-weight: bold;}
   display: none;
 }
 
-.page-template-page-crafting-php #trade_select, .weaponsmithing .btn-group {
+.page-template-page-crafting-php #trade_select, #item-details.weaponsmithing .btn-group {
   display: block;
 }
 
@@ -1769,8 +1769,8 @@ strong {font-weight: bold;}
   -moz-border-radius: 4px;
   margin: 0 auto 10px;
 }
-#item-details textarea {
-  width: 375px;
+#item-details .recipe .well {
+  width: 370px;
 }
 #item-details input[type="number"] {
   width: 40px;
@@ -1790,7 +1790,17 @@ strong {font-weight: bold;}
   float: left;
   margin-left: 10px;
 }
+#item-details h3, #item-details .recipe .well {
+  text-transform: capitalize;
+}
 
+#item-details .recipe .well {
+  cursor: pointer;
+}
+
+#item-details .recipe .theName {
+  font-weight: bold;
+}
 
 /* Slick Grid && Crafting */
 

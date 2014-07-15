@@ -11,6 +11,7 @@
     secDrop: [],
     filteredList: [],
     item: {},
+    style: 'militant',
     getData: function(val){
       crafter.reset();
       crafter.skill = $('#trade_select').val();
@@ -122,7 +123,7 @@
                                 .fadeIn("slow");
       newEl.find('#thumb').append('<img src="'+templateDir+'/data/icons/'+item.Icon+'" width="64" height="64"/>');
 
-      var details = '<h3>'+item.Name+'</h3><p>';
+      var details = '<h3><span class="theName">'+item.Name+'</span></h3><p>';
       details = details + '<strong>Skill:</strong> '+item.Skill+'<br>';
       details = details + '<strong>Min Level:</strong> '+item["Min Level"]+'<br>';
       details = details + '<strong>Max Level:</strong> '+item["Max Level"]+'<br>';
@@ -131,16 +132,18 @@
           details = details + '<li><strong>' + prop + ':</strong> ' + item.Recipe[prop] + '</li>';
       }
       details = details + '</ul></p>';
-      newEl.find('.well').html(details);
+      newEl.find('.well.ingredients').html(details);
 
-      newEl.find('textarea').html(crafter.calculate(item));
+      newEl.find('.recipe .well').html(crafter.calculate(item));
 
-      $('#item-details').addClass(item.Skill.toLowerCase())
-                                .html(newEl);
+      $('#item-details').removeClass('')
+                                  .addClass(item.Skill.toLowerCase())
+                                  .html(newEl);
     },
     calculate: function(){
+      var currentName = (crafter.item.Name != $('.theName:first').text() && $('.theName:first').text() != '') ? $('.theName:first').text() : crafter.item.Name;
       var count = $('#item-count').val();
-      var html = crafter.item.Name+': ';
+      var html = '<span class="theName">' + currentName+'</span>: ';
       for(var prop in crafter.item.Recipe){
         html = html + count*crafter.item.Recipe[prop] + ' ' + prop;
         if(Object.keys(crafter.item.Recipe)[Object.keys(crafter.item.Recipe).length - 1] != prop){
@@ -194,7 +197,29 @@
   });
 
   $('#item-count').live('change',function(){
-    $('#item-details').find('textarea').html(crafter.calculate(crafter.item));
+    $('#item-details .recipe .well').html(crafter.calculate(crafter.item));
+  });
+
+  $('.btn.styleSwitch').live('click',function(){
+    var theName = $('.theName:first').text();
+    console.log('theName',theName);
+    var pieces = theName.split(' ');
+    for(var i = 0; i < pieces.length; i++){
+      if(pieces[i].toLowerCase() == 'militant' || pieces[i].toLowerCase() == 'stoic' || pieces[i].toLowerCase() == 'barbaric'){
+        pieces[i] = $(this).data('style');
+      }
+    }
+    var newName = pieces.join(' ');
+    console.log('newName',newName);
+    $('.theName').text(newName);
+
+    var theThumb = $('#item-details').find('#thumb img').attr('src');
+    theThumb = theThumb.replace('militant',$(this).data('style')).replace('barbaric',$(this).data('style')).replace('stoic',$(this).data('style'));
+    $('#item-details').find('#thumb img').attr('src',theThumb);
+  });
+
+  $('.recipe .well').live('click',function(){
+    window.prompt('Copy Recipe',$(this).text());
   });
 })(jQuery);
 

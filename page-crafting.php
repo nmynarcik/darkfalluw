@@ -62,13 +62,13 @@ wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.js
   <div id="left">
     <div id="thumb"></div>
     <div class="btn-group">
-      <button class="btn" id="stoic" title="Stoic">S</button>
-      <button class="btn" id="militant" title="Militant">M</button>
-      <button class="btn" id="barbaric" title="Barbaric">B</button>
+      <button class="btn styleSwitch" data-style="stoic" title="Stoic">S</button>
+      <button class="btn styleSwitch" data-style="militant" title="Militant">M</button>
+      <button class="btn styleSwitch" data-style="barbaric" title="Barbaric">B</button>
     </div>
   </div>
   <div id="right">
-    <div class="well well-large">
+    <div class="well well-large ingredients">
       Item Contents Here
     </div>
     <div class="quantity">
@@ -77,7 +77,7 @@ wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.js
     </div>
     <div class="recipe">
       <label for="recipe">Recipe</label>
-      <textarea rows="5" name="recipe" readonly="readonly">Recipe Here</textarea>
+      <div class="well well-small" onclick="this.select();">Recipe Here</div>
     </div>
   </div>
 </div>
