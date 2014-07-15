@@ -35,9 +35,11 @@
 
       $.ajax({
         url: templateDir + '/data/crafting_recipes_' + val + '.json',
-      }).done(function(data) {
+        dataType: 'json'
+      }).success(function(data) {
           console.log('Success', data);
           crafter.allItems = data; //set initial data
+          console.log('Success', crafter.allItems);
           if(crafter.mastery){
             for (var i = 0; i < crafter.allItems.length; i++) {
               if(crafter.allItems[i].Skill.match('Mastery')){
