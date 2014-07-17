@@ -59,18 +59,21 @@ wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.js
 </article>
 <!-- Item Template -->
 <div id="item-template" style="display: none;">
-  <div id="left">
-    <div id="thumb"></div>
-    <div class="btn-group">
-      <button class="btn styleSwitch" data-style="stoic" title="Stoic">S</button>
-      <button class="btn styleSwitch" data-style="militant" title="Militant">M</button>
-      <button class="btn styleSwitch" data-style="barbaric" title="Barbaric">B</button>
+  <div class="left">
+    <div class="well well-large ingredients">
+      <div class="thumb-cont">
+        <div id="thumb"></div>
+        <div class="btn-group">
+          <button class="btn styleSwitch" data-style="stoic" title="Stoic">S</button>
+          <button class="btn styleSwitch" data-style="militant" title="Militant">M</button>
+          <button class="btn styleSwitch" data-style="barbaric" title="Barbaric">B</button>
+        </div>
+      </div>
+      <div class="details">
+      </div>
     </div>
   </div>
-  <div id="right">
-    <div class="well well-large ingredients">
-      Item Contents Here
-    </div>
+  <div class="right">
     <div class="quantity">
       <label for="quantity">How Many?</label>
       <input type="number" value="1" name="quantity" min="1" max="100" id="item-count" pattern="[0-9]{3}"/>

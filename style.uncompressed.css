@@ -1733,7 +1733,7 @@ strong {font-weight: bold;}
 
 .page-template-page-crafting-php select {
   float: left;
-  clear: left;
+  margin-right: 10px;
   margin-bottom: 10px;
   display: none;
 }
@@ -1752,13 +1752,13 @@ strong {font-weight: bold;}
 
 #item-details {
   float: right;
-  width: 65%;
+  width: 100%;
   margin-top: 30px;
 }
 #item-details .btn-group {
   margin: 0 auto;
   left: 50%;
-  margin-left: -53px;
+  margin-left: -30px;
 }
 #item-details #thumb {
   width: 64px;
@@ -1769,26 +1769,30 @@ strong {font-weight: bold;}
   -moz-border-radius: 4px;
   margin: 0 auto 10px;
 }
-#item-details .recipe .well {
-  width: 370px;
-}
 #item-details input[type="number"] {
   width: 40px;
 }
-#item-details #left {
+#item-details .left {
   float: left;
-  width: 20%;
+  width: 50%;
 }
-#item-details #right {
+#item-details .thumb-cont {
+  width: 18%;
+  float: left;
+  margin-right: 20px;
+}
+#item-details .details {
+  float: left;
+  width: 66%;
+}
+#item-details .ingredients:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+#item-details .right {
   float: right;
-  width: 78%;
-}
-#item-details #right .quantity {
-  float: left;
-}
-#item-details #right .recipe {
-  float: left;
-  margin-left: 10px;
+  width: 48%;
 }
 #item-details h3, #item-details .recipe .well {
   text-transform: capitalize;
@@ -1800,6 +1804,10 @@ strong {font-weight: bold;}
 
 #item-details .recipe .theName {
   font-weight: bold;
+}
+
+#item-details .btn {
+  padding: 4px;
 }
 
 /* Slick Grid && Crafting */

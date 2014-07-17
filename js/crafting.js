@@ -135,7 +135,7 @@
           details = details + '<li><strong>' + prop + ':</strong> ' + item.Recipe[prop] + '</li>';
       }
       details = details + '</ul></p>';
-      newEl.find('.well.ingredients').html(details);
+      newEl.find('.ingredients .details').html(details);
 
       newEl.find('.recipe .well').html(crafter.calculate(item));
 
@@ -148,7 +148,7 @@
     calculate: function(){
       var currentName = (crafter.item.Name != $('.theName:first').text() && $('.theName:first').text() != '') ? $('.theName:first').text() : crafter.item.Name;
       var count = $('#item-count').val();
-      var html = '<span class="theName">' + currentName+'</span>: ';
+      var html = '<span class="theName">' + crafter.itemCount + ' ' + currentName + '</span>: ';
       for(var prop in crafter.item.Recipe){
         html = html + count*crafter.item.Recipe[prop] + ' ' + prop;
         if(Object.keys(crafter.item.Recipe)[Object.keys(crafter.item.Recipe).length - 1] != prop){
@@ -178,7 +178,7 @@
 
   $('#select-three').change(function(){
     console.log('Finding Item');
-    var selection = new RegExp($('#select-three').val() + '\\s(.*)\\s?' + $('#select-two').val(),'gi');
+    var selection = new RegExp($('#select-three').val() + '\\s(.*)\\s?\\b' + $('#select-two').val(),'gi');
     if($('#select-three').val() === $('#select-two').val()){
       selection = new RegExp('^'+$('#select-three').val()+'$','i');
     }
