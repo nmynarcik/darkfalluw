@@ -1768,6 +1768,7 @@ strong {font-weight: bold;}
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   margin: 0 auto 10px;
+  background: #000000;
 }
 #item-details input[type="number"] {
   width: 40px;
