@@ -1731,7 +1731,7 @@ strong {font-weight: bold;}
   float: left;
 }
 
-.page-template-page-crafting-php select {
+.page-template-page-crafting-php select, .page-template-page-crafting-new-php select {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -1746,7 +1746,7 @@ strong {font-weight: bold;}
   display: none;
 }
 
-.page-template-page-crafting-php #trade_select, #item-details.weaponsmithing .btn-group {
+.page-template-page-crafting-new-php #trade_select, .page-template-page-crafting-php #trade_select, #item-details.weaponsmithing .btn-group {
   display: block;
 }
 
