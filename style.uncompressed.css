@@ -1746,7 +1746,12 @@ strong {font-weight: bold;}
   display: none;
 }
 
-.page-template-page-crafting-new-php #trade_select, .page-template-page-crafting-php #trade_select, #item-details.weaponsmithing .btn-group {
+.page-template-page-crafting-new-php #trade_select,
+.page-template-page-crafting-php #trade_select,
+#item-details.weaponsmithing .btn-group,
+#item-details.bowyer .btn-group,
+#item-details.shieldcrafting .btn-group,
+#item-details.staffcrafting .btn-group {
   display: block;
 }
 

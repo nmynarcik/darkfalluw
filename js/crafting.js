@@ -19,8 +19,8 @@
       switch(val){
         case 'weaponsmithing':
         case 'armorsmithing':
-        case 'staffcrafting':
-        case 'shieldcrafting':
+        // case 'staffcrafting':
+        // case 'shieldcrafting':
         case 'smelting':
         case 'tailoring':
         case 'woodcutting':
