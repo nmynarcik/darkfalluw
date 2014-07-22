@@ -50,7 +50,7 @@
       }, function(){ //callback
         crafter.createList(crafter.firstDrop,crafter.allItems); //create list; (array to fill, data)
       }).error(function(a,b,c){
-          console.log('Error on Item Load: ',arguments);
+          alert('Error Loading Items: ',arguments);
         });
     },
     createList: function(list,data){
@@ -142,7 +142,7 @@
 
       newEl.find('#item-count').val(crafter.itemCount);
 
-      $('#item-details').removeClass('')
+      $('#item-details').removeClass()
                                   .addClass(item.Skill.toLowerCase())
                                   .html(newEl);
 
