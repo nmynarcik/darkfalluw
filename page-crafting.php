@@ -58,7 +58,7 @@ wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.js
 </div>
 </article>
 <!-- Item Template -->
-<div id="item-template" style="display: none;">
+<div id="item-template" class="template" style="display: none;">
   <div class="left">
     <div class="well well-large ingredients">
       <div class="thumb-cont">

@@ -99,6 +99,9 @@
       crafter.secDrop = [];
       crafter.filteredList = [];
       $('#select-three').hide();
+      $('#item-details .template').fadeOut('',function(){
+        $(this).remove();
+      });
     },
     filterList: function(filter){
       console.log('Filtering List');
