@@ -103,8 +103,9 @@
     filterList: function(filter){
       console.log('Filtering List');
       crafter.filteredList = [];
+      crafter.secDrop = [];
       var list = (!crafter.mastery) ? crafter.allItems : crafter.masteryList;
-      var toMatch = new RegExp($('#select-two').val(),'gi');
+      var toMatch = new RegExp('\\b'+$('#select-two').val(),'gi');
       for (var i = 0; i < list.length; i++) {
         if(list[i].Name.match(toMatch)){
           var nameArr = list[i].Name.split(" ");
@@ -144,11 +145,14 @@
       $('#item-details').removeClass('')
                                   .addClass(item.Skill.toLowerCase())
                                   .html(newEl);
+
+      crafter.changeStyle();
     },
-    calculate: function(){
-      var currentName = (crafter.item.Name != $('.theName:first').text() && $('.theName:first').text() != '') ? $('.theName:first').text() : crafter.item.Name;
+    calculate: function(item){
+      // var currentName = (crafter.item.Name != $('.theName:first').text() && $('.theName:first').text() != '') ? $('.theName:first').text() : crafter.item.Name;
+      var currentName = item.Name;
       var count = $('#item-count').val();
-      var html = '<span class="theName">' + crafter.itemCount + ' ' + currentName + '</span>: ';
+      var html = '<strong>'+ crafter.itemCount +'</strong> <span class="theName"> ' + currentName + '</span>: ';
       for(var prop in crafter.item.Recipe){
         html = html + count*crafter.item.Recipe[prop] + ' ' + prop;
         if(Object.keys(crafter.item.Recipe)[Object.keys(crafter.item.Recipe).length - 1] != prop){
@@ -156,6 +160,24 @@
         }
       }
       return html;
+    },
+    changeStyle: function(){
+      var theName = $('.theName:first').text();
+      var pieces = theName.split(' ');
+      for(var i = 0; i < pieces.length; i++){
+        if(pieces[i].toLowerCase() == 'militant' || pieces[i].toLowerCase() == 'stoic' || pieces[i].toLowerCase() == 'barbaric'){
+          pieces[i] = crafter.style;
+        }
+      }
+      var newName = pieces.join(' ');
+      $('.theName').text(newName);
+
+      var theThumb = $('#item-details').find('#thumb img').attr('src');
+      theThumb = theThumb.replace('militant',crafter.style).replace('barbaric',crafter.style).replace('stoic',crafter.style);
+      $('#item-details').find('#thumb img').attr('src',theThumb);
+
+      $('#item-details .btn-group .btn').removeClass('active');
+      $('#item-details .btn[data-style="' + crafter.style + '"]').addClass('active');
     }
   }
 
@@ -165,7 +187,7 @@
 
   $('#select-two').change(function(){
     if(!crafter.advanced){
-        var selection = new RegExp($('#select-two').val(),'gi');
+        var selection = new RegExp('\\b' + $('#select-two').val(),'gi');
         for (var i = 0; i < crafter.allItems.length; i++) {
           if(crafter.allItems[i].Name.match(selection)){
             crafter.showItem(crafter.allItems[i]);
@@ -204,24 +226,12 @@
   $('#item-count').live('change',function(){
     crafter.itemCount = $(this).val();
     $('#item-details .recipe .well').html(crafter.calculate(crafter.item));
+    crafter.changeStyle();
   });
 
   $('.btn.styleSwitch').live('click',function(){
-    var theName = $('.theName:first').text();
-    console.log('theName',theName);
-    var pieces = theName.split(' ');
-    for(var i = 0; i < pieces.length; i++){
-      if(pieces[i].toLowerCase() == 'militant' || pieces[i].toLowerCase() == 'stoic' || pieces[i].toLowerCase() == 'barbaric'){
-        pieces[i] = $(this).data('style');
-      }
-    }
-    var newName = pieces.join(' ');
-    console.log('newName',newName);
-    $('.theName').text(newName);
-
-    var theThumb = $('#item-details').find('#thumb img').attr('src');
-    theThumb = theThumb.replace('militant',$(this).data('style')).replace('barbaric',$(this).data('style')).replace('stoic',$(this).data('style'));
-    $('#item-details').find('#thumb img').attr('src',theThumb);
+    crafter.style = $(this).data('style');
+    crafter.changeStyle();
   });
 
   $('.recipe .well').live('click',function(){

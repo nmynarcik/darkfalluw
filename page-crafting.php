@@ -65,7 +65,7 @@ wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.js
         <div id="thumb"></div>
         <div class="btn-group">
           <button class="btn styleSwitch" data-style="stoic" title="Stoic">S</button>
-          <button class="btn styleSwitch" data-style="militant" title="Militant">M</button>
+          <button class="btn styleSwitch active" data-style="militant" title="Militant">M</button>
           <button class="btn styleSwitch" data-style="barbaric" title="Barbaric">B</button>
         </div>
       </div>
