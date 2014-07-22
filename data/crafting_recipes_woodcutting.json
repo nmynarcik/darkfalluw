@@ -2,7 +2,7 @@
   {
     "id":"r_timber",
     "Name":"Timber",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Woodcutting",
     "Min Level":1,
     "Max Level":75,
@@ -29,7 +29,7 @@
   {
     "id":"r_selentine_timber",
     "Name":"Selentine Timber",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Woodcutting Mastery",
     "Min Level":1,
     "Max Level":20,
@@ -58,7 +58,7 @@
   {
     "id":"r_veilron_timber",
     "Name":"Veilron Timber",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Woodcutting Mastery",
     "Min Level":25,
     "Max Level":45,
@@ -87,7 +87,7 @@
   {
     "id":"r_neithal_timber",
     "Name":"Neithal Timber",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Woodcutting Mastery",
     "Min Level":50,
     "Max Level":70,
@@ -116,7 +116,7 @@
   {
     "id":"r_leenspar_timber",
     "Name":"Leenspar Timber",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Woodcutting Mastery",
     "Min Level":75,
     "Max Level":95,
@@ -145,7 +145,7 @@
   {
     "id":"r_theyril_timber",
     "Name":"theyril Timber",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Woodcutting Mastery",
     "Min Level":100,
     "Max Level":100,

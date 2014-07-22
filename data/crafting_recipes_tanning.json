@@ -2,7 +2,7 @@
   {
     "id":"r_rawhide",
     "Name":"Rawhide",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tanning",
     "Min Level":1,
     "Max Level":75,
@@ -29,7 +29,7 @@
   {
     "id":"r_selentine_rawhide",
     "Name":"Selentine rawhide",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tanning Mastery",
     "Min Level":1,
     "Max Level":20,
@@ -58,7 +58,7 @@
   {
     "id":"r_veilron_rawhide",
     "Name":"Veilron Rawhide",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tanning Mastery",
     "Min Level":25,
     "Max Level":45,
@@ -87,7 +87,7 @@
   {
     "id":"r_neithal_rawhide",
     "Name":"Neithal Rawhide",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tanning Mastery",
     "Min Level":50,
     "Max Level":70,
@@ -116,7 +116,7 @@
   {
     "id":"r_leenspar_rawhide",
     "Name":"Leenspar Rawhide",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tanning Mastery",
     "Min Level":75,
     "Max Level":95,
@@ -145,7 +145,7 @@
   {
     "id":"r_theyril_rawhide",
     "Name":"Theyril Rawhide",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tanning Mastery",
     "Min Level":100,
     "Max Level":100,

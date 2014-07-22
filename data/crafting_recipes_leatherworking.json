@@ -1,680 +1,653 @@
 [
   {
-    "id":"r_Bag",
+    "id":"r_bag",
     "Name":"Bag",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/container_bag.png",
+    "Icon":"container_bag.png",
     "Skill":"Leatherworking",
     "Min Level":1,
     "Max Level":10,
     "Quantity":"1",
-    "Gold":1,
-    "Leather":8,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Bag: 1 Gold; 8 Leather"
-  },
+    "Recipe": {
+	"Gold":1,
+	"Leather":8
+}
+},
   {
-    "id":"r_Bag Red",
+    "id":"r_bag_red",
     "Name":"Red Bag",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/container_bag_red.png",
+    "Icon":"container_bag_red.png",
     "Skill":"Leatherworking",
     "Min Level":25,
     "Max Level":35,
     "Quantity":"1",
-    "Gold":8,
-    "Leather":14,
-    "Iron Ingot":0,
-    "Additional":"10 Rust",
-    "Copy Pasta":"1 Red Bag: 8 Gold; 14 Leather; 10 Rust"
-  },
+    "Recipe": {
+	"Gold":8,
+	"Leather":14,
+	"Rust":10
+}
+},
   {
-    "id":"r_Bag Green",
+    "id":"r_bag_green",
     "Name":"Green Bag",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/container_bag_green.png",
+    "Icon":"container_bag_green.png",
     "Skill":"Leatherworking",
     "Min Level":25,
     "Max Level":35,
     "Quantity":"1",
-    "Gold":8,
-    "Leather":14,
-    "Iron Ingot":0,
-    "Additional":"10 Lichen",
-    "Copy Pasta":"1 Green Bag: 8 Gold; 14 Leather; 10 Lichen"
-  },
+    "Recipe": {
+	"Gold":8,
+	"Leather":14,
+	"Lichen":10
+}
+},
   {
-    "id":"r_Bag Blue",
+    "id":"r_bag_blue",
     "Name":"Blue Bag",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/container_bag_blue.png",
+    "Icon":"container_bag_blue.png",
     "Skill":"Leatherworking",
     "Min Level":25,
     "Max Level":35,
     "Quantity":"1",
-    "Gold":8,
-    "Leather":14,
-    "Iron Ingot":0,
-    "Additional":"5 Inferior Mana flakes (Q1)",
-    "Copy Pasta":"1 Blue Bag: 8 Gold; 14 Leather; 5 Inferior Mana flakes (Q1)"
-  },
+    "Recipe": {
+	"Gold":8,
+	"Leather":14,
+	"Inferior Mana Flake":5
+}
+},
   {
-    "id":"r_Armor Padded Leather Arms",
+    "id":"r_armor_padded_arms",
     "Name":"Padded Leather Sleeves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_cloth_arms.png",
+    "Icon":"icon_cloth_arms.png",
     "Skill":"Leatherworking",
     "Min Level":1,
     "Max Level":25,
     "Quantity":"1",
-    "Gold":1,
-    "Leather":1,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Padded Leather Sleeves: 1 Gold; 1 Leather"
-  },
+    "Recipe": {
+	"Gold":1,
+	"Leather":1
+}
+},
   {
-    "id":"r_Armor Padded Leather Elbows",
+    "id":"r_armor_padded_elbows",
     "Name":"Padded Leather Elbow Pads",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_cloth_elbows.png",
+    "Icon":"icon_cloth_elbows.png",
     "Skill":"Leatherworking",
     "Min Level":1,
     "Max Level":25,
     "Quantity":"1",
-    "Gold":1,
-    "Leather":1,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Padded Leather Elbow Pads: 1 Gold; 1 Leather"
-  },
+    "Recipe": {
+	"Gold":1,
+	"Leather":1
+}
+},
   {
-    "id":"r_Armor Padded Leather Girdle",
+    "id":"r_armor_padded_girdle",
     "Name":"Padded Leather Belt",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_cloth_girdle.png",
+    "Icon":"icon_cloth_girdle.png",
     "Skill":"Leatherworking",
     "Min Level":1,
     "Max Level":25,
     "Quantity":"1",
-    "Gold":1,
-    "Leather":1,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Padded Leather Belt: 1 Gold; 1 Leather"
-  },
+    "Recipe": {
+	"Gold":1,
+	"Leather":1
+}
+},
   {
-    "id":"r_Armor Padded Leather Gloves",
+    "id":"r_armor_padded_gloves",
     "Name":"Padded Leather Gloves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_cloth_gloves.png",
+    "Icon":"icon_cloth_gloves.png",
     "Skill":"Leatherworking",
     "Min Level":1,
     "Max Level":25,
     "Quantity":"1",
-    "Gold":1,
-    "Leather":1,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Padded Leather Gloves: 1 Gold; 1 Leather"
-  },
+    "Recipe": {
+	"Gold":1,
+	"Leather":1
+}
+},
   {
-    "id":"r_Armor Padded Leather Greaves",
+    "id":"r_armor_padded_greaves",
     "Name":"Padded Leather Shin Pads",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_cloth_greaves.png",
+    "Icon":"icon_cloth_greaves.png",
     "Skill":"Leatherworking",
     "Min Level":1,
     "Max Level":25,
     "Quantity":"1",
-    "Gold":1,
-    "Leather":1,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Padded Leather Shin Pads: 1 Gold; 1 Leather"
-  },
+    "Recipe": {
+	"Gold":1,
+	"Leather":1
+}
+},
   {
-    "id":"r_Armor Padded Leather Helmet",
+    "id":"r_armor_padded_helmet",
     "Name":"Padded Leather Skullcap",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_cloth_helmet.png",
+    "Icon":"icon_cloth_helmet.png",
     "Skill":"Leatherworking",
     "Min Level":1,
     "Max Level":25,
     "Quantity":"1",
-    "Gold":1,
-    "Leather":2,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Padded Leather Skullcap: 1 Gold; 2 Leather"
-  },
+    "Recipe": {
+	"Gold":1,
+	"Leather":2
+}
+},
   {
-    "id":"r_Armor Padded Leather Pants",
+    "id":"r_armor_padded_pants",
     "Name":"Padded Leather Leggings",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_cloth_legs.png",
+    "Icon":"icon_cloth_legs.png",
     "Skill":"Leatherworking",
     "Min Level":1,
     "Max Level":25,
     "Quantity":"1",
-    "Gold":1,
-    "Leather":3,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Padded Leather Leggings: 1 Gold; 3 Leather"
-  },
+    "Recipe": {
+	"Gold":1,
+	"Leather":3
+}
+},
   {
-    "id":"r_Armor Padded Leather Shoes",
+    "id":"r_Armor Padded_shoes",
     "Name":"Padded Leather Boots",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_cloth_footwear.png",
+    "Icon":"icon_cloth_footwear.png",
     "Skill":"Leatherworking",
     "Min Level":1,
     "Max Level":25,
     "Quantity":"1",
-    "Gold":1,
-    "Leather":1,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Padded Leather Boots: 1 Gold; 1 Leather"
-  },
+    "Recipe": {
+	"Gold":1,
+	"Leather":1
+}
+},
   {
-    "id":"r_Armor Padded Leather Shoulders",
+    "id":"r_armor_padded_shoulders",
     "Name":"Padded Leather Shoulderpads",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_cloth_shoulders.png",
+    "Icon":"icon_cloth_shoulders.png",
     "Skill":"Leatherworking",
     "Min Level":1,
     "Max Level":25,
     "Quantity":"1",
-    "Gold":1,
-    "Leather":1,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Padded Leather Shoulderpads: 1 Gold; 1 Leather"
-  },
+    "Recipe": {
+	"Gold":1,
+	"Leather":1
+}
+},
   {
-    "id":"r_Armor Padded Leather Torso",
+    "id":"r_armor_padded_torso",
     "Name":"Padded Leather Tunic",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_cloth_torso.png",
+    "Icon":"icon_cloth_torso.png",
     "Skill":"Leatherworking",
     "Min Level":1,
     "Max Level":25,
     "Quantity":"1",
-    "Gold":1,
-    "Leather":4,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Padded Leather Tunic: 1 Gold; 4 Leather"
-  },
+    "Recipe": {
+	"Gold":1,
+	"Leather":4
+}
+},
   {
-    "id":"r_Armor Leather Arms",
+    "id":"r_armor_leather_arms",
     "Name":"Leather Armguards",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_padded_arms.png",
+    "Icon":"icon_padded_arms.png",
     "Skill":"Leatherworking",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":8,
-    "Leather":2,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Leather Armguards: 8 Gold; 2 Leather"
-  },
+    "Recipe": {
+	"Gold":8,
+	"Leather":2
+}
+},
   {
-    "id":"r_Armor Leather Elbows",
+    "id":"r_armor_leather_elbows",
     "Name":"Leather Elbow Guards",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_padded_elbows.png",
+    "Icon":"icon_padded_elbows.png",
     "Skill":"Leatherworking",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":8,
-    "Leather":2,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Leather Elbow Guards: 8 Gold; 2 Leather"
-  },
+    "Recipe": {
+	"Gold":8,
+	"Leather":2
+}
+},
   {
-    "id":"r_Armor Leather Girdle",
+    "id":"r_armor_leather_girdle",
     "Name":"Leather Girdle",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_padded_girdle.png",
+    "Icon":"icon_padded_girdle.png",
     "Skill":"Leatherworking",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":8,
-    "Leather":2,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Leather Girdle: 8 Gold; 2 Leather"
-  },
+    "Recipe": {
+	"Gold":8,
+	"Leather":2
+}
+},
   {
-    "id":"r_Armor Leather Gloves",
+    "id":"r_armor_leather_gloves",
     "Name":"Leather Gloves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_padded_gloves.png",
+    "Icon":"icon_padded_gloves.png",
     "Skill":"Leatherworking",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":8,
-    "Leather":2,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Leather Gloves: 8 Gold; 2 Leather"
-  },
+    "Recipe": {
+	"Gold":8,
+	"Leather":2
+}
+},
   {
-    "id":"r_Armor Leather Greaves",
+    "id":"r_armor_leather_greaves",
     "Name":"Leather Greaves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_padded_greaves.png",
+    "Icon":"icon_padded_greaves.png",
     "Skill":"Leatherworking",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":8,
-    "Leather":2,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Leather Greaves: 8 Gold; 2 Leather"
-  },
+    "Recipe": {
+	"Gold":8,
+	"Leather":2
+}
+},
   {
-    "id":"r_Armor Leather Helmet",
+    "id":"r_armor_leather_helmet",
     "Name":"Leather Skullcap",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_padded_helmet.png",
+    "Icon":"icon_padded_helmet.png",
     "Skill":"Leatherworking",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":8,
-    "Leather":4,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Leather Skullcap: 8 Gold; 4 Leather"
-  },
+    "Recipe": {
+	"Gold":8,
+	"Leather":4
+}
+},
   {
-    "id":"r_Armor Leather Pants",
+    "id":"r_armor_leather_pants",
     "Name":"Leather Leggings",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_padded_legs.png",
+    "Icon":"icon_padded_legs.png",
     "Skill":"Leatherworking",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":8,
-    "Leather":6,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Leather Leggings: 8 Gold; 6 Leather"
-  },
+    "Recipe": {
+	"Gold":8,
+	"Leather":6
+}
+},
   {
-    "id":"r_Armor Leather Shoes",
+    "id":"r_armor_leather_shoes",
     "Name":"Leather Boots",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_padded_footwear.png",
+    "Icon":"icon_padded_footwear.png",
     "Skill":"Leatherworking",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":8,
-    "Leather":2,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Leather Boots: 8 Gold; 2 Leather"
-  },
+    "Recipe": {
+	"Gold":8,
+	"Leather":2
+}
+},
   {
-    "id":"r_Armor Leather Shoulders",
+    "id":"r_armor_leather_shoulders",
     "Name":"Leather Pads",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_padded_shoulders.png",
+    "Icon":"icon_padded_shoulders.png",
     "Skill":"Leatherworking",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":8,
-    "Leather":2,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Leather Pads: 8 Gold; 2 Leather"
-  },
+    "Recipe": {
+	"Gold":8,
+	"Leather":2
+}
+},
   {
-    "id":"r_Armor Leather Torso",
+    "id":"r_armor_leather_torso",
     "Name":"Leather Tunic",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_padded_torso.png",
+    "Icon":"icon_padded_torso.png",
     "Skill":"Leatherworking",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":8,
-    "Leather":8,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Leather Tunic: 8 Gold; 8 Leather"
-  },
+    "Recipe": {
+	"Gold":8,
+	"Leather":8
+}
+},
   {
-    "id":"r_Armor Hardened Leather Arms",
+    "id":"r_armor_hardened_leather_arms",
     "Name":"Hardened Leather Armguards",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_leather_arms.png",
+    "Icon":"icon_leather_arms.png",
     "Skill":"Leatherworking",
     "Min Level":50,
     "Max Level":75,
     "Quantity":"1",
-    "Gold":25,
-    "Leather":4,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Hardened Leather Armguards: 25 Gold; 4 Leather"
-  },
+    "Recipe": {
+	"Gold":25,
+	"Leather":4
+}
+},
   {
-    "id":"r_Armor Hardened Leather Elbows",
+    "id":"r_armor_hardened_leather_elbows",
     "Name":"Hardened Leather Elbow Pads",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_leather_elbows.png",
+    "Icon":"icon_leather_elbows.png",
     "Skill":"Leatherworking",
     "Min Level":50,
     "Max Level":75,
     "Quantity":"1",
-    "Gold":25,
-    "Leather":4,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Hardened Leather Elbow Pads: 25 Gold; 4 Leather"
-  },
+    "Recipe": {
+	"Gold":25,
+	"Leather":4
+}
+},
   {
-    "id":"r_Armor Hardened Leather Girdle",
+    "id":"r_armor_hardened_leather_girdle",
     "Name":"Hardened Leather Girdle",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_leather_girdle.png",
+    "Icon":"icon_leather_girdle.png",
     "Skill":"Leatherworking",
     "Min Level":50,
     "Max Level":75,
     "Quantity":"1",
-    "Gold":25,
-    "Leather":4,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Hardened Leather Girdle: 25 Gold; 4 Leather"
-  },
+    "Recipe": {
+	"Gold":25,
+	"Leather":4
+}
+},
   {
-    "id":"r_Armor Hardened Leather Gloves",
+    "id":"r_armor_hardened_leather_gloves",
     "Name":"Hardened Leather Gauntlets",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_leather_gloves.png",
+    "Icon":"icon_leather_gloves.png",
     "Skill":"Leatherworking",
     "Min Level":50,
     "Max Level":75,
     "Quantity":"1",
-    "Gold":25,
-    "Leather":4,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Hardened Leather Gauntlets: 25 Gold; 4 Leather"
-  },
+    "Recipe": {
+	"Gold":25,
+	"Leather":4
+}
+},
   {
-    "id":"r_Armor Hardened Leather Greaves",
+    "id":"r_armor_hardened_leather_greaves",
     "Name":"Hardened Leather Greaves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_leather_greaves.png",
+    "Icon":"icon_leather_greaves.png",
     "Skill":"Leatherworking",
     "Min Level":50,
     "Max Level":75,
     "Quantity":"1",
-    "Gold":25,
-    "Leather":4,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Hardened Leather Greaves: 25 Gold; 4 Leather"
-  },
+    "Recipe": {
+	"Gold":25,
+	"Leather":4
+}
+},
   {
-    "id":"r_Armor Hardened Leather Helmet",
+    "id":"r_armor_hardened_leather_helmet",
     "Name":"Hardened Leather Skullcap",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_leather_helmet.png",
+    "Icon":"icon_leather_helmet.png",
     "Skill":"Leatherworking",
     "Min Level":50,
     "Max Level":75,
     "Quantity":"1",
-    "Gold":25,
-    "Leather":8,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Hardened Leather Skullcap: 25 Gold; 8 Leather"
-  },
+    "Recipe": {
+	"Gold":25,
+	"Leather":8
+}
+},
   {
-    "id":"r_Armor Hardened Leather Pants",
+    "id":"r_armor_hardened_leather_pants",
     "Name":"Hardened Leather Leggings",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_leather_legs.png",
+    "Icon":"icon_leather_legs.png",
     "Skill":"Leatherworking",
     "Min Level":50,
     "Max Level":75,
     "Quantity":"1",
-    "Gold":25,
-    "Leather":12,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Hardened Leather Leggings: 25 Gold; 12 Leather"
-  },
+    "Recipe": {
+	"Gold":25,
+	"Leather":12
+}
+},
   {
-    "id":"r_Armor Hardened Leather Shoes",
+    "id":"r_armor_hardened_leather_shoes",
     "Name":"Hardened Leather Boots",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_leather_footwear.png",
+    "Icon":"icon_leather_footwear.png",
     "Skill":"Leatherworking",
     "Min Level":50,
     "Max Level":75,
     "Quantity":"1",
-    "Gold":25,
-    "Leather":4,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Hardened Leather Boots: 25 Gold; 4 Leather"
-  },
+    "Recipe": {
+	"Gold":25,
+	"Leather":4
+}
+},
   {
-    "id":"r_Armor Hardened Leather Shoulders",
+    "id":"r_armor_hardened_leather_shoulders",
     "Name":"Hardened Leather Shoulderguards",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_leather_shoulders.png",
+    "Icon":"icon_leather_shoulders.png",
     "Skill":"Leatherworking",
     "Min Level":50,
     "Max Level":75,
     "Quantity":"1",
-    "Gold":25,
-    "Leather":4,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Hardened Leather Shoulderguards: 25 Gold; 4 Leather"
-  },
+    "Recipe": {
+	"Gold":25,
+	"Leather":4
+}
+},
   {
-    "id":"r_Armor Hardened Leather Torso",
+    "id":"r_armor_hardened_leather_torso",
     "Name":"Hardened Leather Brigandine",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_leather_torso.png",
+    "Icon":"icon_leather_torso.png",
     "Skill":"Leatherworking",
     "Min Level":50,
     "Max Level":75,
     "Quantity":"1",
-    "Gold":25,
-    "Leather":16,
-    "Iron Ingot":0,
-    "Additional":"",
-    "Copy Pasta":"1 Hardened Leather Brigandine: 25 Gold; 16 Leather"
-  },
+    "Recipe": {
+	"Gold":25,
+	"Leather":16
+}
+},
   {
-    "id":"r_Armor Studded Leather Arms",
+    "id":"r_armor_studded_leather_arms",
     "Name":"Studded Leather Armguards",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_studded_arms.png",
+    "Icon":"icon_studded_arms.png",
     "Skill":"Leatherworking",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Leather":8,
-    "Iron Ingot":1,
-    "Additional":"",
-    "Copy Pasta":"1 Studded Leather Armguards: 50 Gold; 8 Leather; 1 Iron Ingot"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Leather":8,
+	"Iron Ingot":1
+}
+},
   {
-    "id":"r_Armor Studded Leather Elbows",
+    "id":"r_armor_studded_leather_elbows",
     "Name":"Studded Leather Elbowguards",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_studded_elbows.png",
+    "Icon":"icon_studded_elbows.png",
     "Skill":"Leatherworking",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Leather":8,
-    "Iron Ingot":1,
-    "Additional":"",
-    "Copy Pasta":"1 Studded Leather Elbowguards: 50 Gold; 8 Leather; 1 Iron Ingot"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Leather":8,
+	"Iron Ingot":1
+}
+},
   {
-    "id":"r_Armor Studded Leather Girdle",
+    "id":"r_armor_studded_leather_girdle",
     "Name":"Studded Leather Belt",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_studded_girdle.png",
+    "Icon":"icon_studded_girdle.png",
     "Skill":"Leatherworking",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Leather":8,
-    "Iron Ingot":1,
-    "Additional":"",
-    "Copy Pasta":"1 Studded Leather Belt: 50 Gold; 8 Leather; 1 Iron Ingot"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Leather":8,
+	"Iron Ingot":1
+}
+},
   {
-    "id":"r_Armor Studded Leather Gloves",
+    "id":"r_armor_studded_leather_gloves",
     "Name":"Studded Leather Gloves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_studded_gloves.png",
+    "Icon":"icon_studded_gloves.png",
     "Skill":"Leatherworking",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Leather":8,
-    "Iron Ingot":1,
-    "Additional":"",
-    "Copy Pasta":"1 Studded Leather Gloves: 50 Gold; 8 Leather; 1 Iron Ingot"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Leather":8,
+	"Iron Ingot":1
+}
+},
   {
-    "id":"r_Armor Studded Leather Greaves",
+    "id":"r_armor_studded_leather_greaves",
     "Name":"Studded Leather Greaves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_studded_greaves.png",
+    "Icon":"icon_studded_greaves.png",
     "Skill":"Leatherworking",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Leather":8,
-    "Iron Ingot":1,
-    "Additional":"",
-    "Copy Pasta":"1 Studded Leather Greaves: 50 Gold; 8 Leather; 1 Iron Ingot"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Leather":8,
+	"Iron Ingot":1
+}
+},
   {
-    "id":"r_Armor Studded Leather Helmet",
+    "id":"r_armor_studded_leather_helmet",
     "Name":"Studded Leather Skullcap",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_studded_helmet.png",
+    "Icon":"icon_studded_helmet.png",
     "Skill":"Leatherworking",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Leather":16,
-    "Iron Ingot":2,
-    "Additional":"",
-    "Copy Pasta":"1 Studded Leather Skullcap: 50 Gold; 16 Leather; 2 Iron Ingot"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Leather":16,
+	"Iron Ingot":2
+}
+},
   {
-    "id":"r_Armor Studded Leather Pants",
+    "id":"r_armor_studded_leather_pants",
     "Name":"Studded Leather Legguards",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_studded_legs.png",
+    "Icon":"icon_studded_legs.png",
     "Skill":"Leatherworking",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Leather":24,
-    "Iron Ingot":2,
-    "Additional":"",
-    "Copy Pasta":"1 Studded Leather Legguards: 50 Gold; 24 Leather; 2 Iron Ingot"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Leather":24,
+	"Iron Ingot":2
+}
+},
   {
-    "id":"r_Armor Studded Leather Shoes",
+    "id":"r_armor_studded_leather_shoes",
     "Name":"Studded Leather Boots",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_studded_footwear.png",
+    "Icon":"icon_studded_footwear.png",
     "Skill":"Leatherworking",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Leather":8,
-    "Iron Ingot":1,
-    "Additional":"",
-    "Copy Pasta":"1 Studded Leather Boots: 50 Gold; 8 Leather; 1 Iron Ingot"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Leather":8,
+	"Iron Ingot":1
+}
+},
   {
-    "id":"r_Armor Studded Leather Shoulders",
+    "id":"r_armor_studded_leather_shoulders",
     "Name":"Studded Leather Shoulderguards",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_studded_shoulders.png",
+    "Icon":"icon_studded_shoulders.png",
     "Skill":"Leatherworking",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Leather":8,
-    "Iron Ingot":1,
-    "Additional":"",
-    "Copy Pasta":"1 Studded Leather Shoulderguards: 50 Gold; 8 Leather; 1 Iron Ingot"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Leather":8,
+	"Iron Ingot":1
+}
+},
   {
-    "id":"r_Armor Studded Leather Torso",
+    "id":"r_armor_studded_leather_torso",
     "Name":"Studded Leather Brigandine",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_studded_torso.png",
+    "Icon":"icon_studded_torso.png",
     "Skill":"Leatherworking",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Leather":32,
-    "Iron Ingot":3,
-    "Additional":"",
-    "Copy Pasta":"1 Studded Leather Brigandine: 50 Gold; 32 Leather; 3 Iron Ingot"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Leather":32,
+	"Iron Ingot":3
+}
+},
   {
-    "id":"r_Armor Spiked Leather Arms",
+    "id":"r_armor_spiked_leather_arms",
     "Name":"Spiked Leather Bracers",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_barbaric_arms.png",
+    "Icon":"icon_barbaric_arms.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":95,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Selentine Leather",
-    "Copy Pasta":"1 Spiked Leather Bracers: 95 Gold; 12 Leather; 2 Iron Ingot; 1 Selentine Leather"
-  },
+    "Recipe": {
+	"Gold":95,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Selentine Leather":1
+}
+},
   {
-    "id":"r_Armor Spiked Leather Elbows",
+    "id":"r_armor_spiked_leather_elbows",
     "Name":"Spiked Leather Elbow Protectors",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_barbaric_elbows.png",
+    "Icon":"icon_barbaric_elbows.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":95,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Selentine Leather",
-    "Copy Pasta":"1 Spiked Leather Elbow Protectors: 95 Gold; 12 Leather; 2 Iron Ingot; 1 Selentine Leather"
-  },
+    "Recipe": {
+	"Gold":95,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Selentine Leather":1
+}
+},
   {
-    "id":"r_Armor Spiked Leather Girdle",
+    "id":"r_armor_spiked_leather_girdle",
     "Name":"Spiked Leather Girdle",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_barbaric_girdle.png",
+    "Icon":"icon_barbaric_girdle.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":95,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Selentine Leather",
-    "Copy Pasta":"1 Spiked Leather Girdle: 95 Gold; 12 Leather; 2 Iron Ingot; 1 Selentine Leather"
-  },
+    "Recipe": {
+	"Gold":95,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Selentine Leather":1
+}
+},
   {
-    "id":"r_Armor Spiked Leather Gloves",
+    "id":"r_armor_spiked_leather_gloves",
     "Name":"Spiked Leather Gloves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_barbaric_gloves.png",
+    "Icon":"icon_barbaric_gloves.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":95,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Selentine Leather",
-    "Copy Pasta":"1 Spiked Leather Gloves: 95 Gold; 12 Leather; 2 Iron Ingot; 1 Selentine Leather"
-  },
+    "Recipe": {
+	"Gold":95,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Selentine Leather":1
+}
+},
   {
-    "id":"r_Armor Spiked Leather Greaves",
+    "id":"r_armor_spiked_leather_greaves",
     "Name":"Spiked Leather Greaves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_barbaric_greaves.png",
+    "Icon":"icon_barbaric_greaves.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":1,
     "Max Level":50,
@@ -686,353 +659,418 @@
     "Copy Pasta":"1 Spiked Leather Greaves: 95 Gold; 12 Leather; 2 Iron Ingot; 1 Selentine Leather"
   },
   {
-    "id":"r_Armor Spiked Leather Helmet",
+    "id":"r_armor_spiked_leather_helmet",
     "Name":"Spiked Leather Helmet",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_barbaric_helmet.png",
+    "Icon":"icon_barbaric_helmet.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":95,
-    "Leather":20,
-    "Iron Ingot":3,
-    "Additional":"2 Selentine Leather",
-    "Copy Pasta":"1 Spiked Leather Helmet: 95 Gold; 20 Leather; 3 Iron Ingot; 2 Selentine Leather"
-  },
+    "Recipe": {
+	"Gold":95,
+	"Leather":20,
+	"Iron Ingot":3,
+	"Selentine Leather":2
+}
+},
   {
-    "id":"r_Armor Spiked Leather Pants",
+    "id":"r_armor_spiked_leather_pants",
     "Name":"Spiked Leather Leggings",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_barbaric_legs.png",
+    "Icon":"icon_barbaric_legs.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":95,
-    "Leather":28,
-    "Iron Ingot":3,
-    "Additional":"2 Selentine Leather",
-    "Copy Pasta":"1 Spiked Leather Leggings: 95 Gold; 28 Leather; 3 Iron Ingot; 2 Selentine Leather"
-  },
+    "Recipe": {
+	"Gold":95,
+	"Leather":28,
+	"Iron Ingot":3,
+	"Selentine Leather":2
+}
+},
   {
-    "id":"r_Armor Spiked Leather Shoes",
+    "id":"r_armor_spiked_leather_shoes",
     "Name":"Spiked Leather Boots",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_barbaric_footwear.png",
+    "Icon":"icon_barbaric_footwear.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":95,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Selentine Leather",
-    "Copy Pasta":"1 Spiked Leather Boots: 95 Gold; 12 Leather; 2 Iron Ingot; 1 Selentine Leather"
-  },
+    "Recipe": {
+	"Gold":95,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Selentine Leather":1
+}
+},
   {
-    "id":"r_Armor Spiked Leather Shoulders",
+    "id":"r_armor_spiked_leather_shoulders",
     "Name":"Spiked Leather Spaulders",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_barbaric_shoulders.png",
+    "Icon":"icon_barbaric_shoulders.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":95,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Selentine Leather",
-    "Copy Pasta":"1 Spiked Leather Spaulders: 95 Gold; 12 Leather; 2 Iron Ingot; 1 Selentine Leather"
-  },
+    "Recipe": {
+	"Gold":95,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Selentine Leather":1
+}
+},
   {
-    "id":"r_Armor Spiked Leather Torso",
+    "id":"r_armor_spiked_leather_torso",
     "Name":"Spiked Leather Brigandine",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_barbaric_torso.png",
+    "Icon":"icon_barbaric_torso.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":95,
-    "Leather":36,
-    "Iron Ingot":4,
-    "Additional":"3 Selentine Leather",
-    "Copy Pasta":"1 Spiked Leather Brigandine: 95 Gold; 36 Leather; 4 Iron Ingot; 3 Selentine Leather"
-  },
+    "Recipe": {
+	"Gold":95,
+	"Leather":36,
+	"Iron Ingot":4,
+	"Selentine Leather":3
+}
+},
   {
-    "id":"r_Armor Intricate Leather Arms",
+    "id":"r_armor_intricate_leather_arms",
     "Name":"Intricate Leather Armguards",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_intricate_arms.png",
+    "Icon":"icon_intricate_arms.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":235,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Veilron Leather; 1 Neithal Leather",
-    "Copy Pasta":"1 Intricate Leather Armguards: 235 Gold; 12 Leather; 2 Iron Ingot; 1 Veilron Leather; 1 Neithal Leather"
-  },
+    "Recipe": {
+	"Gold":235,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Veilron Leather":1,
+	"Neithal Leather":1
+}
+},
   {
-    "id":"r_Armor Intricate Leather Elbows",
+    "id":"r_armor_intricate_leather_elbows",
     "Name":"Intricate Leather Elbowpads",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_intricate_elbows.png",
+    "Icon":"icon_intricate_elbows.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":235,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Veilron Leather; 1 Neithal Leather",
-    "Copy Pasta":"1 Intricate Leather Elbowpads: 235 Gold; 12 Leather; 2 Iron Ingot; 1 Veilron Leather; 1 Neithal Leather"
-  },
+    "Recipe": {
+	"Gold":235,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Veilron Leather":1,
+	"Neithal Leather":1
+}
+},
   {
-    "id":"r_Armor Intricate Leather Girdle",
+    "id":"r_armor_intricate_leather_girdle",
     "Name":"Intricate Leather Belt",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_intricate_girdle.png",
+    "Icon":"icon_intricate_girdle.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":235,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Veilron Leather; 1 Neithal Leather",
-    "Copy Pasta":"1 Intricate Leather Belt: 235 Gold; 12 Leather; 2 Iron Ingot; 1 Veilron Leather; 1 Neithal Leather"
-  },
+    "Recipe": {
+	"Gold":235,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Veilron Leather":1,
+	"Neithal Leather":1
+}
+},
   {
-    "id":"r_Armor Intricate Leather Gloves",
+    "id":"r_armor_intricate_leather_gloves",
     "Name":"Intricate Leather Gloves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_intricate_gloves.png",
+    "Icon":"icon_intricate_gloves.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":235,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Veilron Leather; 1 Neithal Leather",
-    "Copy Pasta":"1 Intricate Leather Gloves: 235 Gold; 12 Leather; 2 Iron Ingot; 1 Veilron Leather; 1 Neithal Leather"
-  },
+    "Recipe": {
+	"Gold":235,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Veilron Leather":1,
+	"Neithal Leather":1
+}
+},
   {
-    "id":"r_Armor Intricate Leather Greaves",
+    "id":"r_armor_intricate_leather_greaves",
     "Name":"Intricate Leather Greaves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_intricate_greaves.png",
+    "Icon":"icon_intricate_greaves.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":235,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Veilron Leather; 1 Neithal Leather",
-    "Copy Pasta":"1 Intricate Leather Greaves: 235 Gold; 12 Leather; 2 Iron Ingot; 1 Veilron Leather; 1 Neithal Leather"
-  },
+    "Recipe": {
+	"Gold":235,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Veilron Leather":1,
+	"Neithal Leather":1
+}
+},
   {
-    "id":"r_Armor Intricate Leather Helmet",
+    "id":"r_armor_intricate_leather_helmet",
     "Name":"Intricate Leather Helm",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_intricate_helmet.png",
+    "Icon":"icon_intricate_helmet.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":235,
-    "Leather":20,
-    "Iron Ingot":3,
-    "Additional":"2 Veilron Leather; 1 Neithal Leather",
-    "Copy Pasta":"1 Intricate Leather Helm: 235 Gold; 20 Leather; 3 Iron Ingot; 2 Veilron Leather; 1 Neithal Leather"
-  },
+    "Recipe": {
+	"Gold":235,
+	"Leather":20,
+	"Iron Ingot":3,
+	"Veilron Leather":2,
+	"Neithal Leather":1
+}
+},
   {
-    "id":"r_Armor Intricate Leather Pants",
+    "id":"r_armor_intricate_leather_pants",
     "Name":"Intricate Leather Legguards",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_intricate_legs.png",
+    "Icon":"icon_intricate_legs.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":235,
-    "Leather":28,
-    "Iron Ingot":3,
-    "Additional":"2 Veilron Leather; 1 Neithal Leather",
-    "Copy Pasta":"1 Intricate Leather Legguards: 235 Gold; 28 Leather; 3 Iron Ingot; 2 Veilron Leather; 1 Neithal Leather"
-  },
+    "Recipe": {
+	"Gold":235,
+	"Leather":28,
+	"Iron Ingot":3,
+	"Veilron Leather":2,
+	"Neithal Leather":1
+}
+},
   {
-    "id":"r_Armor Intricate Leather Shoes",
+    "id":"r_armor_intricate_leather_shoes",
     "Name":"Intricate Leather Boots",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_intricate_footwear.png",
+    "Icon":"icon_intricate_footwear.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":235,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Veilron Leather; 1 Neithal Leather",
-    "Copy Pasta":"1 Intricate Leather Boots: 235 Gold; 12 Leather; 2 Iron Ingot; 1 Veilron Leather; 1 Neithal Leather"
-  },
+    "Recipe": {
+	"Gold":235,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Veilron Leather":1,
+	"Neithal Leather":1
+}
+},
   {
-    "id":"r_Armor Intricate Leather Shoulders",
+    "id":"r_armor_intricate_leather_shoulders",
     "Name":"Intricate Leather Spaulders",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_intricate_shoulders.png",
+    "Icon":"icon_intricate_shoulders.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":235,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Veilron Leather; 1 Neithal Leather",
-    "Copy Pasta":"1 Intricate Leather Spaulders: 235 Gold; 12 Leather; 2 Iron Ingot; 1 Veilron Leather; 1 Neithal Leather"
-  },
+    "Recipe": {
+	"Gold":235,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Veilron Leather":1,
+	"Neithal Leather":1
+}
+},
   {
-    "id":"r_Armor Intricate Leather Torso",
+    "id":"r_armor_intricate_leather_torso",
     "Name":"Intricate Leather Brigandine",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_intricate_torso.png",
+    "Icon":"icon_intricate_torso.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":235,
-    "Leather":36,
-    "Iron Ingot":4,
-    "Additional":"3 Veilron Leather; 1 Neithal Leather",
-    "Copy Pasta":"1 Intricate Leather Brigandine: 235 Gold; 36 Leather; 4 Iron Ingot; 3 Veilron Leather; 1 Neithal Leather"
-  },
+    "Recipe": {
+	"Gold":235,
+	"Leather":36,
+	"Iron Ingot":4,
+	"Veilron Leather":3,
+	"Neithal Leather":1
+}
+},
   {
-    "id":"r_Armor Bonescale Arms",
+    "id":"r_armor_bonescale_arms",
     "Name":"Bonescale Vambracers",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_bone_arms.png",
+    "Icon":"icon_bone_arms.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":100,
     "Max Level":125,
     "Quantity":"1",
-    "Gold":475,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin",
-    "Copy Pasta":"1 Bonescale Vambracers: 475 Gold; 12 Leather; 2 Iron Ingot; 1 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin"
-  },
+    "Recipe": {
+	"Gold":475,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Leenspar Leather":1,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+},
   {
-    "id":"r_Armor Bonescale Elbows",
+    "id":"r_armor_bonescale_elbows",
     "Name":"Bonescale Couters",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_bone_elbows.png",
+    "Icon":"icon_bone_elbows.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":100,
     "Max Level":125,
     "Quantity":"1",
-    "Gold":475,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin",
-    "Copy Pasta":"1 Bonescale Couters: 475 Gold; 12 Leather; 2 Iron Ingot; 1 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin"
-  },
+    "Recipe": {
+	"Gold":475,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Leenspar Leather":1,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+},
   {
-    "id":"r_Armor Bonescale Girdle",
+    "id":"r_armor_bonescale_girdle",
     "Name":"Bonescale Girdle",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_bone_girdle.png",
+    "Icon":"icon_bone_girdle.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":100,
     "Max Level":125,
     "Quantity":"1",
-    "Gold":475,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin",
-    "Copy Pasta":"1 Bonescale Girdle: 475 Gold; 12 Leather; 2 Iron Ingot; 1 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin"
-  },
+    "Recipe": {
+	"Gold":475,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Leenspar Leather":1,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+},
   {
-    "id":"r_Armor Bonescale Gloves",
+    "id":"r_armor_bonescale_gloves",
     "Name":"Bonescale Gauntlets",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_bone_gloves.png",
+    "Icon":"icon_bone_gloves.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":100,
     "Max Level":125,
     "Quantity":"1",
-    "Gold":475,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin",
-    "Copy Pasta":"1 Bonescale Gauntlets: 475 Gold; 12 Leather; 2 Iron Ingot; 1 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin"
-  },
+    "Recipe": {
+	"Gold":475,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Leenspar Leather":1,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+},
   {
-    "id":"r_Armor Bonescale Greaves",
+    "id":"r_armor_bonescale_greaves",
     "Name":"Bonescale Greaves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_bone_greaves.png",
+    "Icon":"icon_bone_greaves.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":100,
     "Max Level":125,
     "Quantity":"1",
-    "Gold":475,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin",
-    "Copy Pasta":"1 Bonescale Greaves: 475 Gold; 12 Leather; 2 Iron Ingot; 1 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin"
-  },
+    "Recipe": {
+	"Gold":475,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Leenspar Leather":1,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+},
   {
-    "id":"r_Armor Bonescale Helmet",
+    "id":"r_armor_bonescale_helmet",
     "Name":"Bonescale Helm",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_bone_helmet.png",
+    "Icon":"icon_bone_helmet.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":100,
     "Max Level":125,
     "Quantity":"1",
-    "Gold":475,
-    "Leather":20,
-    "Iron Ingot":3,
-    "Additional":"2 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin",
-    "Copy Pasta":"1 Bonescale Helm: 475 Gold; 20 Leather; 3 Iron Ingot; 2 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin"
-  },
+    "Recipe": {
+	"Gold":475,
+	"Leather":20,
+	"Iron Ingot":3,
+	"Leenspar Leather":2,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+},
   {
-    "id":"r_Armor Bonescale Pants",
+    "id":"r_armor_bonescale_pants",
     "Name":"Bonescale Chausses",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_bone_legs.png",
+    "Icon":"icon_bone_legs.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":100,
     "Max Level":125,
     "Quantity":"1",
-    "Gold":475,
-    "Leather":28,
-    "Iron Ingot":3,
-    "Additional":"2 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin",
-    "Copy Pasta":"1 Bonescale Chausses: 475 Gold; 28 Leather; 3 Iron Ingot; 2 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin"
-  },
+    "Recipe": {
+	"Gold":475,
+	"Leather":28,
+	"Iron Ingot":3,
+	"Leenspar Leather":2,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+},
   {
-    "id":"r_Armor Bonescale Shoes",
+    "id":"r_armor_bonescale_shoes",
     "Name":"Bonescale Sabatons",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_bone_footwear.png",
+    "Icon":"icon_bone_footwear.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":100,
     "Max Level":125,
     "Quantity":"1",
-    "Gold":475,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin",
-    "Copy Pasta":"1 Bonescale Sabatons: 475 Gold; 12 Leather; 2 Iron Ingot; 1 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin"
-  },
+    "Recipe": {
+	"Gold":475,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Leenspar Leather":1,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+},
   {
-    "id":"r_Armor Bonescale Shoulders",
+    "id":"r_armor_bonescale_shoulders",
     "Name":"Bonescale Spaulders",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_bone_shoulders.png",
+    "Icon":"icon_bone_shoulders.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":100,
     "Max Level":125,
     "Quantity":"1",
-    "Gold":475,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin",
-    "Copy Pasta":"1 Bonescale Spaulders: 475 Gold; 12 Leather; 2 Iron Ingot; 1 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin"
-  },
+    "Recipe": {
+	"Gold":475,
+	"Leather":12,
+	"Iron Ingot":2,
+	"Leenspar Leather":1,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+},
   {
-    "id":"r_Armor Bonescale Torso",
+    "id":"r_armor_bonescale_torso",
     "Name":"Bonescale Hauberk",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_bone_torso.png",
+    "Icon":"icon_bone_torso.png",
     "Skill":"Leatherworking Mastery",
     "Min Level":100,
     "Max Level":125,
     "Quantity":"1",
-    "Gold":475,
-    "Leather":36,
-    "Iron Ingot":4,
-    "Additional":"3 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin",
-    "Copy Pasta":"1 Bonescale Hauberk: 475 Gold; 36 Leather; 4 Iron Ingot; 3 Leenspar Leather; 1 Theyril Leather; 1 Primal Ooze (Q5); 1 Fossilized Chitin"
-  }
+    "Recipe": {
+	"Gold":475,
+	"Leather":36,
+	"Iron Ingot":4,
+	"Leenspar Leather":3,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+}
 ]

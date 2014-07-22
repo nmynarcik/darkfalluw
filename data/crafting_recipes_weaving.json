@@ -2,7 +2,7 @@
   {
     "id":"r_cotton",
     "Name":"Cotton",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Weaving",
     "Min Level":1,
     "Max Level":75,
@@ -29,7 +29,7 @@
   {
     "id":"r_selentine_cotton",
     "Name":"Selentine Cotton",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Weaving Mastery",
     "Min Level":1,
     "Max Level":20,
@@ -58,7 +58,7 @@
   {
     "id":"r_veilron_cotton",
     "Name":"Veilron Cotton",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Weaving Mastery",
     "Min Level":25,
     "Max Level":45,
@@ -87,7 +87,7 @@
   {
     "id":"r_neithal_cotton",
     "Name":"Neithal Cotton",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Weaving Mastery",
     "Min Level":50,
     "Max Level":70,
@@ -116,7 +116,7 @@
   {
     "id":"r_leenspar_cotton",
     "Name":"Leenspar Cotton",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Weaving Mastery",
     "Min Level":75,
     "Max Level":95,
@@ -145,7 +145,7 @@
   {
     "id":"r_theyril_cotton",
     "Name":"Theyril Cotton",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Weaving Mastery",
     "Min Level":100,
     "Max Level":100,

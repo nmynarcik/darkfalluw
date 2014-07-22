@@ -2,7 +2,7 @@
   {
     "id":"r_iron_ore",
     "Name":"Iron Ore",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Smelting",
     "Min Level":1,
     "Max Level":75,
@@ -29,7 +29,7 @@
   {
     "id":"r_selentine_ore",
     "Name":"Selentine Ore",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Smelting Mastery",
     "Min Level":1,
     "Max Level":20,
@@ -58,7 +58,7 @@
   {
     "id":"r_veilron_ore",
     "Name":"Veilron Ore",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Smelting Mastery",
     "Min Level":25,
     "Max Level":45,
@@ -87,7 +87,7 @@
   {
     "id":"r_neithal_ore",
     "Name":"Neithal Ore",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Smelting Mastery",
     "Min Level":50,
     "Max Level":70,
@@ -116,7 +116,7 @@
   {
     "id":"r_leenspar_ore",
     "Name":"Leenspar Ore",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Smelting Mastery",
     "Min Level":75,
     "Max Level":95,
@@ -145,7 +145,7 @@
   {
     "id":"r_theyril_ore",
     "Name":"Theyril Ore",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Smelting Mastery",
     "Min Level":100,
     "Max Level":100,

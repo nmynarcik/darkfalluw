@@ -2,963 +2,1304 @@
   {
     "id":"r_Sack",
     "Name":"Sack",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/container_sack.png",
+    "Icon":"container_sack.png",
     "Skill":"Tailoring",
     "Min Level":1,
     "Max Level":10,
     "Quantity":"1",
-    "Gold":1,
-    "Cloth":8,
-    "Additional":"",
-    "Copy Pasta":"Sack: 1 Gold; 8 Cloth"
-  },
+    "Recipe": {
+	"Gold":1,
+	"Cloth":8
+}
+},
   {
-    "id":"r_Sack Red",
+    "id":"r_sack_red",
     "Name":"Red Sack",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/container_sack_red.png",
+    "Icon":"container_sack_red.png",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":35,
     "Quantity":"1",
-    "Gold":8,
-    "Cloth":14,
-    "Additional":"10 Rust",
-    "Copy Pasta":"Red Sack: 8 Gold; 14 Cloth; 10 Rust"
-  },
+    "Recipe": {
+	"Gold":8,
+	"Cloth":14,
+	"Rust":10
+}
+},
   {
-    "id":"r_Sack Green",
+    "id":"r_sack_green",
     "Name":"Green Sack",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/container_sack_green.png",
+    "Icon":"container_sack_green.png",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":35,
     "Quantity":"1",
-    "Gold":8,
-    "Cloth":14,
-    "Additional":"10 Lichen",
-    "Copy Pasta":"Green Sack: 8 Gold; 14 Cloth; 10 Lichen"
-  },
+    "Recipe": {
+	"Gold":8,
+	"Cloth":14,
+	"Lichen":10
+}
+},
   {
-    "id":"r_Sack Blue",
+    "id":"r_sack_blue",
     "Name":"Blue Sack",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/container_sack_blue.png",
+    "Icon":"container_sack_blue.png",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":35,
     "Quantity":"1",
-    "Gold":8,
-    "Cloth":14,
-    "Additional":"5 Inferior Mana flakes (Q1)",
-    "Copy Pasta":"Blue Sack: 8 Gold; 14 Cloth; 5 Inferior Mana Flakes (Q1)"
-  },
+    "Recipe": {
+	"Gold":8,
+	"Cloth":14,
+	"Inferior Mana Flake":5
+}
+},
+{
+    "id":"simple_ele_set",
+    "Name":"Simple Elementalist-Set",
+    "Icon":"icon_elementalist_simple_robe_chest.png",
+    "Skill":"Tailoring",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":10,
+	"Cloth":17
+}
+},
   {
-    "id":"r_Robes_M Simple Gloves",
+    "id":"simple_ele_gloves",
     "Name":"Simple Elementalist Gloves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_simple_gloves.png",
+    "Icon":"icon_elementalist_simple_gloves.png",
     "Skill":"Tailoring",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":2,
-    "Cloth":2,
-    "Additional":"",
-    "Copy Pasta":"Simple Elementalist Gloves: 2 Gold; 2 Cloth"
-  },
+    "Recipe": {
+	"Gold":2,
+	"Cloth":2
+}
+},
   {
-    "id":"r_Robes_M Simple Helmet",
+    "id":"simple_ele_helmet",
     "Name":"Simple Elementalist Cowl",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_simple_hood.png",
+    "Icon":"icon_elementalist_simple_hood.png",
     "Skill":"Tailoring",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":2,
-    "Cloth":3,
-    "Additional":"",
-    "Copy Pasta":"Simple Elementalist Cowl: 2 Gold; 3 Cloth"
-  },
+    "Recipe": {
+	"Gold":2,
+	"Cloth":3
+}
+},
   {
-    "id":"r_Robes_M Simple Pants",
+    "id":"simple_ele_pants",
     "Name":"Simple Elementalist Leggings",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_simple_pants.png",
+    "Icon":"icon_elementalist_simple_pants.png",
     "Skill":"Tailoring",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":2,
-    "Cloth":4,
-    "Additional":"",
-    "Copy Pasta":"Simple Elementalist Leggings: 2 Gold; 4 Cloth"
-  },
+    "Recipe": {
+	"Gold":2,
+	"Cloth":4
+}
+},
   {
-    "id":"r_Robes_M Simple Shoulders",
+    "id":"simple_ele_shoulders",
     "Name":"Simple Elementalist Mantle",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_simple_shoulderpads.png",
+    "Icon":"icon_elementalist_simple_shoulderpads.png",
     "Skill":"Tailoring",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":2,
-    "Cloth":2,
-    "Additional":"",
-    "Copy Pasta":"Simple Elementalist Mantle: 2 Gold; 2 Cloth"
-  },
+    "Recipe": {
+	"Gold":2,
+	"Cloth":2
+}
+},
   {
-    "id":"r_Robes_M Simple Torso",
+    "id":"simple_ele_torso",
     "Name":"Simple Elementalist Robe",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_simple_robe_chest.png",
+    "Icon":"icon_elementalist_simple_robe_chest.png",
     "Skill":"Tailoring",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":2,
-    "Cloth":6,
-    "Additional":"",
-    "Copy Pasta":"Simple Elementalist Robe: 2 Gold; 6 Cloth"
-  },
+    "Recipe": {
+	"Gold":2,
+	"Cloth":6
+}
+},
+{
+    "id":"simple_prim_set",
+    "Name":"Simple Elementalist-Set",
+    "Icon":"icon_primalist_simple_robe_chest.png",
+    "Skill":"Tailoring",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":10,
+	"Cloth":14,
+	"Leather":2,
+	"Iron Ingot":2
+}	
+},
   {
-    "id":"r_Robes_M Simple Primalist Gloves",
+    "id":"simple_prim_gloves",
     "Name":"Simple Primalist Gloves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_simple_gloves.png",
+    "Icon":"icon_primalist_simple_gloves.png",
     "Skill":"Tailoring",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":2,
-    "Cloth":2,
-    "Additional":"",
-    "Copy Pasta":"Simple Primalist Gloves: 2 Gold; 2 Cloth"
-  },
+    "Recipe": {
+	"Gold":2,
+	"Cloth":2
+}
+},
   {
-    "id":"r_Robes_M Simple Primalist Helmet",
+    "id":"simple_prim_helmet",
     "Name":"Simple Primalist Skullcap",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_simple_hood.png",
+    "Icon":"icon_primalist_simple_hood.png",
     "Skill":"Tailoring",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":2,
-    "Cloth":3,
-    "Additional":"1 Leather;",
-    "Copy Pasta":"Simple Primalist Skullcap: 2 Gold; 3 Cloth"
-  },
+    "Recipe": {
+	"Gold":2,
+	"Cloth":3,
+	"Leather":1
+}
+},
   {
-    "id":"r_Robes_M Simple Primalist Pants",
+    "id":"simple_prim_pants",
     "Name":"Simple Primalist Greaves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_simple_robe_pants.png",
+    "Icon":"icon_primalist_simple_robe_pants.png",
     "Skill":"Tailoring",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":2,
-    "Cloth":4,
-    "Additional":"",
-    "Copy Pasta":"Simple Primalist Greaves: 2 Gold; 4 Cloth"
-  },
+    "Recipe": {
+	"Gold":2,
+	"Cloth":4
+}
+},
   {
-    "id":"r_Robes_M Simple Primalist Shoulders",
+    "id":"simple_prim_shoulders",
     "Name":"Simple Primalist Spaulders",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_simple_shoulderpads.png",
+    "Icon":"icon_primalist_simple_shoulderpads.png",
     "Skill":"Tailoring",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":2,
-    "Cloth":1,
-    "Additional":"1 Iron Ingot;",
-    "Copy Pasta":"Simple Primalist Spaulder: 2 Gold; 1 Cloth; 1 Iron Ingot"
-  },
+    "Recipe": {
+	"Gold":2,
+	"Cloth":1,
+	"Iron Ingot":1
+}
+},
   {
-    "id":"r_Robes_M Simple Primalist Torso",
+    "id":"simple_prim_torso",
     "Name":"Simple Primalist Hauberk",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_simple_robe_chest.png",
+    "Icon":"icon_primalist_simple_robe_chest.png",
     "Skill":"Tailoring",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":2,
-    "Cloth":3,
-    "Additional":"1 Leather; 1 Iron Ingot",
-    "Copy Pasta":"Simple Primalist Hauberk: 2 Gold; 3 Cloth; 1 Iron Ingot; 1 Leather"
-  },
+    "Recipe": {
+	"Gold":2,
+	"Cloth":3,
+	"Leather":1,
+	"Iron Ingot":1
+}
+},
   {
-    "id":"r_robes_M Frayed Cowl",
+    "id":"frayed_ele_set",
+    "Name":"Frayed Elementalist-Set",
+    "Icon":"",
+    "Skill":"Tailoring",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":80,
+	"Cloth":32
+}
+},
+  {
+    "id":"frayed_ele_cowl",
     "Name":"Frayed Elementalist Cowl",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":16,
-    "Cloth":6,
-    "Additional":"",
-    "Copy Pasta":"Frayed Elementalist Cowl: 16 Gold; 6 Cloth"
-  },
+    "Recipe": {
+	"Gold":16,
+	"Cloth":6
+}
+},
   {
-    "id":"r_robes_M Frayed Gloves",
+    "id":"frayed_ele_gloves",
     "Name":"Frayed Elementalist Gloves",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":16,
-    "Cloth":3,
-    "Additional":"",
-    "Copy Pasta":"Frayed Elementalist Gloves: 16 Gold; 3 Cloth"
-  },
+    "Recipe": {
+	"Gold":16,
+	"Cloth":3
+}
+},
   {
-    "id":"r_robes_M Frayed Leggings",
+    "id":"frayed_ele_leggings",
     "Name":"Frayed Elementalist Leggings",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":16,
-    "Cloth":8,
-    "Additional":"",
-    "Copy Pasta":"Frayed Elementalist Leggings: 16 Gold; 8 Cloth"
-  },
+    "Recipe": {
+	"Gold":16,
+	"Cloth":8
+}
+},
   {
-    "id":"r_robes_M Frayed Mantle",
+    "id":"frayed_ele_mantle",
     "Name":"Frayed Elementalist Mantle",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":16,
-    "Cloth":3,
-    "Additional":"",
-    "Copy Pasta":"Frayed Elementalist Mantle: 16 Gold; 3 Cloth"
-  },
+    "Recipe": {
+	"Gold":16,
+	"Cloth":3
+}
+},
   {
-    "id":"r_robes_M Frayed Robe",
+    "id":"frayed_ele_robe",
     "Name":"Frayed Elementalist Robe",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":16,
-    "Cloth":12,
-    "Additional":"",
-    "Copy Pasta":"Frayed Elementalist Robe: 16 Gold; 12 Cloth"
-  },
+    "Recipe": {
+	"Gold":16,
+	"Cloth":12
+}
+},
   {
-    "id":"r_robes_M Frayed Primalist Cowl",
+    "id":"frayed_prim_set",
+    "Name":"Frayed Primalist-Set",
+    "Icon":"",
+    "Skill":"Tailoring",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":80,
+	"Cloth":23,
+	"Leather":5,
+	"Iron Ingot":4
+}
+},
+  {
+    "id":"frayed_prim_cowl",
     "Name":"Frayed Primalist Skullcap",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":16,
-    "Cloth":3,
-    "Additional":"2 Leather",
-    "Copy Pasta":"Frayed Primalist Skullcap: 16 Gold; 3 Cloth; 2 Leather"
-  },
+    "Recipe": {
+	"Gold":16,
+	"Cloth":3,
+	"Leather":2
+}
+},
   {
-    "id":"r_robes_M Frayed Primalist Gloves",
+    "id":"frayed_prim_gloves",
     "Name":"Frayed Primalist Gauntlets",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":16,
-    "Cloth":3,
-    "Additional":"",
-    "Copy Pasta":"Frayed Primalist Gauntlets: 16 Gold; 3 Cloth"
-  },
+    "Recipe": {
+	"Gold":16,
+	"Cloth":3
+}
+},
   {
-    "id":"r_robes_M Frayed Primalist Leggings",
+    "id":"frayed_prim_leggings",
     "Name":"Frayed Primalist Greaves",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":16,
-    "Cloth":8,
-    "Additional":"",
-    "Copy Pasta":"Frayed Primalist Greaves: 16 Gold; 8 Cloth"
-  },
+    "Recipe": {
+	"Gold":16,
+	"Cloth":8
+}
+},
   {
-    "id":"r_robes_M Frayed Primalist Mantle",
+    "id":"frayed_prim_mantle",
     "Name":"Frayed Primalist Spaulders",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":16,
-    "Cloth":3,
-    "Additional":"2 Iron Ingot",
-    "Copy Pasta":"Frayed Primalist Spaulders: 16 Gold; 3 Cloth; 2 Iron Ingot"
-  },
+    "Recipe": {
+	"Gold":16,
+	"Cloth":3,
+	"Iron Ingot":2
+}
+},
   {
-    "id":"r_robes_M Frayed Primalist Robe",
+    "id":"frayed_prim_robe",
     "Name":"Frayed Primalist Hauberk",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":16,
-    "Cloth":6,
-    "Additional":"3 Leather; 2 Iron Ingot",
-    "Copy Pasta":"Frayed Primalist Hauberk: 16 Gold ; 6 Cloth; 3 Leather; 2 Iron Ingot"
-  },
+    "Recipe": {
+	"Gold":16,
+	"Cloth":6,
+	"Leather":3,
+	"Iron Ingot":2
+}
+},
   {
-    "id":"r_Robes_M Fine Gloves",
+    "id":"fine_ele_set",
+    "Name":"Fine Elementalist-Set",
+    "Icon":"icon_elementalist_fine_robe_chest.png",
+    "Skill":"Tailoring",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":250,
+	"Cloth":66
+}
+},
+  {
+    "id":"fine_ele_gloves",
     "Name":"Fine Elementalist Gloves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_fine_gloves.png",
+    "Icon":"icon_elementalist_fine_gloves.png",
     "Skill":"Tailoring",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Cloth":6,
-    "Additional":"",
-    "Copy Pasta":"Fine Elementalist Gloves: 50 Gold; 6 Cloth"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Cloth":6
+}
+},
   {
-    "id":"r_Robes_M Fine Helmet",
+    "id":"fine_ele_helmet",
     "Name":"Fine Elementalist Hood",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_fine_hood.png",
+    "Icon":"icon_elementalist_fine_hood.png",
     "Skill":"Tailoring",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Cloth":12,
-    "Additional":"",
-    "Copy Pasta":"Fine Elementalist Hood: 50 Gold; 12 Cloth"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Cloth":12
+}
+},
   {
-    "id":"r_Robes_M Fine Pants",
+    "id":"fine_ele_pants",
     "Name":"Fine Elementalist Trousers",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_fine_pants.png",
+    "Icon":"icon_elementalist_fine_pants.png",
     "Skill":"Tailoring",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Cloth":18,
-    "Additional":"",
-    "Copy Pasta":"Fine Elementalist Trousers: 50 Gold; 18 Cloth"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Cloth":18
+}
+},
   {
-    "id":"r_Robes_M Fine Shoulders",
+    "id":"fine_ele_shoulders",
     "Name":"Fine Elementalist Amice",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_fine_shoulderpads.png",
+    "Icon":"icon_elementalist_fine_shoulderpads.png",
     "Skill":"Tailoring",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Cloth":6,
-    "Additional":"",
-    "Copy Pasta":"Fine Elementalist Amice: 50 Gold; 6 Cloth"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Cloth":6
+}
+},
   {
-    "id":"r_Robes_M Fine Torso",
+    "id":"fine_ele_torso",
     "Name":"Fine Elementalist Robe",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_fine_robe_chest.png",
+    "Icon":"icon_elementalist_fine_robe_chest.png",
     "Skill":"Tailoring",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Cloth":24,
-    "Additional":"",
-    "Copy Pasta":"Fine Elementalist Robe: 50 Gold; 24 Cloth"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Cloth":24
+}
+},
   {
-    "id":"r_Robes_M Fine Primalist Gloves",
+    "id":"fine_prim_set",
+    "Name":"Fine Primalist-Set",
+    "Icon":"icon_primalist_fine_robe_chest.png",
+    "Skill":"Tailoring",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":250,
+	"Cloth":49,
+	"Iron Ingot":8,
+	"Leather":9
+}
+},
+  {
+    "id":"fine_prim_gloves",
     "Name":"Fine Primalist Gloves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_fine_gloves.png",
+    "Icon":"icon_primalist_fine_gloves.png",
     "Skill":"Tailoring",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Cloth":6,
-    "Additional":"",
-    "Copy Pasta":"Fine Primalist Gloves: 50 Gold; 6 Cloth"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Cloth":6
+}
+},
   {
-    "id":"r_Robes_M Fine Primalist Helmet",
+    "id":"fine_prim_helmet",
     "Name":"Fine Primalist Helm",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_fine_hood.png",
+    "Icon":"icon_primalist_fine_hood.png",
     "Skill":"Tailoring",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Cloth":8,
-    "Additional":"4 Leather;",
-    "Copy Pasta":"Fine Primalist Helm: 50 Gold; 8 Cloth; 4 Leather"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Cloth":8,
+	"Leather":4
+}
+},
   {
-    "id":"r_Robes_M Fine Primalist Pants",
+    "id":"fine_prim_pants",
     "Name":"Fine Primalist Legguards",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_fine_pants.png",
+    "Icon":"icon_primalist_fine_pants.png",
     "Skill":"Tailoring",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Cloth":18,
-    "Additional":"",
-    "Copy Pasta":"Fine Primalist Legguards: 50 Gold; 18 Cloth"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Cloth":18
+}
+},
   {
-    "id":"r_Robes_M Fine Primalist Shoulders",
+    "id":"fine_prim_shoulders",
     "Name":"Fine Primalist Pauldrons",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_fine_shoulderpads.png",
+    "Icon":"icon_primalist_fine_shoulderpads.png",
     "Skill":"Tailoring",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Cloth":3,
-    "Additional":"3 Iron Ingot;",
-    "Copy Pasta":"Fine Primalist Pauldrons: 50 Gold; 3 Cloth; 3 Iron Ingot"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Cloth":3,
+	"Iron Ingot":3
+}
+},
   {
-    "id":"r_Robes_M Fine Primalist Torso",
+    "id":"fine_prim_torso",
     "Name":"Fine Primalist Chestguard",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_fine_robe_chest.png",
+    "Icon":"icon_primalist_fine_robe_chest.png",
     "Skill":"Tailoring",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":50,
-    "Cloth":14,
-    "Additional":"5 Iron Ingot; 5 Leather;",
-    "Copy Pasta":"Fine Primalist Chestguard: 50 Gold; 14 Cloth; 5 Iron Ingot; 5 Leather"
-  },
+    "Recipe": {
+	"Gold":50,
+	"Cloth":14,
+	"Iron Ingot":5,
+	"Leather":5
+}
+},
   {
-    "id":"r_robes_M Bulky Cowl",
+    "id":"bulky_ele_set",
+    "Name":"Bulky Elementalist-Set",
+    "Icon":"",
+    "Skill":"Tailoring",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":500,
+	"Cloth":126
+}
+},
+
+  {
+    "id":"bulky_ele_cowl",
     "Name":"Bulky Elementalist Cowl",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":100,
-    "Cloth":24,
-    "Additional":"",
-    "Copy Pasta":"Bulky Elementalist Cowl: 100 Gold; 24 Cloth"
-  },
+    "Recipe": {
+	"Gold":100,
+	"Cloth":24
+}
+},
   {
-    "id":"r_robes_M Bulky Gloves",
+    "id":"bulky_ele_gloves",
     "Name":"Bulky Elementalist Gloves",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":100,
-    "Cloth":12,
-    "Additional":"",
-    "Copy Pasta":"Bulky Elementalist Gloves: 100 Gold; 12 Cloth"
-  },
+    "Recipe": {
+	"Gold":100,
+	"Cloth":12
+}
+},
   {
-    "id":"r_robes_M Bulky Leggings",
+    "id":"bulky_ele_leggings",
     "Name":"Bulky Elementalist  Leggings",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":100,
-    "Cloth":30,
-    "Additional":"",
-    "Copy Pasta":"Bulky Elementalist Leggings: 100 Gold; 30 Cloth"
-  },
+    "Recipe": {
+	"Gold":100,
+	"Cloth":30
+}
+},
   {
-    "id":"r_robes_M Bulky Mantle",
+    "id":"bulky_ele_mantle",
     "Name":"Bulky Elementalist  Mantle",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":100,
-    "Cloth":12,
-    "Additional":"",
-    "Copy Pasta":"Bulky Elementalist Mantle: 100 Gold; 12 Cloth"
-  },
+    "Recipe": {
+	"Gold":100,
+	"Cloth":12
+}
+},
   {
-    "id":"r_robes_M Bulky Robes",
+    "id":"bulky_ele_robes",
     "Name":"Bulky Elementalist Robe",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":100,
-    "Cloth":48,
-    "Additional":"",
-    "Copy Pasta":"Bulky Elementalist Robe: 100 Gold; 48 Cloth"
-  },
+    "Recipe": {
+	"Gold":100,
+	"Cloth":48
+}
+},
   {
-    "id":"r_robes_M Bulky Primalist Cowl",
+    "id":"bulky_prim_set",
+    "Name":"Bulky Primalist-Set",
+    "Icon":"",
+    "Skill":"Tailoring",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":500,
+	"Cloth":92,
+	"Iron Ingot":16,
+	"Leather":18
+}
+},
+  {
+    "id":"bulky_prim_cowl",
     "Name":"Bulky Primalist Helm",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":100,
-    "Cloth":16,
-    "Additional":"8 Leather",
-    "Copy Pasta":"Bulky Primalist Helm: 100 Gold; 16 Cloth; 8 Leather"
-  },
+    "Recipe": {
+	"Gold":100,
+	"Cloth":16,
+	"Leather":6
+}
+},
   {
-    "id":"r_robes_M Bulky Primalist Gloves",
+    "id":"bulky_prim_gloves",
     "Name":"Bulky Primalist Gloves",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":100,
-    "Cloth":12,
-    "Additional":"",
-    "Copy Pasta":"Bulky Primalist Gloves: 100 Gold; 12 Cloth"
-  },
+    "Recipe": {
+	"Gold":100,
+	"Cloth":12
+}
+},
   {
-    "id":"r_robes_M Bulky Primalist Leggings",
+    "id":"bulky_prim_leggings",
     "Name":"Bulky Primalist Legguards",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":100,
-    "Cloth":30,
-    "Additional":"",
-    "Copy Pasta":"Bulky Primalist Legguards: 100 Gold; 30 Cloth"
-  },
+    "Recipe": {
+	"Gold":100,
+	"Cloth":30
+}
+},
   {
-    "id":"r_robes_M Bulky Primalist Mantle",
+    "id":"bulky_prim_mantle",
     "Name":"Bulky Primalist Pauldrons",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":100,
-    "Cloth":6,
-    "Additional":"6 Iron Ingot",
-    "Copy Pasta":"Bulky Primalist Pauldrons: 100 Gold; 6 Cloth; 6 Iron Ingot"
-  },
+    "Recipe": {
+	"Gold":100,
+	"Cloth":6,
+	"Iron Ingot":6
+}
+},
   {
-    "id":"r_robes_M Bulky Primalist Robes",
+    "id":"bulky_prim_robes",
     "Name":"Bulky Primalist Chestguard",
     "Icon":"",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":100,
-    "Cloth":28,
-    "Additional":"10 Iron Ingot; 10 Leather",
-    "Copy Pasta":"Bulky Primalist Chestguard: 100 Gold; 28 Cloth; 10 Iron Ingot; 10 Leather"
-  },
+    "Recipe": {
+	"Gold":100,
+	"Cloth":28,
+	"Iron Ingot":10,
+	"Leather":10
+}
+},
   {
-    "id":"r_Robes_M Elegant Gloves",
+    "id":"elegant_set",
+    "Name":"Elegant Elementalist-Set",
+    "Icon":"icon_elementalist_elegant_robe_chest.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":950,
+	"Cloth":88,
+	"Selentine Cloth":18
+}
+},
+  {
+    "id":"elegant_gloves",
     "Name":"Elegant Elementalist Gloves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_elegant_gloves.png",
+    "Icon":"icon_elementalist_elegant_gloves.png",
     "Skill":"Tailoring Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":190,
-    "Cloth":8,
-    "Additional":"2 Selentine Cloth",
-    "Copy Pasta":"Elegant Elementalist Gloves: 190 Gold; 8 Cloth; 2 Selentine Cloth"
-  },
+    "Recipe": {
+	"Gold":190,
+	"Cloth":8,
+	"Selentine Cloth":2
+}
+},
   {
-    "id":"r_Robes_M Elegant Helmet",
+    "id":"elegant_helmet",
     "Name":"Elegant Elementalist Cowl",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_elegant_hood.png",
+    "Icon":"icon_elementalist_elegant_hood.png",
     "Skill":"Tailoring Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":190,
-    "Cloth":16,
-    "Additional":"4 Selentine Cloth",
-    "Copy Pasta":"Elegant Elementalist Cowl: 190 Gold; 16 Cloth; 4 Selentine Cloth"
-  },
+    "Recipe": {
+	"Gold":190,
+	"Cloth":16,
+	"Selentine Cloth":4
+}
+},
   {
-    "id":"r_Robes_M Elegant Pants",
+    "id":"elegant_pants",
     "Name":"Elegant Elementalist Leggings",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_elegant_pants.png",
+    "Icon":"icon_elementalist_elegant_pants.png",
     "Skill":"Tailoring Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":190,
-    "Cloth":24,
-    "Additional":"4 Selentine Cloth",
-    "Copy Pasta":"Elegant Elementalist Leggings: 190 Gold; 24 Cloth; 4 Selentine Cloth"
-  },
+    "Recipe": {
+	"Gold":190,
+	"Cloth":24,
+	"Selentine Cloth":4
+}
+},
   {
     "id":"r_Robes_M Elegant Shoulders",
     "Name":"Elegant Elementalist Mantle",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_elegant_shoulders.png",
+    "Icon":"icon_elementalist_elegant_shoulders.png",
     "Skill":"Tailoring Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":190,
-    "Cloth":8,
-    "Additional":"2 Selentine Cloth",
-    "Copy Pasta":"Elegant Elementalist Mantle: 190 Gold; 8 Cloth; 2 Selentine Cloth"
-  },
+    "Recipe": {
+	"Gold":190,
+	"Cloth":8,
+	"Selentine Cloth":2
+}
+},
   {
-    "id":"r_Robes_M Elegant Torso",
+    "id":"elegant_torso",
     "Name":"Elegant Elementalist Robe",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_elegant_robe_chest.png",
+    "Icon":"icon_elementalist_elegant_robe_chest.png",
     "Skill":"Tailoring Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":190,
-    "Cloth":32,
-    "Additional":"6 Selentine Cloth",
-    "Copy Pasta":"Elegant Elementalist Robe: 190 Gold; 32 Cloth; 6 Selentine Cloth"
-  },
+    "Recipe": {
+	"Gold":190,
+	"Cloth":32,
+	"Selentine Cloth":6
+}
+},
   {
-    "id":"r_Robes_M Hardy Primalist Gloves",
+    "id":"hardy_set",
+    "Name":"Hardy Primalist-Set",
+    "Icon":"icon_primalist_hardy_robe_chest.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":950,
+	"Cloth":67,
+	"Iron Ingot":6,
+	"Leather":11,
+	"Selentine Cloth":14,
+	"Selentine Ingot":3,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"hardy_gloves",
     "Name":"Hardy Primalist Gauntlets",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_hardy_gloves.png",
+    "Icon":"icon_primalist_hardy_gloves.png",
     "Skill":"Tailoring Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":190,
-    "Cloth":8,
-    "Additional":"2 Selentine Cloths",
-    "Copy Pasta":"Hardy Primalist Gauntlets: 190 Gold; 8 Gold; 2 Selentine Cloths"
-  },
+    "Recipe": {
+	"Gold":190,
+	"Cloth":8,
+	"Selentine Cloth":2
+}
+},
   {
-    "id":"r_Robes_M Hardy Primalist Helmet",
+    "id":"hardy_helmet",
     "Name":"Hardy Primalist Headpiece",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_hardy_hood.png",
+    "Icon":"icon_primalist_hardy_hood.png",
     "Skill":"Tailoring Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":190,
-    "Cloth":11,
-    "Additional":"5 leather; 3 selentine cloth; 1 selentine leather",
-    "Copy Pasta":"Hardy Primalist Headpiece: 190 Gold; 11 cloth; 5 leather; 3 selentine cloth;  1 selentine leather"
-  },
+    "Recipe": {
+	"Gold":190,
+	"Cloth":11,
+	"Leather":5,
+	"Selentine Cloth":3,
+	"Selentine Leather":1
+}
+},
   {
-    "id":"r_Robes_M Hardy Primalist Pants",
+    "id":"hardy_pants",
     "Name":"Hardy Primalist Leggings",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_hardy_pants.png",
+    "Icon":"icon_primalist_hardy_pants.png",
     "Skill":"Tailoring Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":190,
-    "Cloth":24,
-    "Additional":"4 Selentine Cloth",
-    "Copy Pasta":"Hardy Primalist Leggings: 190 Gold; 24 Cloth; 4 Selentine Cloth"
-  },
+    "Recipe": {
+	"Gold":190,
+	"Cloth":24,
+	"Selentine Cloth":4
+}
+},
   {
-    "id":"r_Robes_M Hardy Primalist Shoulders",
+    "id":"hardy_shoulders",
     "Name":"Hardy Primalist Shoulderguards",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_hardy_shoulders.png",
+    "Icon":"icon_primalist_hardy_shoulders.png",
     "Skill":"Tailoring Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":190,
-    "Cloth":4,
-    "Additional":"1 Selentine Cloth; 1 Selentine Ingot",
-    "Copy Pasta":"Hardy Primalist Shouldeguards: 190 Gold; 4 Cloth; 1 Selentine Cloth; 1 Selentine Ingot"
-  },
+    "Recipe": {
+	"Gold":190,
+	"Cloth":4,
+	"Selentine Cloth":1,
+	"Selentine Ingot":1
+}
+},
   {
-    "id":"r_Robes_M Hardy Primalist Torso",
+    "id":"hardy_torso",
     "Name":"Hardy Primalist Hauberk",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_hardy_robe_chest.png",
+    "Icon":"icon_primalist_hardy_robe_chest.png",
     "Skill":"Tailoring Mastery",
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":190,
-    "Cloth":20,
-    "Additional":"6 Iron Ingot; 6 Leather; 4 Selentine Cloth; 2 Selentine Ingot",
-    "Copy Pasta":"Hardy Primalist Hauberk: 190 Gold; 20 Cloth; 6 Iron Ingot; 6 Leather; 4 Selentine Cloth; 2 Selentine Ingot"
-  },
+    "Recipe": {
+	"Gold":190,
+	"Cloth":20,
+	"Iron Ingot":6,
+	"Leather":6,
+	"Selentine Cloth":4,
+	"Selentine Ingot":2
+}
+},
   {
-    "id":"r_Robes_M Extravagant Gloves",
+    "id":"extrav_set",
+    "Name":"Extravagant Elementalist-Set",
+    "Icon":"icon_elementalist_extravagant_robe_chest.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2350,
+	"Cloth":88,
+	"Veilron Cloth":18,
+	"Neithal Cloth":10
+}
+},
+  {
+    "id":"extrav_gloves",
     "Name":"Extravagant Elementalist Gloves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_extravagant_gloves.png",
+    "Icon":"icon_elementalist_extravagant_gloves.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":470,
-    "Cloth":8,
-    "Additional":"2 Veilron Cloth; 2 Neithal Cloth",
-    "Copy Pasta":"Extravagant Elementalist Gloves: 470 Gold; 8 Cloth; 2 Veilron Cloth; 2 Neithal Cloth"
-  },
+    "Recipe": {
+	"Gold":470,
+	"Cloth":8,
+	"Veilron Cloth":2,
+	"Neithal Cloth":2
+}
+},
   {
-    "id":"r_Robes_M Extravagant Helmet",
+    "id":"extrav_helmet",
     "Name":"Extravagant Elementalist Hood",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_extravagant_hood.png",
+    "Icon":"icon_elementalist_extravagant_hood.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":470,
-    "Cloth":16,
-    "Additional":"4 Veilron Cloth; 2 Neithal Cloth",
-    "Copy Pasta":"Extravagant Elementalist Hood: 470 Gold; 16 Cloth; 4 Veilron Cloth; 2 Neithal Cloth"
-  },
+    "Recipe": {
+	"Gold":470,
+	"Cloth":16,
+	"Veilron Cloth":3,
+	"Neithal Cloth":2
+}
+},
   {
-    "id":"r_Robes_M Extravagant Pants",
+    "id":"extrav_pants",
     "Name":"Extravagant Elementalist Trousers",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_extravagant_pants.png",
+    "Icon":"icon_elementalist_extravagant_pants.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":470,
-    "Cloth":24,
-    "Additional":"4 Veilron Cloth; 2 Neithal Cloth",
-    "Copy Pasta":"Extravagant Elementalist Trousers: 470 Gold; 24 Cloth; 4 Veilron Cloth; 2 Neithal Cloth"
-  },
+    "Recipe": {
+	"Gold":470,
+	"Cloth":24,
+	"Veilron Cloth":4,
+	"Neithal Cloth":2
+}
+},
   {
-    "id":"r_Robes_M Extravagant Shoulders",
+    "id":"extrav_shoulders",
     "Name":"Extravagant Elementalist Amice",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_extravagant_shoulders.png",
+    "Icon":"icon_elementalist_extravagant_shoulders.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":470,
-    "Cloth":8,
-    "Additional":"2 Veilron Cloth; 2 Neithal Cloth",
-    "Copy Pasta":"Extravagant Elementalist Amice: 470 Gold; 8 Cloth; 2 Veilron Cloth; 2 Neithal Cloth"
-  },
+    "Recipe": {
+	"Gold":470,
+	"Cloth":8,
+	"Veilron Cloth":2,
+	"Neithal Cloth":2
+}
+},
   {
-    "id":"r_Robes_M Extravagant Torso",
+    "id":"extrav_torso",
     "Name":"Extravagant Elementalist Robe",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_extravagant_robe_chest.png",
+    "Icon":"icon_elementalist_extravagant_robe_chest.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":470,
-    "Cloth":32,
-    "Additional":"6 Veilron Cloth; 2 Neithal Cloth",
-    "Copy Pasta":"Extravagant Elementalist Robe: 470 Gold; 32 Cloth; 6 Veilron Cloth; 2 Neithal Cloth"
-  },
+    "Recipe": {
+	"Gold":470,
+	"Cloth":32,
+	"Veilron Cloth":6,
+	"Neithal Cloth":2
+}
+},
   {
-    "id":"r_Robes_M Imperious Primalist Gloves",
+    "id":"Imperious_set",
+    "Name":"Imperious Primalist-Set",
+    "Icon":"icon_primalist_imperious_robe_chest.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2350,
+	"Cloth":67,
+	"Iron Ingot":10,
+	"Leather":11,
+	"Neithal Cloth":10,
+	"Veilron Cloth":14,
+	"Veilron Ingot":1,
+	"Veilron Leather":2
+}
+},
+  {
+    "id":"Imperious_gloves",
     "Name":"Imperious Primalist Gauntlets",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_imperious_gloves.png",
+    "Icon":"icon_primalist_imperious_gloves.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":470,
-    "Cloth":8,
-    "Additional":"2 Neithal Cloth; 2 veilron Cloth",
-    "Copy Pasta":"Imperious Primalist Gauntlets: 470 Gold; 8 Cloth 2 Neithal Cloth; 2 veilron Cloth"
-  },
+    "Recipe": {
+	"Gold":470,
+	"Cloth":8,
+	"Veilron Cloth":2,
+	"Neithal Cloth":2
+}
+},
   {
-    "id":"r_Robes_M Imperious Primalist Helmet",
+    "id":"Imperious_helmet",
     "Name":"Imperious Primalist skullcap",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_imperious_hood.png",
+    "Icon":"icon_primalist_imperious_hood.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":470,
-    "Cloth":11,
-    "Additional":"5 leather; 2 neithal cloth; 3 veilron cloth; 1 veilron leather",
-    "Copy Pasta":"Imperious Primalist Skullcap: 470 Gold; 11 Cloth; 5 Leather; 2 Neithal Cloth; 3 Veilron Cloth; 1 Veilron Leather"
-  },
+    "Recipe": {
+	"Gold":470,
+	"Cloth":11,
+	"Leather":5,
+	"Neithal Cloth":2,
+	"Veilron Cloth":3,
+	"Veilron Leather":1
+}
+},
   {
-    "id":"r_Robes_M Imperious Primalist Pants",
+    "id":"Imperious_pants",
     "Name":"Imperious Primalist Greaves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_imperious_pants.png",
+    "Icon":"icon_primalist_imperious_pants.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":470,
-    "Cloth":24,
-    "Additional":"2 Neithal Cloth;  4 veilron Cloth",
-    "Copy Pasta":"Imperious Primalist Greaves: 470 Gold; 24 Cloth; 2 Neithal Cloth;  4 Veilron Cloth"
-  },
+    "Recipe": {
+	"Gold":470,
+	"Cloth":24,
+	"Neithal Cloth":2,
+	"Veilron Cloth":4
+}
+},
   {
-    "id":"r_Robes_M Imperious Primalist Shoulders",
+    "id":"Imperious_shoulders",
     "Name":"Imperious Primalist Spauldrers",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_imperious_shoulders.png",
+    "Icon":"icon_primalist_imperious_shoulders.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":470,
-    "Cloth":4,
-    "Additional":"4 iron ingot; 2 neithal cloth; 1 veilron cloth; 1 veilron ingot",
-    "Copy Pasta":"Imperious Primalist Spauldrers: 470 Gold; 4 Cloth 4 Iron Ingot; 2 Neithal Cloth; 1 Veilron Cloth; 1 Veilron Ingot"
-  },
+    "Recipe": {
+	"Gold":470,
+	"Cloth":4,
+	"Iron Ingot":4,
+	"Neithal Cloth":2,
+	"Veilron Cloth":1,
+	"Veilron Ingot":1
+}
+},
   {
-    "id":"r_Robes_M Imperious Primalist Torso",
+    "id":"Imperious_torso",
     "Name":"Imperious Primalist Cuirass",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_imperious_robe_chest.png",
+    "Icon":"icon_primalist_imperious_robe_chest.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":470,
-    "Cloth":20,
-    "Additional":"6 iron ingot; 6 leather; 2 neithal cloth; 4 veilron cloth;  1 veilron ingot; 1 veilron leather",
-    "Copy Pasta":"Primalist Imperious Cuirass: 470 Gold; 20 Cloth; 6 Iron Ingot; 6 Leather; 2 Neithal Cloth; 4 Veilron Cloth;  1 Veilron Ingot; 1 Veilron Leather"
-  },
+    "Recipe": {
+	"Gold":470,
+	"Cloth":20,
+	"Iron Ingot":6,
+	"Leather":6,
+	"Neithal Cloth":2,
+	"Veilron Cloth":4,
+	"Veilron Ingot":1,
+	"Veilron Leather":1
+}
+},
   {
-    "id":"r_Robes_M Skymane Primalist Gloves",
-    "Name":"Primalist Skymane  Gloves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_skymane_gloves.png",
+    "id":"skymane_set",
+    "Name":"Skymane Primalist-Set",
+    "Icon":"icon_primalist_skymane_robe_chest.png",
     "Skill":"Tailoring Mastery",
     "Min Level":100,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":950,
-    "Cloth":8,
-    "Additional":"2 Leenspar Cloth; 1 Primal Fungus; 1 Primal Shadowtaint; 2 Skymane Silk; 2 Theyril Cloth",
-    "Copy Pasta":"Skymane Primalist Gloves: 950 Gold, 8 Cloth; 2 Leenspar Cloth; 1 Primal Fungus; 1 Primal Shadowtaint; 2 Skymane Silk; 2 Theyril Cloth"
-  },
+    "Recipe": {
+	"Gold":4750,
+	"Cloth":67,
+	"Iron Ingot":10,
+	"Leather":11,
+	"Leenspar Cloth":14,
+	"Leenspar Ingot":2,
+	"Leenspar Leather":2,
+	"Primal Fungus":5,
+	"Primal Shadowtaint":5,
+	"Skymane Silk":10,
+	"Theyril Cloth":10
+}
+},
+
   {
-    "id":"r_Robes_M Skymane Primalist Helmet",
-    "Name":"Primalist Skymane  Shroud",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_skymane_hood.png",
+    "id":"skymane_gloves",
+    "Name":"Skymane Primalist Gloves",
+    "Icon":"icon_primalist_skymane_gloves.png",
     "Skill":"Tailoring Mastery",
     "Min Level":100,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":950,
-    "Cloth":11,
-    "Additional":"5 Leather; 3 Leenspar Cloth; 1 Leenspar Leather; 1 Primal Fungus; 1 Primal Shadowtaint; 2 Skymane Silk; 2 Theyril Cloth",
-    "Copy Pasta":"Primalist Skymane  Shroud: 950 Gold; 11 Cloth; 5 Leather; 3 Leenspar Cloth; 1 Leenspar Leather; 1 Primal Fungus; 1 Primal Shadowtaint; 2 Skymane Silk; 2 Theyril Cloth"
-  },
+    "Recipe": {
+	"Gold":950,
+	"Cloth":8,
+	"Leenspar Cloth":2,
+	"Priaml Fungus":1,
+	"Primal Shadowtaint":1,
+	"Skymane Silk":2,
+	"Theyril Cloth":2
+}
+},
   {
-    "id":"r_Robes_M Skymane Primalist Pants",
-    "Name":"Primalist Skymane Leggings",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_skymane_pants.png",
+    "id":"skymane_helmet",
+    "Name":"Skymane Primalist Shroud",
+    "Icon":"icon_primalist_skymane_hood.png",
     "Skill":"Tailoring Mastery",
     "Min Level":100,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":950,
-    "Cloth":24,
-    "Additional":"4 Leenspar Cloth; 1 Primal Fungus; 1 Primal Shadowtaint; 2 Skymane Silk; 2 Theyril Cloth",
-    "Copy Pasta":"Primalist Skymane Leggings: 950 Gold; 24 Cloth; 4 Leenspar Cloth; 1 Primal Fungus; 1 Primal Shadowtaint; 2 Skymane Silk; 2 Theyril Cloth"
-  },
+    "Recipe": {
+	"Gold":950,
+	"Cloth":11,
+	"Leather":5,
+	"Leenspar Cloth":3,
+	"Leenspar Leather":1,
+	"Primal Fungus":1,
+	"Primal Shadowtaint":1,
+	"Skymane Silk":2,
+	"Theyril Cloth":2
+}
+},
   {
-    "id":"r_Robes_M Skymane Primalist Shoulders",
-    "Name":"Primalist Skymane Mantle",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_skymane_shoulderpads.png",
+    "id":"skymane_pants",
+    "Name":"Skymane Primalist Leggings",
+    "Icon":"icon_primalist_skymane_pants.png",
     "Skill":"Tailoring Mastery",
     "Min Level":100,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":950,
-    "Cloth":4,
-    "Additional":"4 Iron Ingot; 1 Leenspar Cloth; 1 Leenspar Ingot; 1 Primal Fungus; 1 Primal Shadowtaint; 2 Skymane Silk; 2 Theyril Cloth",
-    "Copy Pasta":"Primalist Skymane Mantle: 950 Gold; 4 Cloth; 4 Iron Ingot; 1 Leenspar Cloth; 1 Leenspar Ingot; 1 Primal Fungus; 1 Primal Shadowtaint; 2 Skymane Silk; 2 Theyril Cloth"
-  },
+    "Recipe": {
+	"Gold":950,
+	"Cloth":24,
+	"Leenspar Cloth":4,
+	"Primal Fungus":1,
+	"Primal Shadowtaint":1,
+	"Skymane Silk":2,
+	"Theyril Cloth":2
+}
+},
   {
-    "id":"r_Robes_M Skymane Primalist Robe",
-    "Name":"Primalist Skymane Robe",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_primalist_skymane_robe_chest.png",
+    "id":"skymane_shoulders",
+    "Name":"Skymane Primalist Mantle",
+    "Icon":"icon_primalist_skymane_shoulderpads.png",
     "Skill":"Tailoring Mastery",
     "Min Level":100,
     "Max Level":100,
     "Quantity":"1",
-    "Gold":950,
-    "Cloth":20,
-    "Additional":"6 Iron Ingot; 6 Leather; 4 Leenspar Cloth; 1 Leenspar Ingot; 1 Leenspar Leather; 1 Primal Fungus; 1 Primal Shadowtaint; 2 Skymane Silk; 2 Theyril Cloth",
-    "Copy Pasta":"Primalist Skymane Robe: 950 Gold; 20 Cloth; 6 Iron Ingot; 6 Leather; 4 Leenspar Cloth; 1 Leenspar Ingot; 1 Leenspar Leather; 1 Primal Fungus; 1 Primal Shadowtaint; 2 Skymane Silk; 2 Theyril Cloth"
-  },
+    "Recipe": {
+	"Gold":950,
+	"Cloth":4,
+	"Iron Ingot":4,
+	"Leenspar Cloth":1,
+	"Leenspar Ingot":1,
+	"Primal Fungus":1,
+	"Primal Shadowtaint":1,
+	"Skymane Silk":2,
+	"theyril Cloth":2
+}
+},
   {
-    "id":"r_Robes_M Widowsilk Gloves",
+    "id":"skymane_robe",
+    "Name":"Skymane Primalist Robe",
+    "Icon":"icon_primalist_skymane_robe_chest.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":950,
+	"Cloth":20,
+	"Iron Ingot":6,
+	"Leather":6,
+	"Leenspar Cloth":4,
+	"Leenspar Ingot":1,
+	"Leenspar Leather":1,
+	"Primal Fungus":1,
+	"Primal Shadowtaint":1,
+	"Skymane Silk":2,
+	"Theyril Cloth":2
+}
+},
+  {
+    "id":"widowsilk_set",
+    "Name":"Widowsilk Elementalist-Set",
+    "Icon":"icon_elementalist_widowsilk_robe_chest.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":4750,
+	"Cloth":88,
+	"Leenspar Cloth":18,
+	"Theyril Cloth":10,
+	"Primal Fungus":5,
+	"Primal Shadowtaint":5,
+	"Widow Silk":10
+}
+},
+  {
+    "id":"widowsilk_gloves",
     "Name":"Widowsilk Elementalist Gloves",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_widowsilk_gloves.png",
+    "Icon":"icon_elementalist_widowsilk_gloves.png",
     "Skill":"Tailoring Mastery",
     "Min Level":100,
     "Max Level":125,
     "Quantity":"1",
-    "Gold":950,
-    "Cloth":8,
-    "Additional":"2 Leenspar Cloth; 2 Theyril Cloth; 1 Primal Fungus (Q5); 1 Primal Shadowtaint (Q5); 2 Widow Silk",
-    "Copy Pasta":"Widowsilk Elementalist Gloves: 950 Gold; 8 Cloth; 2 Leenspar Cloth; 2 Theyril Cloth; 1 Primal Fungus (Q5); 1 Primal Shadowtaint (Q5); 2 Widow Silk"
-  },
+    "Recipe": {
+	"Gold":950,
+	"Cloth":8,
+	"Leenspar Cloth":2,
+	"Theyril Cloth":2,
+	"Primal Fungus":1,
+	"Primal Shadowtaint":1,
+	"Widow Silk":2
+}
+},
   {
-    "id":"r_Robes_M Widowsilk Helmet",
+    "id":"widowsilk_helmet",
     "Name":"Widowsilk Elementalist Cowl",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_widowsilk_hood.png",
+    "Icon":"icon_elementalist_widowsilk_hood.png",
     "Skill":"Tailoring Mastery",
     "Min Level":100,
     "Max Level":125,
     "Quantity":"1",
-    "Gold":950,
-    "Cloth":16,
-    "Additional":"4 Leenspar Cloth; 2 Theyril Cloth; 1 Primal Fungus (Q5); 1 Primal Shadowtaint (Q5); 2 Widow Silk",
-    "Copy Pasta":"Widowsilk Elementalist Cowl: 950 Gold; 16 Cloth; 4 Leenspar Cloth; 2 Theyril Cloth; 1 Primal Fungus (Q5); 1 Primal Shadowtaint (Q5); 2 Widow Silk"
-  },
+    "Recipe": {
+	"Gold":950,
+	"Cloth":16,
+	"Leenspar Cloth":4,
+	"Theyril Cloth":2,
+	"Primal Fungus":1,
+	"Primal Shadowtaint":1,
+	"Widow Silk":2
+}
+},
   {
-    "id":"r_Robes_M Widowsilk Pants",
+    "id":"widowsilk_pants",
     "Name":"Widowsilk Elementalist Leggings",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_widowsilk_pants.png",
+    "Icon":"icon_elementalist_widowsilk_pants.png",
     "Skill":"Tailoring Mastery",
     "Min Level":100,
     "Max Level":125,
     "Quantity":"1",
-    "Gold":950,
-    "Cloth":24,
-    "Additional":"4 Leenspar Cloth; 2 Theyril Cloth; 1 Primal Fungus (Q5); 1 Primal Shadowtaint (Q5); 2 Widow Silk",
-    "Copy Pasta":"Widowsilk Elementalist Leggings: 950 Gold; 24 Cloth; 4 Leenspar Cloth; 2 Theyril Cloth; 1 Primal Fungus (Q5); 1 Primal Shadowtaint (Q5); 2 Widow Silk"
-  },
+    "Recipe": {
+	"Gold":950,
+	"Cloth":24,
+	"Leenspar Cloth":4,
+	"Theyril Cloth":2,
+	"Primal Fungus":1,
+	"Primal Shadowtaint":1,
+	"Widow Silk":2
+}
+},
   {
-    "id":"r_Robes_M Widowsilk Shoulders",
+    "id":"widowsilk_shoulders",
     "Name":"Widowsilk Elementalist Mantle",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_widowsilk_shoulders.png",
+    "Icon":"icon_elementalist_widowsilk_shoulders.png",
     "Skill":"Tailoring Mastery",
     "Min Level":100,
     "Max Level":125,
     "Quantity":"1",
-    "Gold":950,
-    "Cloth":8,
-    "Additional":"2 Leenspar Cloth; 2 Theyril Cloth; 1 Primal Fungus (Q5); 1 Primal Shadowtaint (Q5); 2 Widow Silk",
-    "Copy Pasta":"Widowsilk Elementalist Mantle: 950 Gold; 8 Cloth; 2 Leenspar Cloth; 2 Theyril Cloth; 1 Primal Fungus (Q5); 1 Primal Shadowtaint (Q5); 2 Widow Silk"
-  },
+    "Recipe": {
+	"Gold":950,
+	"Cloth":8,
+	"Leenspar Cloth":2,
+	"Theyril Cloth":2,
+	"Primal Fungus":1,
+	"Primal Shadowtaint":1,
+	"Widow Silk":2
+}
+},
   {
-    "id":"r_Robes_M Widowsilk Torso",
+    "id":"widowsilk_torso",
     "Name":"Widowsilk Elementalist Robe",
-    "Icon":"http://darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/icon_elementalist_widowsilk_robe_chest.png",
+    "Icon":"icon_elementalist_widowsilk_robe_chest.png",
     "Skill":"Tailoring Mastery",
     "Min Level":100,
     "Max Level":125,
     "Quantity":"1",
-    "Gold":950,
-    "Cloth":32,
-    "Additional":"6 Leenspar Cloth; 2 Theyril Cloth; 1 Primal Fungus (Q5); 1 Primal Shadowtaint (Q5); 2 Widow Silk",
-    "Copy Pasta":"Widowsilk Elementalist Robe: 950 Gold; 32 Cloth; 6 Leenspar Cloth; 2 Theyril Cloth; 1 Primal Fungus (Q5); 1 Primal Shadowtaint (Q5); 2 Widow Silk"
-  }
+    "Recipe": {
+	"Gold":950,
+	"Cloth":32,
+	"Leenspar Cloth":6,
+	"Theyril Cloth":2,
+	"Primal Fungus":1,
+	"Primal Shadowtaint":1,
+	"Widow Silk":2
+}
+}
 ]
