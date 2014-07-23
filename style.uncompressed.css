@@ -1816,9 +1816,32 @@ strong {font-weight: bold;}
   padding: 4px;
 }
 
+/* Custom Comboboxes */
+
+#selections input.custom-combobox-input {
+  width: 220px;
+  background: #231914;
+  color: white;
+  border: 0;
+  font-family: 'Oswald',sans-serif;
+  font-weight: 400;
+  padding: 3px 10px 3px 15px;
+  float: left;
+}
+
+#selections a.custom-combobox-toggle {
+  background: #231914;
+  padding: 8px 0;
+  float: left;
+  margin-right: 15px;
+}
+#selections .ui-state-default .ui-icon {
+  background: url("images/ui-icons_ffffff_256x240.png") -65px 0 !important
+}
+
 /* Slick Grid && Crafting */
 
-.slick-cell.selected {
+/*.slick-cell.selected {
   background: green;
   background: rgba(0, 255, 0, 0.2);
 }
@@ -1867,7 +1890,6 @@ strong {font-weight: bold;}
   height: 63px !important;
 }
 
-/* Red's Overrides */
 .slick-headerrow-column {
   min-height: 25px;
   padding: 0 !important;
@@ -1927,9 +1949,6 @@ input.filter {
   font-size: 100% !important;
   font-weight: normal !important;
   padding: 5px;
-  /*border-left: 1px solid #221715;
-  border-top: 1px solid #221715;
-  border-bottom: 1px solid #221715;*/
   height: 25px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1942,7 +1961,6 @@ input.filter {
   font-size: 11px;
 }
 
-/* Tabs */
 .tabs ul {
   margin:0;
   padding:0;
@@ -1995,7 +2013,7 @@ input.filter {
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
-}
+}*/
 
 body.search-results .hentry {
   margin-bottom: 20px;
