@@ -22,7 +22,7 @@
         // case 'staffcrafting':
         // case 'shieldcrafting':
         case 'smelting':
-        case 'tailoring':
+        // case 'tailoring':
         case 'woodcutting':
         case 'weaving':
         case 'tanning':
