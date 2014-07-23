@@ -1738,6 +1738,11 @@ strong {font-weight: bold;}
   display: none;
 }
 
+#selections .selection-box {
+  display: none;
+  float: left;
+}
+
 #selections label {
   margin-bottom: 10px;
 }
@@ -1759,6 +1764,7 @@ strong {font-weight: bold;}
   float: right;
   width: 100%;
   margin-top: 30px;
+  min-height: 340px;
 }
 #item-details .btn-group {
   margin: 0 auto;

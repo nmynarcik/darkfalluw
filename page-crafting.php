@@ -16,6 +16,8 @@ get_header();
 // wp_enqueue_script('dfuw_slickformat', get_template_directory_uri().'/js/lib/slick.formatters.js',false,$er,'all');
 // wp_enqueue_script('dfuw_slickgrid', get_template_directory_uri().'/js/slick.grid.js',false,$er,'all');
 // wp_enqueue_style( 'dfuw_slick_styles', get_template_directory_uri().'/css/slick.grid.css', false, $ver, 'all' );
+wp_enqueue_style( 'jquery_ui_css', get_template_directory_uri().'/css/jquery-ui.theme.min.css', false, $ver, 'all' );
+wp_enqueue_script('jquery_ui_js', '//code.jquery.com/ui/1.11.0/jquery-ui.js',false,$ver,'all');
 wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.js',false,$ver,'all'); //min
 ?>
 <article id="content" class="full-width">
@@ -28,28 +30,32 @@ wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.js
       <label class="checkbox">
         <input type="checkbox" id="mastery"> Mastery
       </label>
-      <select id="trade_select">
-        <option value="">Select Trade</option>
-        <option value="alchemy">Alchemy</option>
-        <option value="armorsmithing">Armor</option>
-        <option value="bowyer">Bowyer</option>
-        <option value="construction">Construction</option>
-        <option value="cooking">Cooking</option>
-        <option value="engineering">Engineering</option>
-        <option value="leatherworking">Leather</option>
-        <option value="mountsummoning">Mounts</option>
-        <option value="shieldcrafting">Shields</option>
-        <option value="shipbuilding">Ship Building</option>
-        <option value="smelting">Smelting</option>
-        <option value="staffcrafting">Staffs</option>
-        <option value="tailoring">Tailoring</option>
-        <option value="tanning">Tanning</option>
-        <option value="weaponsmithing">Weapons</option>
-        <option value="weaving">Weaving</option>
-        <option value="woodcutting">Wood Cutting</option>
-      </select>
-      <select id="select-two"></select>
-      <select id="select-three"></select>
+        <select id="trade_select">
+          <option value="">Select Trade</option>
+          <option value="alchemy">Alchemy</option>
+          <option value="armorsmithing">Armor</option>
+          <option value="bowyer">Bowyer</option>
+          <option value="construction">Construction</option>
+          <option value="cooking">Cooking</option>
+          <option value="engineering">Engineering</option>
+          <option value="leatherworking">Leather</option>
+          <option value="mountsummoning">Mounts</option>
+          <option value="shieldcrafting">Shields</option>
+          <option value="shipbuilding">Ship Building</option>
+          <option value="smelting">Smelting</option>
+          <option value="staffcrafting">Staffs</option>
+          <option value="tailoring">Tailoring</option>
+          <option value="tanning">Tanning</option>
+          <option value="weaponsmithing">Weapons</option>
+          <option value="weaving">Weaving</option>
+          <option value="woodcutting">Wood Cutting</option>
+        </select>
+        <div class="selection-box">
+          <select id="select-two"></select>
+        </div>
+        <div class="selection-box">
+          <select id="select-three"></select>
+        </div>
     </div>
     <div id="item-details">
       <!-- Item Details -->
