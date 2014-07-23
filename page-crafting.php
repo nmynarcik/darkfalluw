@@ -17,8 +17,10 @@ get_header();
 // wp_enqueue_script('dfuw_slickgrid', get_template_directory_uri().'/js/slick.grid.js',false,$er,'all');
 // wp_enqueue_style( 'dfuw_slick_styles', get_template_directory_uri().'/css/slick.grid.css', false, $ver, 'all' );
 wp_enqueue_style( 'jquery_ui_css', get_template_directory_uri().'/css/jquery-ui.theme.min.css', false, $ver, 'all' );
-wp_enqueue_script('jquery_ui_js', '//code.jquery.com/ui/1.11.0/jquery-ui.js',false,$ver,'all');
-wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.js',false,$ver,'all'); //min
+// wp_enqueue_script('jquery_ui_js', '//code.jquery.com/ui/1.11.0/jquery-ui.js',false,$ver,'all');
+// wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.js',false,$ver,'all'); //min
+wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.js', array('jquery','jquery-ui-js'),$ver,true); //min
+wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer );
 ?>
 <article id="content" class="full-width">
 <?php the_post(); ?>

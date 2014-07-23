@@ -395,7 +395,7 @@ Array.prototype.pushIfNotExist = function(element, comparer) {
     });
   })( jQuery );
 
-  $(function() {
+  (function($) {
       $("#trade_select").combobox({
             select: function (event, ui) {
                 crafter.getData(this.value);
@@ -436,4 +436,4 @@ Array.prototype.pushIfNotExist = function(element, comparer) {
     // $( "#toggle" ).click(function() {
     //   $( "#combobox" ).toggle();
     // });
-  });
+  })(jQuery);

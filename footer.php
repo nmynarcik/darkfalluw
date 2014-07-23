@@ -1,5 +1,6 @@
 <?php
   global $ver;
+  wp_enqueue_script( 'jquery-ui-js', '//code.jquery.com/ui/1.11.0/jquery-ui.js', '', $ver, true );
 ?>
 <div class="clear"></div>
 </div>
