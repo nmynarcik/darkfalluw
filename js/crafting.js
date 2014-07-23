@@ -311,10 +311,10 @@ Array.prototype.pushIfNotExist = function(element, comparer) {
         var input = this.input,
           wasOpen = false;
 
-        $( "<a>" )
+        $( "<div>" )
           .attr( "tabIndex", -1 )
           .attr( "title", "Show All Items" )
-          .tooltip()
+          // .tooltip()
           .appendTo( this.wrapper )
           .button({
             icons: {

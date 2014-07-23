@@ -1743,6 +1743,17 @@ strong {font-weight: bold;}
   float: left;
 }
 
+.page .ui-autocomplete .ui-state-hover,
+.page .ui-autocomplete .ui-widget-content .ui-state-hover,
+.page .ui-autocomplete .ui-widget-header .ui-state-hover,
+.page .ui-autocomplete .ui-state-focus,
+.page .ui-autocomplete .ui-widget-content .ui-state-focus,
+.page .ui-autocomplete .ui-widget-header .ui-state-focus {
+  border: 1px solid #bfaa39;
+  background: #ecd547;
+  color: black;
+}
+
 #selections label {
   margin-bottom: 10px;
 }
@@ -1835,7 +1846,7 @@ strong {font-weight: bold;}
   float: left;
 }
 
-#selections a.custom-combobox-toggle {
+#selections .custom-combobox-toggle {
   background: #231914;
   padding: 8px 0;
   float: left;
