@@ -53,7 +53,8 @@
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/ga.tracking.min.js"></script>
   <?php } ?>
 <?php } ?>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script> -->
+<script type="text/javascript" src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.autoellipsis.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/dfuw.min.js?ver=<?php echo $ver; ?>"></script>
 <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=xa-50c58e77607d7916"></script>
