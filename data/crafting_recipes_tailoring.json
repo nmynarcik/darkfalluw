@@ -56,7 +56,7 @@
 },
 {
     "id":"simple_ele_set",
-    "Name":"Simple Elementalist-Set",
+    "Name":"Simple Elementalist Set",
     "Icon":"icon_elementalist_simple_robe_chest.png",
     "Skill":"Tailoring",
     "Min Level":1,
@@ -134,7 +134,7 @@
 },
 {
     "id":"simple_prim_set",
-    "Name":"Simple Elementalist-Set",
+    "Name":"Simple Primalist Set",
     "Icon":"icon_primalist_simple_robe_chest.png",
     "Skill":"Tailoring",
     "Min Level":1,
@@ -149,7 +149,7 @@
 },
   {
     "id":"simple_prim_gloves",
-    "Name":"Simple Primalist Gloves",
+    "Name":"Simple Primalist Gauntlets",
     "Icon":"icon_primalist_simple_gloves.png",
     "Skill":"Tailoring",
     "Min Level":1,
@@ -176,7 +176,7 @@
 },
   {
     "id":"simple_prim_pants",
-    "Name":"Simple Primalist Greaves",
+    "Name":"Simple Primalist Legguards",
     "Icon":"icon_primalist_simple_robe_pants.png",
     "Skill":"Tailoring",
     "Min Level":1,
@@ -218,8 +218,8 @@
 },
   {
     "id":"frayed_ele_set",
-    "Name":"Frayed Elementalist-Set",
-    "Icon":"",
+    "Name":"Frayed Elementalist Set",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
@@ -232,7 +232,7 @@
   {
     "id":"frayed_ele_cowl",
     "Name":"Frayed Elementalist Cowl",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
@@ -245,7 +245,7 @@
   {
     "id":"frayed_ele_gloves",
     "Name":"Frayed Elementalist Gloves",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
@@ -258,7 +258,7 @@
   {
     "id":"frayed_ele_leggings",
     "Name":"Frayed Elementalist Leggings",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
@@ -271,7 +271,7 @@
   {
     "id":"frayed_ele_mantle",
     "Name":"Frayed Elementalist Mantle",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
@@ -284,7 +284,7 @@
   {
     "id":"frayed_ele_robe",
     "Name":"Frayed Elementalist Robe",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
@@ -296,8 +296,8 @@
 },
   {
     "id":"frayed_prim_set",
-    "Name":"Frayed Primalist-Set",
-    "Icon":"",
+    "Name":"Frayed Primalist Set",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
@@ -312,7 +312,7 @@
   {
     "id":"frayed_prim_cowl",
     "Name":"Frayed Primalist Skullcap",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
@@ -326,7 +326,7 @@
   {
     "id":"frayed_prim_gloves",
     "Name":"Frayed Primalist Gauntlets",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
@@ -338,8 +338,8 @@
 },
   {
     "id":"frayed_prim_leggings",
-    "Name":"Frayed Primalist Greaves",
-    "Icon":"",
+    "Name":"Frayed Primalist Legguards",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
@@ -352,7 +352,7 @@
   {
     "id":"frayed_prim_mantle",
     "Name":"Frayed Primalist Spaulders",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
@@ -366,7 +366,7 @@
   {
     "id":"frayed_prim_robe",
     "Name":"Frayed Primalist Hauberk",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":25,
     "Max Level":50,
@@ -380,7 +380,7 @@
 },
   {
     "id":"fine_ele_set",
-    "Name":"Fine Elementalist-Set",
+    "Name":"Fine Elementalist Set",
     "Icon":"icon_elementalist_fine_robe_chest.png",
     "Skill":"Tailoring",
     "Min Level":50,
@@ -406,7 +406,7 @@
 },
   {
     "id":"fine_ele_helmet",
-    "Name":"Fine Elementalist Hood",
+    "Name":"Fine Elementalist Cowl",
     "Icon":"icon_elementalist_fine_hood.png",
     "Skill":"Tailoring",
     "Min Level":50,
@@ -419,7 +419,7 @@
 },
   {
     "id":"fine_ele_pants",
-    "Name":"Fine Elementalist Trousers",
+    "Name":"Fine Elementalist Leggings",
     "Icon":"icon_elementalist_fine_pants.png",
     "Skill":"Tailoring",
     "Min Level":50,
@@ -432,7 +432,7 @@
 },
   {
     "id":"fine_ele_shoulders",
-    "Name":"Fine Elementalist Amice",
+    "Name":"Fine Elementalist Mantle",
     "Icon":"icon_elementalist_fine_shoulderpads.png",
     "Skill":"Tailoring",
     "Min Level":50,
@@ -458,7 +458,7 @@
 },
   {
     "id":"fine_prim_set",
-    "Name":"Fine Primalist-Set",
+    "Name":"Fine Primalist Set",
     "Icon":"icon_primalist_fine_robe_chest.png",
     "Skill":"Tailoring",
     "Min Level":50,
@@ -473,7 +473,7 @@
 },
   {
     "id":"fine_prim_gloves",
-    "Name":"Fine Primalist Gloves",
+    "Name":"Fine Primalist Gauntlets",
     "Icon":"icon_primalist_fine_gloves.png",
     "Skill":"Tailoring",
     "Min Level":50,
@@ -486,7 +486,7 @@
 },
   {
     "id":"fine_prim_helmet",
-    "Name":"Fine Primalist Helm",
+    "Name":"Fine Primalist Skullcap",
     "Icon":"icon_primalist_fine_hood.png",
     "Skill":"Tailoring",
     "Min Level":50,
@@ -513,7 +513,7 @@
 },
   {
     "id":"fine_prim_shoulders",
-    "Name":"Fine Primalist Pauldrons",
+    "Name":"Fine Primalist Spaulders",
     "Icon":"icon_primalist_fine_shoulderpads.png",
     "Skill":"Tailoring",
     "Min Level":50,
@@ -527,7 +527,7 @@
 },
   {
     "id":"fine_prim_torso",
-    "Name":"Fine Primalist Chestguard",
+    "Name":"Fine Primalist Hauberk",
     "Icon":"icon_primalist_fine_robe_chest.png",
     "Skill":"Tailoring",
     "Min Level":50,
@@ -542,8 +542,8 @@
 },
   {
     "id":"bulky_ele_set",
-    "Name":"Bulky Elementalist-Set",
-    "Icon":"",
+    "Name":"Bulky Elementalist Set",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
@@ -557,7 +557,7 @@
   {
     "id":"bulky_ele_cowl",
     "Name":"Bulky Elementalist Cowl",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
@@ -570,7 +570,7 @@
   {
     "id":"bulky_ele_gloves",
     "Name":"Bulky Elementalist Gloves",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
@@ -582,8 +582,8 @@
 },
   {
     "id":"bulky_ele_leggings",
-    "Name":"Bulky Elementalist  Leggings",
-    "Icon":"",
+    "Name":"Bulky Elementalist Leggings",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
@@ -595,8 +595,8 @@
 },
   {
     "id":"bulky_ele_mantle",
-    "Name":"Bulky Elementalist  Mantle",
-    "Icon":"",
+    "Name":"Bulky Elementalist Mantle",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
@@ -609,7 +609,7 @@
   {
     "id":"bulky_ele_robes",
     "Name":"Bulky Elementalist Robe",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
@@ -621,8 +621,8 @@
 },
   {
     "id":"bulky_prim_set",
-    "Name":"Bulky Primalist-Set",
-    "Icon":"",
+    "Name":"Bulky Primalist Set",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
@@ -636,8 +636,8 @@
 },
   {
     "id":"bulky_prim_cowl",
-    "Name":"Bulky Primalist Helm",
-    "Icon":"",
+    "Name":"Bulky Primalist Skullcap",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
@@ -650,8 +650,8 @@
 },
   {
     "id":"bulky_prim_gloves",
-    "Name":"Bulky Primalist Gloves",
-    "Icon":"",
+    "Name":"Bulky Primalist Gauntlets",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
@@ -664,7 +664,7 @@
   {
     "id":"bulky_prim_leggings",
     "Name":"Bulky Primalist Legguards",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
@@ -676,8 +676,8 @@
 },
   {
     "id":"bulky_prim_mantle",
-    "Name":"Bulky Primalist Pauldrons",
-    "Icon":"",
+    "Name":"Bulky Primalist Spaulders",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
@@ -690,8 +690,8 @@
 },
   {
     "id":"bulky_prim_robes",
-    "Name":"Bulky Primalist Chestguard",
-    "Icon":"",
+    "Name":"Bulky Primalist Hauberk",
+    "Icon":"no-image.png",
     "Skill":"Tailoring",
     "Min Level":75,
     "Max Level":100,
@@ -705,7 +705,7 @@
 },
   {
     "id":"elegant_set",
-    "Name":"Elegant Elementalist-Set",
+    "Name":"Elegant Elementalist Set",
     "Icon":"icon_elementalist_elegant_robe_chest.png",
     "Skill":"Tailoring Mastery",
     "Min Level":1,
@@ -789,7 +789,7 @@
 },
   {
     "id":"hardy_set",
-    "Name":"Hardy Primalist-Set",
+    "Name":"Hardy Primalist Set",
     "Icon":"icon_primalist_hardy_robe_chest.png",
     "Skill":"Tailoring Mastery",
     "Min Level":1,
@@ -821,7 +821,7 @@
 },
   {
     "id":"hardy_helmet",
-    "Name":"Hardy Primalist Headpiece",
+    "Name":"Hardy Primalist Skullcap",
     "Icon":"icon_primalist_hardy_hood.png",
     "Skill":"Tailoring Mastery",
     "Min Level":1,
@@ -837,7 +837,7 @@
 },
   {
     "id":"hardy_pants",
-    "Name":"Hardy Primalist Leggings",
+    "Name":"Hardy Primalist Legguards",
     "Icon":"icon_primalist_hardy_pants.png",
     "Skill":"Tailoring Mastery",
     "Min Level":1,
@@ -851,7 +851,7 @@
 },
   {
     "id":"hardy_shoulders",
-    "Name":"Hardy Primalist Shoulderguards",
+    "Name":"Hardy Primalist Spaulders",
     "Icon":"icon_primalist_hardy_shoulders.png",
     "Skill":"Tailoring Mastery",
     "Min Level":1,
@@ -883,7 +883,7 @@
 },
   {
     "id":"extrav_set",
-    "Name":"Extravagant Elementalist-Set",
+    "Name":"Extravagant Elementalist Set",
     "Icon":"icon_elementalist_extravagant_robe_chest.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
@@ -913,7 +913,7 @@
 },
   {
     "id":"extrav_helmet",
-    "Name":"Extravagant Elementalist Hood",
+    "Name":"Extravagant Elementalist Cowl",
     "Icon":"icon_elementalist_extravagant_hood.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
@@ -928,7 +928,7 @@
 },
   {
     "id":"extrav_pants",
-    "Name":"Extravagant Elementalist Trousers",
+    "Name":"Extravagant Elementalist Leggings",
     "Icon":"icon_elementalist_extravagant_pants.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
@@ -943,7 +943,7 @@
 },
   {
     "id":"extrav_shoulders",
-    "Name":"Extravagant Elementalist Amice",
+    "Name":"Extravagant Elementalist Mantle",
     "Icon":"icon_elementalist_extravagant_shoulders.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
@@ -973,7 +973,7 @@
 },
   {
     "id":"Imperious_set",
-    "Name":"Imperious Primalist-Set",
+    "Name":"Imperious Primalist Set",
     "Icon":"icon_primalist_imperious_robe_chest.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
@@ -1007,7 +1007,7 @@
 },
   {
     "id":"Imperious_helmet",
-    "Name":"Imperious Primalist skullcap",
+    "Name":"Imperious Primalist Skullcap",
     "Icon":"icon_primalist_imperious_hood.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
@@ -1024,7 +1024,7 @@
 },
   {
     "id":"Imperious_pants",
-    "Name":"Imperious Primalist Greaves",
+    "Name":"Imperious Primalist Legguards",
     "Icon":"icon_primalist_imperious_pants.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
@@ -1039,7 +1039,7 @@
 },
   {
     "id":"Imperious_shoulders",
-    "Name":"Imperious Primalist Spauldrers",
+    "Name":"Imperious Primalist Spaulders",
     "Icon":"icon_primalist_imperious_shoulders.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
@@ -1056,7 +1056,7 @@
 },
   {
     "id":"Imperious_torso",
-    "Name":"Imperious Primalist Cuirass",
+    "Name":"Imperious Primalist Hauberk",
     "Icon":"icon_primalist_imperious_robe_chest.png",
     "Skill":"Tailoring Mastery",
     "Min Level":50,
@@ -1075,7 +1075,7 @@
 },
   {
     "id":"skymane_set",
-    "Name":"Skymane Primalist-Set",
+    "Name":"Skymane Primalist Set",
     "Icon":"icon_primalist_skymane_robe_chest.png",
     "Skill":"Tailoring Mastery",
     "Min Level":100,
@@ -1098,7 +1098,7 @@
 
   {
     "id":"skymane_gloves",
-    "Name":"Skymane Primalist Gloves",
+    "Name":"Skymane Primalist Gauntlets",
     "Icon":"icon_primalist_skymane_gloves.png",
     "Skill":"Tailoring Mastery",
     "Min Level":100,
@@ -1116,7 +1116,7 @@
 },
   {
     "id":"skymane_helmet",
-    "Name":"Skymane Primalist Shroud",
+    "Name":"Skymane Primalist Skullcap",
     "Icon":"icon_primalist_skymane_hood.png",
     "Skill":"Tailoring Mastery",
     "Min Level":100,
@@ -1136,7 +1136,7 @@
 },
   {
     "id":"skymane_pants",
-    "Name":"Skymane Primalist Leggings",
+    "Name":"Skymane Primalist Legguards",
     "Icon":"icon_primalist_skymane_pants.png",
     "Skill":"Tailoring Mastery",
     "Min Level":100,
@@ -1154,7 +1154,7 @@
 },
   {
     "id":"skymane_shoulders",
-    "Name":"Skymane Primalist Mantle",
+    "Name":"Skymane Primalist Spaulders",
     "Icon":"icon_primalist_skymane_shoulderpads.png",
     "Skill":"Tailoring Mastery",
     "Min Level":100,
@@ -1174,7 +1174,7 @@
 },
   {
     "id":"skymane_robe",
-    "Name":"Skymane Primalist Robe",
+    "Name":"Skymane Primalist Hauberk",
     "Icon":"icon_primalist_skymane_robe_chest.png",
     "Skill":"Tailoring Mastery",
     "Min Level":100,
@@ -1196,7 +1196,7 @@
 },
   {
     "id":"widowsilk_set",
-    "Name":"Widowsilk Elementalist-Set",
+    "Name":"Widowsilk Elementalist Set",
     "Icon":"icon_elementalist_widowsilk_robe_chest.png",
     "Skill":"Tailoring Mastery",
     "Min Level":100,

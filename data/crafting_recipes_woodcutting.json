@@ -9,7 +9,7 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":1,
-	"Inferior Timber":5
+	"Inferior Timbers":5
 }
 },
   {
@@ -22,7 +22,7 @@
     "Quantity":2,
     "Recipe": {
 	"Gold":1,
-	"Timber":5,
+	"Timbers":5,
 	"Linseed":1
 }
 },
@@ -37,7 +37,7 @@
     "Recipe": {
 	"Gold":15,
 	"Selentine Essence":1,
-	"Timber":3
+	"Timbers":3
 }
 },
   {
@@ -50,8 +50,8 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":30,
-	"Linseed":3,
-	"Selentine Timber":2,
+	"Linseeds":3,
+	"Selentine Timbers":2,
 	"Resin":1
 }
 },
@@ -65,7 +65,7 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":25,
-	"Timber":3,
+	"Timbers":3,
 	"Veilron Essence":1
 }
 },
@@ -79,8 +79,8 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":50,
-	"Linseed":4,
-	"Veilron Timber":2,
+	"Linseeds":4,
+	"Veilron Timbers":2,
 	"Resin":1
 }
 },
@@ -94,7 +94,7 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":40,
-	"Timber":3,
+	"Timbers":3,
 	"Neithal Essence":1
 }
 },
@@ -108,8 +108,8 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":80,
-	"Linseed":5,
-	"Neithal Timber":2,
+	"Linseeds":5,
+	"Neithal Timbers":2,
 	"Resin":1
 }
 },
@@ -123,7 +123,7 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":58,
-	"Timber":3,
+	"Timbers":3,
 	"Leenspar Essence":1
 }
 },
@@ -137,14 +137,14 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":115,
-	"Leenspar Timber":2,
-	"Linseed":6,
+	"Leenspar Timbers":2,
+	"Linseeds":6,
 	"Resin":1
 }
 },
   {
     "id":"r_theyril_timber",
-    "Name":"theyril Timber",
+    "Name":"Theyril Timber",
     "Icon":"no-image.png",
     "Skill":"Woodcutting Mastery",
     "Min Level":100,
@@ -152,7 +152,7 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":80,
-	"Timber":3,
+	"Timbers":3,
 	"Theyril Essence":1
 }
 },
@@ -166,8 +166,8 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":160,
-	"Theyril Timber":2,
-	"Linseed":8,
+	"Theyril Timbers":2,
+	"Linseeds":8,
 	"Resin":1
 }
 }

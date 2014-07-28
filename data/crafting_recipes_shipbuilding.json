@@ -2,207 +2,247 @@
   {
     "id":"r_Figurine Ship Wherry",
     "Name":"Wherry Figurine",
-    "Icon":"http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/figuirine_ship_wherry.png",
+    "Icon":"figuirine_ship_wherry.png",
     "Skill":"Shipbuilding",
     "Min Level":1,
     "Max Level":25,
-    "Gold":"1k",
-    "Ship Module":0,
-    "Additional":"100 wood ; 25 iron ingot ; 15 cloth",
-    "Copy Pasta":"1 Wherry Figurine: 1000 Gold; 100 Wood; 25 Iron Ingot; 15 Cloth"
-  },
+    "Recipe": {
+	"Gold":"1k",
+	"Wood":100,
+	"Iron Ingot":25,
+	"Cloth":15
+}
+},
   {
     "id":"r_ship_cannon",
     "Name":"Ship Cannon",
-    "Icon":"http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_ship_cannon.png",
+    "Icon":"item_ship_cannon.png",
     "Skill":"Shipbuilding",
     "Min Level":10,
     "Max Level":20,
-    "Gold":"30",
-    "Ship Module":0,
-    "Additional":"15 iron",
-    "Copy Pasta":"1 Ship Cannon: 30 gold; 15 iron ingots"
-  },
+    "Recipe": {
+	"Gold":"30",
+	"Iron Ingot":15
+}
+},
   {
     "id":"r_Module Ship",
     "Name":"Ship Module",
-    "Icon":"http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/construction_unit_01.png",
+    "Icon":"construction_unit_01.png",
     "Skill":"Shipbuilding",
     "Min Level":10,
     "Max Level":100,
-    "Gold":"300",
-    "Ship Module":0,
-    "Additional":"150 wood ; 50 iron ingot ; 40 cloth",
-    "Copy Pasta":"1 Ship Module: 300 Gold; 150 Wood; 50 Iron Ingot; 40 Cloth"
-  },
+    "Recipe": {
+	"Gold":"300",
+	"Wood":150,
+	"Iron Ingot":50,
+	"Cloth":40
+}
+},
   {
     "id":"r_Figurine Ship Launch",
     "Name":"Launch Figurine",
-    "Icon":"http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/figuirine_ship_launch.png",
+    "Icon":"figuirine_ship_launch.png",
     "Skill":"Shipbuilding",
     "Min Level":25,
     "Max Level":50,
-    "Gold":"8k",
-    "Ship Module":10,
-    "Additional":"",
-    "Copy Pasta":"1 Launch Figurine: 8000 Gold; 10 Ship Module"
-  },
+    "Recipe": {
+	"Gold":"8k",
+	"Ship Module":10
+}
+},
   {
     "id":"r_fishing_trawler",
     "Name":"Fishing Trawler",
-    "Icon":"http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/figuirine_ship_fishing_trawler.png",
+    "Icon":"figuirine_ship_fishing_trawler.png",
     "Skill":"Shipbuilding",
     "Min Level":50,
     "Max Level":75,
-    "Gold":"7k",
-    "Ship Module":12,
-    "Additional":"1 Ship Cannon",
-    "Copy Pasta":"1 Fishing Trawler: 7000 Gold; 12 Ship Modules; 1 Ship Cannon"
-  },
+    "Recipe": {
+	"Gold":"7k",
+	"Ship Module":12,
+	"Ship Cannon":1
+}
+},
   {
     "id":"r_coastal_runner",
     "Name":"Coastal Runner",
-    "Icon":"http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/figuirine_ship_coastal_runner.png",
+    "Icon":"figuirine_ship_coastal_runner.png",
     "Skill":"Shipbuilding",
     "Min Level":75,
     "Max Level":100,
-    "Gold":"7k",
-    "Ship Module":14,
-    "Additional":"",
-    "Copy Pasta":"1 Coastal Runner: 7000 Gold; 14 Ship Modules"
-  },
+    "Recipe": {
+	"Gold":"7k",
+	"Ship Module":14
+}
+},
   {
     "id":"r_ship_sea_scrapper",
     "Name":"Sea Scrapper",
-    "Icon":"http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/figuirine_ship_sea_scrapper.png",
+    "Icon":"figuirine_ship_sea_scrapper.png",
     "Skill":"Shipbuilding",
     "Min Level":75,
     "Max Level":100,
-    "Gold":"10k",
-    "Ship Module":15,
-    "Additional":"",
-    "Copy Pasta":"1 Sea Scrapper: 10000 gold; 15 ship modules"
-  },
+    "Recipe": {
+	"Gold":"10k",
+	"Ship Module":15
+}
+},
   {
     "id":"r_compass",
     "Name":"Compass",
-    "Icon":"http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/item_compass.png",
+    "Icon":"item_compass.png",
     "Skill":"Mastery",
     "Min Level":1,
     "Max Level":25,
-    "Gold":"95",
-    "Ship Module":null,
-    "Additional":"1 wood ; 2 iron ingot ; 1 Lodestone",
-    "Copy Pasta":"1 Compass: 95 Gold; 1 Wood; 2 Iron Ingots; 1 Lodestone"
-  },
+    "Recipe": {
+	"Gold":"95",
+	"Wood":1,
+	"Iron Ingot":2,
+	"Lodestone":1
+}
+},
   {
     "id":"r_ship_pinnace",
     "Name":"Pinnace",
-    "Icon":"http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/figuirine_ship_pinnace.png",
+    "Icon":"figuirine_ship_pinnace.png",
     "Skill":"Mastery",
     "Min Level":1,
     "Max Level":25,
-    "Gold":"9k",
-    "Ship Module":12,
-    "Additional":"3 Ship Cannon ; 3 Selentine Ship Modules ; 1 Compass",
-    "Copy Pasta":"1 Pinnace: 9000 Gold; 12 Ship Modules; 3 Selentine Ship Modules; 3 Ship Cannons; 1 Compass"
-  },
+    "Recipe": {
+	"Gold":"9k",
+	"Ship Module":12,
+	"Ship Cannon":3,
+	"Selentine Ship Modules":3,
+	"Compass":1
+}
+},
   {
     "id":"r_selentine_module",
     "Name":"Selentine Ship Module",
-    "Icon":"http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/ship_building_module_selentine.png",
+    "Icon":"ship_building_module_selentine.png",
     "Skill":"Mastery",
     "Min Level":1,
     "Max Level":25,
-    "Gold":"500",
-    "Ship Module":0,
-    "Additional":"100 wood ; 40 iron ingot ; 30 cloth ; 10 selentine wood ; 10 selentine ingot ; 10 selentine cloth",
-    "Copy Pasta":"1 Selentine Ship Module: 500 gold; 100 woods; 40 iron ingots; 30 iron ingots; 10 selentine wood; 10 selentine ingot; 10 selentine cloth"
-  },
+    "Recipe": {
+	"Gold":"500",
+	"Wood":100,
+	"Iron Ingot":40,
+	"Cloth":30,
+	"Selentine Wood":10,
+	"Selentine Ingot":10,
+	"Selentine Cloth":10
+}
+},
   {
     "id":"r_ship_sloop",
     "Name":"Sloop",
-    "Icon":"http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/figuirine_ship_sloop.png",
+    "Icon":"figuirine_ship_sloop.png",
     "Skill":"Mastery",
     "Min Level":1,
     "Max Level":25,
-    "Gold":"10k",
-    "Ship Module":15,
-    "Additional":"4 Ship Cannon ; 4 selentine ship module ; 1 compass",
-    "Copy Pasta":"1 Sloop: 10000 gold; 15 ship modules; 4 ship cannons; 4 selentine ship modules; 1 compass"
-  },
+    "Recipe": {
+	"Gold":"10k",
+	"Ship Module":15,
+	"Ship Cannon":4,
+	"Selentine Ship Module":4,
+	"Compass":1
+}
+},
   {
     "id":"r_veilron_module",
     "Name":"Veilron Ship Module",
-    "Icon":"http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/ship_building_module_veilron.png",
+    "Icon":"ship_building_module_veilron.png",
     "Skill":"Mastery",
     "Min Level":25,
     "Max Level":50,
-    "Gold":"600",
-    "Ship Module":0,
-    "Additional":"30 cloth ; 40 iron ingot ; 100 wood ; 10 veilron cloth ; 10 veilron ingot ; 10 veilron wood",
-    "Copy Pasta":"1 Veilron Module: 600 gold ; 30 cloth ; 40 iron ingot ; 100 wood ; 10 veilron cloth ; 10 veilron ingot ; 10 veilron wood"
-  },
+    "Recipe": {
+	"Gold":"600",
+	"Cloth":30,
+	"Iron Ingot":40,
+	"Wood":100,
+	"Veilron Cloth":10,
+	"Veilron Ingot":10,
+	"Veilron Wood":10
+}
+},
   {
     "id":"r_ship_brigantine",
     "Name":"Brigantine",
-    "Icon":"http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/figuirine_ship_brigantine.png",
+    "Icon":"figuirine_ship_brigantine.png",
     "Skill":"Mastery",
     "Min Level":25,
     "Max Level":50,
-    "Gold":"15000",
-    "Ship Module":25,
-    "Additional":"8 ship cannons ; 4 veilron ship modules ; 1 compass",
-    "Copy Pasta":"1 Brigantine: 15000 gold ; 25 ship modules ; 8 ship cannons ; 4 veilron ship modules ; 1 compass"
-  },
+    "Recipe": {
+	"Gold":"15000",
+	"Ship Module":25,
+	"Ship Cannon":8,
+	"Veilron Ship":4,
+	"Compass":1
+}
+},
   {
     "id":"r_ship_schooner",
     "Name":"Schooner",
-    "Icon":"http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/figuirine_ship_schooner.png",
+    "Icon":"figuirine_ship_schooner.png",
     "Skill":"Mastery",
     "Min Level":25,
     "Max Level":50,
-    "Gold":"12000",
-    "Ship Module":20,
-    "Additional":"1 compass ; 6 ship cannons ; 3 veilron ship modules",
-    "Copy Pasta":"1 Schooner: 12000 gold ; 20 ship modules ;1 compass ; 6 ship cannons ; 3 veilron ship modules"
-  },
+    "Recipe": {
+	"Gold":"12000",
+	"Ship Module":20,
+	"Ship Cannon":6,
+	"Veilron Ship Module":3,
+	"Compass":1
+}
+},
   {
     "id":"r_neithal_ship_module",
     "Name":"Neithal Ship Module",
-    "Icon":"http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/ship_building_module_neithal.png",
+    "Icon":"ship_building_module_neithal.png",
     "Skill":"Mastery",
     "Min Level":50,
     "Max Level":75,
-    "Gold":"700",
-    "Ship Module":null,
-    "Additional":"30 cloths ; 40 iron ingots ; 10 neithal cloths ; 10 neithal ingots ; 10 neithal woods 100 woods",
-    "Copy Pasta":"1 Neithal Ship Module: 700 gold ; 30 cloths ; 40 iron ingots ; 10 neithal cloths ; 10 neithal ingots ; 10 neithal woods 100 woods"
-  },
+    "Recipe": {
+	"Gold":"700",
+    	"Cloth":30,
+	"Iron Ingot":40,
+	"Wood":100,
+	"Neithal Cloth":10,
+	"Neithal Ingot":10,
+	"Neithal Wood":10
+}
+},
   {
     "id":"r_ship_junk",
     "Name":"Junk",
-    "Icon":"http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/figuirine_ship_junk.png",
+    "Icon":"figuirine_ship_junk.png",
     "Skill":"Mastery",
     "Min Level":50,
     "Max Level":75,
-    "Gold":"20000",
-    "Ship Module":30,
-    "Additional":"1 compass ; 13 ship cannons ; 6 neithal ship modules",
-    "Copy Pasta":"1 Junk: 20000 gold ; 30 ship modules ; 1 compass ; 13 ship cannons ; 6 neithal ship modules"
-  },
+    "Recipe": {
+	"Gold":"20000",
+	"Ship Module":30,
+	"Ship Cannon":13,
+	"Neithal Ship Module":6,
+	"Compass":1
+}
+},
   {
     "id":"r_ship_barque",
     "Name":"Barque",
-    "Icon":"http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/data/icons/figuirine_ship_barque.png",
+    "Icon":"figuirine_ship_barque.png",
     "Skill":"Mastery",
     "Min Level":50,
     "Max Level":75,
-    "Gold":"22000",
-    "Ship Module":32,
-    "Additional":"1 compass ; 13 ship cannons ; 7 neithal ship modules",
-    "Copy Pasta":"1 Barque: 22000 gold ; 32 ship modules ; 1 compass ; 13 ship cannons ; 7 neithal ship modules"
-  },
+    "Recipe": {
+	"Gold":"22000",
+	"Ship Module":32,
+	"Ship Cannon":13,
+	"Neithal Ship Module":7,
+	"Compass":1
+}
+},
   {
     "id":"r_leenspar_ship_module",
     "Name":"Leenspar Ship Module",
@@ -210,57 +250,68 @@
     "Skill":"Mastery",
     "Min Level":75,
     "Max Level":100,
-    "Gold":"800",
-    "Ship Module":null,
-    "Additional":"30 cloths ;  40 iron ingot ; 10 leenspar cloth ; 10 leenspar ingot ; 10 leenspar wood",
-    "Copy Pasta":"1 leenspar ship module: 800 gold ; 30 cloths ;  40 iron ingot ; 10 leenspar cloth ; 10 leenspar ingot ; 10 leenspar wood"
-  },
+    "Recipe": {
+	"Gold":"800",
+	"Wood":100,
+	"Cloth":30,
+	"Iron Ingot":40,
+	"Leenspar Cloth":10,
+	"Leenspar Ingot":10,
+	"Leenspar Wood":10
+}
+},
   {
     "id":"r_ship_frigate",
     "Name":"Frigate",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Mastery",
     "Min Level":75,
     "Max Level":100,
-    "Gold":"30000",
-    "Ship Module":45,
-    "Additional":"2 compass ; 16 ship cannons ; 10 leenspar ship modules ; 1 sunstone",
-    "Copy Pasta":"1 Frigate: 30000 gold ; 2 compass ; 16 ship cannons ; 10 leenspar ship modules ; 45 ship modules ; 1 sunstone"
-  },
+    "Recipe": {
+	"Gold":"30000",
+	"Ship Module":45,
+	"Ship Cannon":16,
+	"Leenspar Ship Module":10,
+	"Compass":2,
+	"Sunstone":1
+}
+},
   {
     "id":"r_ship_sotl",
     "Name":"Ship of the Line",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"Mastery",
     "Min Level":75,
     "Max Level":100,
-    "Gold":"50000",
-    "Ship Module":150,
-    "Additional":"2 compass ; 26 ship cannons ; 20 leenspar ship modules ; 1 sunstone",
-    "Copy Pasta":"1 SOTL: 50 000 gold ; 2 compass ; 26 ship cannons ; 20 leenspar ship modules ; 150 ship modules ; 1 sunstone"
-  },
+    "Recipe": {
+	"Gold":"50000",
+	"Ship Module":150,
+	"Ship Cannon":26,
+	"Leenspar Ship Module":20,
+	"Compass":2,
+	"Sunstone":1
+}
+},
   {
     "id":"r_theyril_ship_module",
     "Name":"Theyril Ship Module",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"",
     "Min Level":null,
     "Max Level":null,
-    "Gold":"",
-    "Ship Module":null,
-    "Additional":"",
-    "Copy Pasta":""
+    "Recipe": {
+	"Gold":0
+}
   },
   {
     "id":"r_ship_manowar",
     "Name":"Man o War",
-    "Icon":"",
+    "Icon":"no-image.png",
     "Skill":"",
     "Min Level":null,
     "Max Level":null,
-    "Gold":"",
-    "Ship Module":null,
-    "Additional":"",
-    "Copy Pasta":""
+    "Recipe": {
+	"Gold":0
+}
   }
 ]

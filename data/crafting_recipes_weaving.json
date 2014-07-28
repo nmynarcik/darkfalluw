@@ -9,7 +9,7 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":1,
-	"Inferior Cotton":5
+	"Inferior Cottons":5
 }
 },
   {
@@ -22,7 +22,7 @@
     "Quantity":2,
     "Recipe": {
 	"Gold":1,
-	"Cotton":5,
+	"Cottons":5,
 	"Lye":1
 }
 },
@@ -36,7 +36,7 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":15,
-	"Cotton":3,
+	"Cottons":3,
 	"Selentine Essence":1
 }
 },
@@ -50,8 +50,8 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":30,
-	"Lye":3,
-	"Selentine Cotton":2,
+	"Lyes":3,
+	"Selentine Cottons":2,
 	"Mandrake":1
 }
 },
@@ -65,7 +65,7 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":25,
-	"Cotton":3,
+	"Cottons":3,
 	"Veilron Essence":1	
 }
 },
@@ -79,8 +79,8 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":50,
-	"Lye":4,
-	"Veilron Cotton":2,
+	"Lyes":4,
+	"Veilron Cottons":2,
 	"Mandrake":1
 }
 },
@@ -94,7 +94,7 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":40,
-	"Cotton":3,
+	"Cottons":3,
 	"Neithal Essence":1
 }
 },
@@ -108,8 +108,8 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":80,
-	"Lye":5,
-	"Neithal Cotton":2,
+	"Lyes":5,
+	"Neithal Cottons":2,
 	"Mandrake":1
 }
 },
@@ -123,7 +123,7 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":58,
-	"Cotton":3,
+	"Cottons":3,
 	"Leenspar Essence":1
 }
 },
@@ -137,8 +137,8 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":115,
-	"Lye":6,
-	"Leenspar Cotton":2,
+	"Lyes":6,
+	"Leenspar Cottons":2,
 	"Mandrake":1
 }
 },
@@ -152,7 +152,7 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":80,
-	"Cotton":3,
+	"Cottons":3,
 	"theyril Essence":1
 }
 },
@@ -166,8 +166,8 @@
     "Quantity":1,
     "Recipe": {
 	"Gold":160,
-	"Lye":8,
-	"Theyril Cotton":2,
+	"Lyes":8,
+	"Theyril Cottons":2,
 	"Mandrake":1
 }
 }
