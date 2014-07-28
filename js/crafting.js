@@ -18,15 +18,15 @@
       crafter.skill = $('#trade_select').val();
       switch(val){
         case 'weaponsmithing':
-        case 'armorsmithing':
+        //case 'armorsmithing':
         // case 'staffcrafting':
         // case 'shieldcrafting':
-        case 'smelting':
+        //case 'smelting':
         // case 'tailoring':
-        case 'woodcutting':
-        case 'weaving':
-        case 'tanning':
-        case 'bowyer':
+        //case 'woodcutting':
+        //case 'weaving':
+        //case 'tanning':
+        //case 'bowyer':
           crafter.advanced = true;
           break;
         default:
