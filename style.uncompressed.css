@@ -1782,6 +1782,7 @@ strong {font-weight: bold;}
   left: 50%;
   margin-left: -30px;
 }
+#item-details #r_Arrow_01 .btn-group {display: none;}
 #item-details #thumb {
   width: 64px;
   height: 64px;
