@@ -1856,9 +1856,13 @@ strong {font-weight: bold;}
   background: url("images/ui-icons_ffffff_256x240.png") -65px 0 !important
 }
 
+#selections .ui-autocomplete {
+  z-index: 3;
+}
+
 /* Slick Grid && Crafting */
 
-/*.slick-cell.selected {
+.slick-cell.selected {
   background: green;
   background: rgba(0, 255, 0, 0.2);
 }
@@ -2030,7 +2034,7 @@ input.filter {
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
-}*/
+}
 
 body.search-results .hentry {
   margin-bottom: 20px;
