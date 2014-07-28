@@ -87,7 +87,7 @@
         opts = opts + '<option value="' + list[i].toLowerCase() + '">' + list[i] + '</option>';
       };
       obj.html(opts);
-      obj.parent().fadeIn();
+      obj.parent().fadeIn().find('input').focus();
     },
     reset: function(){
       console.log('Crafter Reset');
@@ -399,6 +399,7 @@ Array.prototype.pushIfNotExist = function(element, comparer) {
       $("#trade_select").combobox({
             select: function (event, ui) {
                 crafter.getData(this.value);
+                $('.selection-box:first').find('input').val('').focus();
             }
         });
 
@@ -414,6 +415,7 @@ Array.prototype.pushIfNotExist = function(element, comparer) {
                 }else{
                   crafter.filterList(this.value);
                 }
+                $('.selection-box:last').find('input').val('').focus();
             }
         });
 
