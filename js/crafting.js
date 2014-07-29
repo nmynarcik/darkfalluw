@@ -37,9 +37,9 @@
         url: templateDir + '/data/crafting_recipes_' + val + '.json',
         dataType: 'json'
       }).success(function(data) {
-          console.log('Success', data);
+          //console.log('Success', data);
           crafter.allItems = data; //set initial data
-          console.log('Success', crafter.allItems);
+          //console.log('Success', crafter.allItems);
           if(crafter.mastery){
             for (var i = 0; i < crafter.allItems.length; i++) {
               if(crafter.allItems[i].Skill.match('Mastery')){
@@ -54,7 +54,7 @@
         });
     },
     createList: function(list,data){
-      console.log('Creating List');
+      //console.log('Creating List');
       data = (crafter.mastery) ? crafter.masteryList : data; //if mastery, switch to mastery list
 
       for (var i = 0; i < data.length; i++) {
@@ -78,7 +78,7 @@
 
       };
       list.sort();
-      console.log('List Sorted');
+      //console.log('List Sorted');
       crafter.appendList(list,$('#select-two'));
     },
     appendList: function(list,obj){
@@ -90,7 +90,7 @@
       obj.parent().fadeIn().find('input').focus();
     },
     reset: function(){
-      console.log('Crafter Reset');
+      //console.log('Crafter Reset');
       crafter.skill = '';
       crafter.advanced = false;
       crafter.masteryList = [];
@@ -104,7 +104,7 @@
       });
     },
     filterList: function(filter){
-      console.log('Filtering List');
+      //console.log('Filtering List');
       crafter.filteredList = [];
       crafter.secDrop = [];
       var list = (!crafter.mastery) ? crafter.allItems : crafter.masteryList;
@@ -123,7 +123,7 @@
       };
     },
     showItem: function(item){
-      console.log('Showing Item', item);
+      //console.log('Showing Item', item);
       crafter.item = item;
       var newEl = $("#item-template").clone()
                                 .attr("id",item.id)
@@ -202,12 +202,12 @@
   });
 
   $('#select-three').change(function(){
-    console.log('Finding Item');
+    //console.log('Finding Item');
     var selection = new RegExp($('#select-three').val() + '\\s(.*)\\s?\\b' + $('#select-two').val(),'gi');
     if($('#select-three').val() === $('#select-two').val()){
       selection = new RegExp('^'+$('#select-three').val()+'$','i');
     }
-    console.log(selection);
+    //console.log(selection);
     for (var i = 0; i < crafter.filteredList.length; i++) {
       if(crafter.filteredList[i].Name.match(selection)){
         crafter.showItem(crafter.filteredList[i]);
@@ -406,7 +406,8 @@ Array.prototype.pushIfNotExist = function(element, comparer) {
       $("#select-two").combobox({
             select: function (event, ui) {
                 if(!crafter.advanced){
-                    var selection = new RegExp('\\b' + this.value,'gi');
+                    var selection = new RegExp('^\\b' + RegExp.escape(this.value),'gi');
+                    // console.log('RegEx: '+ selection);
                     for (var i = 0; i < crafter.allItems.length; i++) {
                       if(crafter.allItems[i].Name.match(selection)){
                         crafter.showItem(crafter.allItems[i]);
@@ -421,12 +422,12 @@ Array.prototype.pushIfNotExist = function(element, comparer) {
 
       $("#select-three").combobox({
             select: function (event, ui) {
-                console.log('Finding Item');
+                //console.log('Finding Item');
                 var selection = new RegExp(this.value + '\\s(.*)\\s?\\b' + $('#select-two').val(),'gi');
                 if(this.value === $('#select-two').val()){
                   selection = new RegExp('^'+this.value+'$','i');
                 }
-                console.log(selection);
+                //console.log(selection);
                 for (var i = 0; i < crafter.filteredList.length; i++) {
                   if(crafter.filteredList[i].Name.match(selection)){
                     crafter.showItem(crafter.filteredList[i]);
@@ -439,3 +440,7 @@ Array.prototype.pushIfNotExist = function(element, comparer) {
     //   $( "#combobox" ).toggle();
     // });
   })(jQuery);
+
+RegExp.escape= function(s) {
+  return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+};
