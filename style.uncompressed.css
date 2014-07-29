@@ -1834,6 +1834,8 @@ strong {font-weight: bold;}
   padding: 4px;
 }
 
+.ui-autocomplete {z-index: 100;}
+
 /* Custom Comboboxes */
 
 #selections input.custom-combobox-input {
