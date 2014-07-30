@@ -1,6 +1,6 @@
 /*!
 Theme Name: Darkfall: Unholy Wars;
-Theme URI: http://lowgaming.com/games/darkfall
+Theme URI: https://github.com/nmynarcik/darkfalluw/
 Description: Theme to support Darkfall Unholy Wars Info Site
 Author: Nathan Mynarcik
 Author URI: http://www.mynarcik.com/
@@ -479,6 +479,7 @@ article #map-container .gad {
   margin-top: -6px;
 }
 
+.post-image{border:3px solid #231914;}
 .post-edit-link, .btn-inverse {
   /*font-family: Verdana,Arial,sans-serif;*/
   font-weight: normal;
