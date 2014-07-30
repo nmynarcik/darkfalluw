@@ -10,8 +10,6 @@
 <meta property="og:type" content="website"/>
 <meta property="og:description"
           content="Your go to information database about everything Darkfall Unholy Wars."/>
-<meta property="og:image" content="<?php echo get_template_directory_uri();  ?>/images/game.png"/>
-<meta property="og:image" content="<?php echo get_template_directory_uri();  ?>/screenshot.png"/>
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" />
 <link href='http://fonts.googleapis.com/css?family=Smythe|Oswald:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
