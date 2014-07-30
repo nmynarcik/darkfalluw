@@ -29,13 +29,8 @@
 <body <?php body_class(); ?>>
 <div id="wrapper" class="hfeed">
 <!-- AddThis Button BEGIN -->
-<div class="addthis_toolbox addthis_floating_style addthis_counter_style" style="left:50px;top:50px;">
-<a class="addthis_button_facebook_like" fb:like:layout="box_count"></a>
-<a class="addthis_button_tweet" tw:count="vertical"></a>
-<a class="addthis_button_google_plusone" g:plusone:size="tall"></a>
-<a class="addthis_counter"></a>
-</div>
-<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-50c58e77607d7916"></script> -->
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50c7c23c30c44565"></script>
 <!-- AddThis Button END -->
 <header>
   <div id="google_translate_element"></div><script type="text/javascript">
