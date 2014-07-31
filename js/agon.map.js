@@ -37,6 +37,7 @@ var holdings = [];
 var villages = [];
 var searchArray = [];
 var searchResults = [];
+var infowindow = null;
 
 function map_initialize() {
 
@@ -60,6 +61,10 @@ function map_initialize() {
   google.maps.event.addListener(map, 'click', function(event) {
     placeMarker(event.latLng);
   });
+
+  infowindow = new google.maps.InfoWindow({
+        content: 'loading...'
+    });
 
   getPOIs();
 }
@@ -117,7 +122,7 @@ function getPOIs(){
         createMarkers();
       },
       error: function(jqXHR, textStatus, errorThrown){
-        // window.console.log(jqXHR, textStatus, errorThrown);
+        //window.console.log(jqXHR, textStatus, errorThrown);
         alert('Problem with Map. Please contact us through the feedback form describing what happened! Thanks!')
       }
     });
@@ -163,15 +168,32 @@ function showSearchResults(arr){
 
     var poiLatLng = new google.maps.LatLng(poiLoc[0], poiLoc[1]);
 
+    var itemTitle = arr[i].title;
+    itemTitle = itemTitle.split(' | ');
+
+    var contentString = '<ul>';
+
+    for(var j = 0; j < itemTitle.length; j++){
+      contentString = contentString + '<li>' + itemTitle[j] + '</li>';
+    }
+    contentString = contentString + '</ul>';
+
     var result = new google.maps.Marker({
       position: poiLatLng,
       map: map,
       icon: templateDir+"/images/bullet.png",
-      title: arr[i].title
+      title: arr[i].title,
+      html: contentString
     });
+
 
     google.maps.event.addListener(result, 'click', function() {
       copyToClipboard(result);
+    });
+    google.maps.event.addListener(result, 'mouseover', function() {
+      // where I have added .html to the marker object.
+      infowindow.setContent(this.html);
+      infowindow.open(map, this);
     });
     // console.log('result',result);
     searchResults.push(result);
@@ -243,12 +265,29 @@ function createMarkers(){
 
     var poiLoc = poiArray[i]._poi_loc.split('|');
 
+    var itemTitle = poiArray[i].title;
+    if(itemTitle != null && itemTitle.match('|')) {
+      itemTitle = itemTitle.split('|');
+    }
+
+    var contentString = '<ul>';
+
+    if(itemTitle != null && itemTitle.length > 0){
+      for(var j = 0; j < itemTitle.length; j++){
+        contentString = contentString + '<li>' + itemTitle[j] + '</li>';
+      }
+    }else{
+      contentString = contentString + '<li>' + itemTitle + '</li>';
+    }
+    contentString = contentString + '</ul>';
+
     var poiLatLng = new google.maps.LatLng(poiLoc[0], poiLoc[1]);
     var poiMarker = new google.maps.Marker({
         position: poiLatLng,
         map: null,
         icon: image,
-        title: poiArray[i].title
+        title: poiArray[i].title,
+        html: contentString
     });
 
     google.maps.event.addListener(poiMarker, 'dblclick', function() {
@@ -258,6 +297,12 @@ function createMarkers(){
     google.maps.event.addListener(poiMarker, 'click', function(e) {
       map.setZoom(7);
       map.setCenter(e.latLng);
+    });
+
+    google.maps.event.addListener(poiMarker, 'mouseover', function() {
+      // where I have added .html to the marker object.
+      infowindow.setContent(this.html);
+      infowindow.open(map, this);
     });
 
     overlay.push(poiMarker);
