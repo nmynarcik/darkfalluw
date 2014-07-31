@@ -891,6 +891,7 @@ function add_custom_dfuw_columns($cols)
         case 'poi':
             $customArray = array(
                 'adm_poi_type' => __('Type'),
+                'adm_poi_diff' => __('Difficulty'),
                 'adm_poi_lat' => __('Lat'),
                 'adm_poi_lng' => __('Lng')
             );
@@ -912,6 +913,7 @@ add_filter( 'manage_edit-poi_sortable_columns', 'dfuw_column_register_sortable' 
 function dfuw_column_register_sortable( $columns ) {
   $columns['adm_poi_type'] = 'adm_poi_type';
   $columns['adm_poi_lat'] = 'adm_poi_lat';
+  $columns['adm_poi_diff'] = 'adm_poi_diff';
 
   return $columns;
 }
@@ -928,6 +930,12 @@ function dfuw_poi_column_orderby( $vars ) {
   if ( isset( $vars['orderby'] ) && 'adm_poi_lat' == $vars['orderby'] ) {
     $vars = array_merge( $vars, array(
       'meta_key' => '_poi_loc',
+      'orderby' => 'meta_value'
+    ) );
+  }
+  if ( isset( $vars['orderby'] ) && 'adm_poi_diff' == $vars['orderby'] ) {
+    $vars = array_merge( $vars, array(
+      'meta_key' => '_poi_level',
       'orderby' => 'meta_value'
     ) );
   }
@@ -1039,6 +1047,14 @@ function display_custom_content($cols)
              if ( !empty($poi_loc) ) {
                 $poi_loc = explode('|',$poi_loc);
                 echo $poi_loc[1];
+            }
+            break;
+            case "adm_poi_diff":
+            $poi_diff = get_post_meta($post->ID,'_poi_level',true);
+            if ($poi_diff != 'Select Level' ) {
+                echo $poi_diff;
+            }else{
+                echo '<i>Not Set</i>';
             }
             break;
     }
