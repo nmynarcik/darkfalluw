@@ -182,7 +182,7 @@ function showSearchResults(arr){
       position: poiLatLng,
       map: map,
       icon: templateDir+"/images/bullet.png",
-      title: arr[i].title,
+      // title: arr[i].title,
       html: contentString
     });
 
@@ -286,7 +286,7 @@ function createMarkers(){
         position: poiLatLng,
         map: null,
         icon: image,
-        title: poiArray[i].title,
+        // title: poiArray[i].title,
         html: contentString
     });
 
