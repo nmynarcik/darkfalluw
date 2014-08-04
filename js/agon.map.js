@@ -133,6 +133,15 @@ function getPOIs(){
 
 function searchPOIs(text){
   // console.log('searching pois');
+  if(text === ''){
+    alert('Please enter something to search.');
+    $('#mapsearch-text').focus();
+    return;
+  }
+  if(text.length < 3){
+    alert('Please enter atleast 3 characters to perform search.');
+    return;
+  }
 
   for(var i = 0; i < searchResults.length; i++){ //clear results from map
     searchResults[i].setMap(null);
