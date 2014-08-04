@@ -1267,4 +1267,59 @@ function add_theme_caps() {
 }
 add_action( 'admin_init', 'add_theme_caps');
 
+function add_staff_role() {
+    remove_role('dfuw_staff');
+    add_role('dfuw_staff', 'DFUW Staff', array('read' => true));
+
+    $roles = array(
+            'dfuw_staff'
+        );
+
+    $postTypes = array(
+            'poi',
+            // 'spell',
+            // 'video',
+            // 'role',
+            // 'skill',
+            // 'school',
+            'clan'
+        );
+
+    $caps = array(
+        "edit_%CAP%",
+        "edit_%CAP%s",
+        "read_%CAP%",
+        "read_%CAP%s",
+        "delete_%CAP%",
+        "delete_%CAP%s",
+        "edit_others_%CAP%",
+        "edit_others_%CAP%s",
+        "publish_%CAP%",
+        "publish_%CAP%s",
+        "read_private_%CAP%",
+        "read_private_%CAP%s",
+        "delete_private_%CAP%",
+        "delete_private_%CAP%s",
+        "delete_published_%CAP%",
+        "delete_published_%CAP%s",
+        "delete_others_%CAP%",
+        "delete_others_%CAP%s",
+        "edit_private_%CAP%",
+        "edit_private_%CAP%s",
+        "edit_published_%CAP%",
+        "edit_published_%CAP%s"
+        );
+
+        foreach($roles as $role){
+            $theRole = get_role( $role );
+            foreach($postTypes as $postT){
+                foreach($caps as $cap){
+                    $cap = str_replace('%CAP%',$postT, $cap);
+                    $theRole->add_cap( $cap );
+                }
+            }
+        }
+}
+add_action('admin_init', 'add_staff_role');
+
 ?>
