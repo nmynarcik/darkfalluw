@@ -181,7 +181,8 @@ function showSearchResults(arr){
     var result = new google.maps.Marker({
       position: poiLatLng,
       map: map,
-      icon: templateDir+"/images/bullet.png",
+      animation: google.maps.Animation.DROP,
+      icon: templateDir+"/images/poi-pink.png",
       // title: arr[i].title,
       html: contentString
     });
