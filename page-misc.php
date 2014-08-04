@@ -224,7 +224,8 @@ wp_enqueue_script('dfuw_table_sort', get_template_directory_uri().'/js/jquery.ta
   <br>
   <div class="misc-info full">
       <h3>Diminishing Returns</h3>
-      <a href="<?php echo get_template_directory_uri();?>/images/diminishing-returns.png" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/diminishing-returns.png"/></a>
+      <!-- Embed Chart from Google -->
+      <img src="https://docs.google.com/spreadsheets/d/1P47PRZ7Kb7iIJ1Rd6PM272XF0b_cs7TsMpLzc_AefE4/embed/oimg?id=1P47PRZ7Kb7iIJ1Rd6PM272XF0b_cs7TsMpLzc_AefE4&oid=1244908227&zx=yngpjd2t9poa" />
     </div>
     <br>
   <div class="misc-info full">
