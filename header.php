@@ -5,6 +5,7 @@
 <title><?php wp_title(' | ', true, 'right'); ?> Info Site</title>
 <meta name ="description" content="A collection of information about everything Darkfall Unholy Wars. Your go to spot to find out the latest events, posts, and videos."/>
 <meta name="keywords" content="darkfall, aventurine, unholy, wars, information, agon, blog, game, mmo, multiplayer, videos, spells, schools, roles"/>
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/images/share-image.png">
 <meta property="og:title" content="<?php wp_title(' | ', true, 'right'); ?> Info Site"/>
 <meta property="og:site_name" content="<?php wp_title(' | ', true, 'right'); ?> Info Site"/>
 <meta property="og:type" content="website"/>
