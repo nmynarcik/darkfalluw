@@ -57,7 +57,7 @@
 },
   {
     "id":"r_Armor Chain Mail Gloves",
-    "Name":"Chain Mail Gloves",
+    "Name":"Chain Mail Gauntlets",
     "Icon":"icon_chain_gloves.png",
     "Skill":"Armorsmithing",
     "Min Level":1,
@@ -85,7 +85,7 @@
 },
   {
     "id":"r_Armor Chain Mail Helmet",
-    "Name":"Chain Mail Helm and Aventail",
+    "Name":"Chain Mail Helmet",
     "Icon":"icon_chain_helmet.png",
     "Skill":"Armorsmithing",
     "Min Level":1,
@@ -113,7 +113,7 @@
 },
   {
     "id":"r_Armor Chain Mail Shoes",
-    "Name":"Chain Mail Boots",
+    "Name":"Chain Mail Sabatons",
     "Icon":"icon_chain_footwear.png",
     "Skill":"Armorsmithing",
     "Min Level":1,
@@ -127,7 +127,7 @@
 },
   {
     "id":"r_Armor Chain Mail Shoulders",
-    "Name":"Chain Mail Shoulderguards",
+    "Name":"Chain Mail Pauldrons",
     "Icon":"icon_chain_shoulders.png",
     "Skill":"Armorsmithing",
     "Min Level":1,
@@ -141,7 +141,7 @@
 },
   {
     "id":"r_Armor Chain Mail Torso",
-    "Name":"Chain Mail Hauberk",
+    "Name":"Chain Mail Cuirass",
     "Icon":"icon_chain_torso.png",
     "Skill":"Armorsmithing",
     "Min Level":1,
@@ -169,7 +169,7 @@
 },
   {
     "id":"r_Armor Scale Arms",
-    "Name":"Scale Mail Vambraces",
+    "Name":"Scale Mail Sleeves",
     "Icon":"icon_scale_arms.png",
     "Skill":"Armorsmithing",
     "Min Level":25,
@@ -197,7 +197,7 @@
 },
   {
     "id":"r_Armor Scale Girdle",
-    "Name":"Scale Mail Girdle",
+    "Name":"Scale Mail Belt",
     "Icon":"icon_scale_girdle.png",
     "Skill":"Armorsmithing",
     "Min Level":25,
@@ -239,7 +239,7 @@
 },
   {
     "id":"r_Armor Scale Helmet",
-    "Name":"Scale Mail Helm",
+    "Name":"Scale Mail Helmet",
     "Icon":"icon_scale_helmet.png",
     "Skill":"Armorsmithing",
     "Min Level":25,
@@ -281,7 +281,7 @@
 },
   {
     "id":"r_Armor Scale Shoulders",
-    "Name":"Scale Mail Spaulders",
+    "Name":"Scale Mail Pauldrons",
     "Icon":"icon_scale_shoulders.png",
     "Skill":"Armorsmithing",
     "Min Level":25,
@@ -295,7 +295,7 @@
 },
   {
     "id":"r_Armor Scale Torso",
-    "Name":"Scale Mail Hauberk",
+    "Name":"Scale Mail Cuirass",
     "Icon":"icon_scale_torso.png",
     "Skill":"Armorsmithing",
     "Min Level":25,
@@ -351,7 +351,7 @@
 },
   {
     "id":"r_Armor Banded Mail Girdle",
-    "Name":"Banded Mail Girdle",
+    "Name":"Banded Mail Belt",
     "Icon":"icon_banded_girdle.png",
     "Skill":"Armorsmithing",
     "Min Level":50,
@@ -393,7 +393,7 @@
 },
   {
     "id":"r_Armor Banded Mail Helmet",
-    "Name":"Banded Mail Helm",
+    "Name":"Banded Mail Helmet",
     "Icon":"icon_banded_helmet.png",
     "Skill":"Armorsmithing",
     "Min Level":50,
@@ -476,8 +476,8 @@
 }
 },
   {
-    "id":"r_Armor Plate Arms",
-    "Name":"Plate Vambraces",
+    "id":"r_Armor Plate Sleeves",
+    "Name":"Plate Sleeves",
     "Icon":"icon_plate_arms.png",
     "Skill":"Armorsmithing",
     "Min Level":75,
@@ -505,7 +505,7 @@
 },
   {
     "id":"r_Armor Plate Girdle",
-    "Name":"Plate Girdle",
+    "Name":"Plate Belt",
     "Icon":"icon_plate_girdle.png",
     "Skill":"Armorsmithing",
     "Min Level":75,
@@ -547,7 +547,7 @@
 },
   {
     "id":"r_Armor Plate Helmet",
-    "Name":"Plate Great Helm",
+    "Name":"Plate Helmet",
     "Icon":"icon_plate_helmet.png",
     "Skill":"Armorsmithing",
     "Min Level":75,
@@ -561,7 +561,7 @@
 },
   {
     "id":"r_Armor Plate Pants",
-    "Name":"Plate Leggings",
+    "Name":"Plate Chausses",
     "Icon":"icon_plate_legs.png",
     "Skill":"Armorsmithing",
     "Min Level":75,
@@ -575,7 +575,7 @@
 },
   {
     "id":"r_Armor Plate Shoes",
-    "Name":"Plate Boots",
+    "Name":"Plate Sabatons",
     "Icon":"icon_plate_footwear.png",
     "Skill":"Armorsmithing",
     "Min Level":75,
@@ -589,7 +589,7 @@
 },
   {
     "id":"r_Armor Plate Shoulders",
-    "Name":"Plate Shoulder Guards",
+    "Name":"Plate Pauldrons",
     "Icon":"icon_plate_shoulders.png",
     "Skill":"Armorsmithing",
     "Min Level":75,
@@ -631,8 +631,8 @@
 }
 },
   {
-    "id":"r_Armor Full Plate Arms",
-    "Name":"Full Plate Vambraces",
+    "id":"r_Armor Full Plate Sleeves",
+    "Name":"Full Plate Sleeves",
     "Icon":"icon_fullplate_arms.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":1,
@@ -662,7 +662,7 @@
 },
   {
     "id":"r_Armor Full Plate Girdle",
-    "Name":"Full Plate Girdle",
+    "Name":"Full Plate Belt",
     "Icon":"icon_fullplate_girdle.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":1,
@@ -707,7 +707,7 @@
 },
   {
     "id":"r_Armor Full Plate Helmet",
-    "Name":"Full Plate Barbute",
+    "Name":"Full Plate Helmet",
     "Icon":"icon_fullplate_helmet.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":1,
@@ -722,7 +722,7 @@
 },
   {
     "id":"r_Armor Full Plate Pants",
-    "Name":"Full Plate Legguards",
+    "Name":"Full Plate Chausses",
     "Icon":"icon_fullplate_legs.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":1,
@@ -798,7 +798,7 @@
 },
   {
     "id":"r_Armor Dread Plate Arms",
-    "Name":"Dread Plate Vambraces",
+    "Name":"Dread Plate Sleeves",
     "Icon":"icon_infernal_arms.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":50,
@@ -878,7 +878,7 @@
 },
   {
     "id":"r_Armor Dread Plate Helmet",
-    "Name":"Dread Plate Greathelm",
+    "Name":"Dread Plate Helmet",
     "Icon":"icon_infernal_helmet.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":50,
@@ -894,7 +894,7 @@
 },
   {
     "id":"r_Armor Dread Plate Pants",
-    "Name":"Dread Plate Legguards",
+    "Name":"Dread Plate Chausses",
     "Icon":"icon_infernal_legs.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":50,
@@ -926,7 +926,7 @@
 },
   {
     "id":"r_Armor Dread Plate Shoulders",
-    "Name":"Dread Plate Spaulders",
+    "Name":"Dread Plate Pauldrons",
     "Icon":"icon_infernal_shoulders.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":50,
@@ -958,7 +958,7 @@
 },
   {
     "id":"r_Armor Dragon Scale Set",
-    "Name":"Dragon Scale Cuirass",
+    "Name":"Dragon Scale Set",
     "Icon":"icon_dragon_torso.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":100,
@@ -976,7 +976,7 @@
 },
   {
     "id":"r_Armor Dragon Scale Arms",
-    "Name":"Dragon Scale Vambraces",
+    "Name":"Dragon Scale Sleeves",
     "Icon":"icon_dragon_arms.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":100,
@@ -1066,7 +1066,7 @@
 },
   {
     "id":"r_Armor Dragon Scale Helmet",
-    "Name":"Dragon Scale Helm",
+    "Name":"Dragon Scale Helmet",
     "Icon":"icon_dragon_helmet.png",
     "Skill":"Armorsmithing Mastery",
     "Min Level":100,

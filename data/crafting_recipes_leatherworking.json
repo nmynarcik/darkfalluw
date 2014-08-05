@@ -9,7 +9,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":1,
-	"Leather":8
+	"Leathers":8
 }
 },
   {
@@ -22,8 +22,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":8,
-	"Leather":14,
-	"Rust":10
+	"Leathers":14,
+	"Rusts":10
 }
 },
   {
@@ -36,8 +36,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":8,
-	"Leather":14,
-	"Lichen":10
+	"Leathers":14,
+	"Lichens":10
 }
 },
   {
@@ -50,8 +50,21 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":8,
-	"Leather":14,
-	"Inferior Mana Flake":5
+	"Leathers":14,
+	"Inferior Mana Flakes":5
+}
+},
+  {
+    "id":"r_armor_padded_set",
+    "Name":"Padded Leather Set",
+    "Icon":"icon_cloth_torso.png",
+    "Skill":"Leatherworking",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":10,
+	"Leathers":16
 }
 },
   {
@@ -129,7 +142,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":1,
-	"Leather":2
+	"Leathers":2
 }
 },
   {
@@ -142,7 +155,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":1,
-	"Leather":3
+	"Leathers":3
 }
 },
   {
@@ -181,7 +194,20 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":1,
-	"Leather":4
+	"Leathers":4
+}
+},
+  {
+    "id":"r_armor_leather_set",
+    "Name":"Leather Set",
+    "Icon":"icon_padded_torso.png",
+    "Skill":"Leatherworking",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":80,
+	"Leathers":32
 }
 },
   {
@@ -194,7 +220,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":8,
-	"Leather":2
+	"Leathers":2
 }
 },
   {
@@ -207,7 +233,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":8,
-	"Leather":2
+	"Leathers":2
 }
 },
   {
@@ -220,7 +246,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":8,
-	"Leather":2
+	"Leathers":2
 }
 },
   {
@@ -233,7 +259,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":8,
-	"Leather":2
+	"Leathers":2
 }
 },
   {
@@ -246,7 +272,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":8,
-	"Leather":2
+	"Leathers":2
 }
 },
   {
@@ -259,7 +285,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":8,
-	"Leather":4
+	"Leathers":4
 }
 },
   {
@@ -272,7 +298,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":8,
-	"Leather":6
+	"Leathers":6
 }
 },
   {
@@ -285,7 +311,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":8,
-	"Leather":2
+	"Leathers":2
 }
 },
   {
@@ -298,7 +324,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":8,
-	"Leather":2
+	"Leathers":2
 }
 },
   {
@@ -311,7 +337,20 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":8,
-	"Leather":8
+	"Leathers":8
+}
+},
+  {
+    "id":"r_armor_hardened_leather_set",
+    "Name":"Hardened Leather Set",
+    "Icon":"icon_leather_torso.png",
+    "Skill":"Leatherworking",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":250,
+	"Leathers":64
 }
 },
   {
@@ -324,7 +363,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":25,
-	"Leather":4
+	"Leathers":4
 }
 },
   {
@@ -337,7 +376,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":25,
-	"Leather":4
+	"Leathers":4
 }
 },
   {
@@ -350,7 +389,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":25,
-	"Leather":4
+	"Leathers":4
 }
 },
   {
@@ -363,7 +402,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":25,
-	"Leather":4
+	"Leathers":4
 }
 },
   {
@@ -376,7 +415,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":25,
-	"Leather":4
+	"Leathers":4
 }
 },
   {
@@ -389,7 +428,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":25,
-	"Leather":8
+	"Leathers":8
 }
 },
   {
@@ -402,7 +441,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":25,
-	"Leather":12
+	"Leathers":12
 }
 },
   {
@@ -415,7 +454,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":25,
-	"Leather":4
+	"Leathers":4
 }
 },
   {
@@ -428,7 +467,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":25,
-	"Leather":4
+	"Leathers":4
 }
 },
   {
@@ -441,7 +480,21 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":25,
-	"Leather":16
+	"Leathers":16
+}
+},
+  {
+    "id":"r_armor_studded_leather_set",
+    "Name":"Studded Leather Set",
+    "Icon":"icon_studded_torso.png",
+    "Skill":"Leatherworking",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":500,
+	"Leathers":128,
+	"Iron Ingots":14
 }
 },
   {
@@ -454,7 +507,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Leather":8,
+	"Leathers":8,
 	"Iron Ingot":1
 }
 },
@@ -468,7 +521,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Leather":8,
+	"Leathers":8,
 	"Iron Ingot":1
 }
 },
@@ -482,7 +535,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Leather":8,
+	"Leathers":8,
 	"Iron Ingot":1
 }
 },
@@ -496,7 +549,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Leather":8,
+	"Leathers":8,
 	"Iron Ingot":1
 }
 },
@@ -510,7 +563,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Leather":8,
+	"Leathers":8,
 	"Iron Ingot":1
 }
 },
@@ -524,7 +577,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Leather":16,
+	"Leathers":16,
 	"Iron Ingot":2
 }
 },
@@ -538,7 +591,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Leather":24,
+	"Leathers":24,
 	"Iron Ingot":2
 }
 },
@@ -552,7 +605,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Leather":8,
+	"Leathers":8,
 	"Iron Ingot":1
 }
 },
@@ -566,7 +619,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Leather":8,
+	"Leathers":8,
 	"Iron Ingot":1
 }
 },
@@ -580,8 +633,23 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Leather":32,
-	"Iron Ingot":3
+	"Leathers":32,
+	"Iron Ingots":3
+}
+},
+  {
+    "id":"r_armor_spiked_leather_set",
+    "Name":"Spiked Leather Set",
+    "Icon":"icon_barbaric_torso.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":950,
+	"Leathers":168,
+	"Iron Ingots":24,
+	"Selentine Leathers":14
 }
 },
   {
@@ -594,8 +662,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":95,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Selentine Leather":1
 }
 },
@@ -609,8 +677,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":95,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Selentine Leather":1
 }
 },
@@ -624,8 +692,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":95,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Selentine Leather":1
 }
 },
@@ -639,8 +707,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":95,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Selentine Leather":1
 }
 },
@@ -652,12 +720,13 @@
     "Min Level":1,
     "Max Level":50,
     "Quantity":"1",
-    "Gold":95,
-    "Leather":12,
-    "Iron Ingot":2,
-    "Additional":"1 Selentine Leather",
-    "Copy Pasta":"1 Spiked Leather Greaves: 95 Gold; 12 Leather; 2 Iron Ingot; 1 Selentine Leather"
-  },
+    "Recipe": {
+	"Gold":95,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Selentine Leather":1
+}
+},
   {
     "id":"r_armor_spiked_leather_helmet",
     "Name":"Spiked Leather Helmet",
@@ -668,9 +737,9 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":95,
-	"Leather":20,
-	"Iron Ingot":3,
-	"Selentine Leather":2
+	"Leathers":20,
+	"Iron Ingots":3,
+	"Selentine Leathers":2
 }
 },
   {
@@ -683,9 +752,9 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":95,
-	"Leather":28,
-	"Iron Ingot":3,
-	"Selentine Leather":2
+	"Leathers":28,
+	"Iron Ingots":3,
+	"Selentine Leathers":2
 }
 },
   {
@@ -698,8 +767,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":95,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Selentine Leather":1
 }
 },
@@ -713,8 +782,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":95,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Selentine Leather":1
 }
 },
@@ -728,9 +797,25 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":95,
-	"Leather":36,
-	"Iron Ingot":4,
-	"Selentine Leather":3
+	"Leathers":36,
+	"Iron Ingots":4,
+	"Selentine Leathers":3
+}
+},
+  {
+    "id":"r_armor_intricate_leather_set",
+    "Name":"Intricate Leather Set",
+    "Icon":"icon_intricate_torso.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2350,
+	"Leathers":168,
+	"Iron Ingots":24,
+	"Veilron Leathers":14,
+	"Neithal Leathers":10
 }
 },
   {
@@ -743,8 +828,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":235,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Veilron Leather":1,
 	"Neithal Leather":1
 }
@@ -759,8 +844,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":235,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Veilron Leather":1,
 	"Neithal Leather":1
 }
@@ -775,8 +860,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":235,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Veilron Leather":1,
 	"Neithal Leather":1
 }
@@ -791,8 +876,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":235,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Veilron Leather":1,
 	"Neithal Leather":1
 }
@@ -807,8 +892,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":235,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Veilron Leather":1,
 	"Neithal Leather":1
 }
@@ -823,9 +908,9 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":235,
-	"Leather":20,
-	"Iron Ingot":3,
-	"Veilron Leather":2,
+	"Leathers":20,
+	"Iron Ingots":3,
+	"Veilron Leathers":2,
 	"Neithal Leather":1
 }
 },
@@ -839,9 +924,9 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":235,
-	"Leather":28,
-	"Iron Ingot":3,
-	"Veilron Leather":2,
+	"Leathers":28,
+	"Iron Ingots":3,
+	"Veilron Leathers":2,
 	"Neithal Leather":1
 }
 },
@@ -855,8 +940,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":235,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Veilron Leather":1,
 	"Neithal Leather":1
 }
@@ -871,8 +956,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":235,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Veilron Leather":1,
 	"Neithal Leather":1
 }
@@ -887,10 +972,28 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":235,
-	"Leather":36,
-	"Iron Ingot":4,
-	"Veilron Leather":3,
+	"Leathers":36,
+	"Iron Ingots":4,
+	"Veilron Leathers":3,
 	"Neithal Leather":1
+}
+},
+  {
+    "id":"r_armor_bonescale_set",
+    "Name":"Bonescale Set",
+    "Icon":"icon_bone_torso.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":4750,
+	"Leathers":168,
+	"Iron Ingots":24,
+	"Leenspar Leathers":14,
+	"Theyril Leathers":10,
+	"Primal Oozes":10,
+	"Fossilized Chitins":10
 }
 },
   {
@@ -903,8 +1006,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":475,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Leenspar Leather":1,
 	"Theyril Leather":1,
 	"Primal Ooze":1,
@@ -921,8 +1024,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":475,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Leenspar Leather":1,
 	"Theyril Leather":1,
 	"Primal Ooze":1,
@@ -939,8 +1042,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":475,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Leenspar Leather":1,
 	"Theyril Leather":1,
 	"Primal Ooze":1,
@@ -957,8 +1060,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":475,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Leenspar Leather":1,
 	"Theyril Leather":1,
 	"Primal Ooze":1,
@@ -975,8 +1078,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":475,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Leenspar Leather":1,
 	"Theyril Leather":1,
 	"Primal Ooze":1,
@@ -993,9 +1096,9 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":475,
-	"Leather":20,
-	"Iron Ingot":3,
-	"Leenspar Leather":2,
+	"Leathers":20,
+	"Iron Ingots":3,
+	"Leenspar Leathers":2,
 	"Theyril Leather":1,
 	"Primal Ooze":1,
 	"Fossilized Chitin":1
@@ -1011,9 +1114,9 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":475,
-	"Leather":28,
-	"Iron Ingot":3,
-	"Leenspar Leather":2,
+	"Leathers":28,
+	"Iron Ingots":3,
+	"Leenspar Leathers":2,
 	"Theyril Leather":1,
 	"Primal Ooze":1,
 	"Fossilized Chitin":1
@@ -1029,8 +1132,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":475,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Leenspar Leather":1,
 	"Theyril Leather":1,
 	"Primal Ooze":1,
@@ -1047,8 +1150,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":475,
-	"Leather":12,
-	"Iron Ingot":2,
+	"Leathers":12,
+	"Iron Ingots":2,
 	"Leenspar Leather":1,
 	"Theyril Leather":1,
 	"Primal Ooze":1,
@@ -1065,9 +1168,9 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":475,
-	"Leather":36,
-	"Iron Ingot":4,
-	"Leenspar Leather":3,
+	"Leathers":36,
+	"Iron Ingots":4,
+	"Leenspar Leathers":3,
 	"Theyril Leather":1,
 	"Primal Ooze":1,
 	"Fossilized Chitin":1

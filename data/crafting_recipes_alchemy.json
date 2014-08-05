@@ -74,7 +74,7 @@
 },
   {
     "id":"r_Anima_q02",
-    "Name":"Impure Anima (Q2)",
+    "Name":"Impure Anima",
     "Icon":"anima_q02_icon.png",
     "Skill":"Alchemy",
     "Min Level":25,
@@ -87,7 +87,7 @@
 },
   {
     "id":"r_Bile_q02",
-    "Name":"Impure Bile (Q2)",
+    "Name":"Impure Bile",
     "Icon":"bile_q02_icon.png",
     "Skill":"Alchemy",
     "Min Level":25,
@@ -100,7 +100,7 @@
 },
   {
     "id":"r_Blood_q02",
-    "Name":"Impure Blood (Q2)",
+    "Name":"Impure Blood",
     "Icon":"blood_q02_icon.png",
     "Skill":"Alchemy",
     "Min Level":25,
@@ -113,7 +113,7 @@
 },
   {
     "id":"r_Eye_q02",
-    "Name":"Impure Eye (Q2)",
+    "Name":"Impure Eye",
     "Icon":"eye_q02_icon.png",
     "Skill":"Alchemy",
     "Min Level":25,
@@ -126,7 +126,7 @@
 },
   {
     "id":"r_Fragment_q02",
-    "Name":"Impure Fragment (Q2)",
+    "Name":"Impure Fragment",
     "Icon":"fragment_q02_icon.png",
     "Skill":"Alchemy",
     "Min Level":25,
@@ -139,7 +139,7 @@
 },
   {
     "id":"r_Fungus_q02",
-    "Name":"Impure Fungus (Q2)",
+    "Name":"Impure Fungus",
     "Icon":"fungus_q02_icon.png",
     "Skill":"Alchemy",
     "Min Level":25,
@@ -152,7 +152,7 @@
 },
   {
     "id":"r_Glyph_q02",
-    "Name":"Impure Glyph (Q2)",
+    "Name":"Impure Glyph",
     "Icon":"glyph_q02_icon.png",
     "Skill":"Alchemy",
     "Min Level":25,
@@ -165,7 +165,7 @@
 },
   {
     "id":"r_Gristle_q02",
-    "Name":"Impure Gristle (Q2)",
+    "Name":"Impure Gristle",
     "Icon":"gristle_q02_icon.png",
     "Skill":"Alchemy",
     "Min Level":25,
@@ -178,7 +178,7 @@
 },
   {
     "id":"r_Mana Flakes_q02",
-    "Name":"Impure Mana flakes (Q2)",
+    "Name":"Impure Mana flakes",
     "Icon":"mana_flakes_q02_icon.png",
     "Skill":"Alchemy",
     "Min Level":25,
@@ -191,7 +191,7 @@
 },
   {
     "id":"r_Marrow_q02",
-    "Name":"Impure Marrow (Q2)",
+    "Name":"Impure Marrow",
     "Icon":"marrow_q02_icon.png",
     "Skill":"Alchemy",
     "Min Level":25,
@@ -204,7 +204,7 @@
 },
   {
     "id":"r_Ooze_q02",
-    "Name":"Impure Ooze (Q2)",
+    "Name":"Impure Ooze",
     "Icon":"ooze_q02_icon.png",
     "Skill":"Alchemy",
     "Min Level":25,
@@ -217,7 +217,7 @@
 },
   {
     "id":"r_Shadowtaint_q02",
-    "Name":"Impure Shadowtaint (Q2)",
+    "Name":"Impure Shadowtaint",
     "Icon":"shadowtaint_q02_icon.png",
     "Skill":"Alchemy",
     "Min Level":25,
@@ -339,7 +339,7 @@
 },
   {
     "id":"r_Anima_q03",
-    "Name":"Fine Anima (Q3)",
+    "Name":"Fine Anima",
     "Icon":"anima_q03_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":1,
@@ -352,7 +352,7 @@
 },
   {
     "id":"r_Bile_q03",
-    "Name":"Fine Bile (Q3)",
+    "Name":"Fine Bile",
     "Icon":"bile_q03_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":1,
@@ -365,7 +365,7 @@
 },
   {
     "id":"r_Blood_q03",
-    "Name":"Fine Blood (Q3)",
+    "Name":"Fine Blood",
     "Icon":"blood_q03_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":1,
@@ -378,7 +378,7 @@
 },
   {
     "id":"r_Eye_q03",
-    "Name":"Fine Eye (Q3)",
+    "Name":"Fine Eye",
     "Icon":"eye_q03_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":1,
@@ -391,7 +391,7 @@
 },
   {
     "id":"r_Fragment_q03",
-    "Name":"Fine Fragment (Q3)",
+    "Name":"Fine Fragment",
     "Icon":"fragment_q03_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":1,
@@ -404,7 +404,7 @@
 },
   {
     "id":"r_Fungus_q03",
-    "Name":"Fine Fungus (Q3)",
+    "Name":"Fine Fungus",
     "Icon":"fungus_q03_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":1,
@@ -417,7 +417,7 @@
 },
   {
     "id":"r_Glyph_q03",
-    "Name":"Fine Glyph (Q3)",
+    "Name":"Fine Glyph",
     "Icon":"glyph_q03_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":1,
@@ -430,7 +430,7 @@
 },
   {
     "id":"r_Gristle_q03",
-    "Name":"Fine Gristle (Q3)",
+    "Name":"Fine Gristle",
     "Icon":"gristle_q03_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":1,
@@ -443,7 +443,7 @@
 },
   {
     "id":"r_Mana Flakes_q03",
-    "Name":"Fine Mana flakes (Q3)",
+    "Name":"Fine Mana flakes",
     "Icon":"mana_flakes_q03_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":1,
@@ -456,7 +456,7 @@
 },
   {
     "id":"r_Marrow_q03",
-    "Name":"Fine Marrow (Q3)",
+    "Name":"Fine Marrow",
     "Icon":"marrow_q03_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":1,
@@ -469,7 +469,7 @@
 },
   {
     "id":"r_Ooze_q03",
-    "Name":"Fine Ooze (Q3)",
+    "Name":"Fine Ooze",
     "Icon":"ooze_q03_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":1,
@@ -482,7 +482,7 @@
 },
   {
     "id":"r_Shadowtaint_q03",
-    "Name":"Fine Shadowtaint (Q3)",
+    "Name":"Fine Shadowtaint",
     "Icon":"shadowtaint_q03_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":1,
@@ -541,7 +541,7 @@
 },
   {
     "id":"r_Anima_q04",
-    "Name":"Pure Anima (Q4)",
+    "Name":"Pure Anima",
     "Icon":"anima_q04_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":50,
@@ -554,7 +554,7 @@
 },
   {
     "id":"r_Bile_q04",
-    "Name":"Pure Bile (Q4)",
+    "Name":"Pure Bile",
     "Icon":"bile_q04_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":50,
@@ -567,7 +567,7 @@
 },
   {
     "id":"r_Blood_q04",
-    "Name":"Pure Blood (Q4)",
+    "Name":"Pure Blood",
     "Icon":"blood_q04_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":50,
@@ -580,7 +580,7 @@
 },
   {
     "id":"r_Eye_q04",
-    "Name":"Pure Eye (Q4)",
+    "Name":"Pure Eye",
     "Icon":"eye_q04_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":50,
@@ -593,7 +593,7 @@
 },
   {
     "id":"r_Fragment_q04",
-    "Name":"Pure Fragment (Q4)",
+    "Name":"Pure Fragment",
     "Icon":"fragment_q04_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":50,
@@ -606,7 +606,7 @@
 },
   {
     "id":"r_Fungus_q04",
-    "Name":"Pure Fungus (Q4)",
+    "Name":"Pure Fungus",
     "Icon":"fungus_q04_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":50,
@@ -619,7 +619,7 @@
 },
   {
     "id":"r_Glyph_q04",
-    "Name":"Pure Glyph (Q4)",
+    "Name":"Pure Glyph",
     "Icon":"glyph_q04_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":50,
@@ -632,7 +632,7 @@
 },
   {
     "id":"r_Gristle_q04",
-    "Name":"Pure Gristle (Q4)",
+    "Name":"Pure Gristle",
     "Icon":"gristle_q04_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":50,
@@ -645,7 +645,7 @@
 },
   {
     "id":"r_Mana Flakes_q04",
-    "Name":"Pure Mana flakes (Q4)",
+    "Name":"Pure Mana flakes",
     "Icon":"mana_flakes_q04_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":50,
@@ -658,7 +658,7 @@
 },
   {
     "id":"r_Marrow_q04",
-    "Name":"Pure Marrow (Q4)",
+    "Name":"Pure Marrow",
     "Icon":"marrow_q04_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":50,
@@ -671,7 +671,7 @@
 },
   {
     "id":"r_Ooze_q04",
-    "Name":"Pure Ooze (Q4)",
+    "Name":"Pure Ooze",
     "Icon":"ooze_q04_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":50,
@@ -684,7 +684,7 @@
 },
   {
     "id":"r_Shadowtaint_q04",
-    "Name":"Pure Shadowtaint (Q4)",
+    "Name":"Pure Shadowtaint",
     "Icon":"shadowtaint_q04_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":50,
@@ -757,7 +757,7 @@
 },
   {
     "id":"r_Anima_q05",
-    "Name":"Primal Anima (Q5)",
+    "Name":"Primal Anima",
     "Icon":"anima_q05_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":100,
@@ -770,7 +770,7 @@
 },
   {
     "id":"r_Bile_q05",
-    "Name":"Primal Bile (Q5)",
+    "Name":"Primal Bile",
     "Icon":"bile_q05_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":100,
@@ -783,7 +783,7 @@
 },
   {
     "id":"r_Blood_q05",
-    "Name":"Primal Blood (Q5)",
+    "Name":"Primal Blood",
     "Icon":"blood_q05_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":100,
@@ -796,7 +796,7 @@
 },
   {
     "id":"r_Eye_q05",
-    "Name":"Primal Eye (Q5)",
+    "Name":"Primal Eye",
     "Icon":"eye_q05_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":100,
@@ -809,7 +809,7 @@
 },
   {
     "id":"r_Fragment_q05",
-    "Name":"Primal Fragment (Q5)",
+    "Name":"Primal Fragment",
     "Icon":"fragment_q05_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":100,
@@ -822,7 +822,7 @@
 },
   {
     "id":"r_Fungus_q05",
-    "Name":"Primal Fungus (Q5)",
+    "Name":"Primal Fungus",
     "Icon":"fungus_q05_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":100,
@@ -835,7 +835,7 @@
 },
   {
     "id":"r_Glyph_q05",
-    "Name":"Primal Glyph (Q5)",
+    "Name":"Primal Glyph",
     "Icon":"glyph_q05_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":100,
@@ -848,7 +848,7 @@
 },
   {
     "id":"r_Gristle_q05",
-    "Name":"Primal Gristle (Q5)",
+    "Name":"Primal Gristle",
     "Icon":"gristle_q05_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":100,
@@ -861,7 +861,7 @@
 },
   {
     "id":"r_Mana Flakes_q05",
-    "Name":"Primal Mana flakes (Q5)",
+    "Name":"Primal Mana flakes",
     "Icon":"mana_flakes_q05_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":100,
@@ -874,7 +874,7 @@
 },
   {
     "id":"r_Marrow_q05",
-    "Name":"Primal Marrow (Q5)",
+    "Name":"Primal Marrow",
     "Icon":"marrow_q05_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":100,
@@ -887,7 +887,7 @@
 },
   {
     "id":"r_Ooze_q05",
-    "Name":"Primal Ooze (Q5)",
+    "Name":"Primal Ooze",
     "Icon":"ooze_q05_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":100,
@@ -900,7 +900,7 @@
 },
   {
     "id":"r_Shadowtaint_q05",
-    "Name":"Primal Shadowtaint (Q5)",
+    "Name":"Primal Shadowtaint",
     "Icon":"shadowtaint_q05_icon.png",
     "Skill":"Alchemy Mastery",
     "Min Level":100,
