@@ -24,9 +24,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   text-shadow: 0px 0px #000;
 }
 
-/* override auto posts text color */
-.entry-content font {color: #333 !important;}
-
 html{height:100%;position: relative;}
 
 body {
@@ -282,9 +279,9 @@ nav .menu ul ul {
 .entry-meta {
   display: none;
 }
-.entry-content {
-  margin: 30px 0;
-}
+/* override auto posts text color */
+.entry-content {position: relative; margin: 30px 0;}
+.entry-content font {color: #333 !important;}
 
 .entry-footer {text-transform: uppercase; clear:both;}
 .entry-footer .icon-tags {margin-top: 2px;}
@@ -810,6 +807,12 @@ ul.school-list li .icon:hover{
 /* Home Page */
 
 #df-vid {float:left; background: black;}
+#twitch-player {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+}
 
 #featured-vids {
   background: url(images/bg-featured-vids.png) no-repeat;

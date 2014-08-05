@@ -114,6 +114,7 @@
           'click':function(){
             var $id = $(this).data('vidId');
             $('#df-vid').attr('src','http://www.youtube.com/embed/'+$id+'?rel=0&autoplay=1&iv_load_policy=3&modestbranding=1&wmode=opaque');
+            $('#twitch-player').hide();
           }
         });
 
@@ -122,22 +123,25 @@
       },
 
       showTwitchChannel: function(list){
-        console.log('SHOW TWITCH CHANNEL FOR MAIN VIDEO');
+        // console.log('SHOW TWITCH CHANNEL FOR MAIN VIDEO');
         var streamer = list.streams[0].channel.display_name;
-        console.log('das streamer: ',streamer);
-        $('#df-vid').attr('src', 'http://www.twitch.tv/widgets/live_embed_player.swf?channel='+streamer);
+        // console.log('das streamer: ',streamer);
+        // $('#df-vid').attr('src', 'http://www.twitch.tv/widgets/live_embed_player.swf?channel='+streamer);
+        $('.entry-content').prepend('<object id="twitch-player" type="application/x-shockwave-flash" height="371" width="659" id="live_embed_player_flash" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel='+streamer+'" bgcolor="#000000"><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="allowNetworking" value="false" /><param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf" /><param name="flashvars" value="hostname=www.twitch.tv&channel='+streamer+'&auto_play=true&start_volume=25" /></object>');
         var newText = $('#twitch-live').html();
         newText = newText.replace('{NAME}',streamer.toUpperCase());
         $('#twitch-live').data('streamer',streamer).html(newText).show();
         $('#twitch-live').click(function(){
-          $('#df-vid').attr('src', 'http://www.twitch.tv/widgets/live_embed_player.swf?channel='+$(this).data('streamer'));
+          // $('#df-vid').attr('src', 'http://www.twitch.tv/widgets/live_embed_player.swf?channel='+$(this).data('streamer'));
+          $('#twitch-player').show();
+          $('#df-vid').attr('src', '');
           return false;
         });
       },
 
       twitchLiveStreams: function(){
           Twitch.init({clientId: '207ndj3uuk5rmh6sdazihsx8aw53mm4'}, function(error, status) {
-            console.log('Twitch Initiated!');
+            // console.log('Twitch Initiated!');
             Twitch.api({method: 'streams', params: {game:'Darkfall Unholy Wars', limit:3} }, function(error, list) {
               if(list.streams.length > 0) {
                 window.dfuwTwitchList = list;
