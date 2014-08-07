@@ -1,4 +1,13 @@
 (function($){
+
+  if($.browser.msie){
+    $('html').addClass('msie');
+  }else if($.browser.mozilla){
+    $('html').addClass('mozilla');
+  }else if($.browser.chrome){
+    $('html').addClass('chrome');
+  }
+
     if($(".accordion").length){
       $('.accordion').accordion({ collapsible: true });
       // console.log('ACCORDION!');

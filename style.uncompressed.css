@@ -1859,6 +1859,9 @@ strong {font-weight: bold;}
   float: left;
   margin-right: 15px;
 }
+.mozilla #selections .custom-combobox-toggle {
+  padding: 9px 0;
+}
 #selections .ui-state-default .ui-icon {
   background: url("images/ui-icons_ffffff_256x240.png") -65px 0 !important
 }
