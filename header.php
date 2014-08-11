@@ -11,6 +11,15 @@
 <meta property="og:type" content="website"/>
 <meta property="og:description"
           content="Your go to information database about everything Darkfall Unholy Wars."/>
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@DFUWInfo">
+<meta name="twitter:title" content="Darkfall: Unholy Wars">
+<meta name="twitter:description" content="Your go to information database about everything Darkfall Unholy Wars.">
+<meta name="twitter:creator" content="@DFUWInfo">
+<meta name="twitter:image:src" content="http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/images/share-image.png">
+<meta name="twitter:domain" content="darkfallunholywars.info">
+<!-- End Twitter Card -->
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" />
 <link href='http://fonts.googleapis.com/css?family=Smythe|Oswald:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
