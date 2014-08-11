@@ -1,0 +1,1179 @@
+[
+  {
+    "id":"r_bag",
+    "Name":"Bag",
+    "Icon":"container_bag.png",
+    "Skill":"Leatherworking",
+    "Min Level":1,
+    "Max Level":10,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Leathers":8
+}
+},
+  {
+    "id":"r_bag_red",
+    "Name":"Red Bag",
+    "Icon":"container_bag_red.png",
+    "Skill":"Leatherworking",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Leathers":14,
+	"Rusts":10
+}
+},
+  {
+    "id":"r_bag_green",
+    "Name":"Green Bag",
+    "Icon":"container_bag_green.png",
+    "Skill":"Leatherworking",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Leathers":14,
+	"Lichens":10
+}
+},
+  {
+    "id":"r_bag_blue",
+    "Name":"Blue Bag",
+    "Icon":"container_bag_blue.png",
+    "Skill":"Leatherworking",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Leathers":14,
+	"Inferior Mana Flakes":5
+}
+},
+  {
+    "id":"r_armor_padded_set",
+    "Name":"Padded Leather Set",
+    "Icon":"icon_cloth_torso.png",
+    "Skill":"Leatherworking",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":10,
+	"Leathers":16
+}
+},
+  {
+    "id":"r_armor_padded_arms",
+    "Name":"Padded Leather Sleeves",
+    "Icon":"icon_cloth_arms.png",
+    "Skill":"Leatherworking",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_armor_padded_elbows",
+    "Name":"Padded Leather Elbow Pads",
+    "Icon":"icon_cloth_elbows.png",
+    "Skill":"Leatherworking",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_armor_padded_girdle",
+    "Name":"Padded Leather Belt",
+    "Icon":"icon_cloth_girdle.png",
+    "Skill":"Leatherworking",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_armor_padded_gloves",
+    "Name":"Padded Leather Gloves",
+    "Icon":"icon_cloth_gloves.png",
+    "Skill":"Leatherworking",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_armor_padded_greaves",
+    "Name":"Padded Leather Shin Pads",
+    "Icon":"icon_cloth_greaves.png",
+    "Skill":"Leatherworking",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_armor_padded_helmet",
+    "Name":"Padded Leather Skullcap",
+    "Icon":"icon_cloth_helmet.png",
+    "Skill":"Leatherworking",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Leathers":2
+}
+},
+  {
+    "id":"r_armor_padded_pants",
+    "Name":"Padded Leather Leggings",
+    "Icon":"icon_cloth_legs.png",
+    "Skill":"Leatherworking",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Leathers":3
+}
+},
+  {
+    "id":"r_Armor Padded_shoes",
+    "Name":"Padded Leather Boots",
+    "Icon":"icon_cloth_footwear.png",
+    "Skill":"Leatherworking",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_armor_padded_shoulders",
+    "Name":"Padded Leather Shoulderpads",
+    "Icon":"icon_cloth_shoulders.png",
+    "Skill":"Leatherworking",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_armor_padded_torso",
+    "Name":"Padded Leather Tunic",
+    "Icon":"icon_cloth_torso.png",
+    "Skill":"Leatherworking",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Leathers":4
+}
+},
+  {
+    "id":"r_armor_leather_set",
+    "Name":"Leather Set",
+    "Icon":"icon_padded_torso.png",
+    "Skill":"Leatherworking",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":80,
+	"Leathers":32
+}
+},
+  {
+    "id":"r_armor_leather_arms",
+    "Name":"Leather Armguards",
+    "Icon":"icon_padded_arms.png",
+    "Skill":"Leatherworking",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Leathers":2
+}
+},
+  {
+    "id":"r_armor_leather_elbows",
+    "Name":"Leather Elbow Guards",
+    "Icon":"icon_padded_elbows.png",
+    "Skill":"Leatherworking",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Leathers":2
+}
+},
+  {
+    "id":"r_armor_leather_girdle",
+    "Name":"Leather Girdle",
+    "Icon":"icon_padded_girdle.png",
+    "Skill":"Leatherworking",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Leathers":2
+}
+},
+  {
+    "id":"r_armor_leather_gloves",
+    "Name":"Leather Gloves",
+    "Icon":"icon_padded_gloves.png",
+    "Skill":"Leatherworking",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Leathers":2
+}
+},
+  {
+    "id":"r_armor_leather_greaves",
+    "Name":"Leather Greaves",
+    "Icon":"icon_padded_greaves.png",
+    "Skill":"Leatherworking",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Leathers":2
+}
+},
+  {
+    "id":"r_armor_leather_helmet",
+    "Name":"Leather Skullcap",
+    "Icon":"icon_padded_helmet.png",
+    "Skill":"Leatherworking",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Leathers":4
+}
+},
+  {
+    "id":"r_armor_leather_pants",
+    "Name":"Leather Leggings",
+    "Icon":"icon_padded_legs.png",
+    "Skill":"Leatherworking",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Leathers":6
+}
+},
+  {
+    "id":"r_armor_leather_shoes",
+    "Name":"Leather Boots",
+    "Icon":"icon_padded_footwear.png",
+    "Skill":"Leatherworking",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Leathers":2
+}
+},
+  {
+    "id":"r_armor_leather_shoulders",
+    "Name":"Leather Pads",
+    "Icon":"icon_padded_shoulders.png",
+    "Skill":"Leatherworking",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Leathers":2
+}
+},
+  {
+    "id":"r_armor_leather_torso",
+    "Name":"Leather Tunic",
+    "Icon":"icon_padded_torso.png",
+    "Skill":"Leatherworking",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Leathers":8
+}
+},
+  {
+    "id":"r_armor_hardened_leather_set",
+    "Name":"Hardened Leather Set",
+    "Icon":"icon_leather_torso.png",
+    "Skill":"Leatherworking",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":250,
+	"Leathers":64
+}
+},
+  {
+    "id":"r_armor_hardened_leather_arms",
+    "Name":"Hardened Leather Armguards",
+    "Icon":"icon_leather_arms.png",
+    "Skill":"Leatherworking",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Leathers":4
+}
+},
+  {
+    "id":"r_armor_hardened_leather_elbows",
+    "Name":"Hardened Leather Elbow Pads",
+    "Icon":"icon_leather_elbows.png",
+    "Skill":"Leatherworking",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Leathers":4
+}
+},
+  {
+    "id":"r_armor_hardened_leather_girdle",
+    "Name":"Hardened Leather Girdle",
+    "Icon":"icon_leather_girdle.png",
+    "Skill":"Leatherworking",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Leathers":4
+}
+},
+  {
+    "id":"r_armor_hardened_leather_gloves",
+    "Name":"Hardened Leather Gauntlets",
+    "Icon":"icon_leather_gloves.png",
+    "Skill":"Leatherworking",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Leathers":4
+}
+},
+  {
+    "id":"r_armor_hardened_leather_greaves",
+    "Name":"Hardened Leather Greaves",
+    "Icon":"icon_leather_greaves.png",
+    "Skill":"Leatherworking",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Leathers":4
+}
+},
+  {
+    "id":"r_armor_hardened_leather_helmet",
+    "Name":"Hardened Leather Skullcap",
+    "Icon":"icon_leather_helmet.png",
+    "Skill":"Leatherworking",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Leathers":8
+}
+},
+  {
+    "id":"r_armor_hardened_leather_pants",
+    "Name":"Hardened Leather Leggings",
+    "Icon":"icon_leather_legs.png",
+    "Skill":"Leatherworking",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Leathers":12
+}
+},
+  {
+    "id":"r_armor_hardened_leather_shoes",
+    "Name":"Hardened Leather Boots",
+    "Icon":"icon_leather_footwear.png",
+    "Skill":"Leatherworking",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Leathers":4
+}
+},
+  {
+    "id":"r_armor_hardened_leather_shoulders",
+    "Name":"Hardened Leather Shoulderguards",
+    "Icon":"icon_leather_shoulders.png",
+    "Skill":"Leatherworking",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Leathers":4
+}
+},
+  {
+    "id":"r_armor_hardened_leather_torso",
+    "Name":"Hardened Leather Brigandine",
+    "Icon":"icon_leather_torso.png",
+    "Skill":"Leatherworking",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Leathers":16
+}
+},
+  {
+    "id":"r_armor_studded_leather_set",
+    "Name":"Studded Leather Set",
+    "Icon":"icon_studded_torso.png",
+    "Skill":"Leatherworking",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":500,
+	"Leathers":128,
+	"Iron Ingots":14
+}
+},
+  {
+    "id":"r_armor_studded_leather_arms",
+    "Name":"Studded Leather Armguards",
+    "Icon":"icon_studded_arms.png",
+    "Skill":"Leatherworking",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Leathers":8,
+	"Iron Ingot":1
+}
+},
+  {
+    "id":"r_armor_studded_leather_elbows",
+    "Name":"Studded Leather Elbowguards",
+    "Icon":"icon_studded_elbows.png",
+    "Skill":"Leatherworking",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Leathers":8,
+	"Iron Ingot":1
+}
+},
+  {
+    "id":"r_armor_studded_leather_girdle",
+    "Name":"Studded Leather Belt",
+    "Icon":"icon_studded_girdle.png",
+    "Skill":"Leatherworking",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Leathers":8,
+	"Iron Ingot":1
+}
+},
+  {
+    "id":"r_armor_studded_leather_gloves",
+    "Name":"Studded Leather Gloves",
+    "Icon":"icon_studded_gloves.png",
+    "Skill":"Leatherworking",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Leathers":8,
+	"Iron Ingot":1
+}
+},
+  {
+    "id":"r_armor_studded_leather_greaves",
+    "Name":"Studded Leather Greaves",
+    "Icon":"icon_studded_greaves.png",
+    "Skill":"Leatherworking",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Leathers":8,
+	"Iron Ingot":1
+}
+},
+  {
+    "id":"r_armor_studded_leather_helmet",
+    "Name":"Studded Leather Skullcap",
+    "Icon":"icon_studded_helmet.png",
+    "Skill":"Leatherworking",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Leathers":16,
+	"Iron Ingot":2
+}
+},
+  {
+    "id":"r_armor_studded_leather_pants",
+    "Name":"Studded Leather Legguards",
+    "Icon":"icon_studded_legs.png",
+    "Skill":"Leatherworking",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Leathers":24,
+	"Iron Ingot":2
+}
+},
+  {
+    "id":"r_armor_studded_leather_shoes",
+    "Name":"Studded Leather Boots",
+    "Icon":"icon_studded_footwear.png",
+    "Skill":"Leatherworking",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Leathers":8,
+	"Iron Ingot":1
+}
+},
+  {
+    "id":"r_armor_studded_leather_shoulders",
+    "Name":"Studded Leather Shoulderguards",
+    "Icon":"icon_studded_shoulders.png",
+    "Skill":"Leatherworking",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Leathers":8,
+	"Iron Ingot":1
+}
+},
+  {
+    "id":"r_armor_studded_leather_torso",
+    "Name":"Studded Leather Brigandine",
+    "Icon":"icon_studded_torso.png",
+    "Skill":"Leatherworking",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Leathers":32,
+	"Iron Ingots":3
+}
+},
+  {
+    "id":"r_armor_spiked_leather_set",
+    "Name":"Spiked Leather Set",
+    "Icon":"icon_barbaric_torso.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":950,
+	"Leathers":168,
+	"Iron Ingots":24,
+	"Selentine Leathers":14
+}
+},
+  {
+    "id":"r_armor_spiked_leather_arms",
+    "Name":"Spiked Leather Bracers",
+    "Icon":"icon_barbaric_arms.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"r_armor_spiked_leather_elbows",
+    "Name":"Spiked Leather Elbow Protectors",
+    "Icon":"icon_barbaric_elbows.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"r_armor_spiked_leather_girdle",
+    "Name":"Spiked Leather Girdle",
+    "Icon":"icon_barbaric_girdle.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"r_armor_spiked_leather_gloves",
+    "Name":"Spiked Leather Gloves",
+    "Icon":"icon_barbaric_gloves.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"r_armor_spiked_leather_greaves",
+    "Name":"Spiked Leather Greaves",
+    "Icon":"icon_barbaric_greaves.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"r_armor_spiked_leather_helmet",
+    "Name":"Spiked Leather Helmet",
+    "Icon":"icon_barbaric_helmet.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Leathers":20,
+	"Iron Ingots":3,
+	"Selentine Leathers":2
+}
+},
+  {
+    "id":"r_armor_spiked_leather_pants",
+    "Name":"Spiked Leather Leggings",
+    "Icon":"icon_barbaric_legs.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Leathers":28,
+	"Iron Ingots":3,
+	"Selentine Leathers":2
+}
+},
+  {
+    "id":"r_armor_spiked_leather_shoes",
+    "Name":"Spiked Leather Boots",
+    "Icon":"icon_barbaric_footwear.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"r_armor_spiked_leather_shoulders",
+    "Name":"Spiked Leather Spaulders",
+    "Icon":"icon_barbaric_shoulders.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"r_armor_spiked_leather_torso",
+    "Name":"Spiked Leather Brigandine",
+    "Icon":"icon_barbaric_torso.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Leathers":36,
+	"Iron Ingots":4,
+	"Selentine Leathers":3
+}
+},
+  {
+    "id":"r_armor_intricate_leather_set",
+    "Name":"Intricate Leather Set",
+    "Icon":"icon_intricate_torso.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2350,
+	"Leathers":168,
+	"Iron Ingots":24,
+	"Veilron Leathers":14,
+	"Neithal Leathers":10
+}
+},
+  {
+    "id":"r_armor_intricate_leather_arms",
+    "Name":"Intricate Leather Armguards",
+    "Icon":"icon_intricate_arms.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Veilron Leather":1,
+	"Neithal Leather":1
+}
+},
+  {
+    "id":"r_armor_intricate_leather_elbows",
+    "Name":"Intricate Leather Elbowpads",
+    "Icon":"icon_intricate_elbows.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Veilron Leather":1,
+	"Neithal Leather":1
+}
+},
+  {
+    "id":"r_armor_intricate_leather_girdle",
+    "Name":"Intricate Leather Belt",
+    "Icon":"icon_intricate_girdle.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Veilron Leather":1,
+	"Neithal Leather":1
+}
+},
+  {
+    "id":"r_armor_intricate_leather_gloves",
+    "Name":"Intricate Leather Gloves",
+    "Icon":"icon_intricate_gloves.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Veilron Leather":1,
+	"Neithal Leather":1
+}
+},
+  {
+    "id":"r_armor_intricate_leather_greaves",
+    "Name":"Intricate Leather Greaves",
+    "Icon":"icon_intricate_greaves.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Veilron Leather":1,
+	"Neithal Leather":1
+}
+},
+  {
+    "id":"r_armor_intricate_leather_helmet",
+    "Name":"Intricate Leather Helm",
+    "Icon":"icon_intricate_helmet.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Leathers":20,
+	"Iron Ingots":3,
+	"Veilron Leathers":2,
+	"Neithal Leather":1
+}
+},
+  {
+    "id":"r_armor_intricate_leather_pants",
+    "Name":"Intricate Leather Legguards",
+    "Icon":"icon_intricate_legs.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Leathers":28,
+	"Iron Ingots":3,
+	"Veilron Leathers":2,
+	"Neithal Leather":1
+}
+},
+  {
+    "id":"r_armor_intricate_leather_shoes",
+    "Name":"Intricate Leather Boots",
+    "Icon":"icon_intricate_footwear.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Veilron Leather":1,
+	"Neithal Leather":1
+}
+},
+  {
+    "id":"r_armor_intricate_leather_shoulders",
+    "Name":"Intricate Leather Spaulders",
+    "Icon":"icon_intricate_shoulders.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Veilron Leather":1,
+	"Neithal Leather":1
+}
+},
+  {
+    "id":"r_armor_intricate_leather_torso",
+    "Name":"Intricate Leather Brigandine",
+    "Icon":"icon_intricate_torso.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Leathers":36,
+	"Iron Ingots":4,
+	"Veilron Leathers":3,
+	"Neithal Leather":1
+}
+},
+  {
+    "id":"r_armor_bonescale_set",
+    "Name":"Bonescale Set",
+    "Icon":"icon_bone_torso.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":4750,
+	"Leathers":168,
+	"Iron Ingots":24,
+	"Leenspar Leathers":14,
+	"Theyril Leathers":10,
+	"Primal Oozes":10,
+	"Fossilized Chitins":10
+}
+},
+  {
+    "id":"r_armor_bonescale_arms",
+    "Name":"Bonescale Vambracers",
+    "Icon":"icon_bone_arms.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Leenspar Leather":1,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+},
+  {
+    "id":"r_armor_bonescale_elbows",
+    "Name":"Bonescale Couters",
+    "Icon":"icon_bone_elbows.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Leenspar Leather":1,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+},
+  {
+    "id":"r_armor_bonescale_girdle",
+    "Name":"Bonescale Girdle",
+    "Icon":"icon_bone_girdle.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Leenspar Leather":1,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+},
+  {
+    "id":"r_armor_bonescale_gloves",
+    "Name":"Bonescale Gauntlets",
+    "Icon":"icon_bone_gloves.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Leenspar Leather":1,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+},
+  {
+    "id":"r_armor_bonescale_greaves",
+    "Name":"Bonescale Greaves",
+    "Icon":"icon_bone_greaves.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Leenspar Leather":1,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+},
+  {
+    "id":"r_armor_bonescale_helmet",
+    "Name":"Bonescale Helm",
+    "Icon":"icon_bone_helmet.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Leathers":20,
+	"Iron Ingots":3,
+	"Leenspar Leathers":2,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+},
+  {
+    "id":"r_armor_bonescale_pants",
+    "Name":"Bonescale Chausses",
+    "Icon":"icon_bone_legs.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Leathers":28,
+	"Iron Ingots":3,
+	"Leenspar Leathers":2,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+},
+  {
+    "id":"r_armor_bonescale_shoes",
+    "Name":"Bonescale Sabatons",
+    "Icon":"icon_bone_footwear.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Leenspar Leather":1,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+},
+  {
+    "id":"r_armor_bonescale_shoulders",
+    "Name":"Bonescale Spaulders",
+    "Icon":"icon_bone_shoulders.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Leathers":12,
+	"Iron Ingots":2,
+	"Leenspar Leather":1,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+},
+  {
+    "id":"r_armor_bonescale_torso",
+    "Name":"Bonescale Hauberk",
+    "Icon":"icon_bone_torso.png",
+    "Skill":"Leatherworking Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Leathers":36,
+	"Iron Ingots":4,
+	"Leenspar Leathers":3,
+	"Theyril Leather":1,
+	"Primal Ooze":1,
+	"Fossilized Chitin":1
+}
+}
+]

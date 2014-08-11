@@ -1,0 +1,159 @@
+[
+  {
+    "id":"r_Staff_p01_r01",
+    "Name":"Crude Militant Staff",
+    "Icon":"crude_militant_staff.png",
+    "Skill":"Staffcrafting",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingot":1,
+	"Wood":2,
+	"Leather":1
+}
+},
+  {
+    "id":"r_Staff_p01_r02",
+    "Name":"Common Militant Staff",
+    "Icon":"common_militant_staff.png",
+    "Skill":"Staffcrafting",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Iron Ingot":2,
+	"Wood":4,
+	"Leather":2
+}
+},
+  {
+    "id":"r_Staff_p01_r03",
+    "Name":"Sturdy Militant Staff",
+    "Icon":"sturdy_militant_staff.png",
+    "Skill":"Staffcrafting",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingot":4,
+	"Wood":8,
+	"Leather":3
+}
+},
+  {
+    "id":"r_Staff_p01_r04",
+    "Name":"Superior Militant Staff",
+    "Icon":"superior_militant_staff.png",
+    "Skill":"Staffcrafting",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingot":6,
+	"Wood":16,
+	"Leather":4
+}
+},
+  {
+    "id":"r_Staff_p01_r05",
+    "Name":"Selentine Militant Staff",
+    "Icon":"selentine_militant_staff.png",
+    "Skill":"Staffcrafting Mastery",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingot":8,
+	"Wood":30,
+	"Leather":5,
+	"Selentine Ingot":2,
+	"Selentine Wood":2,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"r_Staff_p01_r06",
+    "Name":"Veilron Militant Staff",
+    "Icon":"veilron_militant_staff.png",
+    "Skill":"Staffcrafting Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":155,
+	"Iron Ingot":8,
+	"Wood":30,
+	"Leather":5,
+	"Veilron Ingot":1,
+	"Veilron Wood":1,
+	"Selentine Wood":2,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"r_Staff_p01_r07",
+    "Name":"Neithal Militant Staff",
+    "Icon":"neithal_militant_staff.png",
+    "Skill":"Staffcrafting Mastery",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingot":8,
+	"Wood":30,
+	"Leather":5,
+	"Neithal Ingot":1,
+	"Neithal Wood":1,
+	"Veilron Wood":2,
+	"Veilron Leather":1
+}
+},
+  {
+    "id":"r_Staff_p01_r08",
+    "Name":"Leenspar Militant Staff",
+    "Icon":"leenspar_militant_staff.png",
+    "Skill":"Staffcrafting Mastery",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":340,
+	"Iron Ingot":8,
+	"Wood":30,
+	"Leather":5,
+	"Leenspar Ingot":1,
+	"Leenspar Wood":1,
+	"Neithal Wood":2,
+	"Neithal Leather":1
+}
+},
+  {
+    "id":"r_Staff_p01_r09",
+    "Name":"Theyril Militant Staff",
+    "Icon":"theyril_militant_staff.png",
+    "Skill":"Staffcrafting Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingot":8,
+	"Wood":30,
+	"Leather":5,
+	"Theyril Ingot":1,
+	"Theyril Wood":1,
+	"Leenspar Wood":2,
+	"Leenspar Leather":1,
+	"Primal Mana Flakes":1,
+	"Primal Anima":1,
+	"Crystalline Scale":1
+}
+}
+]

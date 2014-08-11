@@ -1,3 +1,4 @@
 serverstatus.php
 *.jar
 .DS*
+node_modules/*

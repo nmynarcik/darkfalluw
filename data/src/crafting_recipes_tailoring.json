@@ -1,0 +1,1305 @@
+[
+  {
+    "id":"r_Sack",
+    "Name":"Sack",
+    "Icon":"container_sack.png",
+    "Skill":"Tailoring",
+    "Min Level":1,
+    "Max Level":10,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Cloth":8
+}
+},
+  {
+    "id":"r_sack_red",
+    "Name":"Red Sack",
+    "Icon":"container_sack_red.png",
+    "Skill":"Tailoring",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Cloth":14,
+	"Rust":10
+}
+},
+  {
+    "id":"r_sack_green",
+    "Name":"Green Sack",
+    "Icon":"container_sack_green.png",
+    "Skill":"Tailoring",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Cloth":14,
+	"Lichen":10
+}
+},
+  {
+    "id":"r_sack_blue",
+    "Name":"Blue Sack",
+    "Icon":"container_sack_blue.png",
+    "Skill":"Tailoring",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Cloth":14,
+	"Inferior Mana Flake":5
+}
+},
+{
+    "id":"simple_ele_set",
+    "Name":"Simple Elementalist Set",
+    "Icon":"icon_elementalist_simple_robe_chest.png",
+    "Skill":"Tailoring",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":10,
+	"Cloth":17
+}
+},
+  {
+    "id":"simple_ele_gloves",
+    "Name":"Simple Elementalist Gloves",
+    "Icon":"icon_elementalist_simple_gloves.png",
+    "Skill":"Tailoring",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2,
+	"Cloth":2
+}
+},
+  {
+    "id":"simple_ele_helmet",
+    "Name":"Simple Elementalist Cowl",
+    "Icon":"icon_elementalist_simple_hood.png",
+    "Skill":"Tailoring",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2,
+	"Cloth":3
+}
+},
+  {
+    "id":"simple_ele_pants",
+    "Name":"Simple Elementalist Leggings",
+    "Icon":"icon_elementalist_simple_pants.png",
+    "Skill":"Tailoring",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2,
+	"Cloth":4
+}
+},
+  {
+    "id":"simple_ele_shoulders",
+    "Name":"Simple Elementalist Mantle",
+    "Icon":"icon_elementalist_simple_shoulderpads.png",
+    "Skill":"Tailoring",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2,
+	"Cloth":2
+}
+},
+  {
+    "id":"simple_ele_torso",
+    "Name":"Simple Elementalist Robe",
+    "Icon":"icon_elementalist_simple_robe_chest.png",
+    "Skill":"Tailoring",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2,
+	"Cloth":6
+}
+},
+{
+    "id":"simple_prim_set",
+    "Name":"Simple Primalist Set",
+    "Icon":"icon_primalist_simple_robe_chest.png",
+    "Skill":"Tailoring",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":10,
+	"Cloth":14,
+	"Leather":2,
+	"Iron Ingot":2
+}	
+},
+  {
+    "id":"simple_prim_gloves",
+    "Name":"Simple Primalist Gauntlets",
+    "Icon":"icon_primalist_simple_gloves.png",
+    "Skill":"Tailoring",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2,
+	"Cloth":2
+}
+},
+  {
+    "id":"simple_prim_helmet",
+    "Name":"Simple Primalist Skullcap",
+    "Icon":"icon_primalist_simple_hood.png",
+    "Skill":"Tailoring",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2,
+	"Cloth":3,
+	"Leather":1
+}
+},
+  {
+    "id":"simple_prim_pants",
+    "Name":"Simple Primalist Legguards",
+    "Icon":"icon_primalist_simple_robe_pants.png",
+    "Skill":"Tailoring",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2,
+	"Cloth":4
+}
+},
+  {
+    "id":"simple_prim_shoulders",
+    "Name":"Simple Primalist Spaulders",
+    "Icon":"icon_primalist_simple_shoulderpads.png",
+    "Skill":"Tailoring",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2,
+	"Cloth":1,
+	"Iron Ingot":1
+}
+},
+  {
+    "id":"simple_prim_torso",
+    "Name":"Simple Primalist Hauberk",
+    "Icon":"icon_primalist_simple_robe_chest.png",
+    "Skill":"Tailoring",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2,
+	"Cloth":3,
+	"Leather":1,
+	"Iron Ingot":1
+}
+},
+  {
+    "id":"frayed_ele_set",
+    "Name":"Frayed Elementalist Set",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":80,
+	"Cloth":32
+}
+},
+  {
+    "id":"frayed_ele_cowl",
+    "Name":"Frayed Elementalist Cowl",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":16,
+	"Cloth":6
+}
+},
+  {
+    "id":"frayed_ele_gloves",
+    "Name":"Frayed Elementalist Gloves",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":16,
+	"Cloth":3
+}
+},
+  {
+    "id":"frayed_ele_leggings",
+    "Name":"Frayed Elementalist Leggings",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":16,
+	"Cloth":8
+}
+},
+  {
+    "id":"frayed_ele_mantle",
+    "Name":"Frayed Elementalist Mantle",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":16,
+	"Cloth":3
+}
+},
+  {
+    "id":"frayed_ele_robe",
+    "Name":"Frayed Elementalist Robe",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":16,
+	"Cloth":12
+}
+},
+  {
+    "id":"frayed_prim_set",
+    "Name":"Frayed Primalist Set",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":80,
+	"Cloth":23,
+	"Leather":5,
+	"Iron Ingot":4
+}
+},
+  {
+    "id":"frayed_prim_cowl",
+    "Name":"Frayed Primalist Skullcap",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":16,
+	"Cloth":3,
+	"Leather":2
+}
+},
+  {
+    "id":"frayed_prim_gloves",
+    "Name":"Frayed Primalist Gauntlets",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":16,
+	"Cloth":3
+}
+},
+  {
+    "id":"frayed_prim_leggings",
+    "Name":"Frayed Primalist Legguards",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":16,
+	"Cloth":8
+}
+},
+  {
+    "id":"frayed_prim_mantle",
+    "Name":"Frayed Primalist Spaulders",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":16,
+	"Cloth":3,
+	"Iron Ingot":2
+}
+},
+  {
+    "id":"frayed_prim_robe",
+    "Name":"Frayed Primalist Hauberk",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":16,
+	"Cloth":6,
+	"Leather":3,
+	"Iron Ingot":2
+}
+},
+  {
+    "id":"fine_ele_set",
+    "Name":"Fine Elementalist Set",
+    "Icon":"icon_elementalist_fine_robe_chest.png",
+    "Skill":"Tailoring",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":250,
+	"Cloth":66
+}
+},
+  {
+    "id":"fine_ele_gloves",
+    "Name":"Fine Elementalist Gloves",
+    "Icon":"icon_elementalist_fine_gloves.png",
+    "Skill":"Tailoring",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Cloth":6
+}
+},
+  {
+    "id":"fine_ele_helmet",
+    "Name":"Fine Elementalist Cowl",
+    "Icon":"icon_elementalist_fine_hood.png",
+    "Skill":"Tailoring",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Cloth":12
+}
+},
+  {
+    "id":"fine_ele_pants",
+    "Name":"Fine Elementalist Leggings",
+    "Icon":"icon_elementalist_fine_pants.png",
+    "Skill":"Tailoring",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Cloth":18
+}
+},
+  {
+    "id":"fine_ele_shoulders",
+    "Name":"Fine Elementalist Mantle",
+    "Icon":"icon_elementalist_fine_shoulderpads.png",
+    "Skill":"Tailoring",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Cloth":6
+}
+},
+  {
+    "id":"fine_ele_torso",
+    "Name":"Fine Elementalist Robe",
+    "Icon":"icon_elementalist_fine_robe_chest.png",
+    "Skill":"Tailoring",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Cloth":24
+}
+},
+  {
+    "id":"fine_prim_set",
+    "Name":"Fine Primalist Set",
+    "Icon":"icon_primalist_fine_robe_chest.png",
+    "Skill":"Tailoring",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":250,
+	"Cloth":49,
+	"Iron Ingot":8,
+	"Leather":9
+}
+},
+  {
+    "id":"fine_prim_gloves",
+    "Name":"Fine Primalist Gauntlets",
+    "Icon":"icon_primalist_fine_gloves.png",
+    "Skill":"Tailoring",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Cloth":6
+}
+},
+  {
+    "id":"fine_prim_helmet",
+    "Name":"Fine Primalist Skullcap",
+    "Icon":"icon_primalist_fine_hood.png",
+    "Skill":"Tailoring",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Cloth":8,
+	"Leather":4
+}
+},
+  {
+    "id":"fine_prim_pants",
+    "Name":"Fine Primalist Legguards",
+    "Icon":"icon_primalist_fine_pants.png",
+    "Skill":"Tailoring",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Cloth":18
+}
+},
+  {
+    "id":"fine_prim_shoulders",
+    "Name":"Fine Primalist Spaulders",
+    "Icon":"icon_primalist_fine_shoulderpads.png",
+    "Skill":"Tailoring",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Cloth":3,
+	"Iron Ingot":3
+}
+},
+  {
+    "id":"fine_prim_torso",
+    "Name":"Fine Primalist Hauberk",
+    "Icon":"icon_primalist_fine_robe_chest.png",
+    "Skill":"Tailoring",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Cloth":14,
+	"Iron Ingot":5,
+	"Leather":5
+}
+},
+  {
+    "id":"bulky_ele_set",
+    "Name":"Bulky Elementalist Set",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":500,
+	"Cloth":126
+}
+},
+
+  {
+    "id":"bulky_ele_cowl",
+    "Name":"Bulky Elementalist Cowl",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":100,
+	"Cloth":24
+}
+},
+  {
+    "id":"bulky_ele_gloves",
+    "Name":"Bulky Elementalist Gloves",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":100,
+	"Cloth":12
+}
+},
+  {
+    "id":"bulky_ele_leggings",
+    "Name":"Bulky Elementalist Leggings",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":100,
+	"Cloth":30
+}
+},
+  {
+    "id":"bulky_ele_mantle",
+    "Name":"Bulky Elementalist Mantle",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":100,
+	"Cloth":12
+}
+},
+  {
+    "id":"bulky_ele_robes",
+    "Name":"Bulky Elementalist Robe",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":100,
+	"Cloth":48
+}
+},
+  {
+    "id":"bulky_prim_set",
+    "Name":"Bulky Primalist Set",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":500,
+	"Cloth":92,
+	"Iron Ingot":16,
+	"Leather":18
+}
+},
+  {
+    "id":"bulky_prim_cowl",
+    "Name":"Bulky Primalist Skullcap",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":100,
+	"Cloth":16,
+	"Leather":6
+}
+},
+  {
+    "id":"bulky_prim_gloves",
+    "Name":"Bulky Primalist Gauntlets",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":100,
+	"Cloth":12
+}
+},
+  {
+    "id":"bulky_prim_leggings",
+    "Name":"Bulky Primalist Legguards",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":100,
+	"Cloth":30
+}
+},
+  {
+    "id":"bulky_prim_mantle",
+    "Name":"Bulky Primalist Spaulders",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":100,
+	"Cloth":6,
+	"Iron Ingot":6
+}
+},
+  {
+    "id":"bulky_prim_robes",
+    "Name":"Bulky Primalist Hauberk",
+    "Icon":"no-image.png",
+    "Skill":"Tailoring",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":100,
+	"Cloth":28,
+	"Iron Ingot":10,
+	"Leather":10
+}
+},
+  {
+    "id":"elegant_set",
+    "Name":"Elegant Elementalist Set",
+    "Icon":"icon_elementalist_elegant_robe_chest.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":950,
+	"Cloth":88,
+	"Selentine Cloth":18
+}
+},
+  {
+    "id":"elegant_gloves",
+    "Name":"Elegant Elementalist Gloves",
+    "Icon":"icon_elementalist_elegant_gloves.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":190,
+	"Cloth":8,
+	"Selentine Cloth":2
+}
+},
+  {
+    "id":"elegant_helmet",
+    "Name":"Elegant Elementalist Cowl",
+    "Icon":"icon_elementalist_elegant_hood.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":190,
+	"Cloth":16,
+	"Selentine Cloth":4
+}
+},
+  {
+    "id":"elegant_pants",
+    "Name":"Elegant Elementalist Leggings",
+    "Icon":"icon_elementalist_elegant_pants.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":190,
+	"Cloth":24,
+	"Selentine Cloth":4
+}
+},
+  {
+    "id":"r_Robes_M Elegant Shoulders",
+    "Name":"Elegant Elementalist Mantle",
+    "Icon":"icon_elementalist_elegant_shoulders.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":190,
+	"Cloth":8,
+	"Selentine Cloth":2
+}
+},
+  {
+    "id":"elegant_torso",
+    "Name":"Elegant Elementalist Robe",
+    "Icon":"icon_elementalist_elegant_robe_chest.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":190,
+	"Cloth":32,
+	"Selentine Cloth":6
+}
+},
+  {
+    "id":"hardy_set",
+    "Name":"Hardy Primalist Set",
+    "Icon":"icon_primalist_hardy_robe_chest.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":950,
+	"Cloth":67,
+	"Iron Ingot":6,
+	"Leather":11,
+	"Selentine Cloth":14,
+	"Selentine Ingot":3,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"hardy_gloves",
+    "Name":"Hardy Primalist Gauntlets",
+    "Icon":"icon_primalist_hardy_gloves.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":190,
+	"Cloth":8,
+	"Selentine Cloth":2
+}
+},
+  {
+    "id":"hardy_helmet",
+    "Name":"Hardy Primalist Skullcap",
+    "Icon":"icon_primalist_hardy_hood.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":190,
+	"Cloth":11,
+	"Leather":5,
+	"Selentine Cloth":3,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"hardy_pants",
+    "Name":"Hardy Primalist Legguards",
+    "Icon":"icon_primalist_hardy_pants.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":190,
+	"Cloth":24,
+	"Selentine Cloth":4
+}
+},
+  {
+    "id":"hardy_shoulders",
+    "Name":"Hardy Primalist Spaulders",
+    "Icon":"icon_primalist_hardy_shoulders.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":190,
+	"Cloth":4,
+	"Selentine Cloth":1,
+	"Selentine Ingot":1
+}
+},
+  {
+    "id":"hardy_torso",
+    "Name":"Hardy Primalist Hauberk",
+    "Icon":"icon_primalist_hardy_robe_chest.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":190,
+	"Cloth":20,
+	"Iron Ingot":6,
+	"Leather":6,
+	"Selentine Cloth":4,
+	"Selentine Ingot":2
+}
+},
+  {
+    "id":"extrav_set",
+    "Name":"Extravagant Elementalist Set",
+    "Icon":"icon_elementalist_extravagant_robe_chest.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2350,
+	"Cloth":88,
+	"Veilron Cloth":18,
+	"Neithal Cloth":10
+}
+},
+  {
+    "id":"extrav_gloves",
+    "Name":"Extravagant Elementalist Gloves",
+    "Icon":"icon_elementalist_extravagant_gloves.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":470,
+	"Cloth":8,
+	"Veilron Cloth":2,
+	"Neithal Cloth":2
+}
+},
+  {
+    "id":"extrav_helmet",
+    "Name":"Extravagant Elementalist Cowl",
+    "Icon":"icon_elementalist_extravagant_hood.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":470,
+	"Cloth":16,
+	"Veilron Cloth":3,
+	"Neithal Cloth":2
+}
+},
+  {
+    "id":"extrav_pants",
+    "Name":"Extravagant Elementalist Leggings",
+    "Icon":"icon_elementalist_extravagant_pants.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":470,
+	"Cloth":24,
+	"Veilron Cloth":4,
+	"Neithal Cloth":2
+}
+},
+  {
+    "id":"extrav_shoulders",
+    "Name":"Extravagant Elementalist Mantle",
+    "Icon":"icon_elementalist_extravagant_shoulders.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":470,
+	"Cloth":8,
+	"Veilron Cloth":2,
+	"Neithal Cloth":2
+}
+},
+  {
+    "id":"extrav_torso",
+    "Name":"Extravagant Elementalist Robe",
+    "Icon":"icon_elementalist_extravagant_robe_chest.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":470,
+	"Cloth":32,
+	"Veilron Cloth":6,
+	"Neithal Cloth":2
+}
+},
+  {
+    "id":"Imperious_set",
+    "Name":"Imperious Primalist Set",
+    "Icon":"icon_primalist_imperious_robe_chest.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2350,
+	"Cloth":67,
+	"Iron Ingot":10,
+	"Leather":11,
+	"Neithal Cloth":10,
+	"Veilron Cloth":14,
+	"Veilron Ingot":1,
+	"Veilron Leather":2
+}
+},
+  {
+    "id":"Imperious_gloves",
+    "Name":"Imperious Primalist Gauntlets",
+    "Icon":"icon_primalist_imperious_gloves.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":470,
+	"Cloth":8,
+	"Veilron Cloth":2,
+	"Neithal Cloth":2
+}
+},
+  {
+    "id":"Imperious_helmet",
+    "Name":"Imperious Primalist Skullcap",
+    "Icon":"icon_primalist_imperious_hood.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":470,
+	"Cloth":11,
+	"Leather":5,
+	"Neithal Cloth":2,
+	"Veilron Cloth":3,
+	"Veilron Leather":1
+}
+},
+  {
+    "id":"Imperious_pants",
+    "Name":"Imperious Primalist Legguards",
+    "Icon":"icon_primalist_imperious_pants.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":470,
+	"Cloth":24,
+	"Neithal Cloth":2,
+	"Veilron Cloth":4
+}
+},
+  {
+    "id":"Imperious_shoulders",
+    "Name":"Imperious Primalist Spaulders",
+    "Icon":"icon_primalist_imperious_shoulders.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":470,
+	"Cloth":4,
+	"Iron Ingot":4,
+	"Neithal Cloth":2,
+	"Veilron Cloth":1,
+	"Veilron Ingot":1
+}
+},
+  {
+    "id":"Imperious_torso",
+    "Name":"Imperious Primalist Hauberk",
+    "Icon":"icon_primalist_imperious_robe_chest.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":470,
+	"Cloth":20,
+	"Iron Ingot":6,
+	"Leather":6,
+	"Neithal Cloth":2,
+	"Veilron Cloth":4,
+	"Veilron Ingot":1,
+	"Veilron Leather":1
+}
+},
+  {
+    "id":"skymane_set",
+    "Name":"Skymane Primalist Set",
+    "Icon":"icon_primalist_skymane_robe_chest.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":4750,
+	"Cloth":67,
+	"Iron Ingot":10,
+	"Leather":11,
+	"Leenspar Cloth":14,
+	"Leenspar Ingot":2,
+	"Leenspar Leather":2,
+	"Primal Fungus":5,
+	"Primal Shadowtaint":5,
+	"Skymane Silk":10,
+	"Theyril Cloth":10
+}
+},
+
+  {
+    "id":"skymane_gloves",
+    "Name":"Skymane Primalist Gauntlets",
+    "Icon":"icon_primalist_skymane_gloves.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":950,
+	"Cloth":8,
+	"Leenspar Cloth":2,
+	"Priaml Fungus":1,
+	"Primal Shadowtaint":1,
+	"Skymane Silk":2,
+	"Theyril Cloth":2
+}
+},
+  {
+    "id":"skymane_helmet",
+    "Name":"Skymane Primalist Skullcap",
+    "Icon":"icon_primalist_skymane_hood.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":950,
+	"Cloth":11,
+	"Leather":5,
+	"Leenspar Cloth":3,
+	"Leenspar Leather":1,
+	"Primal Fungus":1,
+	"Primal Shadowtaint":1,
+	"Skymane Silk":2,
+	"Theyril Cloth":2
+}
+},
+  {
+    "id":"skymane_pants",
+    "Name":"Skymane Primalist Legguards",
+    "Icon":"icon_primalist_skymane_pants.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":950,
+	"Cloth":24,
+	"Leenspar Cloth":4,
+	"Primal Fungus":1,
+	"Primal Shadowtaint":1,
+	"Skymane Silk":2,
+	"Theyril Cloth":2
+}
+},
+  {
+    "id":"skymane_shoulders",
+    "Name":"Skymane Primalist Spaulders",
+    "Icon":"icon_primalist_skymane_shoulderpads.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":950,
+	"Cloth":4,
+	"Iron Ingot":4,
+	"Leenspar Cloth":1,
+	"Leenspar Ingot":1,
+	"Primal Fungus":1,
+	"Primal Shadowtaint":1,
+	"Skymane Silk":2,
+	"theyril Cloth":2
+}
+},
+  {
+    "id":"skymane_robe",
+    "Name":"Skymane Primalist Hauberk",
+    "Icon":"icon_primalist_skymane_robe_chest.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":950,
+	"Cloth":20,
+	"Iron Ingot":6,
+	"Leather":6,
+	"Leenspar Cloth":4,
+	"Leenspar Ingot":1,
+	"Leenspar Leather":1,
+	"Primal Fungus":1,
+	"Primal Shadowtaint":1,
+	"Skymane Silk":2,
+	"Theyril Cloth":2
+}
+},
+  {
+    "id":"widowsilk_set",
+    "Name":"Widowsilk Elementalist Set",
+    "Icon":"icon_elementalist_widowsilk_robe_chest.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":4750,
+	"Cloth":88,
+	"Leenspar Cloth":18,
+	"Theyril Cloth":10,
+	"Primal Fungus":5,
+	"Primal Shadowtaint":5,
+	"Widow Silk":10
+}
+},
+  {
+    "id":"widowsilk_gloves",
+    "Name":"Widowsilk Elementalist Gloves",
+    "Icon":"icon_elementalist_widowsilk_gloves.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":950,
+	"Cloth":8,
+	"Leenspar Cloth":2,
+	"Theyril Cloth":2,
+	"Primal Fungus":1,
+	"Primal Shadowtaint":1,
+	"Widow Silk":2
+}
+},
+  {
+    "id":"widowsilk_helmet",
+    "Name":"Widowsilk Elementalist Cowl",
+    "Icon":"icon_elementalist_widowsilk_hood.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":950,
+	"Cloth":16,
+	"Leenspar Cloth":4,
+	"Theyril Cloth":2,
+	"Primal Fungus":1,
+	"Primal Shadowtaint":1,
+	"Widow Silk":2
+}
+},
+  {
+    "id":"widowsilk_pants",
+    "Name":"Widowsilk Elementalist Leggings",
+    "Icon":"icon_elementalist_widowsilk_pants.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":950,
+	"Cloth":24,
+	"Leenspar Cloth":4,
+	"Theyril Cloth":2,
+	"Primal Fungus":1,
+	"Primal Shadowtaint":1,
+	"Widow Silk":2
+}
+},
+  {
+    "id":"widowsilk_shoulders",
+    "Name":"Widowsilk Elementalist Mantle",
+    "Icon":"icon_elementalist_widowsilk_shoulders.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":950,
+	"Cloth":8,
+	"Leenspar Cloth":2,
+	"Theyril Cloth":2,
+	"Primal Fungus":1,
+	"Primal Shadowtaint":1,
+	"Widow Silk":2
+}
+},
+  {
+    "id":"widowsilk_torso",
+    "Name":"Widowsilk Elementalist Robe",
+    "Icon":"icon_elementalist_widowsilk_robe_chest.png",
+    "Skill":"Tailoring Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":950,
+	"Cloth":32,
+	"Leenspar Cloth":6,
+	"Theyril Cloth":2,
+	"Primal Fungus":1,
+	"Primal Shadowtaint":1,
+	"Widow Silk":2
+}
+}
+]

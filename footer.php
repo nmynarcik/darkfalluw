@@ -48,6 +48,7 @@
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
     ga('create', 'UA-19670756-11', 'auto');
+    ga('require', 'displayfeatures');
     ga('send', 'pageview');
 
   </script>

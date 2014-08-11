@@ -1,0 +1,174 @@
+[
+  {
+    "id":"r_timber",
+    "Name":"Timber",
+    "Icon":"no-image.png",
+    "Skill":"Woodcutting",
+    "Min Level":1,
+    "Max Level":75,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":1,
+	"Inferior Timbers":5
+}
+},
+  {
+    "id":"r_wood",
+    "Name":"Wood",
+    "Icon":"item_wood_normal.png",
+    "Skill":"Woodcutting",
+    "Min Level":1,
+    "Max Level":100,
+    "Quantity":2,
+    "Recipe": {
+	"Gold":1,
+	"Timbers":5,
+	"Linseed":1
+}
+},
+  {
+    "id":"r_selentine_timber",
+    "Name":"Selentine Timber",
+    "Icon":"no-image.png",
+    "Skill":"Woodcutting Mastery",
+    "Min Level":1,
+    "Max Level":20,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":15,
+	"Selentine Essence":1,
+	"Timbers":3
+}
+},
+  {
+    "id":"r_selentine_wood",
+    "Name":"Selentine Wood",
+    "Icon":"item_wood_selentine.png",
+    "Skill":"Woodcutting Mastery",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":30,
+	"Linseeds":3,
+	"Selentine Timbers":2,
+	"Resin":1
+}
+},
+  {
+    "id":"r_veilron_timber",
+    "Name":"Veilron Timber",
+    "Icon":"no-image.png",
+    "Skill":"Woodcutting Mastery",
+    "Min Level":25,
+    "Max Level":45,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":25,
+	"Timbers":3,
+	"Veilron Essence":1
+}
+},
+  {
+    "id":"r_veilron_wood",
+    "Name":"Veilron Wood",
+    "Icon":"item_wood_veilron.png",
+    "Skill":"Woodcutting Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":50,
+	"Linseeds":4,
+	"Veilron Timbers":2,
+	"Resin":1
+}
+},
+  {
+    "id":"r_neithal_timber",
+    "Name":"Neithal Timber",
+    "Icon":"no-image.png",
+    "Skill":"Woodcutting Mastery",
+    "Min Level":50,
+    "Max Level":70,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":40,
+	"Timbers":3,
+	"Neithal Essence":1
+}
+},
+  {
+    "id":"r_neithal_wood",
+    "Name":"Neithal Wood",
+    "Icon":"item_wood_neithal.png",
+    "Skill":"Woodcutting Mastery",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":80,
+	"Linseeds":5,
+	"Neithal Timbers":2,
+	"Resin":1
+}
+},
+  {
+    "id":"r_leenspar_timber",
+    "Name":"Leenspar Timber",
+    "Icon":"no-image.png",
+    "Skill":"Woodcutting Mastery",
+    "Min Level":75,
+    "Max Level":95,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":58,
+	"Timbers":3,
+	"Leenspar Essence":1
+}
+},
+  {
+    "id":"r_leenspar_wood",
+    "Name":"Leenspar Wood",
+    "Icon":"item_wood_leenspar.png",
+    "Skill":"Woodcutting Mastery",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":115,
+	"Leenspar Timbers":2,
+	"Linseeds":6,
+	"Resin":1
+}
+},
+  {
+    "id":"r_theyril_timber",
+    "Name":"Theyril Timber",
+    "Icon":"no-image.png",
+    "Skill":"Woodcutting Mastery",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":80,
+	"Timbers":3,
+	"Theyril Essence":1
+}
+},
+  {
+    "id":"r_theyril_wood",
+    "Name":"Theyril Wood",
+    "Icon":"item_wood_theyril.png",
+    "Skill":"Woodcutting Mastery",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":160,
+	"Theyril Timbers":2,
+	"Linseeds":8,
+	"Resin":1
+}
+}
+]

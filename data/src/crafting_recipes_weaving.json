@@ -1,0 +1,174 @@
+[
+  {
+    "id":"r_cotton",
+    "Name":"Cotton",
+    "Icon":"no-image.png",
+    "Skill":"Weaving",
+    "Min Level":1,
+    "Max Level":75,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":1,
+	"Inferior Cottons":5
+}
+},
+  {
+    "id":"r_cloth",
+    "Name":"Cloth",
+    "Icon":"item_cloth_normal.png",
+    "Skill":"Weaving",
+    "Min Level":1,
+    "Max Level":100,
+    "Quantity":2,
+    "Recipe": {
+	"Gold":1,
+	"Cottons":5,
+	"Lye":1
+}
+},
+  {
+    "id":"r_selentine_cotton",
+    "Name":"Selentine Cotton",
+    "Icon":"no-image.png",
+    "Skill":"Weaving Mastery",
+    "Min Level":1,
+    "Max Level":20,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":15,
+	"Cottons":3,
+	"Selentine Essence":1
+}
+},
+  {
+    "id":"r_selentine_cloth",
+    "Name":"Selentine Cloth",
+    "Icon":"item_cloth_selentine.png",
+    "Skill":"Weaving Mastery",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":30,
+	"Lyes":3,
+	"Selentine Cottons":2,
+	"Mandrake":1
+}
+},
+  {
+    "id":"r_veilron_cotton",
+    "Name":"Veilron Cotton",
+    "Icon":"no-image.png",
+    "Skill":"Weaving Mastery",
+    "Min Level":25,
+    "Max Level":45,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":25,
+	"Cottons":3,
+	"Veilron Essence":1	
+}
+},
+  {
+    "id":"r_veilron_cloth",
+    "Name":"Veilron Cloth",
+    "Icon":"item_cloth_veilron.png",
+    "Skill":"Weaving Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":50,
+	"Lyes":4,
+	"Veilron Cottons":2,
+	"Mandrake":1
+}
+},
+  {
+    "id":"r_neithal_cotton",
+    "Name":"Neithal Cotton",
+    "Icon":"no-image.png",
+    "Skill":"Weaving Mastery",
+    "Min Level":50,
+    "Max Level":70,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":40,
+	"Cottons":3,
+	"Neithal Essence":1
+}
+},
+  {
+    "id":"r_neithal_cloth",
+    "Name":"Neithal Cloth",
+    "Icon":"item_cloth_neithal.png",
+    "Skill":"Weaving Mastery",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":80,
+	"Lyes":5,
+	"Neithal Cottons":2,
+	"Mandrake":1
+}
+},
+  {
+    "id":"r_leenspar_cotton",
+    "Name":"Leenspar Cotton",
+    "Icon":"no-image.png",
+    "Skill":"Weaving Mastery",
+    "Min Level":75,
+    "Max Level":95,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":58,
+	"Cottons":3,
+	"Leenspar Essence":1
+}
+},
+  {
+    "id":"r_leenspar_cloth",
+    "Name":"Leenspar Cloth",
+    "Icon":"item_cloth_leenspar.png",
+    "Skill":"Weaving Mastery",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":115,
+	"Lyes":6,
+	"Leenspar Cottons":2,
+	"Mandrake":1
+}
+},
+  {
+    "id":"r_theyril_cotton",
+    "Name":"Theyril Cotton",
+    "Icon":"no-image.png",
+    "Skill":"Weaving Mastery",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":80,
+	"Cottons":3,
+	"theyril Essence":1
+}
+},
+  {
+    "id":"r_theyril_cloth",
+    "Name":"Theyril Cloth",
+    "Icon":"item_cloth_theyril.png",
+    "Skill":"Weaving Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":160,
+	"Lyes":8,
+	"Theyril Cottons":2,
+	"Mandrake":1
+}
+}
+]

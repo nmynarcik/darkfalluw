@@ -1,0 +1,540 @@
+[
+  {
+    "id":"r_Shovel",
+    "Name":"Shovel",
+    "Icon":"waw_resource_tool_shovel_01.png",
+    "Skill":"Construction",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Wood":3,
+	"Iron Ingot":2
+}
+},
+  {
+    "id":"r_Fishing Pole",
+    "Name":"Fishing Pole",
+    "Icon":"waw_resource_tool_fishing_pole_01.png",
+    "Skill":"Construction",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Wood":3,
+	"Iron Ingot":1
+}
+},
+  {
+    "id":"r_Pickaxe",
+    "Name":"Pickaxe",
+    "Icon":"waw_resource_tool_pickaxe_01.png",
+    "Skill":"Construction",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Wood":3,
+	"Iron Ingot":2
+}
+},
+  {
+    "id":"r_S_Pickaxe",
+    "Name":"Selentine Pickaxe",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":20,
+	"Wood":3,
+	"Iron Ingot":2,
+	"Selentine Ingot":1
+}
+},
+  {
+    "id":"r_V_Pickaxe",
+    "Name":"Veilron Pickaxe",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":50,
+    "Max Level":65,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":30,
+	"Wood":3,
+	"Iron Ingot":2,
+	"Veilron Ingot":1
+}
+},
+  {
+    "id":"r_N_Pickaxe",
+    "Name":"Neithal Pickaxe",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":65,
+    "Max Level":85,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":75,
+	"Wood":3,
+	"Iron Ingot":2,
+	"Neithal Ingot":1
+}
+},
+  {
+    "id":"r_L_Pickaxe",
+    "Name":"Leenspar Pickaxe",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":85,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":185,
+	"Wood":3,
+	"Iron Ingot":2,
+	"Leenspar Ingot":1
+}
+},
+  {
+    "id":"r_T_Pickaxe",
+    "Name":"Theyril Pickaxe",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":465,
+	"Wood":3,
+	"Iron Ingot":2,
+	"Theyril Ingot":1
+}
+},
+  {
+    "id":"r_Sickle",
+    "Name":"Sickle",
+    "Icon":"waw_resource_tool_sickle_01.png",
+    "Skill":"Construction",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Wood":2,
+	"Iron Ingot":1
+}
+},
+  {
+    "id":"r_S_Sickle",
+    "Name":"Selentine Sickle",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":20,
+	"Wood":2,
+	"Iron Ingot":1,
+	"Selentine Ingot":1
+}
+},
+  {
+    "id":"r_V_Sickle",
+    "Name":"Veilron Sickle",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":50,
+    "Max Level":65,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":30,
+	"Wood":2,
+	"Iron Ingot":1,
+	"Veilron Ingot":1
+}
+},
+  {
+    "id":"r_N_Sickle",
+    "Name":"Neithal Sickle",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":65,
+    "Max Level":85,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":75,
+	"Wood":2,
+	"Iron Ingot":1,
+	"Neithal Ingot":1
+}
+},
+  {
+    "id":"r_L_Sickle",
+    "Name":"Leenspar Sickle",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":85,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":185,
+	"Wood":2,
+	"Iron Ingot":1,
+	"Leenspar Ingot":1
+}
+},
+  {
+    "id":"r_T_Sickle",
+    "Name":"Theyril Sickle",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":465,
+	"Wood":2,
+	"Iron Ingot":1,
+	"Theyril Ingot":1
+}
+},
+  {
+    "id":"r_Skinner",
+    "Name":"Skinner",
+    "Icon":"waw_resource_tool_skinning_knife_01.png",
+    "Skill":"Construction",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2,
+	"Wood":1,
+	"Iron Ingot":1
+}
+},
+  {
+    "id":"r_S_Skinner",
+    "Name":"Selentine Skinner",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":20,
+	"Wood":2,
+	"Iron Ingot":1,
+	"Selentine Ingot":1
+}
+},
+  {
+    "id":"r_V_Skinner",
+    "Name":"Veilron Skinner",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":50,
+    "Max Level":65,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":30,
+	"Wood":2,
+	"Iron Ingot":1,
+	"Veilron Ingot":1
+}
+},
+  {
+    "id":"r_N_Skinner",
+    "Name":"Neithal Skinner",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":65,
+    "Max Level":85,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":75,
+	"Wood":2,
+	"Iron Ingot":1,
+	"Neithal Ingot":1
+}
+},
+  {
+    "id":"r_L_Skinner",
+    "Name":"Leenspar Skinner",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":85,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":185,
+	"Wood":2,
+	"Iron Ingot":1,
+	"Leenspar Ingot":1
+}
+},
+  {
+    "id":"r_T_Skinner",
+    "Name":"Theyril Skinner",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":465,
+	"Wood":2,
+	"Iron Ingot":1,
+	"Theyril Ingot":1
+}
+},
+  {
+    "id":"r_Wood Axe",
+    "Name":"Wood Axe",
+    "Icon":"waw_resource_tool_wood_axe_01.png",
+    "Skill":"Construction",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Wood":3,
+	"Iron Ingot":2
+}
+},
+  {
+    "id":"r_S_Wood axe",
+    "Name":"Selentine Pickaxe",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":20,
+	"Wood":3,
+	"Iron Ingot":2,
+	"Selentine Ingot":1
+}
+},
+  {
+    "id":"r_V_Wood axe",
+    "Name":"Veilron Pickaxe",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":50,
+    "Max Level":65,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":30,
+	"Wood":3,
+	"Iron Ingot":2,
+	"Veilron Ingot":1
+}
+},
+  {
+    "id":"r_N_Wood axe",
+    "Name":"Neithal Pickaxe",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":65,
+    "Max Level":85,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":75,
+	"Wood":3,
+	"Iron Ingot":2,
+	"Neithal Ingot":1
+}
+},
+  {
+    "id":"r_L_Wood axe",
+    "Name":"Leenspar Pickaxe",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":85,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":185,
+	"Wood":3,
+	"Iron Ingot":2,
+	"Leenspar Ingot":1
+}
+},
+  {
+    "id":"r_T_Wood axe",
+    "Name":"Theyril Pickaxe",
+    "Icon":"",
+    "Skill":"Construction",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":465,
+	"Wood":3,
+	"Iron Ingot":2,
+	"Theyril Ingot":1
+}
+},
+  {
+    "id":"r_Repair Tools",
+    "Name":"Repair Tools",
+    "Icon":"waw_repair_tools_01.png",
+    "Skill":"Construction",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":5,
+	"Wood":3,
+	"Iron Ingot":3
+}
+},
+  {
+    "id":"r_Repair Shard",
+    "Name":"Repair Shard",
+    "Icon":"repair_shard_01.png",
+    "Skill":"Construction",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":10,
+	"Wood":5,
+	"Iron Ingot":2,
+	"Stone":10,
+	"Inferior Fragment":2
+}
+},
+  {
+    "id":"r_Player Use Flag 01 Item",
+    "Name":"Small Player Flag",
+    "Icon":"marker_small_01.png",
+    "Skill":"Construction",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2,
+	"Wood":2,
+	"Cloth":1
+}
+},
+  {
+    "id":"r_Player Use Flag 02 Item",
+    "Name":"Medium Player Flag",
+    "Icon":"marker_medium_01.png",
+    "Skill":"Construction",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2,
+	"Wood":3,
+	"Cloth":2
+}
+},
+  {
+    "id":"r_Player Use Flag 03 Item",
+    "Name":"Large Player Flag",
+    "Icon":"marker_large_01.png",
+    "Skill":"Construction",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2,
+	"Wood":5,
+	"Cloth":3
+}
+},
+  {
+    "id":"r_Module Building",
+    "Name":"Building Module",
+    "Icon":"construction_unit_01.png",
+    "Skill":"Construction",
+    "Min Level":10,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":300,
+	"Wood":50,
+	"Iron Ingot":25,
+	"Stone":100
+}
+},
+  {
+    "id":"r_Front Door",
+    "Name":"Front Door",
+    "Icon":"playerhouse_door.png",
+    "Skill":"Construction",
+    "Min Level":25,
+    "Max Level":40,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":20,
+	"Wood":15,
+	"Iron Ingot":5
+}
+},
+  {
+    "id":"r_Camp Fire Item",
+    "Name":"Camp Fire",
+    "Icon":"deployable_cooking_station_01.png",
+    "Skill":"Construction",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Wood":5,
+	"Iron Ingot":3
+}
+},
+  {
+    "id":"r_Deployable Personal Strongbox Item",
+    "Name":"Personal Strongbox",
+    "Icon":"deployable_strongbox_player_01.png",
+    "Skill":"Construction",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Building Module":1
+}
+},
+  {
+    "id":"r_Deployable Party Strongbox Item",
+    "Name":"Party Strongbox",
+    "Icon":"deployable_strongbox_party_01.png",
+    "Skill":"Construction",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":150,
+	"Building Module":3
+}
+},
+  {
+    "id":"r_Deployable Siege Strongbox Item",
+    "Name":"Siege Strongbox",
+    "Icon":"deployable_strongbox_clan_01.png",
+    "Skill":"Construction",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":500,
+	"Building Module":10
+}
+}
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "id":"r_Arrow_01",
+    "Name":"Arrow",
+    "Icon":"arrows_01.png",
+    "Skill":"Bowyer",
+    "Min Level":1,
+    "Max Level":10,
+    "Quantity":10,
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingot":1,
+	"Wood":2
+}
+},
+  {
+    "id":"r_Bow_p01_r01",
+    "Name":"Crude Militant Bow",
+    "Icon":"crude_militant_bow.png",
+    "Skill":"Bowyer",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingot":1,
+	"Wood":2,
+	"Leather":1
+}
+},
+  {
+    "id":"r_Bow_p01_r02",
+    "Name":"Common Militant Bow",
+    "Icon":"common_militant_bow.png",
+    "Skill":"Bowyer",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":8,
+	"Iron Ingot":1,
+	"Wood":4,
+	"Leather":1
+}
+},
+  {
+    "id":"r_Bow_p01_r03",
+    "Name":"Sturdy Militant Bow",
+    "Icon":"sturdy_militant_bow.png",
+    "Skill":"Bowyer",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingot":1,
+	"Wood":8,
+	"Leather":2
+}
+},
+  {
+    "id":"r_Bow_p01_r04",
+    "Name":"Superior Militant Bow",
+    "Icon":"superior_militant_bow.png",
+    "Skill":"Bowyer",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingot":1,
+	"Wood":16,
+	"Leather":2
+}
+},
+  {
+    "id":"r_Bow_p01_r05",
+    "Name":"Selentine Militant Bow",
+    "Icon":"selentine_militant_bow.png",
+    "Skill":"Bowyer Mastery",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingot":2,
+	"Wood":30,
+	"Leather":3,
+	"Selentine Wood":3,
+	"Selentine Leather":1,
+	"Selentine Ingot":1
+}
+},
+  {
+    "id":"r_Bow_p01_r06",
+    "Name":"Veilron Militant Bow",
+    "Icon":"veilron_militant_bow.png",
+    "Skill":"Bowyer Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":155,
+	"Iron Ingot":2,
+	"Wood":30,
+	"Leather":3,
+	"Veilron Wood":2,
+	"Selentine Wood":1,
+	"Selentine Leather":1,
+	"Selentine Ingot":1
+}
+},
+  {
+    "id":"r_Bow_p01_r07",
+    "Name":"Neithal Militant Bow",
+    "Icon":"neithal_militant_bow.png",
+    "Skill":"Bowyer Mastery",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingot":2,
+	"Wood":30,
+	"Leather":3,
+	"Neithal Wood":2,
+	"Veilron Wood":1,
+	"Veilron Leather":1,
+	"Veilron Ingot":1
+}
+},
+  {
+    "id":"r_Bow_p01_r08",
+    "Name":"Leenspar Militant Bow",
+    "Icon":"leenspar_militant_bow.png",
+    "Skill":"Bowyer Mastery",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":340,
+	"Iron Ingot":2,
+	"Wood":30,
+	"Leather":3,
+	"Leenspar Wood":2,
+	"Neithal Wood":1,
+	"Neithal Leather":1,
+	"Neithal Ingot":1
+}
+},
+  {
+    "id":"r_Bow_p01_r09",
+    "Name":"Theyril Militant Bow",
+    "Icon":"theyril_militant_bow.png",
+    "Skill":"Bowyer Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingot":2,
+	"Wood":30,
+	"Leather":3,
+	"Theyril Wood":2,
+	"Leenspar Wood":1,
+	"Leenspar Leather":1,
+	"Leenspar Ingot":1,
+	"Primal Marrow":1,
+	"Primal Eye":1,
+	"Ancient Sinew":1
+}
+}
+]

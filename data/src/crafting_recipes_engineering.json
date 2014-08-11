@@ -1,0 +1,194 @@
+[
+  {
+    "id":"r_black_powder",
+    "Name":"Black Powder",
+    "Icon":"black_powder_01.png",
+    "Skill":"Engineering",
+    "Min Level":1,
+    "Max Level":10,
+    "Quantity":10,
+    "Recipe": {
+	"Gold":5,
+    "Fossil":5,
+    "Sulfur":10
+}
+},
+  {
+    "id":"r_grenade_01",
+    "Name":"Light Battlespike",
+    "Icon":"waw_grenade_01.png",
+    "Skill":"Engineering",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":4,
+    "Recipe": {
+	"Gold":2,
+	"Black Powder":2,
+	"Iron Ingot":1
+}
+},
+  {
+    "id":"r_grenade_02",
+    "Name":"Battlespike",
+    "Icon":"waw_grenade_02.png",
+    "Skill":"Engineering",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":4,
+    "Recipe": {
+	"Gold":16,
+	"Black Powder":5,
+	"Iron Ingot":2,
+	"Inferior Anima":2,
+	"Impure Anima":2
+}
+},
+  {
+    "id":"r_siege_hammer",
+    "Name":"Siege Hammer",
+    "Icon":"waw_sieginghammer_01.png",
+    "Skill":"Engineering",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingot":30,
+    	"Wood":12,
+	"Impure Glyph":5,
+	"Fine Glyph":2
+}
+},
+  {
+    "id":"r_grenade_03",
+    "Name":"Heavy Battlespike",
+    "Icon":"waw_grenade_03.png",
+    "Skill":"Engineering",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":4,
+    "Recipe": {
+	"Gold":100,
+	"Black Powder":10,
+	"Iron Ingot":3,
+	"Fine Anima":4
+}
+},
+  {
+    "id":"r_spyglass",
+    "Name":"Spyglass (4 uses)",
+    "Icon":"",
+    "Skill":"Engineering",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingot":1,
+	"Leather":5,
+	"Fine Eye":1,
+	"Quartz":3
+}
+},
+  {
+    "id":"r_eruptor",
+    "Name":"Eruptor Figurine",
+    "Icon":"",
+    "Skill":"Engineering",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":500,
+	"Iron Ingot":60,
+	"Leather":20,
+	"Stone":40,
+	"Wood":40,
+	"Selentine Ingot":5,
+	"Selentine Wood":3,
+	"Veilron Ingot":2,
+	"Veilron Wood":1,
+	"Flash Cotton":2
+}
+},
+  {
+    "id":"r_sel_glove",
+    "Name":"Selentine Gauntlets of Requisition",
+    "Icon":"",
+    "Skill":"Engineering",
+    "Min Level":1,
+    "Max Level":20,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":50,
+	"Selentine Ingot":2,
+	"Selentine Cloth":3,
+	"Inferior Glyph":3,
+	"Flawed Prism of Requisition":3
+}
+},
+  {
+    "id":"r_vel_glove",
+    "Name":"Veilron Gauntlets of Requisition",
+    "Icon":"",
+    "Skill":"Engineering",
+    "Min Level":20,
+    "Max Level":40,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":89,
+	"Veilron Ingot":2,
+	"Veilron Cloth":3,
+	"Impure Glyph":3,
+	"Cloudy Prism of Requisition":3
+}
+},
+  {
+    "id":"r_nei_glove",
+    "Name":"Neithal Gauntlets of Requisition",
+    "Icon":"",
+    "Skill":"Engineering",
+    "Min Level":40,
+    "Max Level":60,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":158,
+	"Neithal Ingot":2,
+	"Neithal Cloth":3,
+	"Fine Glyph":3,
+	"Chipped Prism of Requisition":3
+}
+},
+  {
+    "id":"r_leen_glove",
+    "Name":"Leenspar Gauntlets of Requisition",
+    "Icon":"",
+    "Skill":"Engineering",
+    "Min Level":60,
+    "Max Level":80,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":281,
+	"Leenspar Ingot":2,
+	"Leenspar Cloth":3,
+	"Pure Glyph":3,
+	"Flawless Prism of Requisition":3
+}
+},
+  {
+    "id":"r_they_glove",
+    "Name":"Theyril Gauntlets of Requisition",
+    "Icon":"",
+    "Skill":"Engineering",
+    "Min Level":80,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":500,
+	"Theyril Ingot":2,
+	"Theyril Cloth":3,
+	"Primal Glyph":3,
+	"Pristine Prism of Requisition":3
+}
+}
+]

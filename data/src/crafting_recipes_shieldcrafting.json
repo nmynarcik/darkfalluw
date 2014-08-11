@@ -1,0 +1,150 @@
+[
+  {
+    "id":"r_Shield_p01_r01",
+    "Name":"Crude Militant Shield",
+    "Icon":"crude_militant_shield.png",
+    "Skill":"Shieldcrafting",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Wood":3,
+	"Leather":2
+}
+},
+  {
+    "id":"r_Shield_p01_r02",
+    "Name":"Common Militant Shield",
+    "Icon":"common_militant_shield.png",
+    "Skill":"Shieldcrafting",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Wood":5,
+	"Leather":4
+}
+},
+  {
+    "id":"r_Shield_p01_r03",
+    "Name":"Sturdy Militant Shield",
+    "Icon":"sturdy_militant_shield.png",
+    "Skill":"Shieldcrafting",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Wood":8,
+	"Leather":5
+}
+},
+  {
+    "id":"r_Shield_p01_r04",
+    "Name":"Superior Militant Shield",
+    "Icon":"superior_militant_shield.png",
+    "Skill":"Shieldcrafting",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Wood":10,
+	"Leather":6,
+	"Iron Ingot":5
+}
+},
+  {
+    "id":"r_Shield_p01_r05",
+    "Name":"Selentine Militant Shield",
+    "Icon":"selentine_militant_shield.png",
+    "Skill":"Shieldcrafting Mastery",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Wood":10,
+	"Leather":10,
+	"Iron Ingot":20,
+	"Selentine Ingot":1,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"r_Shield_p01_r06",
+    "Name":"Veilron Militant Shield",
+    "Icon":"veilron_militant_shield.png",
+    "Skill":"Shieldcrafting Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":155,
+	"Wood":5,
+	"Leather":10,
+	"Iron Ingot":20,
+	"Veilron Ingot":1,
+	"Selentine Wood":1,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"r_Shield_p01_r07",
+    "Name":"Neithal Militant Shield",
+    "Icon":"neithal_militant_shield.png",
+    "Skill":"Shieldcrafting Mastery",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Wood":5,
+	"Leather":10,
+	"Iron Ingot":20,
+	"Neithal Ingot":1,
+	"Veilron Wood":1,
+	"Veilron Leather":1
+}
+},
+  {
+    "id":"r_Shield_p01_r08",
+    "Name":"Leenspar Militant Shield",
+    "Icon":"leenspar_militant_shield.png",
+    "Skill":"Shieldcrafting Mastery",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":340,
+	"Wood":5,
+	"Leather":10,
+	"Iron Ingot":20,
+	"Leenspar Ingot":1,
+	"Neithal Wood":1,
+	"Neithal Leather":1
+}
+},
+  {
+    "id":"r_Shield_p01_r09",
+    "Name":"Theyril Militant Shield",
+    "Icon":"theyril_militant_shield.png",
+    "Skill":"Shieldcrafting Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Wood":5,
+	"Leather":10,
+	"Iron Ingot":20,
+	"Theyril Ingot":1,
+	"Leenspar Wood":1,
+	"Leenspar Leather":1,
+	"Primal Bile":1,
+	"Golemite Alloy":1
+}
+}
+]

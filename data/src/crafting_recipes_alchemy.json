@@ -1,0 +1,934 @@
+[
+  {
+    "id":"r_Elemental Dust",
+    "Name":"Elemental Dust",
+    "Icon":"item_elemental_dust.png",
+    "Skill":"Alchemy",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":4,
+    "Recipe": {
+	"Gold":1,
+	"Mandrake":1,
+	"Sulfur":1
+}
+},
+  {
+    "id":"r_Spirit Beads",
+    "Name":"Spirit Beads",
+    "Icon":"no-image.png",
+    "Skill":"Alchemy",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":4,
+    "Recipe": {
+	"Gold":1,
+	"Resin":1,
+	"Nacre":1
+}
+},
+  {
+    "id":"r_Potion Health Minor",
+    "Name":"Minor Healing Potion",
+    "Icon":"item_vial_red_small.png",
+    "Skill":"Alchemy",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":1,
+	"Empty bottle":"1",
+	"Seeds":3,
+	"Inferior Blood":1
+}
+},
+  {
+    "id":"r_Potion Stamina Minor",
+    "Name":"Minor Stamina Potion",
+    "Icon":"item_vial_golden_small.png",
+    "Skill":"Alchemy",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":1,
+	"Empty bottle":"1",
+	"Lichens":3,
+	"Inferior Gristles":2
+}
+},
+  {
+    "id":"r_Potion Mana Minor",
+    "Name":"Minor Mana Potion",
+    "Icon":"item_vial_blue_small.png",
+    "Skill":"Alchemy",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":1,
+	"Empty bottle":"1",
+	"Shells":3,
+	"Inferior Mana Flakes":3
+}
+},
+  {
+    "id":"r_Anima_q02",
+    "Name":"Impure Anima",
+    "Icon":"anima_q02_icon.png",
+    "Skill":"Alchemy",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":8,
+	"Inferior Animas":6
+}
+},
+  {
+    "id":"r_Bile_q02",
+    "Name":"Impure Bile",
+    "Icon":"bile_q02_icon.png",
+    "Skill":"Alchemy",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":8,
+	"Inferior Biles":6
+}
+},
+  {
+    "id":"r_Blood_q02",
+    "Name":"Impure Blood",
+    "Icon":"blood_q02_icon.png",
+    "Skill":"Alchemy",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":8,
+	"Inferior Bloods":6
+}
+},
+  {
+    "id":"r_Eye_q02",
+    "Name":"Impure Eye",
+    "Icon":"eye_q02_icon.png",
+    "Skill":"Alchemy",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":8,
+	"Inferior Eyes":6
+}
+},
+  {
+    "id":"r_Fragment_q02",
+    "Name":"Impure Fragment",
+    "Icon":"fragment_q02_icon.png",
+    "Skill":"Alchemy",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":8,
+	"Inferior Fragments":6
+}
+},
+  {
+    "id":"r_Fungus_q02",
+    "Name":"Impure Fungus",
+    "Icon":"fungus_q02_icon.png",
+    "Skill":"Alchemy",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":8,
+	"Inferior Fungus":6
+}
+},
+  {
+    "id":"r_Glyph_q02",
+    "Name":"Impure Glyph",
+    "Icon":"glyph_q02_icon.png",
+    "Skill":"Alchemy",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":8,
+	"Inferior Glyphs":6
+}
+},
+  {
+    "id":"r_Gristle_q02",
+    "Name":"Impure Gristle",
+    "Icon":"gristle_q02_icon.png",
+    "Skill":"Alchemy",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":8,
+	"Inferior Gristles":6
+}
+},
+  {
+    "id":"r_Mana Flakes_q02",
+    "Name":"Impure Mana flakes",
+    "Icon":"mana_flakes_q02_icon.png",
+    "Skill":"Alchemy",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":8,
+	"Inferior Mana Flakes":6
+}
+},
+  {
+    "id":"r_Marrow_q02",
+    "Name":"Impure Marrow",
+    "Icon":"marrow_q02_icon.png",
+    "Skill":"Alchemy",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":8,
+	"Inferior Marrows":6
+}
+},
+  {
+    "id":"r_Ooze_q02",
+    "Name":"Impure Ooze",
+    "Icon":"ooze_q02_icon.png",
+    "Skill":"Alchemy",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":8,
+	"Inferior Oozes":6
+}
+},
+  {
+    "id":"r_Shadowtaint_q02",
+    "Name":"Impure Shadowtaint",
+    "Icon":"shadowtaint_q02_icon.png",
+    "Skill":"Alchemy",
+    "Min Level":25,
+    "Max Level":35,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":8,
+	"Inferior Shadowtaints":6
+}
+},
+  {
+    "id":"r_Potion Rejuvenation Lesser",
+    "Name":"Potion of Lesser Rejuvenation",
+    "Icon":"item_vial_metal.png",
+    "Skill":"Alchemy",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":8,
+	"Empty bottle":"1",
+	"Larvas":5,
+	"Inferior Anima":1,
+	"Impure Anima":1
+}
+},
+  {
+    "id":"r_Potion Health Moderate",
+    "Name":"Moderate Healing Potion",
+    "Icon":"item_vial_red.png",
+    "Skill":"Alchemy",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":25,
+	"Empty bottle":"1",
+	"Seeds":8,
+	"Inferior Blood":1,
+	"Impure Blood":1
+}
+},
+  {
+    "id":"r_Potion Stamina Moderate",
+    "Name":"Moderate Stamina Potion",
+    "Icon":"item_vial_golden.png",
+    "Skill":"Alchemy",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":25,
+	"Empty bottle":"1",
+	"Lichens":8,
+	"Inferior Gristle":1,
+	"Impure Gristles":2
+}
+},
+  {
+    "id":"r_Potion Mana Moderate",
+    "Name":"Moderate Mana Potion",
+    "Icon":"item_vial_blue.png",
+    "Skill":"Alchemy",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":25,
+	"Empty bottle":"1",
+	"Shells":8,
+	"Inferior Mana Flake":1,
+	"Impure Mana Flakes":2
+}
+},
+  {
+    "id":"r_Potion Health Major",
+    "Name":"Major Healing Potion",
+    "Icon":"item_vial_red_big.png",
+    "Skill":"Alchemy",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":50,
+	"Empty bottle":"1",
+	"Seeds":10,
+	"Impure Blood":1
+}
+},
+  {
+    "id":"r_Potion Stamina Major",
+    "Name":"Major Stamina Potion",
+    "Icon":"item_vial_golden_big.png",
+    "Skill":"Alchemy",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":50,
+	"Empty bottle":"1",
+	"Lichens":20,
+	"Impure Gristles":2
+}
+},
+  {
+    "id":"r_Potion Mana Major",
+    "Name":"Major Mana Potion",
+    "Icon":"item_vial_blue_big.png",
+    "Skill":"Alchemy",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":50,
+	"Empty bottle":"1",
+	"Shells":10,
+	"Impure Mana Flakes":2
+}
+},
+  {
+    "id":"r_Anima_q03",
+    "Name":"Fine Anima",
+    "Icon":"anima_q03_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":1,
+    "Max Level":10,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":95,
+	"Impure Animas":6
+}
+},
+  {
+    "id":"r_Bile_q03",
+    "Name":"Fine Bile",
+    "Icon":"bile_q03_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":1,
+    "Max Level":10,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":95,
+	"Impure Biles":6
+}
+},
+  {
+    "id":"r_Blood_q03",
+    "Name":"Fine Blood",
+    "Icon":"blood_q03_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":1,
+    "Max Level":10,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":95,
+	"Impure Bloods":6
+}
+},
+  {
+    "id":"r_Eye_q03",
+    "Name":"Fine Eye",
+    "Icon":"eye_q03_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":1,
+    "Max Level":10,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":95,
+	"Impure Eyes":6
+}
+},
+  {
+    "id":"r_Fragment_q03",
+    "Name":"Fine Fragment",
+    "Icon":"fragment_q03_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":1,
+    "Max Level":10,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":95,
+	"Impure Fragments":6
+}
+},
+  {
+    "id":"r_Fungus_q03",
+    "Name":"Fine Fungus",
+    "Icon":"fungus_q03_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":1,
+    "Max Level":10,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":95,
+	"Impure Fungus":6
+}
+},
+  {
+    "id":"r_Glyph_q03",
+    "Name":"Fine Glyph",
+    "Icon":"glyph_q03_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":1,
+    "Max Level":10,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":95,
+	"Impure Glyphs":6
+}
+},
+  {
+    "id":"r_Gristle_q03",
+    "Name":"Fine Gristle",
+    "Icon":"gristle_q03_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":1,
+    "Max Level":10,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":95,
+	"Impure Gristles":6
+}
+},
+  {
+    "id":"r_Mana Flakes_q03",
+    "Name":"Fine Mana flakes",
+    "Icon":"mana_flakes_q03_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":1,
+    "Max Level":10,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":95,
+	"Impure Mana Flakes":6
+}
+},
+  {
+    "id":"r_Marrow_q03",
+    "Name":"Fine Marrow",
+    "Icon":"marrow_q03_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":1,
+    "Max Level":10,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":95,
+	"Impure Marrows":6
+}
+},
+  {
+    "id":"r_Ooze_q03",
+    "Name":"Fine Ooze",
+    "Icon":"ooze_q03_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":1,
+    "Max Level":10,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":95,
+	"Impure Oozes":6
+}
+},
+  {
+    "id":"r_Shadowtaint_q03",
+    "Name":"Fine Shadowtaint",
+    "Icon":"shadowtaint_q03_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":1,
+    "Max Level":10,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":95,
+	"Impure Shadowtaints":6
+}
+},
+  {
+    "id":"r_Potion Rejuvenation Greater",
+    "Name":"Potion of Greater Rejuvenation",
+    "Icon":"item_vial_metal.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":95,
+	"Empty bottle":"1",
+	"Larvas":11,
+	"Impure Anima":1,
+	"Fine Anima":1
+}
+},
+  {
+    "id":"r_Potion Antidote",
+    "Name":"Antidote Potion",
+    "Icon":"item_vial_green.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":155,
+	"Empty bottle":"1",
+	"Rusts":16,
+	"Fine Biles":2
+}
+},
+  {
+    "id":"r_Potion Water Breathing",
+    "Name":"Potion of Water Breathing",
+    "Icon":"item_flask_waterbreathing.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":155,
+	"Empty bottle":"1",
+	"Nacres":20,
+	"Fine Oozes":2
+}
+},
+  {
+    "id":"r_Anima_q04",
+    "Name":"Pure Anima",
+    "Icon":"anima_q04_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":50,
+    "Max Level":60,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":235,
+	"Fine Animas":6
+}
+},
+  {
+    "id":"r_Bile_q04",
+    "Name":"Pure Bile",
+    "Icon":"bile_q04_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":50,
+    "Max Level":60,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":235,
+	"Fine Biles":6
+}
+},
+  {
+    "id":"r_Blood_q04",
+    "Name":"Pure Blood",
+    "Icon":"blood_q04_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":50,
+    "Max Level":60,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":235,
+	"Fine Bloods":6
+}
+},
+  {
+    "id":"r_Eye_q04",
+    "Name":"Pure Eye",
+    "Icon":"eye_q04_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":50,
+    "Max Level":60,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":235,
+	"Fine Eyes":6
+}
+},
+  {
+    "id":"r_Fragment_q04",
+    "Name":"Pure Fragment",
+    "Icon":"fragment_q04_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":50,
+    "Max Level":60,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":235,
+	"Fine Fragments":6
+}
+},
+  {
+    "id":"r_Fungus_q04",
+    "Name":"Pure Fungus",
+    "Icon":"fungus_q04_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":50,
+    "Max Level":60,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":235,
+	"Fine Fungus":6
+}
+},
+  {
+    "id":"r_Glyph_q04",
+    "Name":"Pure Glyph",
+    "Icon":"glyph_q04_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":50,
+    "Max Level":60,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":235,
+	"Fine Glyphs":6
+}
+},
+  {
+    "id":"r_Gristle_q04",
+    "Name":"Pure Gristle",
+    "Icon":"gristle_q04_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":50,
+    "Max Level":60,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":235,
+	"Fine Gristles":6
+}
+},
+  {
+    "id":"r_Mana Flakes_q04",
+    "Name":"Pure Mana flakes",
+    "Icon":"mana_flakes_q04_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":50,
+    "Max Level":60,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":235,
+	"Fine Mana Flakes":6
+}
+},
+  {
+    "id":"r_Marrow_q04",
+    "Name":"Pure Marrow",
+    "Icon":"marrow_q04_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":50,
+    "Max Level":60,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":235,
+	"Fine Marrows":6
+}
+},
+  {
+    "id":"r_Ooze_q04",
+    "Name":"Pure Ooze",
+    "Icon":"ooze_q04_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":50,
+    "Max Level":60,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":235,
+	"Fine Oozes":6
+}
+},
+  {
+    "id":"r_Shadowtaint_q04",
+    "Name":"Pure Shadowtaint",
+    "Icon":"shadowtaint_q04_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":50,
+    "Max Level":60,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":235,
+	"Fine Shadowtaints":6
+}
+},
+  {
+    "id":"r_Potion Suppress Weakness",
+    "Name":"Suppress Weakness Potion",
+    "Icon":"item_vial_yellow.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":235,
+	"Empty bottle":"1",
+	"Sulfurs":25,
+	"Fine Marrows":3
+}
+},
+  {
+    "id":"r_Potion Clean Slate",
+    "Name":"Clean Slate Potion",
+    "Icon":"item_vial_black.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":235,
+	"Empty bottle":"1",
+	"Resin":25,
+	"Fine Shadowtaints":3
+}
+},
+  {
+    "id":"r_Potion Clear Mind",
+    "Name":"Clear Mind Potion",
+    "Icon":"misc_potion_bottle_08.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":340,
+	"Empty bottle":"1",
+	"Rusts":30,
+	"Pure Eyes":2
+}
+},
+  {
+    "id":"r_Potion Remedy",
+    "Name":"Remedy Potion",
+    "Icon":"item_vial_smoking.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":340,
+	"Empty bottle":"1",
+	"Mandrakes":30,
+	"Pure Fungus":4
+}
+},
+  {
+    "id":"r_Anima_q05",
+    "Name":"Primal Anima",
+    "Icon":"anima_q05_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":475,
+	"Pure Animas":8
+}
+},
+  {
+    "id":"r_Bile_q05",
+    "Name":"Primal Bile",
+    "Icon":"bile_q05_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":475,
+	"Pure Biles":8
+}
+},
+  {
+    "id":"r_Blood_q05",
+    "Name":"Primal Blood",
+    "Icon":"blood_q05_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":475,
+	"Pure Bloods":8
+}
+},
+  {
+    "id":"r_Eye_q05",
+    "Name":"Primal Eye",
+    "Icon":"eye_q05_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":475,
+	"Pure Eyes":8
+}
+},
+  {
+    "id":"r_Fragment_q05",
+    "Name":"Primal Fragment",
+    "Icon":"fragment_q05_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":475,
+	"Pure Fragments":8
+}
+},
+  {
+    "id":"r_Fungus_q05",
+    "Name":"Primal Fungus",
+    "Icon":"fungus_q05_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":475,
+	"Pure Fungus":8
+}
+},
+  {
+    "id":"r_Glyph_q05",
+    "Name":"Primal Glyph",
+    "Icon":"glyph_q05_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":475,
+	"Pure Glyphs":8
+}
+},
+  {
+    "id":"r_Gristle_q05",
+    "Name":"Primal Gristle",
+    "Icon":"gristle_q05_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":475,
+	"Pure Gristles":8
+}
+},
+  {
+    "id":"r_Mana Flakes_q05",
+    "Name":"Primal Mana flakes",
+    "Icon":"mana_flakes_q05_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":475,
+	"Pure Mana Flakes":8
+}
+},
+  {
+    "id":"r_Marrow_q05",
+    "Name":"Primal Marrow",
+    "Icon":"marrow_q05_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":475,
+	"Pure Marrows":8
+}
+},
+  {
+    "id":"r_Ooze_q05",
+    "Name":"Primal Ooze",
+    "Icon":"ooze_q05_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":475,
+	"Pure Oozes":8
+}
+},
+  {
+    "id":"r_Shadowtaint_q05",
+    "Name":"Primal Shadowtaint",
+    "Icon":"shadowtaint_q05_icon.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":475,
+	"Pure Shadowtaints":8
+}
+},
+  {
+    "id":"r_Potion Panacea",
+    "Name":"Panacea Potion",
+    "Icon":"item_vial_bubbling.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":475,
+	"Empty bottle":"1",
+	"Fossils":38,
+	"Larvas":38,
+	"Pure Fragments":2,
+	"Primal Fragment":1,
+	"Pure Glyphs":2,
+	"Primal Glyph":1,
+	"Celestial Soul":1
+}
+}
+]

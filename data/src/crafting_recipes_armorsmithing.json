@@ -1,0 +1,1157 @@
+[
+  {
+    "id":"r_Armor Chain Mail Set",
+    "Name":"Chain Mail Set",
+    "Icon":"icon_chain_torso.png",
+    "Skill":"Armorsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":10,
+	"Iron Ingots":16,
+	"Leathers":12
+}
+},
+  {
+    "id":"r_Armor Chain Mail Arms",
+    "Name":"Chain Mail Sleeves",
+    "Icon":"icon_chain_arms.png",
+    "Skill":"Armorsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingot":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_Armor Chain Mail Elbows",
+    "Name":"Chain Mail Couters",
+    "Icon":"icon_chain_elbows.png",
+    "Skill":"Armorsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingot":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_Armor Chain Mail Girdle",
+    "Name":"Chain Mail Belt",
+    "Icon":"icon_chain_girdle.png",
+    "Skill":"Armorsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingot":1,
+    	"Leather":1
+}
+},
+  {
+    "id":"r_Armor Chain Mail Gloves",
+    "Name":"Chain Mail Gauntlets",
+    "Icon":"icon_chain_gloves.png",
+    "Skill":"Armorsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingot":1,
+    	"Leather":1
+}
+},
+  {
+    "id":"r_Armor Chain Mail Greaves",
+    "Name":"Chain Mail Greaves",
+    "Icon":"icon_chain_greaves.png",
+    "Skill":"Armorsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingot":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_Armor Chain Mail Helmet",
+    "Name":"Chain Mail Helmet",
+    "Icon":"icon_chain_helmet.png",
+    "Skill":"Armorsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingots":2,
+    	"Leather":1
+}
+},
+  {
+    "id":"r_Armor Chain Mail Pants",
+    "Name":"Chain Mail Chausses",
+    "Icon":"icon_chain_legs.png",
+    "Skill":"Armorsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingots":3,
+	"Leathers":2
+}
+},
+  {
+    "id":"r_Armor Chain Mail Shoes",
+    "Name":"Chain Mail Sabatons",
+    "Icon":"icon_chain_footwear.png",
+    "Skill":"Armorsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingot":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_Armor Chain Mail Shoulders",
+    "Name":"Chain Mail Pauldrons",
+    "Icon":"icon_chain_shoulders.png",
+    "Skill":"Armorsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingot":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_Armor Chain Mail Torso",
+    "Name":"Chain Mail Cuirass",
+    "Icon":"icon_chain_torso.png",
+    "Skill":"Armorsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingots":4,
+	"Leathers":2
+}
+},
+  {
+    "id":"r_Armor Scale Set",
+    "Name":"Scale Mail Set",
+    "Icon":"icon_scale_torso.png",
+    "Skill":"Armorsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":80,
+	"Iron Ingots":32,
+	"Leathers":16
+}
+},
+  {
+    "id":"r_Armor Scale Arms",
+    "Name":"Scale Mail Sleeves",
+    "Icon":"icon_scale_arms.png",
+    "Skill":"Armorsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Iron Ingots":2,
+	"Leather":1
+}
+},
+  {
+    "id":"r_Armor Scale Elbows",
+    "Name":"Scale Mail Couters",
+    "Icon":"icon_scale_elbows.png",
+    "Skill":"Armorsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+    	"Iron Ingots":2,
+    	"Leather":1
+}
+},
+  {
+    "id":"r_Armor Scale Girdle",
+    "Name":"Scale Mail Belt",
+    "Icon":"icon_scale_girdle.png",
+    "Skill":"Armorsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+    	"Iron Ingots":2,
+    	"Leather":1
+}
+},
+  {
+    "id":"r_Armor Scale Gloves",
+    "Name":"Scale Mail Gauntlets",
+    "Icon":"icon_scale_gloves.png",
+    "Skill":"Armorsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+    	"Iron Ingots":2,
+    	"Leather":1
+}
+},
+  {
+    "id":"r_Armor Scale Greaves",
+    "Name":"Scale Mail Greaves",
+    "Icon":"icon_scale_greaves.png",
+    "Skill":"Armorsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+    	"Iron Ingots":2,
+    	"Leather":1
+}
+},
+  {
+    "id":"r_Armor Scale Helmet",
+    "Name":"Scale Mail Helmet",
+    "Icon":"icon_scale_helmet.png",
+    "Skill":"Armorsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+    	"Iron Ingots":4,
+    	"Leathers":2
+}
+},
+  {
+    "id":"r_Armor Scale Pants",
+    "Name":"Scale Mail Chausses",
+    "Icon":"icon_scale_legs.png",
+    "Skill":"Armorsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Iron Ingots":6,
+	"Leathers":3
+}
+},
+  {
+    "id":"r_Armor Scale Shoes",
+    "Name":"Scale Mail Sabatons",
+    "Icon":"icon_scale_footwear.png",
+    "Skill":"Armorsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Iron Ingots":2,
+	"Leather":1
+}
+},
+  {
+    "id":"r_Armor Scale Shoulders",
+    "Name":"Scale Mail Pauldrons",
+    "Icon":"icon_scale_shoulders.png",
+    "Skill":"Armorsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Iron Ingots":2,
+    	"Leather":1
+}
+},
+  {
+    "id":"r_Armor Scale Torso",
+    "Name":"Scale Mail Cuirass",
+    "Icon":"icon_scale_torso.png",
+    "Skill":"Armorsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Iron Ingots":8,
+	"Leathers":4
+}
+},
+  {
+    "id":"r_Armor Banded Mail Set",
+    "Name":"Banded Mail Set",
+    "Icon":"icon_banded_torso.png",
+    "Skill":"Armorsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":250,
+	"Iron Ingots":64,
+	"Leathers":28
+}
+},
+  {
+    "id":"r_Armor Banded Mail Arms",
+    "Name":"Banded Mail Sleeves",
+    "Icon":"icon_banded_arms.png",
+    "Skill":"Armorsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingots":4,
+	"Leathers":2
+}
+},
+  {
+    "id":"r_Armor Banded Mail Elbows",
+    "Name":"Banded Mail Couters",
+    "Icon":"icon_banded_elbows.png",
+    "Skill":"Armorsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingots":4,
+	"Leathers":2
+}
+},
+  {
+    "id":"r_Armor Banded Mail Girdle",
+    "Name":"Banded Mail Belt",
+    "Icon":"icon_banded_girdle.png",
+    "Skill":"Armorsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingots":4,
+	"Leathers":2
+}
+},
+  {
+    "id":"r_Armor Banded Mail Gloves",
+    "Name":"Banded Mail Gauntlets",
+    "Icon":"icon_banded_gloves.png",
+    "Skill":"Armorsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingots":4,
+	"Leathers":2
+}
+},
+  {
+    "id":"r_Armor Banded Mail Greaves",
+    "Name":"Banded Mail Greaves",
+    "Icon":"icon_banded_greaves.png",
+    "Skill":"Armorsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingots":4,
+	"Leathers":2
+}
+},
+  {
+    "id":"r_Armor Banded Mail Helmet",
+    "Name":"Banded Mail Helmet",
+    "Icon":"icon_banded_helmet.png",
+    "Skill":"Armorsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingots":8,
+	"Leathers":4
+}
+},
+  {
+    "id":"r_Armor Banded Mail Pants",
+    "Name":"Banded Mail Chausses",
+    "Icon":"icon_banded_legs.png",
+    "Skill":"Armorsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingots":12,
+	"Leathers":6
+}
+},
+  {
+    "id":"r_Armor Banded Mail Shoes",
+    "Name":"Banded Mail Sabatons",
+    "Icon":"icon_banded_footwear.png",
+    "Skill":"Armorsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingots":4,
+	"Leathers":2
+}
+},
+  {
+    "id":"r_Armor Banded Mail Shoulders",
+    "Name":"Banded Mail Pauldrons",
+    "Icon":"icon_banded_shoulders.png",
+    "Skill":"Armorsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingots":4,
+	"Leathers":2
+}
+},
+  {
+    "id":"r_Armor Banded Mail Torso",
+    "Name":"Banded Mail Cuirass",
+    "Icon":"icon_banded_torso.png",
+    "Skill":"Armorsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingots":16,
+	"Leathers":4
+}
+},
+  {
+    "id":"r_Armor Plate Set",
+    "Name":"Plate Set",
+    "Icon":"icon_plate_torso.png",
+    "Skill":"Armorsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":500,
+	"Iron Ingots":128,
+	"Leathers":45
+}
+},
+  {
+    "id":"r_Armor Plate Sleeves",
+    "Name":"Plate Sleeves",
+    "Icon":"icon_plate_arms.png",
+    "Skill":"Armorsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingots":8,
+	"Leathers":3
+}
+},
+  {
+    "id":"r_Armor Plate Elbows",
+    "Name":"Plate Couters",
+    "Icon":"icon_plate_elbows.png",
+    "Skill":"Armorsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingots":8,
+	"Leathers":3
+}
+},
+  {
+    "id":"r_Armor Plate Girdle",
+    "Name":"Plate Belt",
+    "Icon":"icon_plate_girdle.png",
+    "Skill":"Armorsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingots":8,
+	"Leathers":3
+}
+},
+  {
+    "id":"r_Armor Plate Gloves",
+    "Name":"Plate Gauntlets",
+    "Icon":"icon_plate_gloves.png",
+    "Skill":"Armorsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingots":8,
+	"Leathers":3
+}
+},
+  {
+    "id":"r_Armor Plate Greaves",
+    "Name":"Plate Greaves",
+    "Icon":"icon_plate_greaves.png",
+    "Skill":"Armorsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingots":8,
+	"Leathers":3
+}
+},
+  {
+    "id":"r_Armor Plate Helmet",
+    "Name":"Plate Helmet",
+    "Icon":"icon_plate_helmet.png",
+    "Skill":"Armorsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingots":16,
+	"Leathers":6
+}
+},
+  {
+    "id":"r_Armor Plate Pants",
+    "Name":"Plate Chausses",
+    "Icon":"icon_plate_legs.png",
+    "Skill":"Armorsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingots":24,
+	"Leathers":8
+}
+},
+  {
+    "id":"r_Armor Plate Shoes",
+    "Name":"Plate Sabatons",
+    "Icon":"icon_plate_footwear.png",
+    "Skill":"Armorsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingots":8,
+	"Leathers":3
+}
+},
+  {
+    "id":"r_Armor Plate Shoulders",
+    "Name":"Plate Pauldrons",
+    "Icon":"icon_plate_shoulders.png",
+    "Skill":"Armorsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingots":8,
+	"Leathers":3
+}
+},
+  {
+    "id":"r_Armor Plate Torso",
+    "Name":"Plate Cuirass",
+    "Icon":"icon_plate_torso.png",
+    "Skill":"Armorsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingots":32,
+	"Leathers":10
+}
+},
+  {
+    "id":"r_Armor Full Plate Set",
+    "Name":"Full Plate Set",
+    "Icon":"icon_fullplate_torso.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":950,
+	"Iron Ingots":168,
+	"Leathers":61,
+	"Selentine Ingots":14
+}
+},
+  {
+    "id":"r_Armor Full Plate Sleeves",
+    "Name":"Full Plate Sleeves",
+    "Icon":"icon_fullplate_arms.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Selentine Ingot":1
+}
+},
+  {
+    "id":"r_Armor Full Plate Elbows",
+    "Name":"Full Plate Couters",
+    "Icon":"icon_fullplate_elbows.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Selentine Ingot":1
+}
+},
+  {
+    "id":"r_Armor Full Plate Girdle",
+    "Name":"Full Plate Belt",
+    "Icon":"icon_fullplate_girdle.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Selentine Ingot":1
+}
+},
+  {
+    "id":"r_Armor Full Plate Gloves",
+    "Name":"Full Plate Gauntlets",
+    "Icon":"icon_fullplate_gloves.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Selentine Ingot":1
+}
+},
+  {
+    "id":"r_Armor Full Plate Greaves",
+    "Name":"Full Plate Greaves",
+    "Icon":"icon_fullplate_greaves.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Selentine Ingot":1
+}
+},
+  {
+    "id":"r_Armor Full Plate Helmet",
+    "Name":"Full Plate Helmet",
+    "Icon":"icon_fullplate_helmet.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingots":20,
+	"Leathers":8,
+	"Selentine Ingots":2
+}
+},
+  {
+    "id":"r_Armor Full Plate Pants",
+    "Name":"Full Plate Chausses",
+    "Icon":"icon_fullplate_legs.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingots":28,
+	"Leathers":10,
+	"Selentine Ingots":2
+}
+},
+  {
+    "id":"r_Armor Full Plate Shoes",
+    "Name":"Full Plate Sabatons",
+    "Icon":"icon_fullplate_footwear.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Selentine Ingot":1
+}
+},
+  {
+    "id":"r_Armor Full Plate Shoulders",
+    "Name":"Full Plate Pauldrons",
+    "Icon":"icon_fullplate_shoulders.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Selentine Ingot":1
+}
+},
+  {
+    "id":"r_Armor Full Plate Torso",
+    "Name":"Full Plate Cuirass",
+    "Icon":"icon_fullplate_torso.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":1,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingots":36,
+	"Leathers":15,
+	"Selentine Ingots":3
+}
+},
+  {
+    "id":"r_Armor Dread Plate Set",
+    "Name":"Dread Plate Set",
+    "Icon":"icon_infernal_torso.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":2350,
+	"Iron Ingots":168,
+	"Leathers":61,
+	"Veilron Ingots":14,
+	"Neithal Ingots":10
+}
+},
+  {
+    "id":"r_Armor Dread Plate Arms",
+    "Name":"Dread Plate Sleeves",
+    "Icon":"icon_infernal_arms.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Veilron Ingot":1,
+	"Neithal Ingot":1
+}
+},
+  {
+    "id":"r_Armor Dread Plate Elbows",
+    "Name":"Dread Plate Couters",
+    "Icon":"icon_infernal_elbows.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Veilron Ingot":1,
+	"Neithal Ingot":1
+}
+},
+  {
+    "id":"r_Armor Dread Plate Girdle",
+    "Name":"Dread Plate Belt",
+    "Icon":"icon_infernal_girdle.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Veilron Ingot":1,
+	"Neithal Ingot":1
+}
+},
+  {
+    "id":"r_Armor Dread Plate Gloves",
+    "Name":"Dread Plate Gauntlets",
+    "Icon":"icon_infernal_gloves.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Veilron Ingot":1,
+	"Neithal Ingot":1
+}
+},
+  {
+    "id":"r_Armor Dread Plate Greaves",
+    "Name":"Dread Plate Greaves",
+    "Icon":"icon_infernal_greaves.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Veilron Ingot":1,
+	"Neithal Ingot":1
+}
+},
+  {
+    "id":"r_Armor Dread Plate Helmet",
+    "Name":"Dread Plate Helmet",
+    "Icon":"icon_infernal_helmet.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingots":20,
+	"Leathers":8,
+	"Veilron Ingots":2,
+	"Neithal Ingot":1
+}
+},
+  {
+    "id":"r_Armor Dread Plate Pants",
+    "Name":"Dread Plate Chausses",
+    "Icon":"icon_infernal_legs.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingots":28,
+	"Leathers":10,
+	"Veilron Ingots":2,
+	"Neithal Ingot":1
+}
+},
+  {
+    "id":"r_Armor Dread Plate Shoes",
+    "Name":"Dread Plate Sabatons",
+    "Icon":"icon_infernal_footwear.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Veilron Ingot":1,
+	"Neithal Ingot":1
+}
+},
+  {
+    "id":"r_Armor Dread Plate Shoulders",
+    "Name":"Dread Plate Pauldrons",
+    "Icon":"icon_infernal_shoulders.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Veilron Ingot":1,
+	"Neithal Ingot":1
+}
+},
+  {
+    "id":"r_Armor Dread Plate Torso",
+    "Name":"Dread Plate Cuirass",
+    "Icon":"icon_infernal_torso.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":50,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingots":36,
+	"Leathers":15,
+	"Veilron Ingots":3,
+	"Neithal Ingot":1
+}
+},
+  {
+    "id":"r_Armor Dragon Scale Set",
+    "Name":"Dragon Scale Set",
+    "Icon":"icon_dragon_torso.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":4750,
+	"Iron Ingots":168,
+	"Leathers":61,
+	"Leenspar Ingots":14,
+	"Theyril Ingots":10,
+	"Primal Bloods":10,
+	"Draconian Scales":10
+}
+},
+  {
+    "id":"r_Armor Dragon Scale Arms",
+    "Name":"Dragon Scale Sleeves",
+    "Icon":"icon_dragon_arms.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Leenspar Ingot":1,
+	"Theyril Ingot":1,
+	"Primal Blood":1,
+	"Draconian Scale":1
+}
+},
+  {
+    "id":"r_Armor Dragon Scale Elbows",
+    "Name":"Dragon Scale Couters",
+    "Icon":"icon_dragon_elbows.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Leenspar Ingot":1,
+	"Theyril Ingot":1,
+	"Primal Blood":1,
+	"Draconian Scale":1
+}
+},
+  {
+    "id":"r_Armor Dragon Scale Girdle",
+    "Name":"Dragon Scale Belt",
+    "Icon":"icon_dragon_girdle.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Leenspar Ingot":1,
+	"Theyril Ingot":1,
+	"Primal Blood":1,
+	"Draconian Scale":1
+}
+},
+  {
+    "id":"r_Armor Dragon Scale Gloves",
+    "Name":"Dragon Scale Gauntlets",
+    "Icon":"icon_dragon_gloves.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Leenspar Ingot":1,
+	"Theyril Ingot":1,
+	"Primal Blood":1,
+	"Draconian Scale":1
+}
+},
+  {
+    "id":"r_Armor Dragon Scale Greaves",
+    "Name":"Dragon Scale Greaves",
+    "Icon":"icon_dragon_greaves.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Leenspar Ingot":1,
+	"Theyril Ingot":1,
+	"Primal Blood":1,
+	"Draconian Scale":1
+}
+},
+  {
+    "id":"r_Armor Dragon Scale Helmet",
+    "Name":"Dragon Scale Helmet",
+    "Icon":"icon_dragon_helmet.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingots":20,
+	"Leathers":8,
+	"Leenspar Ingots":2,
+	"Theyril Ingot":1,
+	"Primal Blood":1,
+	"Draconian Scale":1
+}
+},
+  {
+    "id":"r_Armor Dragon Scale Pants",
+    "Name":"Dragon Scale Chausses",
+    "Icon":"icon_dragon_legs.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingots":28,
+	"Leathers":10,
+	"Leenspar Ingots":2,
+	"Theyril Ingot":1,
+	"Primal Blood":1,
+	"Draconian Scale":1
+}
+},
+  {
+    "id":"r_Armor Dragon Scale Shoes",
+    "Name":"Dragon Scale Sabatons",
+    "Icon":"icon_dragon_footwear.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Leenspar Ingots":2,
+	"Theyril Ingot":1,
+	"Primal Blood":1,
+	"Draconian Scale":1
+}
+},
+  {
+    "id":"r_Armor Dragon Scale Shoulders",
+    "Name":"Dragon Scale Pauldrons",
+    "Icon":"icon_dragon_shoulders.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingots":12,
+	"Leathers":4,
+	"Leenspar Ingots":2,
+	"Theyril Ingot":1,
+	"Primal Blood":1,
+	"Draconian Scale":1
+}
+},
+  {
+    "id":"r_Armor Dragon Scale Torso",
+    "Name":"Dragon Scale Cuirass",
+    "Icon":"icon_dragon_torso.png",
+    "Skill":"Armorsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingots":36,
+	"Leathers":15,
+	"Leenspar Ingots":3,
+	"Theyril Ingot":1,
+	"Primal Blood":1,
+	"Draconian Scale":1
+}
+}
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id":"r_figurine_death_pig",
+    "Name":"Death Pig Figurine",
+    "Icon":"figurine_deathpig_01.png",
+    "Skill":"Mountsummoning",
+    "Min Level":"1",
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":20,
+	"Steedgrass":"1",
+	"Inferior Anima (Q1)":"1"
+}
+},
+  {
+    "id":"r_figurine_tribeland_bear",
+    "Name":"Tribeland Bear Figurine",
+    "Icon":"figurine_tribeland_bear_01.png",
+    "Skill":"Mountsummoning",
+    "Min Level":"1",
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":20,
+	"Steedgrass":"1",
+	"Inferior Anima (Q1)":"1"
+}
+},
+  {
+    "id":"r_figurine_eradan",
+    "Name":"Eradan Figurine",
+    "Icon":"figurine_eradan_01.png",
+    "Skill":"Mountsummoning",
+    "Min Level":"1",
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":20,
+	"Steedgrass":"1",
+	"Inferior Anima (Q1)":"1"
+}
+},
+  {
+    "id":"r_figurine_garmir",
+    "Name":"Garmir Figurine",
+    "Icon":"figurine_garmir_01.png",
+    "Skill":"Mountsummoning",
+    "Min Level":"1",
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":20,
+	"Steedgrass":"1",
+	"Inferior Anima (Q1)":"1"
+}
+}
+]

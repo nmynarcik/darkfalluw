@@ -1,0 +1,174 @@
+[
+  {
+    "id":"r_iron_ore",
+    "Name":"Iron Ore",
+    "Icon":"no-image.png",
+    "Skill":"Smelting",
+    "Min Level":1,
+    "Max Level":75,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":1,
+	"Inferior Iron Ore":5
+}
+},
+  {
+    "id":"r_iron_ingot",
+    "Name":"Iron Ingot",
+    "Icon":"item_ingot_normal_single.png",
+    "Skill":"Smelting",
+    "Min Level":1,
+    "Max Level":100,
+    "Quantity":2,
+    "Recipe": {
+	"Gold":1,
+	"Iron Ore":5,
+	"Coal":1
+}
+},
+  {
+    "id":"r_selentine_ore",
+    "Name":"Selentine Ore",
+    "Icon":"no-image.png",
+    "Skill":"Smelting Mastery",
+    "Min Level":1,
+    "Max Level":20,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":15,
+	"Iron Ore":3,
+	"Selentine Essence":1
+}
+},
+  {
+    "id":"r_selentine_ingot",
+    "Name":"Selentine Ingot",
+    "Icon":"item_ingot_selentine_single.png",
+    "Skill":"Smelting Mastery",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":30,
+	"Coal":3,
+	"Selentine Ore":2,
+	"Sulfur":1
+}
+},
+  {
+    "id":"r_veilron_ore",
+    "Name":"Veilron Ore",
+    "Icon":"no-image.png",
+    "Skill":"Smelting Mastery",
+    "Min Level":25,
+    "Max Level":45,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":25,
+	"Iron Ore":3,
+	"Veilron Essence":1
+}
+},
+  {
+    "id":"r_veilron_ingot",
+    "Name":"Veilron Ingot",
+    "Icon":"item_ingot_veilron_single.png",
+    "Skill":"Smelting Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":50,
+	"Coal":4,
+	"Veilron Ore":2,
+	"Sulfur":1
+}
+},
+  {
+    "id":"r_neithal_ore",
+    "Name":"Neithal Ore",
+    "Icon":"no-image.png",
+    "Skill":"Smelting Mastery",
+    "Min Level":50,
+    "Max Level":70,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":40,
+	"Iron Ore":3,
+	"Neithal Essence":1
+}
+},
+  {
+    "id":"r_neithal_ingot",
+    "Name":"Neithal Ingot",
+    "Icon":"item_ingot_neithal_single.png",
+    "Skill":"Smelting Mastery",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":80,
+	"Coal":5,
+	"Neithal Ore":2,
+	"Sulfur":1
+}
+},
+  {
+    "id":"r_leenspar_ore",
+    "Name":"Leenspar Ore",
+    "Icon":"no-image.png",
+    "Skill":"Smelting Mastery",
+    "Min Level":75,
+    "Max Level":95,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":58,
+	"Iron Ore":3,
+	"Leenspar Essence":1
+}
+},
+  {
+    "id":"r_leenspar_ingot",
+    "Name":"Leenspar Ingot",
+    "Icon":"item_ingot_leenspar_single.png",
+    "Skill":"Smelting Mastery",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":115,
+	"Coal":6,
+	"Leenspar Ore":2,
+	"Sulfur":1
+}
+},
+  {
+    "id":"r_theyril_ore",
+    "Name":"Theyril Ore",
+    "Icon":"no-image.png",
+    "Skill":"Smelting Mastery",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":80,
+	"Iron Ore":3,
+	"Theyril Essence":1
+}
+},
+  {
+    "id":"r_theyril_ingot",
+    "Name":"Theyril Ingot",
+    "Icon":"item_ingot_theyril_single.png",
+    "Skill":"Smelting Mastery",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":160,
+	"Coal":8,
+	"theyril Ore":2,
+	"Sulfur":1
+}
+}
+]

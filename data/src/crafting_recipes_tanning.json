@@ -1,0 +1,174 @@
+[
+  {
+    "id":"r_rawhide",
+    "Name":"Rawhide",
+    "Icon":"no-image.png",
+    "Skill":"Tanning",
+    "Min Level":1,
+    "Max Level":75,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":1,
+	"Inferior Rawhide":5
+}
+},
+  {
+    "id":"r_Leather",
+    "Name":"Leather",
+    "Icon":"item_leather_normal.png",
+    "Skill":"Tanning",
+    "Min Level":1,
+    "Max Level":100,
+    "Quantity":2,
+    "Recipe": {
+	"Gold":1,
+	"Rawhide":3,
+	"Quicklime":1
+}
+},
+  {
+    "id":"r_selentine_rawhide",
+    "Name":"Selentine Rawhide",
+    "Icon":"no-image.png",
+    "Skill":"Tanning Mastery",
+    "Min Level":1,
+    "Max Level":20,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":15,
+	"Rawhide":2,
+	"Selentine Essence":1
+}
+},
+  {
+    "id":"r_selentine_leather",
+    "Name":"Selentine Leather",
+    "Icon":"item_leather_selentine.png",
+    "Skill":"Tanning Mastery",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":30,
+	"Quicklime":3,
+	"Selentine Rawhide":2,
+	"Nacre":1
+}
+},
+  {
+    "id":"r_veilron_rawhide",
+    "Name":"Veilron Rawhide",
+    "Icon":"no-image.png",
+    "Skill":"Tanning Mastery",
+    "Min Level":25,
+    "Max Level":45,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":25,
+	"Rawhide":2,
+	"Veilron Essence":1
+}
+},
+  {
+    "id":"r_veilron_leather",
+    "Name":"Veilron Leather",
+    "Icon":"item_leather_veilron.png",
+    "Skill":"Tanning Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":50,
+	"Quicklime":4,
+	"Veilron Rawhide":2,
+	"Nacre":1
+}
+},
+  {
+    "id":"r_neithal_rawhide",
+    "Name":"Neithal Rawhide",
+    "Icon":"no-image.png",
+    "Skill":"Tanning Mastery",
+    "Min Level":50,
+    "Max Level":70,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":40,
+	"Rawhide":2,
+	"Neithal Essence":1
+}
+},
+  {
+    "id":"r_neithal_leather",
+    "Name":"Neithal Leather",
+    "Icon":"item_leather_neithal.png",
+    "Skill":"Tanning Mastery",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":80,
+	"Quicklime":5,
+	"Neithal Rawhide":2,
+	"Nacre":1
+}
+},
+  {
+    "id":"r_leenspar_rawhide",
+    "Name":"Leenspar Rawhide",
+    "Icon":"no-image.png",
+    "Skill":"Tanning Mastery",
+    "Min Level":75,
+    "Max Level":95,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":58,
+	"Rawhide":2,
+	"Leenspar Essence":1
+}
+},
+  {
+    "id":"r_leenspar_leather",
+    "Name":"Leenspar Leather",
+    "Icon":"item_leather_leenspar.png",
+    "Skill":"Tanning Mastery",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":115,
+	"Quicklime":6,
+	"Leenspar Rawhide":2,
+	"Nacre":1
+}
+},
+  {
+    "id":"r_theyril_rawhide",
+    "Name":"Theyril Rawhide",
+    "Icon":"no-image.png",
+    "Skill":"Tanning Mastery",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":80,
+	"Rawhide":2,
+	"Theyril Essence":1
+}
+},
+  {
+    "id":"r_theyril_leather",
+    "Name":"Theyril Leather",
+    "Icon":"item_leather_theyril.png",
+    "Skill":"Tanning Mastery",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":1,
+    "Recipe": {
+	"Gold":160,
+	"Quicklime":8,
+	"Theyril Rawhide":2,
+	"Nacre":1
+}
+}
+]

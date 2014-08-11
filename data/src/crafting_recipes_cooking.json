@@ -1,0 +1,290 @@
+[
+  {
+    "id":"r_baked_potato",
+    "Name":"Baked Potato",
+    "Icon":"food_baked_potato.png",
+    "Skill":"Cooking",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Potato":1
+}
+},
+  {
+    "id":"r_vegetable_soup",
+    "Name":"Vegetable Soup",
+    "Icon":"food_vegetable_soup.png",
+    "Skill":"Cooking",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {    
+	"Gold":1,
+	"Potatoes":2,
+	"Onions":2,
+	"Carrots":2
+}
+},
+  {
+    "id":"r_grilled_meat",
+    "Name":"Grilled Meat",
+    "Icon":"food_grilled_meat.png",
+    "Skill":"Cooking",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Potatoes":3,
+	"Meat":1,
+	"Spices":1
+}
+},
+  {
+    "id":"r_meat_stew",
+    "Name":"Meat Stew",
+    "Icon":"food_meat_stew.png",
+    "Skill":"Cooking",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Potatoes":5,
+	"Onions":2,
+	"Carrots":3,
+	"Meats":3
+}
+},
+  {
+    "id":"r_grilled_bass",
+    "Name":"Grilled Bass",
+    "Icon":"food_grilled_bass.png",
+    "Skill":"Cooking",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Onions":5,
+	"Spicess":3,
+	"Basses":2
+}
+},
+  {
+    "id":"r_bass_stew",
+    "Name":"Bass Stew",
+    "Icon":"food_bass_stew.png",
+    "Skill":"Cooking",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Potatoes":7,
+	"Onions":5,
+	"Carrots":5,
+	"Basses":3
+}
+},
+  {
+    "id":"r_grilled_cod",
+    "Name":"Grilled Cod",
+    "Icon":"food_grilled_cod.png",
+    "Skill":"Cooking",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Potatoes":8,
+	"Spices":5,
+	"Cods":4
+}
+},
+  {
+    "id":"r_Cod Stew",
+    "Name":"Cod Stew",
+    "Icon":"food_cod_stew.png",
+    "Skill":"Cooking",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Potatoes":10,
+	"Onions":8,
+	"Carrots":8,
+	"Cods":6
+}
+},
+  {
+    "id":"r_grilled_trout",
+    "Name":"Grilled Trout",
+    "Icon":"no-image.png",
+    "Skill":"Cooking Mastery",
+    "Min Level":1,
+    "Max Level":15,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":85,
+	"Carrots":2,
+	"Potatoes":2,
+	"Trouts":2,
+	"Spices":2
+}
+},
+  {
+    "id":"r_trout_casserole",
+    "Name":"Trout Casserole",
+    "Icon":"no-image.png",
+    "Skill":"Cooking Mastery",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Carrots":2,
+	"Potatoes":3,
+	"Trouts":3,
+	"Eggs":2,
+	"Seaweed":1
+}
+},
+  {
+    "id":"r_baked_salmon",
+    "Name":"Baked Salmon",
+    "Icon":"no-image.png",
+    "Skill":"Cooking Mastery",
+    "Min Level":25,
+    "Max Level":40,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":155,
+	"Carrots":4,
+	"Potatoes":3,
+	"Trouts":2,
+	"Spices":3
+}
+},
+  {
+    "id":"r_salmon_Casserole",
+    "Name":"Salmon Casserole",
+    "Icon":"no-image.png",
+    "Skill":"Cooking Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":155,
+	"Carrots":3,
+	"Onions":4,
+	"Salmons":3,
+	"Eggs":3,
+	"Seaweeds":2
+}
+},
+  {
+    "id":"r_baked_swordfish",
+    "Name":"Baked Swordfish",
+    "Icon":"no-image.png",
+    "Skill":"Cooking Mastery",
+    "Min Level":50,
+    "Max Level":65,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Onions":3,
+	"Potatoes":3,
+	"Swordfishs":2,
+	"Spices":4
+}
+},
+  {
+    "id":"r_swordfish_casserole",
+    "Name":"Swordfish Casserole",
+    "Icon":"no-image.png",
+    "Skill":"Cooking Mastery",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Carrots":3,
+	"Potatoes":4,
+	"Onions":4,
+	"Swordfishs":3,
+	"Eggs":4,
+	"Seaweeds":3
+}
+},
+  {
+    "id":"r_baked_crab",
+    "Name":"Baked Crab",
+    "Icon":"no-image.png",
+    "Skill":"Cooking Mastery",
+    "Min Level":75,
+    "Max Level":90,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":340,
+	"Carrots":5,
+	"Onions":6,
+	"Crabs":2,
+	"Spices":6
+}
+},
+  {
+    "id":"r_crab_Casserole",
+    "Name":"Crab Casserole",
+    "Icon":"no-image.png",
+    "Skill":"Cooking Mastery",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":340,
+	"Onions":5,
+	"Potatoes":6,
+	"Eggs":5,
+	"Seaweeds":4,
+	"Crabs":3	
+}
+},
+  {
+    "id":"r_baked_lobster",
+    "Name":"Baked Lobster",
+    "Icon":"no-image.png",
+    "Skill":"Cooking Mastery",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Carrots":6,
+	"Potatoes":8,
+	"Lobsters":2,
+	"Spices":6
+}
+},
+  {
+    "id":"r_lobster_casserole",
+    "Name":"Lobster Casserole",
+    "Icon":"no-image.png",
+    "Skill":"Cooking Mastery",
+    "Min Level":100,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Carrots":8,
+	"Potatoes":10,
+	"Onions":8,
+	"Lobsters":3,
+	"Eggs":6,
+	"Seaweeds":6
+}
+}
+]

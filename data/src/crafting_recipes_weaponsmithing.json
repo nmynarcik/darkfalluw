@@ -1,0 +1,1208 @@
+[
+  {
+    "id":"r_axe_p01_r01",
+    "Name":"Crude Militant Axe",
+    "Icon":"crude_militant_axe.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingot":1,
+	"Wood":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_axe_p01_r02",
+    "Name":"Common Militant Axe",
+    "Icon":"common_militant_axe.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Iron Ingot":2,
+	"Wood":2,
+	"Leather":1
+}
+},
+  {
+    "id":"r_axe_p01_r03",
+    "Name":"Sturdy Militant Axe",
+    "Icon":"sturdy_militant_axe.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingot":4,
+	"Wood":3,
+	"Leather":1
+}
+},
+  {
+    "id":"r_axe_p01_r04",
+    "Name":"Superior Militant Axe",
+    "Icon":"superior_militant_axe.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingot":8,
+	"Wood":4,
+	"Leather":1
+}
+},
+  {
+    "id":"r_axe_p01_r05",
+    "Name":"Selentine Militant Axe",
+    "Icon":"selentine_militant_axe.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingot":10,
+	"Wood":4,
+	"Leather":2,
+	"Selentine Ingot":1,
+	"Selentine Wood":1
+
+}
+},
+  {
+    "id":"r_axe_p01_r06",
+    "Name":"Veilron Militant Axe",
+    "Icon":"veilron_militant_axe.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":155,
+	"Iron Ingot":10,
+	"Wood":4,
+	"Leather":2,
+	"Veilron Ingot":1,
+	"Selentine Wood":1
+}
+},
+  {
+    "id":"r_axe_p01_r07",
+    "Name":"Neithal Militant Axe",
+    "Icon":"neithal_militant_axe.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingot":10,
+	"Wood":4,
+	"Leather":2,
+	"Neithal Ingot":1,
+	"Veilron Wood":1
+}
+},
+  {
+    "id":"r_axe_p01_r08",
+    "Name":"Leenspar Militant Axe",
+    "Icon":"leenspar_militant_axe.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":340,
+	"Iron Ingot":10,
+	"Wood":4,
+	"Leather":2,
+	"Leenspar Ingot":1,
+	"Neithal Wood":1
+}
+},
+  {
+    "id":"r_axe_p01_r09",
+    "Name":"Theyril Militant Axe",
+    "Icon":"theyril_militant_axe.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingot":10,
+	"Wood":4,
+	"Leather":2,
+	"Theyril Ingot":1,
+	"Leenspar Wood":1,
+	"Primal Gristle":1,
+	"Hellforge Iron":1
+}
+},
+  {
+    "id":"r_club_p01_r01",
+    "Name":"Crude Militant Club",
+    "Icon":"crude_militant_club.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingot":1,
+	"Wood":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_club_p01_r02",
+    "Name":"Common Militant Club",
+    "Icon":"common_militant_club.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Iron Ingot":3,
+	"Wood":2,
+	"Leather":1
+}
+},
+  {
+    "id":"r_club_p01_r03",
+    "Name":"Sturdy Militant Club",
+    "Icon":"sturdy_militant_club.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingot":5,
+	"Wood":3,
+	"Leather":1
+}
+},
+  {
+    "id":"r_club_p01_r04",
+    "Name":"Superior Militant Club",
+    "Icon":"superior_militant_club.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingot":9,
+	"Wood":4,
+	"Leather":1
+}
+},
+  {
+    "id":"r_club_p01_r05",
+    "Name":"Selentine Militant Club",
+    "Icon":"selentine_militant_club.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingot":12,
+	"Wood":4,
+	"Leather":2,
+	"Selentine Ingot":1,
+	"Selentine Wood":1
+}
+},
+  {
+    "id":"r_club_p01_r06",
+    "Name":"Veilron Militant Club",
+    "Icon":"veilron_militant_club.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":155,
+	"Iron Ingot":12,
+	"Wood":4,
+	"Leather":2,
+	"Veilron Ingot":1,
+	"Selentine Wood":1
+}
+},
+  {
+    "id":"r_club_p01_r07",
+    "Name":"Neithal Militant Club",
+    "Icon":"neithal_militant_club.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingot":12,
+	"Wood":4,
+	"Leather":2,
+	"Neithal Ingot":1,
+	"Veilron Wood":1
+}
+},
+  {
+    "id":"r_club_p01_r08",
+    "Name":"Leenspar Militant Club",
+    "Icon":"leenspar_militant_club.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":340,
+	"Iron Ingot":12,
+	"Wood":4,
+	"Leather":2,
+	"Leenspar Ingot":1,
+	"Neithal Wood":1
+}
+},
+  {
+    "id":"r_club_p01_r09",
+    "Name":"Theyril Militant Club",
+    "Icon":"theyril_militant_club.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingot":12,
+	"Wood":4,
+	"Leather":2,
+	"Theyril Ingot":1,
+	"Leenspar Ingot":1,
+	"Primal Gristle":1,
+	"Hellforge Iron":1
+}
+},
+  {
+    "id":"r_sword_p01_r01",
+    "Name":"Crude Militant Sword",
+    "Icon":"crude_militant_sword.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingot":1,
+	"Wood":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_sword_p01_r02",
+    "Name":"Common Militant Sword",
+    "Icon":"common_militant_sword.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Iron Ingot":2,
+	"Wood":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_sword_p01_r03",
+    "Name":"Sturdy Militant Sword",
+    "Icon":"sturdy_militant_sword.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingot":4,
+	"Wood":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_sword_p01_r04",
+    "Name":"Superior Militant Sword",
+    "Icon":"superior_militant_sword.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingot":8,
+	"Wood":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_sword_p01_r05",
+    "Name":"Selentine Militant Sword",
+    "Icon":"selentine_militant_sword.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingot":10,
+	"Wood":2,
+	"Leather":2,
+	"Selentine Ingot":1,
+	"Selentine Wood":1
+}
+},
+  {
+    "id":"r_sword_p01_r06",
+    "Name":"Veilron Militant Sword",
+    "Icon":"veilron_militant_sword.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":155,
+	"Iron Ingot":10,
+	"Wood":2,
+	"Leather":2,
+	"Veilron Ingot":1,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"r_sword_p01_r07",
+    "Name":"Neithal Militant Sword",
+    "Icon":"neithal_militant_sword.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingot":10,
+	"Wood":2,
+	"Leather":2,
+	"Neithal Ingot":1,
+	"Veilron Leather":1
+}
+},
+  {
+    "id":"r_sword_p01_r08",
+    "Name":"Leenspar Militant Sword",
+    "Icon":"leenspar_militant_sword.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":340,
+	"Iron Ingot":10,
+	"Wood":2,
+	"Leather":2,
+	"Leenspar Ingot":1,
+	"Neithal Leather":1
+}
+},
+  {
+    "id":"r_sword_p01_r09",
+    "Name":"Theyril Militant Sword",
+    "Icon":"theyril_militant_sword.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingot":10,
+	"Wood":2,
+	"Leather":2,
+	"Theyril Ingot":1,
+	"Leenspar Leather":1,
+	"Primal Gristle":1,
+	"Hellforge Iron":1
+}
+},
+  {
+    "id":"r_greataxe_p01_r01",
+    "Name":"Crude Militant Greataxe",
+    "Icon":"crude_militant_greataxe.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingot":2,
+	"Wood":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_greataxe_p01_r02",
+    "Name":"Common Militant Greataxe",
+    "Icon":"common_militant_greataxe.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Iron Ingot":4,
+	"Wood":3,
+	"Leather":2
+}
+},
+  {
+    "id":"r_greataxe_p01_r03",
+    "Name":"Sturdy Militant Greataxe",
+    "Icon":"sturdy_militant_greataxe.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingot":8,
+	"Wood":5,
+	"Leather":2
+}
+},
+  {
+    "id":"r_greataxe_p01_r04",
+    "Name":"Superior Militant Greataxe",
+    "Icon":"superior_militant_greataxe.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingot":16,
+	"Wood":7,
+	"Leather":3
+}
+},
+  {
+    "id":"r_greataxe_p01_r05",
+    "Name":"Selentine Militant Greataxe",
+    "Icon":"selentine_militant_greataxe.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingot":30,
+	"Wood":9,
+	"Leather":4,
+	"Selentine Ingot":2,
+	"Selentine Wood":2,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"r_greataxe_p01_r06",
+    "Name":"Veilron Militant Greataxe",
+    "Icon":"veilron_militant_greataxe.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":155,
+	"Iron Ingot":30,
+	"Wood":9,
+	"Leather":4,
+	"Veilron Ingot":2,
+	"Selentine Wood":2,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"r_greataxe_p01_r07",
+    "Name":"Neithal Militant Greataxe",
+    "Icon":"neithal_militant_greataxe.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingot":30,
+	"Wood":9,
+	"Leather":4,
+	"Neithal Ingot":2,
+	"Veilron Wood":2,
+	"Veilron Leather":1
+}
+},
+  {
+    "id":"r_greataxe_p01_r08",
+    "Name":"Leenspar Militant Greataxe",
+    "Icon":"leenspar_militant_greataxe.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":340,
+	"Iron Ingot":30,
+	"Wood":9,
+	"Leather":4,
+	"Leenspar Ingot":2,
+	"Neithal Wood":2,
+	"Neithal Leather":1
+}
+},
+  {
+    "id":"r_greataxe_p01_r09",
+    "Name":"Theyril Militant Greataxe",
+    "Icon":"theyril_militant_greataxe.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingot":30,
+	"Wood":9,
+	"Leather":4,
+	"Theyril Ingot":2,
+	"Leenspar Wood":2,
+	"Leenspar Leather":1,
+	"Primal Gristle":1,
+	"Hellforge Iron":1
+}
+},
+  {
+    "id":"r_greatclub_p01_r01",
+    "Name":"Crude Militant Greatclub",
+    "Icon":"crude_militant_greatclub.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingot":2,
+	"Wood":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_greatclub_p01_r02",
+    "Name":"Common Militant Greatclub",
+    "Icon":"common_militant_greatclub.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Iron Ingot":5,
+	"Wood":3,
+	"Leather":2
+}
+},
+  {
+    "id":"r_greatclub_p01_r03",
+    "Name":"Sturdy Militant Greatclub",
+    "Icon":"sturdy_militant_greatclub.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingot":9,
+	"Wood":5,
+	"Leather":2
+}
+},
+  {
+    "id":"r_greatclub_p01_r04",
+    "Name":"Superior Militant Greatclub",
+    "Icon":"superior_militant_greatclub.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingot":18,
+	"Wood":7,
+	"Leather":3
+}
+},
+  {
+    "id":"r_greatclub_p01_r05",
+    "Name":"Selentine Militant Greatclub",
+    "Icon":"selentine_militant_greatclub.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingot":32,
+	"Wood":9,
+	"Leather":4,
+	"Selentine Ingot":2,
+	"Selentine Wood":2,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"r_greatclub_p01_r06",
+    "Name":"Veilron Militant Greatclub",
+    "Icon":"veilron_militant_greatclub.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":155,
+	"Iron Ingot":32,
+	"Wood":9,
+	"Leather":4,
+	"Veilron Ingot":2,
+	"Selentine Wood":2,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"r_greatclub_p01_r07",
+    "Name":"Neithal Militant Greatclub",
+    "Icon":"neithal_militant_greatclub.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingot":32,
+	"Wood":9,
+	"Leather":4,
+	"Neithal Ingot":2,
+	"Veilron Wood":2,
+	"Veilron Leather":1
+}
+},
+  {
+    "id":"r_greatclub_p01_r08",
+    "Name":"Leenspar Militant Greatclub",
+    "Icon":"leenspar_militant_greatclub.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":340,
+	"Iron Ingot":32,
+	"Wood":9,
+	"Leather":4,
+	"Leenspar Ingot":2,
+	"Neithal Wood":2,
+	"Neithal Leather":1
+}
+},
+  {
+    "id":"r_greatclub_p01_r09",
+    "Name":"Theyril Militant Greatclub",
+    "Icon":"theyril_militant_greatclub.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingot":32,
+	"Wood":9,
+	"Leather":4,
+	"Theyril Ingot":2,
+	"Leenspar Wood":2,
+	"Leenspar Leather":1,
+	"Primal Gristle":1,
+	"Primal Anima":1,
+	"Hellforge Iron":1
+}
+},
+  {
+    "id":"r_greatsword_p01_r01",
+    "Name":"Crude Militant GreatSword",
+    "Icon":"crude_militant_greatsword.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingot":2,
+	"Wood":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_greatsword_p01_r02",
+    "Name":"Common Militant GreatSword",
+    "Icon":"common_militant_greatsword.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Iron Ingot":4,
+	"Wood":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_greatsword_p01_r03",
+    "Name":"Sturdy Militant GreatSword",
+    "Icon":"sturdy_militant_greatsword.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingot":8,
+	"Wood":2,
+	"Leather":1
+}
+},
+  {
+    "id":"r_greatsword_p01_r04",
+    "Name":"Superior Militant GreatSword",
+    "Icon":"superior_militant_greatsword.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingot":16,
+	"Wood":2,
+	"Leather":1
+}
+},
+  {
+    "id":"r_greatsword_p01_r05",
+    "Name":"Selentine Militant GreatSword",
+    "Icon":"selentine_militant_greatsword.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingot":30,
+	"Wood":3,
+	"Leather":2,
+	"Selentine Ingot":2,
+	"Selentine Leather":2,
+	"Selentine Wood":1
+}
+},
+  {
+    "id":"r_greatsword_p01_r06",
+    "Name":"Veilron Militant GreatSword",
+    "Icon":"veilron_militant_greatsword.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":155,
+	"Iron Ingot":30,
+	"Wood":3,
+	"Leather":2,
+	"Veilron Ingot":2,
+	"Selentine Leather":2,
+	"Selentine Wood":1
+}
+},
+  {
+    "id":"r_greatsword_p01_r07",
+    "Name":"Neithal Militant GreatSword",
+    "Icon":"neithal_militant_greatsword.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingot":30,
+	"Wood":3,
+	"Leather":2,
+	"Neithal Ingot":2,
+	"Veilron Leather":2,
+	"Veilron Wood":1
+}
+},
+  {
+    "id":"r_greatsword_p01_r08",
+    "Name":"Leenspar Militant GreatSword",
+    "Icon":"leenspar_militant_greatsword.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":340,
+	"Iron Ingot":30,
+	"Wood":3,
+	"Leather":2,
+	"Leenspar Ingot":2,
+	"Neithal Leather":2,
+	"Neithal Wood":1
+}
+},
+  {
+    "id":"r_greatsword_p01_r09",
+    "Name":"Theyril Militant GreatSword",
+    "Icon":"theyril_militant_greatsword.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingot":30,
+	"Wood":3,
+	"Leather":2,
+	"Theyril Ingot":2,	
+	"Leenspar Leather":2,
+	"Leenspar Wood":1,
+	"Primal Gristle":1,
+	"Primal Anima":1,
+	"Hellforge Iron":1
+}
+},
+  {
+    "id":"r_knives_p01_r01",
+    "Name":"Crude Militant Daggers",
+    "Icon":"crude_militant_knives.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingot":2,
+	"Wood":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_knives_p01_r02",
+    "Name":"Common Militant Daggers",
+    "Icon":"common_militant_knives.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Iron Ingot":4,
+	"Wood":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_knives_p01_r03",
+    "Name":"Sturdy Militant Daggers",
+    "Icon":"sturdy_militant_knives.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingot":8,
+	"Wood":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_knives_p01_r04",
+    "Name":"Superior Militant Daggers",
+    "Icon":"superior_militant_knives.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingot":16,
+	"Wood":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_knives_p01_r05",
+    "Name":"Selentine Militant Daggers",
+    "Icon":"selentine_militant_knives.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingot":25,
+	"Wood":2,
+	"Leather":2,
+	"Selentine Ingot":2,
+	"Selentine Leather":2,
+	"Selentine Wood":1
+}
+},
+  {
+    "id":"r_knives_p01_r06",
+    "Name":"Veilron Militant Daggers",
+    "Icon":"veilron_militant_knives.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":155,
+	"Iron Ingot":25,
+	"Wood":2,
+	"Leather":2,
+	"Veilron Ingot":2,
+	"Selentine Leather":2,
+	"Selentine Wood":1
+}
+},
+  {
+    "id":"r_knives_p01_r07",
+    "Name":"Neithal Militant Daggers",
+    "Icon":"neithal_militant_knives.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingot":25,
+	"Wood":2,
+	"Leather":2,
+	"Neithal Ingot":2,
+	"Veilron Leather":2,
+	"Veilron Wood":1
+}
+},
+  {
+    "id":"r_knives_p01_r08",
+    "Name":"Leenspar Militant Daggers",
+    "Icon":"leenspar_militant_knives.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":340,
+	"Iron Ingot":25,
+	"Wood":2,
+	"Leather":2,
+	"Leenspar Ingot":2,
+	"Neithal Leather":2,
+	"Neithal Wood":1
+}
+},
+  {
+    "id":"r_knives_p01_r09",
+    "Name":"Theyril Militant Daggers",
+    "Icon":"theyril_militant_knives.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingot":25,
+	"Wood":2,
+	"Leather":2,
+	"Theyril Ingot":2,
+	"Leenspar Leather":2,
+	"Leenspar Wood":1,
+	"Primal Gristle":1,
+	"Primal Anima":1,
+	"Hellforge Iron":1
+}
+},
+  {
+    "id":"r_Polearm_p01_r01",
+    "Name":"Crude Militant Polearm",
+    "Icon":"crude_militant_polearm.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":1,
+	"Iron Ingot":2,
+	"Wood":1,
+	"Leather":1
+}
+},
+  {
+    "id":"r_Polearm_p01_r02",
+    "Name":"Common Militant Polearm",
+    "Icon":"common_militant_polearm.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":8,
+	"Iron Ingot":5,
+	"Wood":3,
+	"Leather":1
+}
+},
+  {
+    "id":"r_Polearm_p01_r03",
+    "Name":"Sturdy Militant Polearm",
+    "Icon":"sturdy_militant_polearm.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":25,
+	"Iron Ingot":10,
+	"Wood":5,
+	"Leather":2
+}
+},
+  {
+    "id":"r_Polearm_p01_r04",
+    "Name":"Superior Militant Polearm",
+    "Icon":"superior_militant_polearm.png",
+    "Skill":"Weaponsmithing",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":50,
+	"Iron Ingot":20,
+	"Wood":8,
+	"Leather":4
+}
+},
+  {
+    "id":"r_Polearm_p01_r05",
+    "Name":"Selentine Militant Polearm",
+    "Icon":"selentine_militant_polearm.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":1,
+    "Max Level":25,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":95,
+	"Iron Ingot":34,
+	"Wood":10,
+	"Leather":5,
+	"Selentine Ingot":2,
+	"Selentine Wood":2,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"r_Polearm_p01_r06",
+    "Name":"Veilron Militant Polearm",
+    "Icon":"veilron_militant_polearm.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":155,
+	"Iron Ingot":34,
+	"Wood":10,
+	"Leather":5,
+	"Veilron Ingot":2,
+	"Selentine Wood":2,
+	"Selentine Leather":1
+}
+},
+  {
+    "id":"r_Polearm_p01_r07",
+    "Name":"Neithal Militant Polearm",
+    "Icon":"neithal_militant_polearm.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":50,
+    "Max Level":75,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":235,
+	"Iron Ingot":34,
+	"Wood":10,
+	"Leather":5,
+	"Neithal Ingot":2,
+	"Veilron Wood":2,
+	"Veilron Leather":1
+}
+},
+  {
+    "id":"r_Polearm_p01_r08",
+    "Name":"Leenspar Militant Polearm",
+    "Icon":"leenspar_militant_polearm.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":75,
+    "Max Level":100,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":340,
+	"Iron Ingot":34,
+	"Wood":10,
+	"Leather":5,
+	"Leenspar Ingot":2,
+	"Neithal Wood":2,
+	"Neithal Leather":1
+}
+},
+  {
+    "id":"r_Polearm_p01_r09",
+    "Name":"Theyril Militant Polearm",
+    "Icon":"theyril_militant_polearm.png",
+    "Skill":"Weaponsmithing Mastery",
+    "Min Level":100,
+    "Max Level":125,
+    "Quantity":"1",
+    "Recipe": {
+	"Gold":475,
+	"Iron Ingot":34,
+	"Wood":10,
+	"Leather":5,
+	"Theyril Ingot":2,
+	"Leenspar Wood":2,
+	"Leenspar Leather":1,
+	"Primal Gristle":1,
+	"Primal Anima":1,
+	"Hellforge Iron":1
+}
+}
+]
