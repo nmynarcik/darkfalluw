@@ -26,8 +26,8 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="https://ttv-api.s3.amazonaws.com/twitch.min.js"></script>
 <?php
-  $GLOBALS['ver'] = '4.1';
-  $ver =  '4.1';
+  $GLOBALS['ver'] = '4.2';
+  $ver =  '4.2';
 ?>
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?ver=<?php echo $ver; ?>" />
 <?php wp_head(); ?>
