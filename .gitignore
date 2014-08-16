@@ -1,8 +1,4 @@
 serverstatus.php
 *.jar
 .DS*
-<<<<<<< HEAD
 node_modules/*
-=======
-node_modules/
->>>>>>> origin
