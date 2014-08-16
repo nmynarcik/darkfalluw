@@ -95,7 +95,7 @@ function placeMarker(location) {
     });
 
     google.maps.event.addListener(marker, 'click', function() {
-      copyToClipboard(marker);
+      copyToClipboard(this);
     });
   }
 
