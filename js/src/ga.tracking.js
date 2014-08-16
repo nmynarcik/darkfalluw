@@ -21,19 +21,19 @@
           }
       });
 
-    //Dramatically decrease bounce rate
-  function removeEvents() {
-        document.body.removeEventListener('click', sendInteractionEvent);
-        window.removeEventListener('scroll', sendInteractionEvent);
-    }
+  //   //Dramatically decrease bounce rate
+  // function removeEvents() {
+  //       document.body.removeEventListener('click', sendInteractionEvent);
+  //       window.removeEventListener('scroll', sendInteractionEvent);
+  //   }
 
-    function sendInteractionEvent() {
-        ga('send', 'event', 'Page Interaction', 'event');
-        removeEvents();
-    }
+  //   function sendInteractionEvent() {
+  //       ga('send', 'event', 'Page Interaction', 'event');
+  //       removeEvents();
+  //   }
 
-    document.body.addEventListener('click', sendInteractionEvent);
-    window.addEventListener('scroll', sendInteractionEvent);
+  //   document.body.addEventListener('click', sendInteractionEvent);
+  //   window.addEventListener('scroll', sendInteractionEvent);
 
 }(jQuery));
 

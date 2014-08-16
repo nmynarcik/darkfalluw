@@ -4,8 +4,8 @@ Template Name: DF Map
 */
 global $ver;
 get_header();
-wp_enqueue_script('dfuw_jquery','http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false',false,'1.6','all');
-wp_enqueue_script('dfuw_map',get_template_directory_uri().'/js/agon.map.min.js',false,$ver,'all');
+// wp_enqueue_script('dfuw_jquery','http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false',false,'1.6','all');
+// wp_enqueue_script('dfuw_map',get_template_directory_uri().'/js/agon.map.min.js',false,$ver,'all');
 ?>
 <script type="text/javascript">
   // var userPOI = "<?php echo $_GET['loc'] ?>";

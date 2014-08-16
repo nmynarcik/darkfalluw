@@ -8,7 +8,7 @@ module.exports = function(grunt) {
           },
           dist: {
             // the files to concatenate
-            src: ['js/src/**/*.js'],
+            src: ['js/src/agon.map.js','js/src/dfuw.js','js/src/crafting.js'],
             // the location of the resulting JS file
             dest: 'js/<%= pkg.name %>.js'
           }
@@ -20,18 +20,20 @@ module.exports = function(grunt) {
           },
           dist: {
             files: {
-              'js/<%= pkg.name %>.min.js': ['<%= concat.dist.dest %>']
+              'js/<%= pkg.name %>.min.js': ['<%= concat.dist.dest %>'],
+              'js/ga.tracking.min.js': ['js/src/ga.tracking.js']
             }
           }
         },
         jshint: {
           // define the files to lint
-          files: ['gruntfile.js', 'js/src/**/*.js','data/crafting_recipes_all.min.json'],
+          files: ['gruntfile.js', 'js/src/**/*.js','data/crafting_recipes_all.json'],
           // configure JSHint (documented at http://www.jshint.com/docs/)
           options: {
               // more options here if you want to override JSHint defaults
               loopfunc: true,
               eqnull: true,
+              eqeqeq: false,
             globals: {
               jQuery: true,
               console: true,
@@ -42,12 +44,12 @@ module.exports = function(grunt) {
         "merge-json": {
             "crafting": {
                 src: [ "data/src/**/*.json" ],
-                dest: "data/crafting_recipes_all.min.json"
+                dest: "data/crafting_recipes_all.json"
             }
         },
         'json-minify': {
           build: {
-            files: 'data/crafting_recipes_all.min.json'
+            files: 'data/crafting_recipes_all.json'
           }
         },
         merge_data: {
@@ -56,7 +58,7 @@ module.exports = function(grunt) {
             },
             your_target: {
               src: ['data/src/*.{json,y{,a}ml}'],
-              dest: 'data/crafting_recipes_all.min.json'
+              dest: 'data/crafting_recipes_all.json'
             }
           },
         watch: {
@@ -72,5 +74,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-merge-data');
 
     grunt.registerTask('test', ['concat','merge_data','jshint']);
-    grunt.registerTask('default', ['jshint', 'concat', 'uglify','merge_data']);
+    grunt.registerTask('default', ['jshint', 'uglify', 'concat','merge_data']);
 };

@@ -95,7 +95,7 @@ function placeMarker(location) {
     });
 
     google.maps.event.addListener(marker, 'click', function() {
-      copyToClipboard(marker);
+      copyToClipboard(this);
     });
   }
 
@@ -145,11 +145,11 @@ function searchPOIs(text){
   searchArray = [];
   for(var j = 0; j < poiArray.length; j++){
     // console.log(poiArray[i].title);
-    if(poiArray[j].title === null){
+    if(poiArray[j].title == null){
       //do nothing
     }else{
       var n =poiArray[j].title.toLowerCase().match(text.toLowerCase());
-      if(n !== null){
+      if(n != null){
         searchArray.push(poiArray[j]);
       }
     }
@@ -193,7 +193,7 @@ function showSearchResults(arr){
 
 
     google.maps.event.addListener(result, 'click', function() {
-      copyToClipboard(result);
+      copyToClipboard(this);
     });
     google.maps.event.addListener(result, 'mouseover', function() {
       // where I have added .html to the marker object.
@@ -207,7 +207,7 @@ function showSearchResults(arr){
   var bounds = new google.maps.LatLngBounds();
   for(var k = 0; k < searchResults.length; k++){
     searchResults[k].setMap(map);
-    bounds.extend(searchResults[k].getPosition());
+    bounds.extend(searchResults[i].getPosition());
     map.fitBounds(bounds);
   }
 }
@@ -271,13 +271,13 @@ function createMarkers(){
     var poiLoc = poiArray[i]._poi_loc.split('|');
 
     var itemTitle = poiArray[i].title;
-    if(itemTitle !== null && itemTitle.match('|')) {
+    if(itemTitle != null && itemTitle.match('|')) {
       itemTitle = itemTitle.split('|');
     }
 
     var contentString = '<ul>';
 
-    if(itemTitle !== null && itemTitle.length > 0){
+    if(itemTitle != null && itemTitle.length > 0){
       for(var j = 0; j < itemTitle.length; j++){
         contentString = contentString + '<li>' + itemTitle[j] + '</li>';
       }
@@ -295,14 +295,14 @@ function createMarkers(){
         html: contentString
     });
 
-    google.maps.event.addListener(poiMarker, 'dblclick', function() {
-      copyToClipboard(poiMarker);
+    google.maps.event.addListener(poiMarker, 'click', function() {
+      copyToClipboard(this);
     });
 
-    google.maps.event.addListener(poiMarker, 'click', function(e) {
-      map.setZoom(7);
-      map.setCenter(e.latLng);
-    });
+    // google.maps.event.addListener(poiMarker, 'click', function(e) {
+    //   map.setZoom(7);
+    //   map.setCenter(e.latLng);
+    // });
 
     google.maps.event.addListener(poiMarker, 'mouseover', function() {
       // where I have added .html to the marker object.
