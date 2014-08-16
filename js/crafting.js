@@ -134,6 +134,7 @@
       details = details + '<strong>Skill:</strong> '+item.Skill+'<br>';
       details = details + '<strong>Min Level:</strong> '+item["Min Level"]+'<br>';
       details = details + '<strong>Max Level:</strong> '+item["Max Level"]+'<br>';
+      details = details + '<strong>Quantity:</strong> '+item["Quantity"]+'<br>';
       details = details + '<ul class="ingredients">';
       for(var prop in item.Recipe){
           details = details + '<li><strong>' + prop + ':</strong> ' + item.Recipe[prop] + '</li>';
@@ -155,7 +156,7 @@
       // var currentName = (crafter.item.Name != $('.theName:first').text() && $('.theName:first').text() != '') ? $('.theName:first').text() : crafter.item.Name;
       var currentName = item.Name;
       var count = $('#item-count').val();
-      var html = '<strong>'+ crafter.itemCount +'</strong> <span class="theName"> ' + currentName + '</span>: ';
+      var html = '<strong>'+ item.Quantity*crafter.itemCount +'</strong> <span class="theName"> ' + currentName + '</span>: ';
       for(var prop in crafter.item.Recipe){
         html = html + count*crafter.item.Recipe[prop] + ' ' + prop;
         if(Object.keys(crafter.item.Recipe)[Object.keys(crafter.item.Recipe).length - 1] != prop){

@@ -95,7 +95,7 @@ function placeMarker(location) {
     });
 
     google.maps.event.addListener(marker, 'click', function() {
-      copyToClipboard(marker);
+      copyToClipboard(this);
     });
   }
 
@@ -193,7 +193,7 @@ function showSearchResults(arr){
 
 
     google.maps.event.addListener(result, 'click', function() {
-      copyToClipboard(result);
+      copyToClipboard(this);
     });
     google.maps.event.addListener(result, 'mouseover', function() {
       // where I have added .html to the marker object.
@@ -295,14 +295,14 @@ function createMarkers(){
         html: contentString
     });
 
-    google.maps.event.addListener(poiMarker, 'dblclick', function() {
-      copyToClipboard(poiMarker);
+    google.maps.event.addListener(poiMarker, 'click', function() {
+      copyToClipboard(this);
     });
 
-    google.maps.event.addListener(poiMarker, 'click', function(e) {
-      map.setZoom(7);
-      map.setCenter(e.latLng);
-    });
+    // google.maps.event.addListener(poiMarker, 'click', function(e) {
+    //   map.setZoom(7);
+    //   map.setCenter(e.latLng);
+    // });
 
     google.maps.event.addListener(poiMarker, 'mouseover', function() {
       // where I have added .html to the marker object.

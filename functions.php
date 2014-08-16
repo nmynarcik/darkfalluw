@@ -531,6 +531,7 @@ function add_poi_level(){
     echo '<option value="easy" ' . (($poi_level == 'easy') ? 'selected="selected" ' : ' ') . '>Easy</option>';
     echo '<option value="med"' . (($poi_level == 'med') ? 'selected="selected"' : '') . '>Medium</option>';
     echo '<option value="hard"' . (($poi_level == 'hard') ? 'selected="selected"' : '') . '>Hard</option>';
+    echo '<option value="veryhard"' . (($poi_level == 'veryhard') ? 'selected="selected"' : '') . '>Very Hard</option>';
     echo '</select><br/><br/>';
     echo '<em>Only needed for mobs</em>';
 }
