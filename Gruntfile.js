@@ -8,10 +8,16 @@ module.exports = function(grunt) {
           },
           dist: {
             // the files to concatenate
-            src: ['js/src/agon.map.js','js/src/dfuw.js','js/src/crafting.js'],
-            // the location of the resulting JS file
-            dest: 'js/<%= pkg.name %>.js'
+            files:{
+              'js/<%= pkg.name %>.js': ['js/src/agon.map.js','js/src/dfuw.js','js/src/crafting.js','js/jquery*.js']
+            }
           }
+        },
+        cssmin : {
+            css:{
+                src: 'style.uncompressed.css',
+                dest: 'style.css'
+            }
         },
         uglify: {
           options: {
@@ -19,10 +25,8 @@ module.exports = function(grunt) {
             banner: '/*! <%= pkg.name %> <%= grunt.template.today("dd-mm-yyyy") %> */\n'
           },
           dist: {
-            files: {
-              'js/<%= pkg.name %>.min.js': ['<%= concat.dist.dest %>'],
-              'js/ga.tracking.min.js': ['js/src/ga.tracking.js']
-            }
+            src: 'js/<%= pkg.name %>.js',
+            dest: 'js/<%= pkg.name %>.min.js'
           }
         },
         jshint: {
@@ -57,13 +61,36 @@ module.exports = function(grunt) {
               // Task-specific options go here.
             },
             your_target: {
-              src: ['data/src/*.{json,y{,a}ml}'],
+              src: ['data/src/*.json'],
               dest: 'data/crafting_recipes_all.json'
             }
           },
+          'string-replace': {
+            dist: {
+              files: {
+                'data/': 'data/src/*' // includes files in dir
+              },
+              options: {
+                replacements: [{
+                  pattern: /[\[\]]/g,
+                  replacement: ''
+                }]
+              }
+            }
+          },
+          surround: {
+              options: {
+                prepend: '[',
+                append: ']'
+              },
+              files: [{
+                src: 'data/crafting_recipes_all.json',
+                dest: 'data/crafting_recipes_all.min.json'
+              }]
+            },
         watch: {
-          files: ['<%= jshint.files %>'],
-          tasks: ['jshint']
+          files: ['<%= jshint.files %>','style.uncompressed.css'],
+          tasks: ['jshint','cssmin']
         }
     });
 
@@ -72,7 +99,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-merge-data');
+    grunt.loadNpmTasks('grunt-string-replace');
+    grunt.loadNpmTasks('grunt-surround');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-    grunt.registerTask('test', ['concat','merge_data','jshint']);
-    grunt.registerTask('default', ['jshint', 'uglify', 'concat','merge_data']);
+    grunt.registerTask('json', ['merge_data','jshint']);
+    grunt.registerTask('default', ['merge_data','jshint', 'concat','cssmin','uglify']);
 };
