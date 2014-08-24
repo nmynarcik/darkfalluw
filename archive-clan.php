@@ -1,7 +1,7 @@
 <?php
 get_header();
 $server = $wp_query->query_vars['server'];
-wp_enqueue_script('dfuw_table_sort', get_template_directory_uri().'/js/jquery.tablesorter.min.js',false,$ver,'all');
+// wp_enqueue_script('dfuw_table_sort', get_template_directory_uri().'/js/jquery.tablesorter.min.js',false,$ver,'all');
 
 $selectBox = '<select id="server_select">';
 if($server == "na"){

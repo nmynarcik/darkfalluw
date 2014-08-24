@@ -3,8 +3,8 @@
 Template Name: Video Page
 */
 get_header();
-wp_enqueue_script('dfuw_jquery','http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js',false,'1.6','all');
-wp_enqueue_script('dfuw_autoellipsis', get_template_directory_uri() . '/js/jquery.autoellipsis.min.js',false,'1.6','all');
+// wp_enqueue_script('dfuw_jquery','http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js',false,'1.6','all');
+// wp_enqueue_script('dfuw_autoellipsis', get_template_directory_uri() . '/js/jquery.autoellipsis.min.js',false,'1.6','all');
 ?>
 <article id="content">
 <?php the_post(); ?>

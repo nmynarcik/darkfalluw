@@ -3,7 +3,7 @@
 Template Name: Misc Game Info
 */
 get_header();
-wp_enqueue_script('dfuw_table_sort', get_template_directory_uri().'/js/jquery.tablesorter.min.js',false,$ver,'all');
+// wp_enqueue_script('dfuw_table_sort', get_template_directory_uri().'/js/jquery.tablesorter.min.js',false,$ver,'all');
 ?>
 <article id="content" class="misc-game-info">
 <?php the_post(); ?>
