@@ -1158,6 +1158,10 @@ footer .df-social p {
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
+  margin-top: -3px;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
 }
 
 .df-social .social-list .reddit{background-position: 0 128px;}
