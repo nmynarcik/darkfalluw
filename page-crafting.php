@@ -12,6 +12,19 @@ wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer );
 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <h1 class="entry-title"><?php the_title(); ?></h1>
 <div class="entry-content">
+  <div class="gad" data-ad-type="square">
+    <script type="text/javascript"><!--
+    google_ad_client = "ca-pub-0373971494255887";
+    /* DFUW Sidebar */
+    google_ad_slot = "6114571902";
+    google_ad_width = 180;
+    google_ad_height = 150;
+    //-->
+    </script>
+    <script type="text/javascript"
+    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+    </script>
+  </div>
   <?php the_content(); ?>
   <div id="selections">
       <label class="checkbox">

@@ -1735,6 +1735,11 @@ strong {font-weight: bold;}
   float: left;
 }
 
+.page-template-page-crafting-php .gad[data-ad-type="square"] {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
 .page-template-page-crafting-php select, .page-template-page-crafting-new-php select {
   float: left;
   margin-right: 10px;
@@ -1843,7 +1848,7 @@ strong {font-weight: bold;}
 /* Custom Comboboxes */
 
 #selections input.custom-combobox-input {
-  width: 220px;
+  width: 165px;
   background: #231914;
   color: white;
   border: 0;
