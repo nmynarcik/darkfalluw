@@ -1180,6 +1180,20 @@ select {
   font-weight: 400;
 }
 
+/* Select on Feedback */
+.page-id-284 select {
+  background: white;
+  color: inherit;
+}
+.page-id-284 select:focus {
+  border-color: rgba(235, 253, 52, 0.8) !important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(235, 253, 52, 0.6) !important;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6) !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(235, 253, 52, 0.6) !important;
+  outline: 0;
+  outline: thin dotted 9;
+}
+
 #school_selector {
   width: 134px;
   float: left;
