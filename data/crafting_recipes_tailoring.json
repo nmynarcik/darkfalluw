@@ -9,7 +9,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":1,
-	"Cloth":8
+	"Cloths":8
 }
 },
   {
@@ -22,8 +22,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":8,
-	"Cloth":14,
-	"Rust":10
+	"Cloths":14,
+	"Rusts":10
 }
 },
   {
@@ -36,8 +36,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":8,
-	"Cloth":14,
-	"Lichen":10
+	"Cloths":14,
+	"Lichens":10
 }
 },
   {
@@ -50,8 +50,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":8,
-	"Cloth":14,
-	"Inferior Mana Flake":5
+	"Cloths":14,
+	"Inferior Mana Flakes":5
 }
 },
 {
@@ -64,7 +64,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":10,
-	"Cloth":17
+	"Cloths":17
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -77,7 +105,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":2,
-	"Cloth":2
+	"Cloths":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -90,7 +146,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":2,
-	"Cloth":3
+	"Cloths":3
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -103,7 +187,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":2,
-	"Cloth":4
+	"Cloths":4
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -116,7 +228,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":2,
-	"Cloth":2
+	"Cloths":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -129,7 +269,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":2,
-	"Cloth":6
+	"Cloths":6
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
 {
@@ -142,9 +310,37 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":10,
-	"Cloth":14,
-	"Leather":2,
-	"Iron Ingot":2
+	"Cloths":14,
+	"Leathers":2,
+	"Iron Ingots":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }	
 },
   {
@@ -157,7 +353,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":2,
-	"Cloth":2
+	"Cloths":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -170,8 +394,36 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":2,
-	"Cloth":3,
+	"Cloths":3,
 	"Leather":1
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -184,7 +436,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":2,
-	"Cloth":4
+	"Cloths":4
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -199,6 +479,34 @@
 	"Gold":2,
 	"Cloth":1,
 	"Iron Ingot":1
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -211,9 +519,37 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":2,
-	"Cloth":3,
+	"Cloths":3,
 	"Leather":1,
 	"Iron Ingot":1
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -226,7 +562,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":80,
-	"Cloth":32
+	"Cloths":32
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -239,7 +603,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":16,
-	"Cloth":6
+	"Cloths":6
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -252,7 +644,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":16,
-	"Cloth":3
+	"Cloths":3
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -265,7 +685,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":16,
-	"Cloth":8
+	"Cloths":8
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -278,7 +726,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":16,
-	"Cloth":3
+	"Cloths":3
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -291,7 +767,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":16,
-	"Cloth":12
+	"Cloths":12
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -304,9 +808,37 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":80,
-	"Cloth":23,
-	"Leather":5,
-	"Iron Ingot":4
+	"Cloths":23,
+	"Leathers":5,
+	"Iron Ingots":4
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -319,8 +851,36 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":16,
-	"Cloth":3,
-	"Leather":2
+	"Cloths":3,
+	"Leathers":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -333,7 +893,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":16,
-	"Cloth":3
+	"Cloths":3
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -346,7 +934,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":16,
-	"Cloth":8
+	"Cloths":8
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -359,8 +975,36 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":16,
-	"Cloth":3,
-	"Iron Ingot":2
+	"Cloths":3,
+	"Iron Ingots":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -373,9 +1017,37 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":16,
-	"Cloth":6,
-	"Leather":3,
-	"Iron Ingot":2
+	"Cloths":6,
+	"Leathers":3,
+	"Iron Ingots":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -388,7 +1060,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":250,
-	"Cloth":66
+	"Cloths":66
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -401,7 +1101,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Cloth":6
+	"Cloths":6
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -414,7 +1142,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Cloth":12
+	"Cloths":12
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -427,7 +1183,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Cloth":18
+	"Cloths":18
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -440,7 +1224,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Cloth":6
+	"Cloths":6
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -453,7 +1265,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Cloth":24
+	"Cloths":24
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -466,9 +1306,37 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":250,
-	"Cloth":49,
-	"Iron Ingot":8,
-	"Leather":9
+	"Cloths":49,
+	"Iron Ingots":8,
+	"Leathers":9
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -481,7 +1349,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Cloth":6
+	"Cloths":6
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -494,8 +1390,36 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Cloth":8,
-	"Leather":4
+	"Cloths":8,
+	"Leathers":4
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -508,7 +1432,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Cloth":18
+	"Cloths":18
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -521,8 +1473,36 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Cloth":3,
-	"Iron Ingot":3
+	"Cloths":3,
+	"Iron Ingots":3
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -535,9 +1515,37 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":50,
-	"Cloth":14,
-	"Iron Ingot":5,
-	"Leather":5
+	"Cloths":14,
+	"Iron Ingots":5,
+	"Leathers":5
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -550,7 +1558,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":500,
-	"Cloth":126
+	"Cloths":126
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
 
@@ -564,7 +1600,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":100,
-	"Cloth":24
+	"Cloths":24
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -577,7 +1641,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":100,
-	"Cloth":12
+	"Cloths":12
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -590,7 +1682,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":100,
-	"Cloth":30
+	"Cloths":30
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -603,7 +1723,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":100,
-	"Cloth":12
+	"Cloths":12
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -616,7 +1764,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":100,
-	"Cloth":48
+	"Cloths":48
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -629,9 +1805,37 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":500,
-	"Cloth":92,
-	"Iron Ingot":16,
-	"Leather":18
+	"Cloths":92,
+	"Iron Ingots":16,
+	"Leathers":18
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -644,8 +1848,36 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":100,
-	"Cloth":16,
-	"Leather":6
+	"Cloths":16,
+	"Leathers":6
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -658,7 +1890,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":100,
-	"Cloth":12
+	"Cloths":12
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -671,7 +1931,35 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":100,
-	"Cloth":30
+	"Cloths":30
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -684,8 +1972,36 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":100,
-	"Cloth":6,
-	"Iron Ingot":6
+	"Cloths":6,
+	"Iron Ingots":6
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -698,9 +2014,37 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":100,
-	"Cloth":28,
-	"Iron Ingot":10,
-	"Leather":10
+	"Cloths":28,
+	"Iron Ingots":10,
+	"Leathers":10
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -713,8 +2057,36 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":950,
-	"Cloth":88,
-	"Selentine Cloth":18
+	"Cloths":88,
+	"Selentine Cloths":18
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -727,8 +2099,36 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":190,
-	"Cloth":8,
-	"Selentine Cloth":2
+	"Cloths":8,
+	"Selentine Cloths":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -741,8 +2141,36 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":190,
-	"Cloth":16,
-	"Selentine Cloth":4
+	"Cloths":16,
+	"Selentine Cloths":4
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -755,8 +2183,36 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":190,
-	"Cloth":24,
-	"Selentine Cloth":4
+	"Cloths":24,
+	"Selentine Cloths":4
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -769,8 +2225,36 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":190,
-	"Cloth":8,
-	"Selentine Cloth":2
+	"Cloths":8,
+	"Selentine Cloths":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -783,8 +2267,36 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":190,
-	"Cloth":32,
-	"Selentine Cloth":6
+	"Cloths":32,
+	"Selentine Cloths":6
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -797,12 +2309,40 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":950,
-	"Cloth":67,
-	"Iron Ingot":6,
-	"Leather":11,
-	"Selentine Cloth":14,
-	"Selentine Ingot":3,
+	"Cloths":67,
+	"Iron Ingots":6,
+	"Leathers":11,
+	"Selentine Cloths":14,
+	"Selentine Ingots":3,
 	"Selentine Leather":1
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -815,8 +2355,36 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":190,
-	"Cloth":8,
-	"Selentine Cloth":2
+	"Cloths":8,
+	"Selentine Cloths":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -829,10 +2397,38 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":190,
-	"Cloth":11,
-	"Leather":5,
-	"Selentine Cloth":3,
+	"Cloths":11,
+	"Leathers":5,
+	"Selentine Cloths":3,
 	"Selentine Leather":1
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -845,8 +2441,36 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":190,
-	"Cloth":24,
-	"Selentine Cloth":4
+	"Cloths":24,
+	"Selentine Cloths":4
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -859,9 +2483,37 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":190,
-	"Cloth":4,
+	"Cloths":4,
 	"Selentine Cloth":1,
 	"Selentine Ingot":1
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -874,11 +2526,39 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":190,
-	"Cloth":20,
-	"Iron Ingot":6,
-	"Leather":6,
-	"Selentine Cloth":4,
-	"Selentine Ingot":2
+	"Cloths":20,
+	"Iron Ingots":6,
+	"Leathers":6,
+	"Selentine Cloths":4,
+	"Selentine Ingots":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -891,9 +2571,37 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":2350,
-	"Cloth":88,
-	"Veilron Cloth":18,
-	"Neithal Cloth":10
+	"Cloths":88,
+	"Veilron Cloths":18,
+	"Neithal Cloths":10
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -906,9 +2614,37 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":470,
-	"Cloth":8,
-	"Veilron Cloth":2,
-	"Neithal Cloth":2
+	"Cloths":8,
+	"Veilron Cloths":2,
+	"Neithal Cloths":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -921,9 +2657,37 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":470,
-	"Cloth":16,
-	"Veilron Cloth":3,
-	"Neithal Cloth":2
+	"Cloths":16,
+	"Veilron Cloths":3,
+	"Neithal Cloths":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -936,9 +2700,37 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":470,
-	"Cloth":24,
-	"Veilron Cloth":4,
-	"Neithal Cloth":2
+	"Cloths":24,
+	"Veilron Cloths":4,
+	"Neithal Cloths":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -951,9 +2743,37 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":470,
-	"Cloth":8,
-	"Veilron Cloth":2,
-	"Neithal Cloth":2
+	"Cloths":8,
+	"Veilron Cloths":2,
+	"Neithal Cloths":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -966,9 +2786,37 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":470,
-	"Cloth":32,
-	"Veilron Cloth":6,
-	"Neithal Cloth":2
+	"Cloths":32,
+	"Veilron Cloths":6,
+	"Neithal Cloths":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -981,13 +2829,41 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":2350,
-	"Cloth":67,
-	"Iron Ingot":10,
-	"Leather":11,
-	"Neithal Cloth":10,
-	"Veilron Cloth":14,
-	"Veilron Ingot":1,
-	"Veilron Leather":2
+	"Cloths":67,
+	"Iron Ingots":10,
+	"Leathers":11,
+	"Neithal Cloths":10,
+	"Veilron Cloths":14,
+	"Veilron Ingots":2,
+	"Veilron Leathers":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -1000,9 +2876,37 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":470,
-	"Cloth":8,
-	"Veilron Cloth":2,
-	"Neithal Cloth":2
+	"Cloths":8,
+	"Veilron Cloths":2,
+	"Neithal Cloths":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -1015,11 +2919,39 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":470,
-	"Cloth":11,
-	"Leather":5,
-	"Neithal Cloth":2,
-	"Veilron Cloth":3,
+	"Cloths":11,
+	"Leathers":5,
+	"Neithal Cloths":2,
+	"Veilron Cloths":3,
 	"Veilron Leather":1
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -1032,9 +2964,37 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":470,
-	"Cloth":24,
-	"Neithal Cloth":2,
-	"Veilron Cloth":4
+	"Cloths":24,
+	"Neithal Cloths":2,
+	"Veilron Cloths":4
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -1047,11 +3007,39 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":470,
-	"Cloth":4,
-	"Iron Ingot":4,
-	"Neithal Cloth":2,
+	"Cloths":4,
+	"Iron Ingots":4,
+	"Neithal Cloths":2,
 	"Veilron Cloth":1,
 	"Veilron Ingot":1
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -1064,13 +3052,41 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":470,
-	"Cloth":20,
-	"Iron Ingot":6,
-	"Leather":6,
-	"Neithal Cloth":2,
-	"Veilron Cloth":4,
+	"Cloths":20,
+	"Iron Ingots":6,
+	"Leathers":6,
+	"Neithal Cloths":2,
+	"Veilron Cloths":4,
 	"Veilron Ingot":1,
 	"Veilron Leather":1
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -1083,16 +3099,44 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":4750,
-	"Cloth":67,
-	"Iron Ingot":10,
-	"Leather":11,
-	"Leenspar Cloth":14,
-	"Leenspar Ingot":2,
-	"Leenspar Leather":2,
+	"Cloths":67,
+	"Iron Ingots":10,
+	"Leathers":11,
+	"Leenspar Cloths":14,
+	"Leenspar Ingots":2,
+	"Leenspar Leathers":2,
 	"Primal Fungus":5,
-	"Primal Shadowtaint":5,
-	"Skymane Silk":10,
-	"Theyril Cloth":10
+	"Primal Shadowtaints":5,
+	"Skymane Silks":10,
+	"Theyril Cloths":10
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
 
@@ -1106,12 +3150,40 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":950,
-	"Cloth":8,
-	"Leenspar Cloth":2,
+	"Cloths":8,
+	"Leenspar Cloths":2,
 	"Priaml Fungus":1,
 	"Primal Shadowtaint":1,
-	"Skymane Silk":2,
-	"Theyril Cloth":2
+	"Skymane Silks":2,
+	"Theyril Cloths":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -1124,14 +3196,42 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":950,
-	"Cloth":11,
-	"Leather":5,
-	"Leenspar Cloth":3,
+	"Cloths":11,
+	"Leathers":5,
+	"Leenspar Cloths":3,
 	"Leenspar Leather":1,
 	"Primal Fungus":1,
 	"Primal Shadowtaint":1,
-	"Skymane Silk":2,
-	"Theyril Cloth":2
+	"Skymane Silks":2,
+	"Theyril Cloths":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -1144,12 +3244,40 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":950,
-	"Cloth":24,
-	"Leenspar Cloth":4,
+	"Cloths":24,
+	"Leenspar Cloths":4,
 	"Primal Fungus":1,
 	"Primal Shadowtaint":1,
-	"Skymane Silk":2,
-	"Theyril Cloth":2
+	"Skymane Silks":2,
+	"Theyril Cloths":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -1162,14 +3290,42 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":950,
-	"Cloth":4,
-	"Iron Ingot":4,
+	"Cloths":4,
+	"Iron Ingots":4,
 	"Leenspar Cloth":1,
 	"Leenspar Ingot":1,
 	"Primal Fungus":1,
 	"Primal Shadowtaint":1,
-	"Skymane Silk":2,
-	"theyril Cloth":2
+	"Skymane Silks":2,
+	"theyril Cloths":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -1182,16 +3338,44 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":950,
-	"Cloth":20,
-	"Iron Ingot":6,
-	"Leather":6,
-	"Leenspar Cloth":4,
+	"Cloths":20,
+	"Iron Ingots":6,
+	"Leathers":6,
+	"Leenspar Cloths":4,
 	"Leenspar Ingot":1,
 	"Leenspar Leather":1,
 	"Primal Fungus":1,
 	"Primal Shadowtaint":1,
-	"Skymane Silk":2,
-	"Theyril Cloth":2
+	"Skymane Silks":2,
+	"Theyril Cloths":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -1204,12 +3388,40 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":4750,
-	"Cloth":88,
-	"Leenspar Cloth":18,
-	"Theyril Cloth":10,
+	"Cloths":88,
+	"Leenspar Cloths":18,
+	"Theyril Cloths":10,
 	"Primal Fungus":5,
-	"Primal Shadowtaint":5,
-	"Widow Silk":10
+	"Primal Shadowtaints":5,
+	"Widow Silks":10
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -1222,12 +3434,40 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":950,
-	"Cloth":8,
-	"Leenspar Cloth":2,
-	"Theyril Cloth":2,
+	"Cloths":8,
+	"Leenspar Cloths":2,
+	"Theyril Cloths":2,
 	"Primal Fungus":1,
 	"Primal Shadowtaint":1,
-	"Widow Silk":2
+	"Widow Silks":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -1240,12 +3480,40 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":950,
-	"Cloth":16,
-	"Leenspar Cloth":4,
-	"Theyril Cloth":2,
+	"Cloths":16,
+	"Leenspar Cloths":4,
+	"Theyril Cloths":2,
 	"Primal Fungus":1,
 	"Primal Shadowtaint":1,
-	"Widow Silk":2
+	"Widow Silks":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -1258,12 +3526,40 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":950,
-	"Cloth":24,
-	"Leenspar Cloth":4,
-	"Theyril Cloth":2,
+	"Cloths":24,
+	"Leenspar Cloths":4,
+	"Theyril Cloths":2,
 	"Primal Fungus":1,
 	"Primal Shadowtaint":1,
-	"Widow Silk":2
+	"Widow Silks":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -1276,12 +3572,40 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":950,
-	"Cloth":8,
-	"Leenspar Cloth":2,
-	"Theyril Cloth":2,
+	"Cloths":8,
+	"Leenspar Cloths":2,
+	"Theyril Cloths":2,
 	"Primal Fungus":1,
 	"Primal Shadowtaint":1,
-	"Widow Silk":2
+	"Widow Silks":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 },
   {
@@ -1294,12 +3618,40 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":950,
-	"Cloth":32,
-	"Leenspar Cloth":6,
-	"Theyril Cloth":2,
+	"Cloths":32,
+	"Leenspar Cloths":6,
+	"Theyril Cloths":2,
 	"Primal Fungus":1,
 	"Primal Shadowtaint":1,
-	"Widow Silk":2
+	"Widow Silks":2
+},
+    "Additional": {
+	"Weight":0,
+	"Durability":0,
+	"Extra": {
+	"Slashing Min":0,
+	"Slashing Max":0,
+	"Piercing Min":0,
+	"Piercing Max":0,
+	"Bludgeoning Min":0,
+	"Bludgeoning Max":0,
+	"Impact Min":0,
+	"Impact Max":0,
+	"Acid Min":0,
+	"Acid Max":0,
+	"Cold Min":0,
+	"Cold Max":0,
+	"Fire Min":0,
+	"Fire Max":0,
+	"Lightning Min":0,
+	"Lightning Max":0,
+	"Holy Min":0,
+	"Holy Max":0,
+	"Unholy Min":0,
+	"Unholy Max":0,
+	"Density Min":"0",
+	"Density Max":0
+}
 }
 }
 ]

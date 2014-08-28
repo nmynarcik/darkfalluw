@@ -11,7 +11,35 @@
 	"Gold":10,
 	"Iron Ingots":16,
 	"Leathers":12
+},
+    "Additional": {
+    "Weight":31.2,
+    "Durability":178.02,
+	"Extra": {
+    "Slashing Min":9.1,
+    "Slashing Max":9.97,
+    "Piercing Min":9.52,
+    "Piercing Max":10.49,
+    "Bludgeoning Min":7.86,
+    "Bludgeoning Max":8.68,
+    "Impact Min":8.25,
+    "Impact Max":9.08,
+    "Acid Min":12.18,
+    "Acid Max":13.42,
+    "Cold Min":12.18,
+    "Cold Max":13.42,
+    "Fire Min":12.18,
+    "Fire Max":13.42,
+    "Lightning Min":11.75,
+    "Lightning Max":12.89,
+    "Holy Min":12.01,
+    "Holy Max":13.24,
+    "Unholy Min":12.01,
+    "Unholy Max":13.24,
+    "Density Min":0.26,
+    "Density Max":0.26
 }
+}	
 },
   {
     "id":"r_Armor Chain Mail Arms",
@@ -25,6 +53,34 @@
 	"Gold":1,
 	"Iron Ingot":1,
 	"Leather":1
+},
+    "Additional": {
+    "Weight":1.6,
+    "Durability":16.69,
+	"Extra": {
+    "Slashing Min":0.65,
+    "Slashing Max":0.71,
+    "Piercing Min":0.68,
+    "Piercing Max":0.75,
+    "Bludgeoning Min":0.56,
+    "Bludgeoning Max":0.62,
+    "Impact Min":0.59,
+    "Impact Max":0.65,
+    "Acid Min":0.87,
+    "Acid Max":0.96,
+    "Cold Min":0.87,
+    "Cold Max":0.96,
+    "Fire Min":0.87,
+    "Fire Max":0.96,
+    "Lightning Min":0.84,
+    "Lightning Max":0.92,
+    "Holy Min":0.86,
+    "Holy Max":0.95,
+    "Unholy Min":0.86,
+    "Unholy Max":0.95,
+    "Density Min":0.02,
+    "Density Max":0.02
+}
 }
 },
   {
@@ -39,6 +95,34 @@
 	"Gold":1,
 	"Iron Ingot":1,
 	"Leather":1
+},
+    "Additional": {
+    "Weight":1.6,
+    "Durability":16.69,
+	"Extra": {
+    "Slashing Min":0.65,
+    "Slashing Max":0.71,
+    "Piercing Min":0.68,
+    "Piercing Max":0.75,
+    "Bludgeoning Min":0.56,
+    "Bludgeoning Max":0.62,
+    "Impact Min":0.59,
+    "Impact Max":0.65,
+    "Acid Min":0.87,
+    "Acid Max":0.96,
+    "Cold Min":0.87,
+    "Cold Max":0.96,
+    "Fire Min":0.87,
+    "Fire Max":0.96,
+    "Lightning Min":0.84,
+    "Lightning Max":0.92,
+    "Holy Min":0.86,
+    "Holy Max":0.95,
+    "Unholy Min":0.86,
+    "Unholy Max":0.95,
+    "Density Min":0.02,
+    "Density Max":0.02
+}
 }
 },
   {
@@ -53,6 +137,34 @@
 	"Gold":1,
 	"Iron Ingot":1,
     	"Leather":1
+},
+    "Additional": {
+    "Weight":2.4,
+    "Durability":16.69,
+	"Extra": {
+    "Slashing Min":0.65,
+    "Slashing Max":0.71,
+    "Piercing Min":0.68,
+    "Piercing Max":0.75,
+    "Bludgeoning Min":0.56,
+    "Bludgeoning Max":0.62,
+    "Impact Min":0.59,
+    "Impact Max":0.65,
+    "Acid Min":0.87,
+    "Acid Max":0.96,
+    "Cold Min":0.87,
+    "Cold Max":0.96,
+    "Fire Min":0.87,
+    "Fire Max":0.96,
+    "Lightning Min":0.84,
+    "Lightning Max":0.92,
+    "Holy Min":0.86,
+    "Holy Max":0.95,
+    "Unholy Min":0.86,
+    "Unholy Max":0.95,
+    "Density Min":0.02,
+    "Density Max":0.02
+}
 }
 },
   {
@@ -67,6 +179,35 @@
 	"Gold":1,
 	"Iron Ingot":1,
     	"Leather":1
+},
+    "Additional": {
+    "Weight":3.2,
+    "Durability":16.69,
+	"Extra": {
+    "Slashing Min":0.65,
+    "Slashing Max":0.71,
+    "Piercing Min":0.68,
+    "Piercing Max":0.75,
+    "Bludgeoning Min":0.56,
+    "Bludgeoning Max":0.62,
+    "Impact Min":0.59,
+    "Impact Max":0.65,
+    "Acid Min":0.87,
+    "Acid Max":0.96,
+    "Cold Min":0.87,
+    "Cold Max":0.96,
+    "Fire Min":0.87,
+    "Fire Max":0.96,
+    "Lightning Min":0.84,
+    "Lightning Max":0.92,
+    "Holy Min":0.86,
+    "Holy Max":0.95,
+    "Unholy Min":0.86,
+    "Unholy Max":0.95,
+    "Density Min":0.02,
+    "Density Max":0.02
+
+}
 }
 },
   {
@@ -81,6 +222,34 @@
 	"Gold":1,
 	"Iron Ingot":1,
 	"Leather":1
+},
+    "Additional": {
+    "Weight":1.6,
+    "Durability":16.69,
+	"Extra": {
+    "Slashing Min":0.65,
+    "Slashing Max":0.71,
+    "Piercing Min":0.68,
+    "Piercing Max":0.75,
+    "Bludgeoning Min":0.56,
+    "Bludgeoning Max":0.62,
+    "Impact Min":0.59,
+    "Impact Max":0.65,
+    "Acid Min":0.87,
+    "Acid Max":0.96,
+    "Cold Min":0.87,
+    "Cold Max":0.96,
+    "Fire Min":0.87,
+    "Fire Max":0.96,
+    "Lightning Min":0.84,
+    "Lightning Max":0.92,
+    "Holy Min":0.86,
+    "Holy Max":0.95,
+    "Unholy Min":0.86,
+    "Unholy Max":0.95,
+    "Density Min":0.02,
+    "Density Max":0.02
+}
 }
 },
   {
@@ -95,6 +264,34 @@
 	"Gold":1,
 	"Iron Ingots":2,
     	"Leather":1
+},
+    "Additional": {
+    "Weight":3.2,
+    "Durability":19.47,
+	"Extra": {
+    "Slashing Min":1.3,
+    "Slashing Max":1.43,
+    "Piercing Min":1.36,
+    "Piercing Max":1.5,
+    "Bludgeoning Min":1.13,
+    "Bludgeoning Max":1.24,
+    "Impact Min":1.18,
+    "Impact Max":1.3,
+    "Acid Min":1.74,
+    "Acid Max":1.91,
+    "Cold Min":1.74,
+    "Cold Max":1.91,
+    "Fire Min":1.74,
+    "Fire Max":1.91,
+    "Lightning Min":1.68,
+    "Lightning Max":1.85,
+    "Holy Min":1.71,
+    "Holy Max":1.88,
+    "Unholy Min":1.71,
+    "Unholy Max":1.88,
+    "Density Min":0.05,
+    "Density Max":0.05
+}
 }
 },
   {
@@ -109,6 +306,34 @@
 	"Gold":1,
 	"Iron Ingots":3,
 	"Leathers":2
+},
+    "Additional": {
+    "Weight":4.8,
+    "Durability":19.47,
+	"Extra": {
+    "Slashing Min":0.65,
+    "Slashing Max":0.71,
+    "Piercing Min":0.68,
+    "Piercing Max":0.75,
+    "Bludgeoning Min":0.56,
+    "Bludgeoning Max":0.62,
+    "Impact Min":0.59,
+    "Impact Max":0.65,
+    "Acid Min":0.87,
+    "Acid Max":0.96,
+    "Cold Min":0.87,
+    "Cold Max":0.96,
+    "Fire Min":0.87,
+    "Fire Max":0.96,
+    "Lightning Min":0.84,
+    "Lightning Max":0.92,
+    "Holy Min":0.86,
+    "Holy Max":0.95,
+    "Unholy Min":0.86,
+    "Unholy Max":0.95,
+    "Density Min":0.02,
+    "Density Max":0.02
+}
 }
 },
   {
@@ -123,6 +348,34 @@
 	"Gold":1,
 	"Iron Ingot":1,
 	"Leather":1
+},
+    "Additional": {
+    "Weight":2.4,
+    "Durability":16.69,
+	"Extra": {
+    "Slashing Min":0.65,
+    "Slashing Max":0.71,
+    "Piercing Min":0.68,
+    "Piercing Max":0.75,
+    "Bludgeoning Min":0.56,
+    "Bludgeoning Max":0.62,
+    "Impact Min":0.59,
+    "Impact Max":0.65,
+    "Acid Min":0.87,
+    "Acid Max":0.96,
+    "Cold Min":0.87,
+    "Cold Max":0.96,
+    "Fire Min":0.87,
+    "Fire Max":0.96,
+    "Lightning Min":0.84,
+    "Lightning Max":0.92,
+    "Holy Min":0.86,
+    "Holy Max":0.95,
+    "Unholy Min":0.86,
+    "Unholy Max":0.95,
+    "Density Min":0.02,
+    "Density Max":0.02
+}
 }
 },
   {
@@ -137,6 +390,34 @@
 	"Gold":1,
 	"Iron Ingot":1,
 	"Leather":1
+},
+    "Additional": {
+    "Weight":2.4,
+    "Durability":16.69,
+	"Extra": {
+    "Slashing Min":0.65,
+    "Slashing Max":0.71,
+    "Piercing Min":0.68,
+    "Piercing Max":0.75,
+    "Bludgeoning Min":0.56,
+    "Bludgeoning Max":0.62,
+    "Impact Min":0.59,
+    "Impact Max":0.65,
+    "Acid Min":0.87,
+    "Acid Max":0.96,
+    "Cold Min":0.87,
+    "Cold Max":0.96,
+    "Fire Min":0.87,
+    "Fire Max":0.96,
+    "Lightning Min":0.84,
+    "Lightning Max":0.92,
+    "Holy Min":0.86,
+    "Holy Max":0.95,
+    "Unholy Min":0.86,
+    "Unholy Max":0.95,
+    "Density Min":0.05,
+    "Density Max":0.05
+}
 }
 },
   {
@@ -151,6 +432,34 @@
 	"Gold":1,
 	"Iron Ingots":4,
 	"Leathers":2
+},
+    "Additional": {
+    "Weight":8,
+    "Durability":22.25,
+	"Extra": {
+    "Slashing Min":2.6,
+    "Slashing Max":2.86,
+    "Piercing Min":2.72,
+    "Piercing Max":2.99,
+    "Bludgeoning Min":2.25,
+    "Bludgeoning Max":2.48,
+    "Impact Min":2.35,
+    "Impact Max":2.58,
+    "Acid Min":3.48,
+    "Acid Max":3.83,
+    "Cold Min":3.48,
+    "Cold Max":3.83,
+    "Fire Min":3.48,
+    "Fire Max":3.83,
+    "Lightning Min":3.35,
+    "Lightning Max":3.68,
+    "Holy Min":3.42,
+    "Holy Max":3.76,
+    "Unholy Min":3.42,
+    "Unholy Max":3.76,
+    "Density Min":0.02,
+    "Density Max":0.02
+}
 }
 },
   {
@@ -165,6 +474,34 @@
 	"Gold":80,
 	"Iron Ingots":32,
 	"Leathers":16
+},
+    "Additional": {
+    "Weight":33.3,
+    "Durability":207.67,
+	"Extra": {
+    "Slashing Min":12.43,
+    "Slashing Max":13.68,
+    "Piercing Min":12.99,
+    "Piercing Max":14.27,
+    "Bludgeoning Min":10.75,
+    "Bludgeoning Max":11.85,
+    "Impact Min":11.2,
+    "Impact Max":12.32,
+    "Acid Min":16.63,
+    "Acid Max":18.3,
+    "Cold Min":16.63,
+    "Cold Max":18.3,
+    "Fire Min":16.63,
+    "Fire Max":18.3,
+    "Lightning Min":15.98,
+    "Lightning Max":17.55,
+    "Holy Min":16.35,
+    "Holy Max":18.01,
+    "Unholy Min":16.35,
+    "Unholy Max":18.01,
+    "Density Min":0.28,
+    "Density Max":0.28
+}
 }
 },
   {
@@ -179,6 +516,34 @@
 	"Gold":8,
 	"Iron Ingots":2,
 	"Leather":1
+},
+    "Additional": {
+    "Weight":1.7,
+    "Durability":19.47,
+	"Extra": {
+    "Slashing Min":0.89,
+    "Slashing Max":0.98,
+    "Piercing Min":0.93,
+    "Piercing Max":1.02,
+    "Bludgeoning Min":0.77,
+    "Bludgeoning Max":0.85,
+    "Impact Min":0.8,
+    "Impact Max":0.88,
+    "Acid Min":1.19,
+    "Acid Max":1.31,
+    "Cold Min":1.19,
+    "Cold Max":1.31,
+    "Fire Min":1.19,
+    "Fire Max":1.31,
+    "Lightning Min":1.14,
+    "Lightning Max":1.25,
+    "Holy Min":1.17,
+    "Holy Max":1.29,
+    "Unholy Min":1.17,
+    "Unholy Max":1.29,
+    "Density Min":"0.02",
+    "Density Max":0.02
+}
 }
 },
   {
@@ -193,6 +558,34 @@
 	"Gold":8,
     	"Iron Ingots":2,
     	"Leather":1
+},
+    "Additional": {
+    "Weight":1.7,
+    "Durability":19.47,
+	"Extra": {
+    "Slashing Min":0.89,
+    "Slashing Max":0.98,
+    "Piercing Min":0.93,
+    "Piercing Max":1.02,
+    "Bludgeoning Min":0.77,
+    "Bludgeoning Max":0.85,
+    "Impact Min":0.8,
+    "Impact Max":0.88,
+    "Acid Min":1.19,
+    "Acid Max":1.31,
+    "Cold Min":1.19,
+    "Cold Max":1.31,
+    "Fire Min":1.19,
+    "Fire Max":1.31,
+    "Lightning Min":1.14,
+    "Lightning Max":1.25,
+    "Holy Min":1.17,
+    "Holy Max":1.29,
+    "Unholy Min":1.17,
+    "Unholy Max":1.29,
+    "Density Min":0.02,
+    "Density Max":0.02
+}
 }
 },
   {
@@ -207,6 +600,34 @@
 	"Gold":8,
     	"Iron Ingots":2,
     	"Leather":1
+},
+    "Additional": {
+    "Weight":2.6,
+    "Durability":19.47,
+	"Extra": {
+    "Slashing Min":0.89,
+    "Slashing Max":0.98,
+    "Piercing Min":0.93,
+    "Piercing Max":1.02,
+    "Bludgeoning Min":0.77,
+    "Bludgeoning Max":0.85,
+    "Impact Min":0.8,
+    "Impact Max":0.88,
+    "Acid Min":1.19,
+    "Acid Max":1.31,
+    "Cold Min":1.19,
+    "Cold Max":1.31,
+    "Fire Min":1.19,
+    "Fire Max":1.31,
+    "Lightning Min":1.14,
+    "Lightning Max":1.25,
+    "Holy Min":1.17,
+    "Holy Max":1.29,
+    "Unholy Min":1.17,
+    "Unholy Max":1.29,
+    "Density Min":0.02,
+    "Density Max":0.02
+}
 }
 },
   {
@@ -221,6 +642,34 @@
 	"Gold":8,
     	"Iron Ingots":2,
     	"Leather":1
+},
+    "Additional": {
+    "Weight":1.7,
+    "Durability":19.47,
+	"Extra": {
+    "Slashing Min":0.89,
+    "Slashing Max":0.98,
+    "Piercing Min":0.93,
+    "Piercing Max":1.02,
+    "Bludgeoning Min":0.77,
+    "Bludgeoning Max":0.85,
+    "Impact Min":0.8,
+    "Impact Max":0.88,
+    "Acid Min":1.19,
+    "Acid Max":1.31,
+    "Cold Min":1.19,
+    "Cold Max":1.31,
+    "Fire Min":1.19,
+    "Fire Max":1.31,
+    "Lightning Min":1.14,
+    "Lightning Max":1.25,
+    "Holy Min":1.17,
+    "Holy Max":1.29,
+    "Unholy Min":1.17,
+    "Unholy Max":1.29,
+    "Density Min":0.02,
+    "Density Max":0.02
+}
 }
 },
   {
@@ -235,6 +684,34 @@
 	"Gold":8,
     	"Iron Ingots":2,
     	"Leather":1
+},
+    "Additional": {
+    "Weight":3.4,
+    "Durability":19.47,
+	"Extra": {
+    "Slashing Min":0.89,
+    "Slashing Max":0.98,
+    "Piercing Min":0.93,
+    "Piercing Max":1.02,
+    "Bludgeoning Min":0.77,
+    "Bludgeoning Max":0.85,
+    "Impact Min":0.8,
+    "Impact Max":0.88,
+    "Acid Min":1.19,
+    "Acid Max":1.31,
+    "Cold Min":1.19,
+    "Cold Max":1.31,
+    "Fire Min":1.19,
+    "Fire Max":1.31,
+    "Lightning Min":1.14,
+    "Lightning Max":1.25,
+    "Holy Min":1.17,
+    "Holy Max":1.29,
+    "Unholy Min":1.17,
+    "Unholy Max":1.29,
+    "Density Min":0.02,
+    "Density Max":0.02
+}
 }
 },
   {
@@ -249,6 +726,34 @@
 	"Gold":8,
     	"Iron Ingots":4,
     	"Leathers":2
+},
+    "Additional": {
+    "Weight":3.4,
+    "Durability":22.71,
+	"Extra": {
+    "Slashing Min":1.77,
+    "Slashing Max":1.95,
+    "Piercing Min":1.85,
+    "Piercing Max":2.04,
+    "Bludgeoning Min":1.53,
+    "Bludgeoning Max":1.68,
+    "Impact Min":1.6,
+    "Impact Max":1.76,
+    "Acid Min":2.37,
+    "Acid Max":2.61,
+    "Cold Min":2.37,
+    "Cold Max":2.61,
+    "Fire Min":2.37,
+    "Fire Max":2.61,
+    "Lightning Min":2.29,
+    "Lightning Max":2.52,
+    "Holy Min":2.33,
+    "Holy Max":2.56,
+    "Unholy Min":2.33,
+    "Unholy Max":2.56,
+    "Density Min":0.06,
+    "Density Max":0.06
+}
 }
 },
   {
@@ -263,6 +768,34 @@
 	"Gold":8,
 	"Iron Ingots":6,
 	"Leathers":3
+},
+    "Additional": {
+    "Weight":5.1,
+    "Durability":22.71,
+	"Extra": {
+    "Slashing Min":0.89,
+    "Slashing Max":0.98,
+    "Piercing Min":0.93,
+    "Piercing Max":1.02,
+    "Bludgeoning Min":0.77,
+    "Bludgeoning Max":0.85,
+    "Impact Min":0.8,
+    "Impact Max":0.88,
+    "Acid Min":1.19,
+    "Acid Max":1.31,
+    "Cold Min":1.19,
+    "Cold Max":1.31,
+    "Fire Min":1.19,
+    "Fire Max":1.31,
+    "Lightning Min":1.14,
+    "Lightning Max":1.25,
+    "Holy Min":1.17,
+    "Holy Max":1.29,
+    "Unholy Min":1.17,
+    "Unholy Max":1.29,
+    "Density Min":0.02,
+    "Density Max":0.02
+}
 }
 },
   {
@@ -277,6 +810,34 @@
 	"Gold":8,
 	"Iron Ingots":2,
 	"Leather":1
+},
+    "Additional": {
+    "Weight":2.6,
+    "Durability":19.47,
+	"Extra": {
+    "Slashing Min":0.89,
+    "Slashing Max":0.98,
+    "Piercing Min":0.93,
+    "Piercing Max":1.02,
+    "Bludgeoning Min":0.77,
+    "Bludgeoning Max":0.85,
+    "Impact Min":0.8,
+    "Impact Max":0.88,
+    "Acid Min":1.19,
+    "Acid Max":1.31,
+    "Cold Min":1.19,
+    "Cold Max":1.31,
+    "Fire Min":1.19,
+    "Fire Max":1.31,
+    "Lightning Min":1.14,
+    "Lightning Max":1.25,
+    "Holy Min":1.17,
+    "Holy Max":1.29,
+    "Unholy Min":1.17,
+    "Unholy Max":1.29,
+    "Density Min":0.02,
+    "Density Max":0.02
+}
 }
 },
   {
@@ -291,6 +852,34 @@
 	"Gold":8,
 	"Iron Ingots":2,
     	"Leather":1
+},
+    "Additional": {
+    "Weight":2.6,
+    "Durability":19.47,
+	"Extra": {
+    "Slashing Min":0.89,
+    "Slashing Max":0.98,
+    "Piercing Min":0.93,
+    "Piercing Max":1.02,
+    "Bludgeoning Min":0.77,
+    "Bludgeoning Max":0.85,
+    "Impact Min":0.8,
+    "Impact Max":0.88,
+    "Acid Min":1.19,
+    "Acid Max":1.31,
+    "Cold Min":1.19,
+    "Cold Max":1.31,
+    "Fire Min":1.19,
+    "Fire Max":1.31,
+    "Lightning Min":1.14,
+    "Lightning Max":1.25,
+    "Holy Min":1.17,
+    "Holy Max":1.29,
+    "Unholy Min":1.17,
+    "Unholy Max":1.29,
+    "Density Min":0.06,
+    "Density Max":0.06
+}
 }
 },
   {
@@ -305,6 +894,34 @@
 	"Gold":8,
 	"Iron Ingots":8,
 	"Leathers":4
+},
+    "Additional": {
+    "Weight":8.5,
+    "Durability":25.96,
+	"Extra": {
+    "Slashing Min":3.54,
+    "Slashing Max":3.89,
+    "Piercing Min":3.7,
+    "Piercing Max":4.07,
+    "Bludgeoning Min":3.06,
+    "Bludgeoning Max":3.37,
+    "Impact Min":3.2,
+    "Impact Max":3.52,
+    "Acid Min":4.74,
+    "Acid Max":5.21,
+    "Cold Min":4.74,
+    "Cold Max":5.21,
+    "Fire Min":4.74,
+    "Fire Max":5.21,
+    "Lightning Min":4.57,
+    "Lightning Max":5.03,
+    "Holy Min":4.66,
+    "Holy Max":5.13,
+    "Unholy Min":4.66,
+    "Unholy Max":5.13,
+    "Density Min":0.02,
+    "Density Max":0.02
+}
 }
 },
   {
@@ -319,6 +936,34 @@
 	"Gold":250,
 	"Iron Ingots":64,
 	"Leathers":28
+},
+    "Additional": {
+    "Weight":29.4,
+    "Durability":222.51,
+	"Extra": {
+    "Slashing Min":14.97,
+    "Slashing Max":16.49,
+    "Piercing Min":15.65,
+    "Piercing Max":17.2,
+    "Bludgeoning Min":12.9,
+    "Bludgeoning Max":14.18,
+    "Impact Min":13.55,
+    "Impact Max":14.93,
+    "Acid Min":20.02,
+    "Acid Max":22,
+    "Cold Min":20.02,
+    "Cold Max":22,
+    "Fire Min":20.02,
+    "Fire Max":22,
+    "Lightning Min":19.31,
+    "Lightning Max":21.26,
+    "Holy Min":19.71,
+    "Holy Max":21.67,
+    "Unholy Min":19.71,
+    "Unholy Max":21.67,
+    "Density Min":0.38,
+    "Density Max":0.38
+}
 }
 },
   {
@@ -333,6 +978,34 @@
 	"Gold":25,
 	"Iron Ingots":4,
 	"Leathers":2
+},
+    "Additional": {
+    "Weight":1.5,
+    "Durability":20.86,
+	"Extra": {
+    "Slashing Min":1.07,
+    "Slashing Max":1.18,
+    "Piercing Min":1.12,
+    "Piercing Max":1.23,
+    "Bludgeoning Min":0.92,
+    "Bludgeoning Max":1.01,
+    "Impact Min":0.97,
+    "Impact Max":1.07,
+    "Acid Min":1.43,
+    "Acid Max":1.57,
+    "Cold Min":1.43,
+    "Cold Max":1.57,
+    "Fire Min":1.43,
+    "Fire Max":1.57,
+    "Lightning Min":1.38,
+    "Lightning Max":1.52,
+    "Holy Min":1.41,
+    "Holy Max":1.55,
+    "Unholy Min":1.41,
+    "Unholy Max":1.55,
+    "Density Min":0.03,
+    "Density Max":0.03
+}
 }
 },
   {
@@ -347,6 +1020,34 @@
 	"Gold":25,
 	"Iron Ingots":4,
 	"Leathers":2
+},
+    "Additional": {
+    "Weight":1.5,
+    "Durability":20.86,
+	"Extra": {
+    "Slashing Min":1.07,
+    "Slashing Max":1.18,
+    "Piercing Min":1.12,
+    "Piercing Max":1.23,
+    "Bludgeoning Min":0.92,
+    "Bludgeoning Max":1.01,
+    "Impact Min":0.97,
+    "Impact Max":1.07,
+    "Acid Min":1.43,
+    "Acid Max":1.57,
+    "Cold Min":1.43,
+    "Cold Max":1.57,
+    "Fire Min":1.43,
+    "Fire Max":1.57,
+    "Lightning Min":1.38,
+    "Lightning Max":1.52,
+    "Holy Min":1.41,
+    "Holy Max":1.55,
+    "Unholy Min":1.41,
+    "Unholy Max":1.55,
+    "Density Min":"0.03",
+    "Density Max":0.03
+}
 }
 },
   {
@@ -361,6 +1062,34 @@
 	"Gold":25,
 	"Iron Ingots":4,
 	"Leathers":2
+},
+    "Additional": {
+    "Weight":2.3,
+    "Durability":20.86,
+	"Extra": {
+    "Slashing Min":1.07,
+    "Slashing Max":1.18,
+    "Piercing Min":1.12,
+    "Piercing Max":1.23,
+    "Bludgeoning Min":0.92,
+    "Bludgeoning Max":1.01,
+    "Impact Min":0.97,
+    "Impact Max":1.07,
+    "Acid Min":1.43,
+    "Acid Max":1.57,
+    "Cold Min":1.43,
+    "Cold Max":1.57,
+    "Fire Min":1.43,
+    "Fire Max":1.57,
+    "Lightning Min":1.38,
+    "Lightning Max":1.52,
+    "Holy Min":1.41,
+    "Holy Max":1.55,
+    "Unholy Min":1.41,
+    "Unholy Max":1.55,
+    "Density Min":0.03,
+    "Density Max":0.03
+}
 }
 },
   {
@@ -375,6 +1104,34 @@
 	"Gold":25,
 	"Iron Ingots":4,
 	"Leathers":2
+},
+    "Additional": {
+    "Weight":1.5,
+    "Durability":20.86,
+	"Extra": {
+    "Slashing Min":1.07,
+    "Slashing Max":1.18,
+    "Piercing Min":1.12,
+    "Piercing Max":1.23,
+    "Bludgeoning Min":0.92,
+    "Bludgeoning Max":1.01,
+    "Impact Min":0.97,
+    "Impact Max":1.07,
+    "Acid Min":1.43,
+    "Acid Max":1.57,
+    "Cold Min":1.43,
+    "Cold Max":1.57,
+    "Fire Min":1.43,
+    "Fire Max":1.57,
+    "Lightning Min":1.38,
+    "Lightning Max":1.52,
+    "Holy Min":1.41,
+    "Holy Max":1.55,
+    "Unholy Min":1.41,
+    "Unholy Max":1.55,
+    "Density Min":0.03,
+    "Density Max":0.03
+}
 }
 },
   {
@@ -389,6 +1146,34 @@
 	"Gold":25,
 	"Iron Ingots":4,
 	"Leathers":2
+},
+    "Additional": {
+    "Weight":3,
+    "Durability":20.86,
+	"Extra": {
+    "Slashing Min":1.07,
+    "Slashing Max":1.18,
+    "Piercing Min":1.12,
+    "Piercing Max":1.23,
+    "Bludgeoning Min":0.92,
+    "Bludgeoning Max":1.01,
+    "Impact Min":0.97,
+    "Impact Max":1.07,
+    "Acid Min":1.43,
+    "Acid Max":1.57,
+    "Cold Min":1.43,
+    "Cold Max":1.57,
+    "Fire Min":1.43,
+    "Fire Max":1.57,
+    "Lightning Min":1.38,
+    "Lightning Max":1.52,
+    "Holy Min":1.41,
+    "Holy Max":1.55,
+    "Unholy Min":1.41,
+    "Unholy Max":1.55,
+    "Density Min":0.03,
+    "Density Max":0.03
+}
 }
 },
   {
@@ -403,6 +1188,34 @@
 	"Gold":25,
 	"Iron Ingots":8,
 	"Leathers":4
+},
+    "Additional": {
+    "Weight":3,
+    "Durability":24.34,
+	"Extra": {
+    "Slashing Min":2.14,
+    "Slashing Max":2.35,
+    "Piercing Min":2.23,
+    "Piercing Max":2.45,
+    "Bludgeoning Min":1.85,
+    "Bludgeoning Max":2.04,
+    "Impact Min":1.93,
+    "Impact Max":2.12,
+    "Acid Min":2.86,
+    "Acid Max":3.15,
+    "Cold Min":2.86,
+    "Cold Max":3.15,
+    "Fire Min":2.86,
+    "Fire Max":3.15,
+    "Lightning Min":2.76,
+    "Lightning Max":3.04,
+    "Holy Min":2.81,
+    "Holy Max":3.09,
+    "Unholy Min":2.81,
+    "Unholy Max":3.09,
+    "Density Min":0.07,
+    "Density Max":0.07
+}
 }
 },
   {
@@ -417,6 +1230,34 @@
 	"Gold":25,
 	"Iron Ingots":12,
 	"Leathers":6
+},
+    "Additional": {
+    "Weight":4.5,
+    "Durability":24.34,
+	"Extra": {
+    "Slashing Min":1.07,
+    "Slashing Max":1.18,
+    "Piercing Min":1.12,
+    "Piercing Max":1.23,
+    "Bludgeoning Min":0.92,
+    "Bludgeoning Max":1.01,
+    "Impact Min":0.97,
+    "Impact Max":1.07,
+    "Acid Min":1.43,
+    "Acid Max":1.57,
+    "Cold Min":1.43,
+    "Cold Max":1.57,
+    "Fire Min":1.43,
+    "Fire Max":1.57,
+    "Lightning Min":1.38,
+    "Lightning Max":1.52,
+    "Holy Min":1.41,
+    "Holy Max":1.55,
+    "Unholy Min":1.41,
+    "Unholy Max":1.55,
+    "Density Min":0.03,
+    "Density Max":0.03
+}
 }
 },
   {
@@ -431,6 +1272,34 @@
 	"Gold":25,
 	"Iron Ingots":4,
 	"Leathers":2
+},
+    "Additional": {
+    "Weight":2.3,
+    "Durability":20.86,
+	"Extra": {
+    "Slashing Min":1.07,
+    "Slashing Max":1.18,
+    "Piercing Min":1.12,
+    "Piercing Max":1.23,
+    "Bludgeoning Min":0.92,
+    "Bludgeoning Max":1.01,
+    "Impact Min":0.97,
+    "Impact Max":1.07,
+    "Acid Min":1.43,
+    "Acid Max":1.57,
+    "Cold Min":1.43,
+    "Cold Max":1.57,
+    "Fire Min":1.43,
+    "Fire Max":1.57,
+    "Lightning Min":1.38,
+    "Lightning Max":1.52,
+    "Holy Min":1.41,
+    "Holy Max":1.55,
+    "Unholy Min":1.41,
+    "Unholy Max":1.55,
+    "Density Min":0.03,
+    "Density Max":0.03
+}
 }
 },
   {
@@ -445,6 +1314,34 @@
 	"Gold":25,
 	"Iron Ingots":4,
 	"Leathers":2
+},
+    "Additional": {
+    "Weight":2.3,
+    "Durability":20.86,
+	"Extra": {
+    "Slashing Min":1.07,
+    "Slashing Max":1.18,
+    "Piercing Min":1.12,
+    "Piercing Max":1.23,
+    "Bludgeoning Min":0.92,
+    "Bludgeoning Max":1.01,
+    "Impact Min":0.97,
+    "Impact Max":1.07,
+    "Acid Min":1.43,
+    "Acid Max":1.57,
+    "Cold Min":1.43,
+    "Cold Max":1.57,
+    "Fire Min":1.43,
+    "Fire Max":1.57,
+    "Lightning Min":1.38,
+    "Lightning Max":1.52,
+    "Holy Min":1.41,
+    "Holy Max":1.55,
+    "Unholy Min":1.41,
+    "Unholy Max":1.55,
+    "Density Min":0.07,
+    "Density Max":0.07
+}
 }
 },
   {
@@ -459,6 +1356,34 @@
 	"Gold":25,
 	"Iron Ingots":16,
 	"Leathers":4
+},
+    "Additional": {
+    "Weight":7.5,
+    "Durability":27.81,
+	"Extra": {
+    "Slashing Min":4.27,
+    "Slashing Max":4.7,
+    "Piercing Min":4.46,
+    "Piercing Max":4.91,
+    "Bludgeoning Min":3.69,
+    "Bludgeoning Max":4.06,
+    "Impact Min":3.86,
+    "Impact Max":4.25,
+    "Acid Min":5.72,
+    "Acid Max":6.29,
+    "Cold Min":5.72,
+    "Cold Max":6.29,
+    "Fire Min":5.72,
+    "Fire Max":6.29,
+    "Lightning Min":5.51,
+    "Lightning Max":6.06,
+    "Holy Min":5.62,
+    "Holy Max":6.18,
+    "Unholy Min":5.62,
+    "Unholy Max":6.18,
+    "Density Min":0.03,
+    "Density Max":0.03
+}
 }
 },
   {
@@ -473,6 +1398,34 @@
 	"Gold":500,
 	"Iron Ingots":128,
 	"Leathers":45
+},
+    "Additional": {
+    "Weight":35.1,
+    "Durability":252.16,
+	"Extra": {
+    "Slashing Min":19.15,
+    "Slashing Max":21.09,
+    "Piercing Min":20.01,
+    "Piercing Max":21.99,
+    "Bludgeoning Min":16.52,
+    "Bludgeoning Max":18.19,
+    "Impact Min":17.33,
+    "Impact Max":19.03,
+    "Acid Min":22.92,
+    "Acid Max":25.26,
+    "Cold Min":22.92,
+    "Cold Max":25.26,
+    "Fire Min":22.92,
+    "Fire Max":25.26,
+    "Lightning Min":22.12,
+    "Lightning Max":24.35,
+    "Holy Min":22.54,
+    "Holy Max":24.78,
+    "Unholy Min":22.54,
+    "Unholy Max":24.78,
+    "Density Min":0.42,
+    "Density Max":0.44
+}
 }
 },
   {
@@ -487,6 +1440,34 @@
 	"Gold":50,
 	"Iron Ingots":8,
 	"Leathers":3
+},
+    "Additional": {
+    "Weight":1.8,
+    "Durability":23.64,
+	"Extra": {
+    "Slashing Min":1.37,
+    "Slashing Max":1.51,
+    "Piercing Min":1.43,
+    "Piercing Max":1.57,
+    "Bludgeoning Min":1.18,
+    "Bludgeoning Max":1.3,
+    "Impact Min":1.24,
+    "Impact Max":1.36,
+    "Acid Min":1.64,
+    "Acid Max":1.8,
+    "Cold Min":1.64,
+    "Cold Max":1.8,
+    "Fire Min":1.64,
+    "Fire Max":1.8,
+    "Lightning Min":1.58,
+    "Lightning Max":1.74,
+    "Holy Min":1.61,
+    "Holy Max":1.77,
+    "Unholy Min":1.61,
+    "Unholy Max":1.77,
+    "Density Min":0.03,
+    "Density Max":0.03
+}
 }
 },
   {
@@ -501,6 +1482,34 @@
 	"Gold":50,
 	"Iron Ingots":8,
 	"Leathers":3
+},
+    "Additional": {
+    "Weight":2.7,
+    "Durability":23.64,
+	"Extra": {
+    "Slashing Min":1.37,
+    "Slashing Max":1.51,
+    "Piercing Min":1.43,
+    "Piercing Max":1.57,
+    "Bludgeoning Min":1.18,
+    "Bludgeoning Max":1.3,
+    "Impact Min":1.24,
+    "Impact Max":1.36,
+    "Acid Min":1.64,
+    "Acid Max":1.8,
+    "Cold Min":1.64,
+    "Cold Max":1.8,
+    "Fire Min":1.64,
+    "Fire Max":1.8,
+    "Lightning Min":1.58,
+    "Lightning Max":1.74,
+    "Holy Min":1.61,
+    "Holy Max":1.77,
+    "Unholy Min":1.61,
+    "Unholy Max":1.77,
+    "Density Min":0.03,
+    "Density Max":0.03
+}
 }
 },
   {
@@ -515,6 +1524,34 @@
 	"Gold":50,
 	"Iron Ingots":8,
 	"Leathers":3
+},
+    "Additional": {
+    "Weight":1.8,
+    "Durability":23.64,
+	"Extra": {
+    "Slashing Min":1.37,
+    "Slashing Max":1.51,
+    "Piercing Min":1.43,
+    "Piercing Max":1.57,
+    "Bludgeoning Min":1.18,
+    "Bludgeoning Max":1.3,
+    "Impact Min":1.24,
+    "Impact Max":1.36,
+    "Acid Min":1.64,
+    "Acid Max":1.8,
+    "Cold Min":1.64,
+    "Cold Max":1.8,
+    "Fire Min":1.64,
+    "Fire Max":1.8,
+    "Lightning Min":1.58,
+    "Lightning Max":1.74,
+    "Holy Min":1.61,
+    "Holy Max":1.77,
+    "Unholy Min":1.61,
+    "Unholy Max":1.77,
+    "Density Min":0.03,
+    "Density Max":0.03
+}
 }
 },
   {
@@ -529,6 +1566,34 @@
 	"Gold":50,
 	"Iron Ingots":8,
 	"Leathers":3
+},
+    "Additional": {
+    "Weight":1.8,
+    "Durability":23.64,
+	"Extra": {
+    "Slashing Min":1.37,
+    "Slashing Max":1.51,
+    "Piercing Min":1.43,
+    "Piercing Max":1.57,
+    "Bludgeoning Min":1.18,
+    "Bludgeoning Max":1.3,
+    "Impact Min":1.24,
+    "Impact Max":1.36,
+    "Acid Min":1.64,
+    "Acid Max":1.8,
+    "Cold Min":1.64,
+    "Cold Max":1.8,
+    "Fire Min":1.64,
+    "Fire Max":1.8,
+    "Lightning Min":1.58,
+    "Lightning Max":1.74,
+    "Holy Min":1.61,
+    "Holy Max":1.77,
+    "Unholy Min":1.61,
+    "Unholy Max":1.77,
+    "Density Min":0.03,
+    "Density Max":0.03
+}
 }
 },
   {
@@ -543,6 +1608,34 @@
 	"Gold":50,
 	"Iron Ingots":8,
 	"Leathers":3
+},
+    "Additional": {
+    "Weight":3.6,
+    "Durability":23.64,
+	"Extra": {
+    "Slashing Min":1.37,
+    "Slashing Max":1.51,
+    "Piercing Min":1.43,
+    "Piercing Max":1.57,
+    "Bludgeoning Min":1.18,
+    "Bludgeoning Max":1.3,
+    "Impact Min":1.24,
+    "Impact Max":1.36,
+    "Acid Min":1.64,
+    "Acid Max":1.8,
+    "Cold Min":1.64,
+    "Cold Max":1.8,
+    "Fire Min":1.64,
+    "Fire Max":1.8,
+    "Lightning Min":1.58,
+    "Lightning Max":1.74,
+    "Holy Min":1.61,
+    "Holy Max":1.77,
+    "Unholy Min":1.61,
+    "Unholy Max":1.77,
+    "Density Min":0.03,
+    "Density Max":0.03
+}
 }
 },
   {
@@ -557,6 +1650,34 @@
 	"Gold":50,
 	"Iron Ingots":16,
 	"Leathers":6
+},
+    "Additional": {
+    "Weight":3.6,
+    "Durability":27.58,
+	"Extra": {
+    "Slashing Min":2.73,
+    "Slashing Max":3,
+    "Piercing Min":2.86,
+    "Piercing Max":3.15,
+    "Bludgeoning Min":2.36,
+    "Bludgeoning Max":2.6,
+    "Impact Min":2.47,
+    "Impact Max":2.72,
+    "Acid Min":3.23,
+    "Acid Max":3.63,
+    "Cold Min":3.23,
+    "Cold Max":3.63,
+    "Fire Min":3.23,
+    "Fire Max":3.63,
+    "Lightning Min":3.16,
+    "Lightning Max":3.48,
+    "Holy Min":3.22,
+    "Holy Max":3.54,
+    "Unholy Min":3.22,
+    "Unholy Max":3.54,
+    "Density Min":0.09,
+    "Density Max":0.1
+}
 }
 },
   {
@@ -571,6 +1692,34 @@
 	"Gold":50,
 	"Iron Ingots":24,
 	"Leathers":8
+},
+    "Additional": {
+    "Weight":5.4,
+    "Durability":27.58,
+	"Extra": {
+    "Slashing Min":1.37,
+    "Slashing Max":1.51,
+    "Piercing Min":1.43,
+    "Piercing Max":1.57,
+    "Bludgeoning Min":1.18,
+    "Bludgeoning Max":1.3,
+    "Impact Min":1.24,
+    "Impact Max":1.36,
+    "Acid Min":1.64,
+    "Acid Max":1.8,
+    "Cold Min":1.64,
+    "Cold Max":1.8,
+    "Fire Min":1.64,
+    "Fire Max":1.8,
+    "Lightning Min":1.58,
+    "Lightning Max":1.74,
+    "Holy Min":1.61,
+    "Holy Max":1.77,
+    "Unholy Min":1.61,
+    "Unholy Max":1.77,
+    "Density Min":0.03,
+    "Density Max":0.03
+}
 }
 },
   {
@@ -585,6 +1734,34 @@
 	"Gold":50,
 	"Iron Ingots":8,
 	"Leathers":3
+},
+    "Additional": {
+    "Weight":2.7,
+    "Durability":23.64,
+	"Extra": {
+    "Slashing Min":1.37,
+    "Slashing Max":1.51,
+    "Piercing Min":1.43,
+    "Piercing Max":1.57,
+    "Bludgeoning Min":1.18,
+    "Bludgeoning Max":1.3,
+    "Impact Min":1.24,
+    "Impact Max":1.36,
+    "Acid Min":1.64,
+    "Acid Max":1.8,
+    "Cold Min":1.64,
+    "Cold Max":1.8,
+    "Fire Min":1.64,
+    "Fire Max":1.8,
+    "Lightning Min":1.58,
+    "Lightning Max":1.74,
+    "Holy Min":1.61,
+    "Holy Max":1.77,
+    "Unholy Min":1.61,
+    "Unholy Max":1.77,
+    "Density Min":0.03,
+    "Density Max":0.03
+}
 }
 },
   {
@@ -599,6 +1776,34 @@
 	"Gold":50,
 	"Iron Ingots":8,
 	"Leathers":3
+},
+    "Additional": {
+    "Weight":2.7,
+    "Durability":23.64,
+	"Extra": {
+    "Slashing Min":1.37,
+    "Slashing Max":1.51,
+    "Piercing Min":1.43,
+    "Piercing Max":1.57,
+    "Bludgeoning Min":1.18,
+    "Bludgeoning Max":1.3,
+    "Impact Min":1.24,
+    "Impact Max":1.36,
+    "Acid Min":1.64,
+    "Acid Max":1.8,
+    "Cold Min":1.64,
+    "Cold Max":1.8,
+    "Fire Min":1.64,
+    "Fire Max":1.8,
+    "Lightning Min":1.58,
+    "Lightning Max":1.74,
+    "Holy Min":1.61,
+    "Holy Max":1.77,
+    "Unholy Min":1.61,
+    "Unholy Max":1.77,
+    "Density Min":0.09,
+    "Density Max":0.1
+}
 }
 },
   {
@@ -613,6 +1818,34 @@
 	"Gold":50,
 	"Iron Ingots":32,
 	"Leathers":10
+},
+    "Additional": {
+    "Weight":9,
+    "Durability":31.52,
+	"Extra": {
+    "Slashing Min":5.46,
+    "Slashing Max":6.01,
+    "Piercing Min":5.71,
+    "Piercing Max":6.28,
+    "Bludgeoning Min":4.72,
+    "Bludgeoning Max":5.19,
+    "Impact Min":4.94,
+    "Impact Max":5.43,
+    "Acid Min":6.57,
+    "Acid Max":7.23,
+    "Cold Min":6.57,
+    "Cold Max":7.23,
+    "Fire Min":6.57,
+    "Fire Max":7.23,
+    "Lightning Min":6.32,
+    "Lightning Max":6.95,
+    "Holy Min":6.44,
+    "Holy Max":7.08,
+    "Unholy Min":6.44,
+    "Unholy Max":7.08,
+    "Density Min":0.03,
+    "Density Max":0.03
+}
 }
 },
   {
@@ -628,6 +1861,34 @@
 	"Iron Ingots":168,
 	"Leathers":61,
 	"Selentine Ingots":14
+},
+    "Additional": {
+    "Weight":42.9,
+    "Durability":296.65,
+	"Extra": {
+    "Slashing Min":22.51,
+    "Slashing Max":24.75,
+    "Piercing Min":23.51,
+    "Piercing Max":25.88,
+    "Bludgeoning Min":19.45,
+    "Bludgeoning Max":21.41,
+    "Impact Min":20.32,
+    "Impact Max":22.39,
+    "Acid Min":27.99,
+    "Acid Max":30.79,
+    "Cold Min":27.99,
+    "Cold Max":30.79,
+    "Fire Min":27.99,
+    "Fire Max":30.79,
+    "Lightning Min":26.9,
+    "Lightning Max":29.57,
+    "Holy Min":27.44,
+    "Holy Max":30.21,
+    "Unholy Min":27.44,
+    "Unholy Max":30.21,
+    "Density Min":0.54,
+    "Density Max":0.56
+}
 }
 },
   {
@@ -643,6 +1904,34 @@
 	"Iron Ingots":12,
 	"Leathers":4,
 	"Selentine Ingot":1
+},
+    "Additional": {
+    "Weight":2.2,
+    "Durability":27.81,
+	"Extra": {
+    "Slashing Min":1.61,
+    "Slashing Max":1.77,
+    "Piercing Min":1.68,
+    "Piercing Max":1.85,
+    "Bludgeoning Min":1.39,
+    "Bludgeoning Max":1.53,
+    "Impact Min":1.45,
+    "Impact Max":1.6,
+    "Acid Min":2,
+    "Acid Max":2.2,
+    "Cold Min":2,
+    "Cold Max":2.2,
+    "Fire Min":2,
+    "Fire Max":2.2,
+    "Lightning Min":1.92,
+    "Lightning Max":2.11,
+    "Holy Min":1.96,
+    "Holy Max":2.16,
+    "Unholy Min":1.96,
+    "Unholy Max":2.16,
+    "Density Min":0.04,
+    "Density Max":0.04
+}
 }
 },
   {
@@ -658,6 +1947,34 @@
 	"Iron Ingots":12,
 	"Leathers":4,
 	"Selentine Ingot":1
+},
+    "Additional": {
+    "Weight":2.2,
+    "Durability":27.81,
+	"Extra": {
+    "Slashing Min":1.61,
+    "Slashing Max":1.77,
+    "Piercing Min":1.68,
+    "Piercing Max":1.85,
+    "Bludgeoning Min":1.39,
+    "Bludgeoning Max":1.53,
+    "Impact Min":1.45,
+    "Impact Max":1.6,
+    "Acid Min":2,
+    "Acid Max":2.2,
+    "Cold Min":2,
+    "Cold Max":2.2,
+    "Fire Min":2,
+    "Fire Max":2.2,
+    "Lightning Min":1.92,
+    "Lightning Max":2.11,
+    "Holy Min":1.96,
+    "Holy Max":2.16,
+    "Unholy Min":1.96,
+    "Unholy Max":2.16,
+    "Density Min":0.04,
+    "Density Max":0.04
+}
 }
 },
   {
@@ -673,6 +1990,34 @@
 	"Iron Ingots":12,
 	"Leathers":4,
 	"Selentine Ingot":1
+},
+    "Additional": {
+    "Weight":3.3,
+    "Durability":27.81,
+	"Extra": {
+    "Slashing Min":1.61,
+    "Slashing Max":1.77,
+    "Piercing Min":1.68,
+    "Piercing Max":1.85,
+    "Bludgeoning Min":1.39,
+    "Bludgeoning Max":1.53,
+    "Impact Min":1.45,
+    "Impact Max":1.6,
+    "Acid Min":2,
+    "Acid Max":2.2,
+    "Cold Min":2,
+    "Cold Max":2.2,
+    "Fire Min":2,
+    "Fire Max":2.2,
+    "Lightning Min":1.92,
+    "Lightning Max":2.11,
+    "Holy Min":1.96,
+    "Holy Max":2.16,
+    "Unholy Min":1.96,
+    "Unholy Max":2.16,
+    "Density Min":0.04,
+    "Density Max":0.04
+}
 }
 },
   {
@@ -688,6 +2033,34 @@
 	"Iron Ingots":12,
 	"Leathers":4,
 	"Selentine Ingot":1
+},
+    "Additional": {
+    "Weight":2.2,
+    "Durability":27.81,
+	"Extra": {
+    "Slashing Min":1.61,
+    "Slashing Max":1.77,
+    "Piercing Min":1.68,
+    "Piercing Max":1.85,
+    "Bludgeoning Min":1.39,
+    "Bludgeoning Max":1.53,
+    "Impact Min":1.45,
+    "Impact Max":1.6,
+    "Acid Min":2,
+    "Acid Max":2.2,
+    "Cold Min":2,
+    "Cold Max":2.2,
+    "Fire Min":2,
+    "Fire Max":2.2,
+    "Lightning Min":1.92,
+    "Lightning Max":2.11,
+    "Holy Min":1.96,
+    "Holy Max":2.16,
+    "Unholy Min":1.96,
+    "Unholy Max":2.16,
+    "Density Min":0.04,
+    "Density Max":0.04
+}
 }
 },
   {
@@ -703,6 +2076,34 @@
 	"Iron Ingots":12,
 	"Leathers":4,
 	"Selentine Ingot":1
+},
+    "Additional": {
+    "Weight":4.4,
+    "Durability":27.81,
+	"Extra": {
+    "Slashing Min":1.61,
+    "Slashing Max":1.77,
+    "Piercing Min":1.68,
+    "Piercing Max":1.85,
+    "Bludgeoning Min":1.39,
+    "Bludgeoning Max":1.53,
+    "Impact Min":1.45,
+    "Impact Max":1.6,
+    "Acid Min":2,
+    "Acid Max":2.2,
+    "Cold Min":2,
+    "Cold Max":2.2,
+    "Fire Min":2,
+    "Fire Max":2.2,
+    "Lightning Min":1.92,
+    "Lightning Max":2.11,
+    "Holy Min":1.96,
+    "Holy Max":2.16,
+    "Unholy Min":1.96,
+    "Unholy Max":2.16,
+    "Density Min":0.04,
+    "Density Max":0.04
+}
 }
 },
   {
@@ -718,6 +2119,34 @@
 	"Iron Ingots":20,
 	"Leathers":8,
 	"Selentine Ingots":2
+},
+    "Additional": {
+    "Weight":4.4,
+    "Durability":32.45,
+	"Extra": {
+    "Slashing Min":3.21,
+    "Slashing Max":3.53,
+    "Piercing Min":3.36,
+    "Piercing Max":3.7,
+    "Bludgeoning Min":2.78,
+    "Bludgeoning Max":3.06,
+    "Impact Min":2.91,
+    "Impact Max":3.2,
+    "Acid Min":4,
+    "Acid Max":4.4,
+    "Cold Min":4,
+    "Cold Max":4.4,
+    "Fire Min":4,
+    "Fire Max":4.4,
+    "Lightning Min":3.85,
+    "Lightning Max":4.23,
+    "Holy Min":3.92,
+    "Holy Max":4.31,
+    "Unholy Min":3.92,
+    "Unholy Max":4.31,
+    "Density Min":0.11,
+    "Density Max":0.12
+}
 }
 },
   {
@@ -733,6 +2162,34 @@
 	"Iron Ingots":28,
 	"Leathers":10,
 	"Selentine Ingots":2
+},
+    "Additional": {
+    "Weight":6.6,
+    "Durability":32.45,
+	"Extra": {
+    "Slashing Min":1.61,
+    "Slashing Max":1.77,
+    "Piercing Min":1.68,
+    "Piercing Max":1.85,
+    "Bludgeoning Min":1.39,
+    "Bludgeoning Max":1.53,
+    "Impact Min":1.45,
+    "Impact Max":1.6,
+    "Acid Min":2,
+    "Acid Max":2.2,
+    "Cold Min":2,
+    "Cold Max":2.2,
+    "Fire Min":2,
+    "Fire Max":2.2,
+    "Lightning Min":1.92,
+    "Lightning Max":2.11,
+    "Holy Min":1.96,
+    "Holy Max":2.16,
+    "Unholy Min":1.96,
+    "Unholy Max":2.16,
+    "Density Min":0.04,
+    "Density Max":0.04
+}
 }
 },
   {
@@ -748,6 +2205,34 @@
 	"Iron Ingots":12,
 	"Leathers":4,
 	"Selentine Ingot":1
+},
+    "Additional": {
+    "Weight":3.3,
+    "Durability":27.81,
+	"Extra": {
+    "Slashing Min":1.61,
+    "Slashing Max":1.77,
+    "Piercing Min":1.68,
+    "Piercing Max":1.85,
+    "Bludgeoning Min":1.39,
+    "Bludgeoning Max":1.53,
+    "Impact Min":1.45,
+    "Impact Max":1.6,
+    "Acid Min":2,
+    "Acid Max":2.2,
+    "Cold Min":2,
+    "Cold Max":2.2,
+    "Fire Min":2,
+    "Fire Max":2.2,
+    "Lightning Min":1.92,
+    "Lightning Max":2.11,
+    "Holy Min":1.96,
+    "Holy Max":2.16,
+    "Unholy Min":1.96,
+    "Unholy Max":2.16,
+    "Density Min":0.04,
+    "Density Max":0.04
+}
 }
 },
   {
@@ -763,6 +2248,34 @@
 	"Iron Ingots":12,
 	"Leathers":4,
 	"Selentine Ingot":1
+},
+    "Additional": {
+    "Weight":3.3,
+    "Durability":27.81,
+	"Extra": {
+    "Slashing Min":1.61,
+    "Slashing Max":1.77,
+    "Piercing Min":1.68,
+    "Piercing Max":1.85,
+    "Bludgeoning Min":1.39,
+    "Bludgeoning Max":1.53,
+    "Impact Min":1.45,
+    "Impact Max":1.6,
+    "Acid Min":2,
+    "Acid Max":2.2,
+    "Cold Min":2,
+    "Cold Max":2.2,
+    "Fire Min":2,
+    "Fire Max":2.2,
+    "Lightning Min":1.92,
+    "Lightning Max":2.11,
+    "Holy Min":1.96,
+    "Holy Max":2.16,
+    "Unholy Min":1.96,
+    "Unholy Max":2.16,
+    "Density Min":0.11,
+    "Density Max":0.12
+}
 }
 },
   {
@@ -778,6 +2291,34 @@
 	"Iron Ingots":36,
 	"Leathers":15,
 	"Selentine Ingots":3
+},
+    "Additional": {
+    "Weight":11,
+    "Durability":37.08,
+	"Extra": {
+    "Slashing Min":6.42,
+    "Slashing Max":7.06,
+    "Piercing Min":6.71,
+    "Piercing Max":7.38,
+    "Bludgeoning Min":5.55,
+    "Bludgeoning Max":6.11,
+    "Impact Min":5.81,
+    "Impact Max":6.39,
+    "Acid Min":7.99,
+    "Acid Max":8.79,
+    "Cold Min":7.99,
+    "Cold Max":8.79,
+    "Fire Min":7.99,
+    "Fire Max":8.79,
+    "Lightning Min":7.69,
+    "Lightning Max":8.46,
+    "Holy Min":7.84,
+    "Holy Max":8.62,
+    "Unholy Min":7.84,
+    "Unholy Max":8.62,
+    "Density Min":0.04,
+    "Density Max":0.04
+}
 }
 },
   {
@@ -794,6 +2335,34 @@
 	"Leathers":61,
 	"Veilron Ingots":14,
 	"Neithal Ingots":10
+},
+    "Additional": {
+    "Weight":39,
+    "Durability":385.69,
+	"Extra": {
+    "Slashing Min":23.94,
+    "Slashing Max":26.32,
+    "Piercing Min":25.05,
+    "Piercing Max":27.57,
+    "Bludgeoning Min":20.72,
+    "Bludgeoning Max":22.81,
+    "Impact Min":21.69,
+    "Impact Max":23.82,
+    "Acid Min":32.08,
+    "Acid Max":35.3,
+    "Cold Min":32.08,
+    "Cold Max":35.3,
+    "Fire Min":32.08,
+    "Fire Max":35.3,
+    "Lightning Min":30.91,
+    "Lightning Max":33.99,
+    "Holy Min":31.49,
+    "Holy Max":34.68,
+    "Unholy Min":31.49,
+    "Unholy Max":34.68,
+    "Density Min":0.56,
+    "Density Max":0.66
+}
 }
 },
   {
@@ -810,6 +2379,34 @@
 	"Leathers":4,
 	"Veilron Ingot":1,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":2,
+    "Durability":36.16,
+	"Extra": {
+    "Slashing Min":1.71,
+    "Slashing Max":1.88,
+    "Piercing Min":1.79,
+    "Piercing Max":1.97,
+    "Bludgeoning Min":1.48,
+    "Bludgeoning Max":1.63,
+    "Impact Min":1.55,
+    "Impact Max":1.7,
+    "Acid Min":2.29,
+    "Acid Max":2.52,
+    "Cold Min":2.29,
+    "Cold Max":2.52,
+    "Fire Min":2.29,
+    "Fire Max":2.52,
+    "Lightning Min":2.21,
+    "Lightning Max":2.43,
+    "Holy Min":2.25,
+    "Holy Max":2.48,
+    "Unholy Min":2.25,
+    "Unholy Max":2.48,
+    "Density Min":0.04,
+    "Density Max":0.05
+}
 }
 },
   {
@@ -826,6 +2423,34 @@
 	"Leathers":4,
 	"Veilron Ingot":1,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":2,
+    "Durability":36.16,
+	"Extra": {
+    "Slashing Min":1.71,
+    "Slashing Max":1.88,
+    "Piercing Min":1.79,
+    "Piercing Max":1.97,
+    "Bludgeoning Min":1.48,
+    "Bludgeoning Max":1.63,
+    "Impact Min":1.55,
+    "Impact Max":1.7,
+    "Acid Min":2.29,
+    "Acid Max":2.52,
+    "Cold Min":2.29,
+    "Cold Max":2.52,
+    "Fire Min":2.29,
+    "Fire Max":2.52,
+    "Lightning Min":2.21,
+    "Lightning Max":2.43,
+    "Holy Min":2.25,
+    "Holy Max":2.48,
+    "Unholy Min":2.25,
+    "Unholy Max":2.48,
+    "Density Min":0.04,
+    "Density Max":0.05
+}
 }
 },
   {
@@ -842,6 +2467,34 @@
 	"Leathers":4,
 	"Veilron Ingot":1,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":3,
+    "Durability":36.16,
+	"Extra": {
+    "Slashing Min":1.71,
+    "Slashing Max":1.88,
+    "Piercing Min":1.79,
+    "Piercing Max":1.97,
+    "Bludgeoning Min":1.48,
+    "Bludgeoning Max":1.63,
+    "Impact Min":1.55,
+    "Impact Max":1.7,
+    "Acid Min":2.29,
+    "Acid Max":2.52,
+    "Cold Min":2.29,
+    "Cold Max":2.52,
+    "Fire Min":2.29,
+    "Fire Max":2.52,
+    "Lightning Min":2.21,
+    "Lightning Max":2.43,
+    "Holy Min":2.25,
+    "Holy Max":2.48,
+    "Unholy Min":2.25,
+    "Unholy Max":2.48,
+    "Density Min":0.04,
+    "Density Max":0.05
+}
 }
 },
   {
@@ -858,6 +2511,34 @@
 	"Leathers":4,
 	"Veilron Ingot":1,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":2,
+    "Durability":36.16,
+	"Extra": {
+    "Slashing Min":1.71,
+    "Slashing Max":1.88,
+    "Piercing Min":1.79,
+    "Piercing Max":1.97,
+    "Bludgeoning Min":1.48,
+    "Bludgeoning Max":1.63,
+    "Impact Min":1.55,
+    "Impact Max":1.7,
+    "Acid Min":2.29,
+    "Acid Max":2.52,
+    "Cold Min":2.29,
+    "Cold Max":2.52,
+    "Fire Min":2.29,
+    "Fire Max":2.52,
+    "Lightning Min":2.21,
+    "Lightning Max":2.43,
+    "Holy Min":2.25,
+    "Holy Max":2.48,
+    "Unholy Min":2.25,
+    "Unholy Max":2.48,
+    "Density Min":0.04,
+    "Density Max":0.05
+}
 }
 },
   {
@@ -874,6 +2555,34 @@
 	"Leathers":4,
 	"Veilron Ingot":1,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":4,
+    "Durability":36.16,
+	"Extra": {
+    "Slashing Min":1.71,
+    "Slashing Max":1.88,
+    "Piercing Min":1.79,
+    "Piercing Max":1.97,
+    "Bludgeoning Min":1.48,
+    "Bludgeoning Max":1.63,
+    "Impact Min":1.55,
+    "Impact Max":1.7,
+    "Acid Min":2.29,
+    "Acid Max":2.52,
+    "Cold Min":2.29,
+    "Cold Max":2.52,
+    "Fire Min":2.29,
+    "Fire Max":2.52,
+    "Lightning Min":2.21,
+    "Lightning Max":2.43,
+    "Holy Min":2.25,
+    "Holy Max":2.48,
+    "Unholy Min":2.25,
+    "Unholy Max":2.48,
+    "Density Min":0.04,
+    "Density Max":0.05
+}
 }
 },
   {
@@ -890,6 +2599,34 @@
 	"Leathers":8,
 	"Veilron Ingots":2,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":4,
+    "Durability":42.18,
+	"Extra": {
+    "Slashing Min":3.42,
+    "Slashing Max":3.76,
+    "Piercing Min":3.58,
+    "Piercing Max":3.94,
+    "Bludgeoning Min":2.96,
+    "Bludgeoning Max":3.26,
+    "Impact Min":3.1,
+    "Impact Max":3.41,
+    "Acid Min":4.59,
+    "Acid Max":5.05,
+    "Cold Min":4.59,
+    "Cold Max":5.05,
+    "Fire Min":4.59,
+    "Fire Max":5.05,
+    "Lightning Min":4.41,
+    "Lightning Max":4.85,
+    "Holy Min":4.5,
+    "Holy Max":4.95,
+    "Unholy Min":4.5,
+    "Unholy Max":4.95,
+    "Density Min":0.12,
+    "Density Max":0.13
+}
 }
 },
   {
@@ -906,6 +2643,34 @@
 	"Leathers":10,
 	"Veilron Ingots":2,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":6,
+    "Durability":42.18,
+	"Extra": {
+    "Slashing Min":1.71,
+    "Slashing Max":1.88,
+    "Piercing Min":1.79,
+    "Piercing Max":1.97,
+    "Bludgeoning Min":1.48,
+    "Bludgeoning Max":1.63,
+    "Impact Min":1.55,
+    "Impact Max":1.7,
+    "Acid Min":2.29,
+    "Acid Max":2.52,
+    "Cold Min":2.29,
+    "Cold Max":2.52,
+    "Fire Min":2.29,
+    "Fire Max":2.52,
+    "Lightning Min":2.21,
+    "Lightning Max":2.43,
+    "Holy Min":2.25,
+    "Holy Max":2.48,
+    "Unholy Min":2.25,
+    "Unholy Max":2.48,
+    "Density Min":0.04,
+    "Density Max":0.05
+}
 }
 },
   {
@@ -922,6 +2687,34 @@
 	"Leathers":4,
 	"Veilron Ingot":1,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":3,
+    "Durability":36.16,
+	"Extra": {
+    "Slashing Min":1.71,
+    "Slashing Max":1.88,
+    "Piercing Min":1.79,
+    "Piercing Max":1.97,
+    "Bludgeoning Min":1.48,
+    "Bludgeoning Max":1.63,
+    "Impact Min":1.55,
+    "Impact Max":1.7,
+    "Acid Min":2.29,
+    "Acid Max":2.52,
+    "Cold Min":2.29,
+    "Cold Max":2.52,
+    "Fire Min":2.29,
+    "Fire Max":2.52,
+    "Lightning Min":2.21,
+    "Lightning Max":2.43,
+    "Holy Min":2.25,
+    "Holy Max":2.48,
+    "Unholy Min":2.25,
+    "Unholy Max":2.48,
+    "Density Min":0.04,
+    "Density Max":0.05
+}
 }
 },
   {
@@ -938,6 +2731,34 @@
 	"Leathers":4,
 	"Veilron Ingot":1,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":3,
+    "Durability":36.16,
+	"Extra": {
+    "Slashing Min":1.71,
+    "Slashing Max":1.88,
+    "Piercing Min":1.79,
+    "Piercing Max":1.97,
+    "Bludgeoning Min":1.48,
+    "Bludgeoning Max":1.63,
+    "Impact Min":1.55,
+    "Impact Max":1.7,
+    "Acid Min":2.29,
+    "Acid Max":2.52,
+    "Cold Min":2.29,
+    "Cold Max":2.52,
+    "Fire Min":2.29,
+    "Fire Max":2.52,
+    "Lightning Min":2.21,
+    "Lightning Max":2.43,
+    "Holy Min":2.25,
+    "Holy Max":2.48,
+    "Unholy Min":2.25,
+    "Unholy Max":2.48,
+    "Density Min":0.12,
+    "Density Max":0.13
+}
 }
 },
   {
@@ -954,6 +2775,34 @@
 	"Leathers":15,
 	"Veilron Ingots":3,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":10,
+    "Durability":48.21,
+	"Extra": {
+    "Slashing Min":6.84,
+    "Slashing Max":7.52,
+    "Piercing Min":7.15,
+    "Piercing Max":7.87,
+    "Bludgeoning Min":5.92,
+    "Bludgeoning Max":6.51,
+    "Impact Min":6.19,
+    "Impact Max":6.81,
+    "Acid Min":9.17,
+    "Acid Max":10.09,
+    "Cold Min":9.17,
+    "Cold Max":10.09,
+    "Fire Min":9.17,
+    "Fire Max":10.09,
+    "Lightning Min":8.82,
+    "Lightning Max":9.7,
+    "Holy Min":8.99,
+    "Holy Max":9.89,
+    "Unholy Min":8.99,
+    "Unholy Max":9.89,
+    "Density Min":0.04,
+    "Density Max":0.05
+}
 }
 },
   {
@@ -972,6 +2821,34 @@
 	"Theyril Ingots":10,
 	"Primal Bloods":10,
 	"Draconian Scales":10
+},
+    "Additional": {
+    "Weight":35.1,
+    "Durability":533.99,
+	"Extra": {
+    "Slashing Min":26.71,
+    "Slashing Max":29.37,
+    "Piercing Min":27.86,
+    "Piercing Max":30.66,
+    "Bludgeoning Min":23.09,
+    "Bludgeoning Max":25.36,
+    "Impact Min":24.19,
+    "Impact Max":26.59,
+    "Acid Min":35.72,
+    "Acid Max":39.25,
+    "Cold Min":35.72,
+    "Cold Max":39.25,
+    "Fire Min":35.72,
+    "Fire Max":39.25,
+    "Lightning Min":34.43,
+    "Lightning Max":37.9,
+    "Holy Min":35.11,
+    "Holy Max":38.61,
+    "Unholy Min":35.11,
+    "Unholy Max":38.61,
+    "Density Min":0.68,
+    "Density Max":0.7
+}
 }
 },
   {
@@ -990,6 +2867,34 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+    "Weight":1.8,
+    "Durability":50.06,
+	"Extra": {
+    "Slashing Min":1.91,
+    "Slashing Max":2.1,
+    "Piercing Min":1.99,
+    "Piercing Max":2.19,
+    "Bludgeoning Min":1.65,
+    "Bludgeoning Max":1.81,
+    "Impact Min":1.73,
+    "Impact Max":1.9,
+    "Acid Min":2.55,
+    "Acid Max":2.8,
+    "Cold Min":2.55,
+    "Cold Max":2.8,
+    "Fire Min":2.55,
+    "Fire Max":2.8,
+    "Lightning Min":2.46,
+    "Lightning Max":2.71,
+    "Holy Min":2.51,
+    "Holy Max":2.76,
+    "Unholy Min":2.51,
+    "Unholy Max":2.76,
+    "Density Min":0.05,
+    "Density Max":0.05
+}
 }
 },
   {
@@ -1008,6 +2913,34 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+    "Weight":1.8,
+    "Durability":50.06,
+	"Extra": {
+    "Slashing Min":1.91,
+    "Slashing Max":2.1,
+    "Piercing Min":1.99,
+    "Piercing Max":2.19,
+    "Bludgeoning Min":1.65,
+    "Bludgeoning Max":1.81,
+    "Impact Min":1.73,
+    "Impact Max":1.9,
+    "Acid Min":2.55,
+    "Acid Max":2.8,
+    "Cold Min":2.55,
+    "Cold Max":2.8,
+    "Fire Min":2.55,
+    "Fire Max":2.8,
+    "Lightning Min":2.46,
+    "Lightning Max":2.71,
+    "Holy Min":2.51,
+    "Holy Max":2.76,
+    "Unholy Min":2.51,
+    "Unholy Max":2.76,
+    "Density Min":0.05,
+    "Density Max":0.05
+}
 }
 },
   {
@@ -1026,6 +2959,34 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+    "Weight":2.7,
+    "Durability":50.06,
+	"Extra": {
+    "Slashing Min":1.91,
+    "Slashing Max":2.1,
+    "Piercing Min":1.99,
+    "Piercing Max":2.19,
+    "Bludgeoning Min":1.65,
+    "Bludgeoning Max":1.81,
+    "Impact Min":1.73,
+    "Impact Max":1.9,
+    "Acid Min":2.55,
+    "Acid Max":2.8,
+    "Cold Min":2.55,
+    "Cold Max":2.8,
+    "Fire Min":2.55,
+    "Fire Max":2.8,
+    "Lightning Min":2.46,
+    "Lightning Max":2.71,
+    "Holy Min":2.51,
+    "Holy Max":2.76,
+    "Unholy Min":2.51,
+    "Unholy Max":2.76,
+    "Density Min":0.05,
+    "Density Max":0.05
+}
 }
 },
   {
@@ -1044,6 +3005,34 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+    "Weight":3.6,
+    "Durability":50.06,
+	"Extra": {
+    "Slashing Min":1.91,
+    "Slashing Max":2.1,
+    "Piercing Min":1.99,
+    "Piercing Max":2.19,
+    "Bludgeoning Min":1.65,
+    "Bludgeoning Max":1.81,
+    "Impact Min":1.73,
+    "Impact Max":1.9,
+    "Acid Min":2.55,
+    "Acid Max":2.8,
+    "Cold Min":2.55,
+    "Cold Max":2.8,
+    "Fire Min":2.55,
+    "Fire Max":2.8,
+    "Lightning Min":2.46,
+    "Lightning Max":2.71,
+    "Holy Min":2.51,
+    "Holy Max":2.76,
+    "Unholy Min":2.51,
+    "Unholy Max":2.76,
+    "Density Min":0.05,
+    "Density Max":0.05
+}
 }
 },
   {
@@ -1062,6 +3051,35 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+	"Weight":0,
+    "Weight":1.8,
+    "Durability":50.06,
+	"Extra": {
+    "Slashing Min":1.91,
+    "Slashing Max":2.1,
+    "Piercing Min":1.99,
+    "Piercing Max":2.19,
+    "Bludgeoning Min":1.65,
+    "Bludgeoning Max":1.81,
+    "Impact Min":1.73,
+    "Impact Max":1.9,
+    "Acid Min":2.55,
+    "Acid Max":2.8,
+    "Cold Min":2.55,
+    "Cold Max":2.8,
+    "Fire Min":2.55,
+    "Fire Max":2.8,
+    "Lightning Min":2.46,
+    "Lightning Max":2.71,
+    "Holy Min":2.51,
+    "Holy Max":2.76,
+    "Unholy Min":2.51,
+    "Unholy Max":2.76,
+    "Density Min":0.05,
+    "Density Max":0.05
+}
 }
 },
   {
@@ -1080,6 +3098,34 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+    "Weight":3.6,
+    "Durability":58.41,
+	"Extra": {
+    "Slashing Min":3.81,
+    "Slashing Max":4.19,
+    "Piercing Min":3.98,
+    "Piercing Max":4.38,
+    "Bludgeoning Min":3.3,
+    "Bludgeoning Max":3.63,
+    "Impact Min":3.45,
+    "Impact Max":3.8,
+    "Acid Min":5.11,
+    "Acid Max":5.62,
+    "Cold Min":5.11,
+    "Cold Max":5.62,
+    "Fire Min":5.11,
+    "Fire Max":5.62,
+    "Lightning Min":4.92,
+    "Lightning Max":5.41,
+    "Holy Min":5.01,
+    "Holy Max":5.51,
+    "Unholy Min":5.01,
+    "Unholy Max":5.51,
+    "Density Min":0.14,
+    "Density Max":0.15
+}
 }
 },
   {
@@ -1098,6 +3144,34 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+    "Weight":5.4,
+    "Durability":58.41,
+	"Extra": {
+    "Slashing Min":1.91,
+    "Slashing Max":2.1,
+    "Piercing Min":1.99,
+    "Piercing Max":2.19,
+    "Bludgeoning Min":1.65,
+    "Bludgeoning Max":1.81,
+    "Impact Min":1.73,
+    "Impact Max":1.9,
+    "Acid Min":2.55,
+    "Acid Max":2.8,
+    "Cold Min":2.55,
+    "Cold Max":2.8,
+    "Fire Min":2.55,
+    "Fire Max":2.8,
+    "Lightning Min":2.46,
+    "Lightning Max":2.71,
+    "Holy Min":2.51,
+    "Holy Max":2.76,
+    "Unholy Min":2.51,
+    "Unholy Max":2.76,
+    "Density Min":0.05,
+    "Density Max":0.05
+}
 }
 },
   {
@@ -1116,6 +3190,34 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+    "Weight":2.7,
+    "Durability":50.06,
+	"Extra": {
+    "Slashing Min":1.91,
+    "Slashing Max":2.1,
+    "Piercing Min":1.99,
+    "Piercing Max":2.19,
+    "Bludgeoning Min":1.65,
+    "Bludgeoning Max":1.81,
+    "Impact Min":1.73,
+    "Impact Max":1.9,
+    "Acid Min":2.55,
+    "Acid Max":2.8,
+    "Cold Min":2.55,
+    "Cold Max":2.8,
+    "Fire Min":2.55,
+    "Fire Max":2.8,
+    "Lightning Min":2.46,
+    "Lightning Max":2.71,
+    "Holy Min":2.51,
+    "Holy Max":2.76,
+    "Unholy Min":2.51,
+    "Unholy Max":2.76,
+    "Density Min":0.05,
+    "Density Max":0.05
+}
 }
 },
   {
@@ -1134,6 +3236,34 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+    "Weight":2.7,
+    "Durability":50.06,
+	"Extra": {
+    "Slashing Min":1.91,
+    "Slashing Max":2.1,
+    "Piercing Min":1.99,
+    "Piercing Max":2.19,
+    "Bludgeoning Min":1.65,
+    "Bludgeoning Max":1.81,
+    "Impact Min":1.73,
+    "Impact Max":1.9,
+    "Acid Min":2.55,
+    "Acid Max":2.8,
+    "Cold Min":2.55,
+    "Cold Max":2.8,
+    "Fire Min":2.55,
+    "Fire Max":2.8,
+    "Lightning Min":2.46,
+    "Lightning Max":2.71,
+    "Holy Min":2.51,
+    "Holy Max":2.76,
+    "Unholy Min":2.51,
+    "Unholy Max":2.76,
+    "Density Min":0.14,
+    "Density Max":0.15
+}
 }
 },
   {
@@ -1152,6 +3282,34 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+    "Weight":9,
+    "Durability":66.75,
+	"Extra": {
+    "Slashing Min":7.62,
+    "Slashing Max":8.38,
+    "Piercing Min":7.96,
+    "Piercing Max":8.76,
+    "Bludgeoning Min":6.59,
+    "Bludgeoning Max":7.25,
+    "Impact Min":6.9,
+    "Impact Max":7.59,
+    "Acid Min":10.21,
+    "Acid Max":11.23,
+    "Cold Min":10.21,
+    "Cold Max":11.23,
+    "Fire Min":10.21,
+    "Fire Max":11.23,
+    "Lightning Min":9.83,
+    "Lightning Max":10.81,
+    "Holy Min":10.02,
+    "Holy Max":11.02,
+    "Unholy Min":10.02,
+    "Unholy Max":11.02,
+    "Density Min":0.05,
+    "Density Max":0.05
+}
 }
 }
 ]
