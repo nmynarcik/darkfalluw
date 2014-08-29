@@ -3,6 +3,7 @@
 Template Name: Darkfall Home Page
 */
 get_header();
+wp_enqueue_script( 'twitch-api', "https://ttv-api.s3.amazonaws.com/twitch.min.js", $ver, true );
 ?>
   <!-- CONTENT -->
     <div id="content" class="full-width">
