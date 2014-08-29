@@ -23,8 +23,8 @@
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" />
 <link href='http://fonts.googleapis.com/css?family=Smythe|Oswald:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="https://ttv-api.s3.amazonaws.com/twitch.min.js"></script>
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> -->
+<?php wp_enqueue_script("jquery"); ?>
 <?php
   $GLOBALS['ver'] = '4.3';
   $ver =  '4.3';

@@ -1841,6 +1841,13 @@ strong {font-weight: bold;}
   clear: both;
   content: '';
 }
+#item-details ul.ingredients, #item-details ul.extras {
+  float: right;
+  clear: none;
+}
+#item-details ul.ingredients {
+  float: left;
+}
 #item-details .right {
   float: right;
   width: 48%;
@@ -1859,6 +1866,22 @@ strong {font-weight: bold;}
 
 #item-details .btn {
   padding: 4px;
+}
+
+#item-details .popover {
+  top: 210px !important;
+}
+
+.ingredients[data-content] {
+  cursor: help;
+}
+#item-details #protections {
+  max-height: 400px;
+}
+#item-details #protections li {
+  float: left;
+  width: 150px;
+  list-style-type: none;
 }
 
 .ui-autocomplete {z-index: 100;}

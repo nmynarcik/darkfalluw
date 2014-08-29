@@ -50,7 +50,7 @@
       }, function(){ //callback
         crafter.createList(crafter.firstDrop,crafter.allItems); //create list; (array to fill, data)
       }).error(function(a,b,c){
-          alert('Error Loading Items: ',arguments);
+          alert('Error Loading Items: ' + arguments);
         });
     },
     createList: function(list,data){
@@ -126,21 +126,28 @@
       //console.log('Showing Item', item);
       crafter.item = item;
       var newEl = $("#item-template").clone()
-                                .attr("id",item.id)
-                                .fadeIn("slow");
+                                .attr("id",item.id.replace(/ /g,'-'));
       newEl.find('#thumb').append('<img src="'+templateDir+'/data/icons/'+item.Icon+'" width="64" height="64"/>');
 
       var details = '<h3><span class="theName">'+item.Name+'</span></h3><p>';
-      details = details + '<strong>Skill:</strong> '+item.Skill+'<br>';
-      details = details + '<strong>Min Level:</strong> '+item["Min Level"]+'<br>';
-      details = details + '<strong>Max Level:</strong> '+item["Max Level"]+'<br>';
-      details = details + '<strong>Quantity:</strong> '+item["Quantity"]+'<br>';
-      details = details + '<ul class="ingredients">';
+      details += '<strong>Skill:</strong> '+item.Skill+'<br>';
+      details += '<strong>Min Level:</strong> '+item["Min Level"]+'<br>';
+      details += '<strong>Max Level:</strong> '+item["Max Level"]+'<br>';
+      details += '<strong>Quantity:</strong> '+item["Quantity"]+'<br>';
+      details += '<ul class="ingredients">';
       for(var prop in item.Recipe){
-          details = details + '<li><strong>' + prop + ':</strong> ' + item.Recipe[prop] + '</li>';
+          details += '<li><strong>' + prop + ':</strong> ' + item.Recipe[prop] + '</li>';
       }
-      details = details + '</ul></p>';
-      newEl.find('.ingredients .details').html(details);
+      details += '</ul>';
+
+      var extras = '<ul class="extras">';
+
+      for(var add in item.Additional){
+          if(typeof item.Additional[add] != "object")
+            extras = extras + '<li><strong>' + add + ':</strong> ' + item.Additional[add] + '</li>';
+      }
+      extras = extras + '</ul></p>';
+      newEl.find('.ingredients .details').html(details + extras);
 
       newEl.find('.recipe .well').html(crafter.calculate(item));
 
@@ -150,7 +157,19 @@
                                   .addClass(item.Skill.toLowerCase())
                                   .html(newEl);
 
+      newEl.fadeIn();
+      if(item.Additional && item.Additional.Extra){
+        crafter.popoverSetup(item.Additional.Extra);
+      }
       crafter.changeStyle();
+    },
+    popoverSetup: function(arr){
+      var exStats = '<ul id="protections">';
+      for(var ex in arr) {
+        exStats += "<li><strong>" + ex + ":</strong> " + arr[ex] + "</li>";
+      }
+      exStats += '</ul>';
+      $('#item-details div.ingredients').attr('data-content',exStats).popover();
     },
     calculate: function(item){
       // var currentName = (crafter.item.Name != $('.theName:first').text() && $('.theName:first').text() != '') ? $('.theName:first').text() : crafter.item.Name;

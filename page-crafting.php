@@ -66,7 +66,7 @@ wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer );
 <!-- Item Template -->
 <div id="item-template" class="template" style="display: none;">
   <div class="left">
-    <div class="well well-large ingredients">
+    <div class="well well-large ingredients" data-html="true" data-placement="right" data-trigger="hover" data-title="Item Protection Ranges:">
       <div class="thumb-cont">
         <div id="thumb"></div>
         <div class="btn-group">
