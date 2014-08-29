@@ -172,12 +172,16 @@
       $('#item-details div.ingredients').attr('data-content',exStats).popover();
     },
     calculate: function(item){
-      // var currentName = (crafter.item.Name != $('.theName:first').text() && $('.theName:first').text() != '') ? $('.theName:first').text() : crafter.item.Name;
       var currentName = item.Name;
+      var discount = $('#discount').attr('checked') == 'checked';
       var count = $('#item-count').val();
       var html = '<strong>'+ item.Quantity*crafter.itemCount +'</strong> <span class="theName"> ' + currentName + '</span>: ';
       for(var prop in crafter.item.Recipe){
-        html = html + count*crafter.item.Recipe[prop] + ' ' + prop;
+        if(discount && prop == "Gold"){
+          html += Math.ceil(count*crafter.item.Recipe[prop] - (count*crafter.item.Recipe[prop])*.10) + ' ' + prop;
+        }else{
+          html += count*crafter.item.Recipe[prop] + ' ' + prop;
+        }
         if(Object.keys(crafter.item.Recipe)[Object.keys(crafter.item.Recipe).length - 1] != prop){
           html = html + ', ';
         }
@@ -243,6 +247,12 @@
     }
     if($('#trade_select').val() != ''){
       crafter.getData($('#trade_select').val());
+    }
+  });
+
+  $('#discount').change(function(){
+    if(!isEmpty(crafter.item)){
+      $('#item-details .recipe .well').html(crafter.calculate(crafter.item));
     }
   });
 
@@ -464,3 +474,7 @@ Array.prototype.pushIfNotExist = function(element, comparer) {
 RegExp.escape= function(s) {
   return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
 };
+
+function isEmpty(obj) {
+    return Object.keys(obj).length === 0;
+}

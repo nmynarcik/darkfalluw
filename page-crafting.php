@@ -4,7 +4,7 @@ Template Name: Crafting
 */
 get_header();
 wp_enqueue_style( 'jquery_ui_css', get_template_directory_uri().'/css/jquery-ui.theme.min.css', false, $ver, 'all' );
-wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.min.js', array('jquery','jquery-ui-js'),$ver,true);
+wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.js', array('jquery','jquery-ui-js'),$ver,true);
 wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer );
 ?>
 <article id="content" class="full-width">
@@ -27,9 +27,14 @@ wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer );
   </div>
   <?php the_content(); ?>
   <div id="selections">
-      <label class="checkbox">
-        <input type="checkbox" id="mastery"> Mastery
-      </label>
+      <div id="settings" class="clearfix">
+        <label class="checkbox">
+          <input type="checkbox" id="mastery"> Mastery
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" id="discount"> Clan City Bonus
+        </label>
+      </div>
         <select id="trade_select">
           <option value="">Select Trade</option>
           <option value="alchemy">Alchemy</option>
