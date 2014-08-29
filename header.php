@@ -26,8 +26,8 @@
 <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> -->
 <?php wp_enqueue_script("jquery"); ?>
 <?php
-  $GLOBALS['ver'] = '4.3';
-  $ver =  '4.3';
+  $GLOBALS['ver'] = '4.4';
+  $ver =  '4.4';
 ?>
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?ver=<?php echo $ver; ?>" />
 <?php wp_head(); ?>
