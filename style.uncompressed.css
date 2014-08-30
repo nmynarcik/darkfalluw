@@ -1898,9 +1898,13 @@ strong {font-weight: bold;}
   font-style: italic;
 }
 #recipeModal .modal-header {
-  background: #969493;
+  background: #231914;
   color: #FFF;
-  border-radius: 5px 5px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+#recipeModal .modal-header h2 {
+  color: white;
+  text-shadow: 1px 1px 1px black;
 }
 
 /* Custom Comboboxes */
