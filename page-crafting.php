@@ -91,8 +91,21 @@ wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer );
     </div>
     <div class="recipe">
       <label for="recipe">Recipe</label>
-      <div class="well well-small" onclick="this.select();">Recipe Here</div>
+      <div class="well well-small">Recipe Here</div>
     </div>
+  </div>
+</div>
+<div id="recipeModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="recipeModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> -->
+    <h2 id="recipeModalLabel">Modal header</h2>
+  </div>
+  <div class="modal-body">
+    <textarea id="modalRecipeDetails">Modal Content</textarea>
+  </div>
+  <div class="modal-footer">
+    <p>Just copy and close...</p>
+    <button class="btn btn-inverse" data-dismiss="modal" aria-hidden="true">Close</button>
   </div>
 </div>
 <!-- End Item Template -->

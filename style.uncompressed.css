@@ -1887,6 +1887,22 @@ strong {font-weight: bold;}
 
 .ui-autocomplete {z-index: 100;}
 
+/* Recipe Modal */
+#recipeModal textarea {
+  width: 95%;
+  min-height: 150px;
+}
+
+#recipeModal .modal-footer p {
+  float: left;
+  font-style: italic;
+}
+#recipeModal .modal-header {
+  background: #969493;
+  color: #FFF;
+  border-radius: 5px 5px 0 0;
+}
+
 /* Custom Comboboxes */
 
 #selections input.custom-combobox-input {

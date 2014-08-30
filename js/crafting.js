@@ -268,7 +268,14 @@
   });
 
   $('.recipe .well').live('click',function(){
-    window.prompt('Copy Recipe',$(this).text());
+    // window.prompt('Copy Recipe',$(this).text());
+    $('#recipeModal #recipeModalLabel').text(crafter.itemCount + ' ' + crafter.item.Name);
+    $('#recipeModal #modalRecipeDetails').text($(this).text());
+    $('#recipeModal').modal('show');
+  });
+
+  $('#recipeModal').on('shown', function () {
+    $('#recipeModal #modalRecipeDetails').select();
   });
 })(jQuery);
 
@@ -291,6 +298,11 @@ Array.prototype.pushIfNotExist = function(element, comparer) {
         this.push(element);
     }
 };
+
+// Is an object empty?
+function isEmpty(obj) {
+    return Object.keys(obj).length === 0;
+}
 
 
 /********** Combobox Stuff ***********/
@@ -474,7 +486,3 @@ Array.prototype.pushIfNotExist = function(element, comparer) {
 RegExp.escape= function(s) {
   return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
 };
-
-function isEmpty(obj) {
-    return Object.keys(obj).length === 0;
-}
