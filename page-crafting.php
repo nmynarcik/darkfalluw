@@ -4,7 +4,7 @@ Template Name: Crafting
 */
 get_header();
 wp_enqueue_style( 'jquery_ui_css', get_template_directory_uri().'/css/jquery-ui.theme.min.css', false, $ver, 'all' );
-wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.js', array('jquery','jquery-ui-js'),$ver,true);
+wp_enqueue_script('dfuw_crafting', get_template_directory_uri().'/js/crafting.min.js', array('jquery','jquery-ui-js'),$ver,true);
 wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer );
 ?>
 <article id="content" class="full-width">
