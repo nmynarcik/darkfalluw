@@ -275,7 +275,7 @@ function createMarkers(){
       itemTitle = itemTitle.split('|');
     }
 
-    var contentString = '<ul>';
+    var contentString = '<ul class="poi-info">';
 
     if(itemTitle != null && itemTitle.length > 0){
       for(var j = 0; j < itemTitle.length; j++){
@@ -284,7 +284,7 @@ function createMarkers(){
     }else{
       contentString = contentString + '<li>' + itemTitle + '</li>';
     }
-    contentString = contentString + '</ul><a href="http://www.darkfallunholywars.info/wp-admin/post.php?post='+arr[j].pid+'&action=edit" class="icon icon-cog" target="_blank" title="Edit POI">Edit POI</a>';
+    contentString = contentString + '</ul><a href="http://www.darkfallunholywars.info/wp-admin/post.php?post='+poiArray[i].pid+'&action=edit" class="icon icon-cog" target="_blank" title="Edit POI">Edit POI</a>';
 
     var poiLatLng = new google.maps.LatLng(poiLoc[0], poiLoc[1]);
     var poiMarker = new google.maps.Marker({
