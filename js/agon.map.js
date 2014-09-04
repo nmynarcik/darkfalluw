@@ -158,7 +158,7 @@ function searchPOIs(text){
 }
 
 function showSearchResults(arr){
-  console.log('showing results');
+  // console.log('showing results');
    searchResults = [];
 
    if(arr.length == 0){
@@ -175,12 +175,12 @@ function showSearchResults(arr){
     var itemTitle = arr[i].title;
     itemTitle = itemTitle.split(' | ');
 
-    var contentString = '<ul>';
+    var contentString = '<ul class="poi-info">';
 
     for(var j = 0; j < itemTitle.length; j++){
       contentString = contentString + '<li>' + itemTitle[j] + '</li>';
     }
-    contentString = contentString + '</ul>';
+    contentString = contentString + '</ul><a href="http://www.darkfallunholywars.info/wp-admin/post.php?post='+arr[j].pid+'&action=edit" class="icon icon-cog" target="_blank" title="Edit POI">Edit POI</a>';
 
     var result = new google.maps.Marker({
       position: poiLatLng,
@@ -284,7 +284,7 @@ function createMarkers(){
     }else{
       contentString = contentString + '<li>' + itemTitle + '</li>';
     }
-    contentString = contentString + '</ul>';
+    contentString = contentString + '</ul><a href="http://www.darkfallunholywars.info/wp-admin/post.php?post='+arr[j].pid+'&action=edit" class="icon icon-cog" target="_blank" title="Edit POI">Edit POI</a>';
 
     var poiLatLng = new google.maps.LatLng(poiLoc[0], poiLoc[1]);
     var poiMarker = new google.maps.Marker({

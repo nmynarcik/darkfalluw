@@ -471,6 +471,26 @@ article #map-container .gad {
   z-index: 98;
 }
 
+.gm-style-iw, .gm-style-iw > div {
+  overflow: hidden !important;
+}
+
+ul.poi-info {
+  margin-bottom: 20px;
+}
+
+.gm-style-iw .icon-cog {
+  display: none;
+}
+
+.logged-in .gm-style-iw .icon-cog {
+  text-indent: -9999px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+}
+
 .edit-link {
   float: right;
   margin-top: -6px;
