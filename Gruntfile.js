@@ -9,7 +9,7 @@ module.exports = function(grunt) {
           dist: {
             // the files to concatenate
             files:{
-              'js/<%= pkg.name %>.js': ['js/src/agon.map.js','js/src/dfuw.js','js/src/crafting.js','js/jquery*.js']
+              'js/<%= pkg.name %>.js': ['js/jquery*.js','js/src/dfuw.js','js/src/agon.map.js','js/src/crafting.js']
             }
           }
         },
@@ -89,8 +89,8 @@ module.exports = function(grunt) {
               }]
             },
         watch: {
-          files: ['<%= jshint.files %>','style.uncompressed.css'],
-          tasks: ['jshint','cssmin']
+          files: ['js/src/*','style.uncompressed.css'],
+          tasks: ['jshint','concat','cssmin','uglify']
         }
     });
 

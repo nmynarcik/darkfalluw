@@ -471,6 +471,26 @@ article #map-container .gad {
   z-index: 98;
 }
 
+.gm-style-iw, .gm-style-iw > div {
+  overflow: hidden !important;
+}
+
+ul.poi-info {
+  margin-bottom: 20px;
+}
+
+.gm-style-iw .icon-cog {
+  display: none;
+}
+
+.logged-in .gm-style-iw .icon-cog {
+  text-indent: -9999px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+}
+
 .edit-link {
   float: right;
   margin-top: -6px;
@@ -1158,6 +1178,10 @@ footer .df-social p {
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
+  margin-top: -3px;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
 }
 
 .df-social .social-list .reddit{background-position: 0 128px;}
@@ -1174,6 +1198,20 @@ select {
   border: 0;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
+}
+
+/* Select on Feedback */
+.page-id-284 select {
+  background: white;
+  color: inherit;
+}
+.page-id-284 select:focus {
+  border-color: rgba(235, 253, 52, 0.8) !important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(235, 253, 52, 0.6) !important;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6) !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(235, 253, 52, 0.6) !important;
+  outline: 0;
+  outline: thin dotted 9;
 }
 
 #school_selector {
@@ -1735,6 +1773,11 @@ strong {font-weight: bold;}
   float: left;
 }
 
+.page-template-page-crafting-php .gad[data-ad-type="square"] {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
 .page-template-page-crafting-php select, .page-template-page-crafting-new-php select {
   float: left;
   margin-right: 10px;
@@ -1759,7 +1802,8 @@ strong {font-weight: bold;}
 }
 
 #selections label {
-  margin-bottom: 10px;
+  margin: 0 20px 10px 0;
+  float: left;
 }
 
 #item-details .btn-group {
@@ -1818,6 +1862,13 @@ strong {font-weight: bold;}
   clear: both;
   content: '';
 }
+#item-details ul.ingredients, #item-details ul.extras {
+  float: right;
+  clear: none;
+}
+#item-details ul.ingredients {
+  float: left;
+}
 #item-details .right {
   float: right;
   width: 48%;
@@ -1838,12 +1889,48 @@ strong {font-weight: bold;}
   padding: 4px;
 }
 
+#item-details .popover {
+  top: 210px !important;
+}
+
+.ingredients[data-content] {
+  cursor: help;
+}
+#item-details #protections {
+  max-height: 400px;
+}
+#item-details #protections li {
+  float: left;
+  width: 150px;
+  list-style-type: none;
+}
+
 .ui-autocomplete {z-index: 100;}
+
+/* Recipe Modal */
+#recipeModal textarea {
+  width: 95%;
+  min-height: 150px;
+}
+
+#recipeModal .modal-footer p {
+  float: left;
+  font-style: italic;
+}
+#recipeModal .modal-header {
+  background: #231914;
+  color: #FFF;
+  border-radius: 3px 3px 0 0;
+}
+#recipeModal .modal-header h2 {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
 
 /* Custom Comboboxes */
 
 #selections input.custom-combobox-input {
-  width: 220px;
+  width: 165px;
   background: #231914;
   color: white;
   border: 0;

@@ -540,6 +540,21 @@
 }
 },
   {
+    "id":"r_naptha",
+    "Name":"Naptha",
+    "Icon":"no-image.png",
+    "Skill":"Alchemy Mastery",
+    "Min Level":25,
+    "Max Level":50,
+    "Quantity":4,
+    "Recipe": {
+	"Gold":78,
+	"Resins":"5",
+	"Sulfurs":5,
+	"Tar":2
+}
+},
+  {
     "id":"r_Anima_q04",
     "Name":"Pure Anima",
     "Icon":"anima_q04_icon.png",

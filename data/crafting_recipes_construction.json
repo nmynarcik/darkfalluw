@@ -9,8 +9,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":1,
-	"Wood":3,
-	"Iron Ingot":2
+	"Woods":3,
+	"Iron Ingots":2
 }
 },
   {
@@ -23,7 +23,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":1,
-	"Wood":3,
+	"Woods":3,
 	"Iron Ingot":1
 }
 },
@@ -37,8 +37,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":1,
-	"Wood":3,
-	"Iron Ingot":2
+	"Woods":3,
+	"Iron Ingots":2
 }
 },
   {
@@ -51,8 +51,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":20,
-	"Wood":3,
-	"Iron Ingot":2,
+	"Woods":3,
+	"Iron Ingots":2,
 	"Selentine Ingot":1
 }
 },
@@ -66,8 +66,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":30,
-	"Wood":3,
-	"Iron Ingot":2,
+	"Woods":3,
+	"Iron Ingots":2,
 	"Veilron Ingot":1
 }
 },
@@ -81,8 +81,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":75,
-	"Wood":3,
-	"Iron Ingot":2,
+	"Woods":3,
+	"Iron Ingots":2,
 	"Neithal Ingot":1
 }
 },
@@ -96,8 +96,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":185,
-	"Wood":3,
-	"Iron Ingot":2,
+	"Woods":3,
+	"Iron Ingots":2,
 	"Leenspar Ingot":1
 }
 },
@@ -111,8 +111,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":465,
-	"Wood":3,
-	"Iron Ingot":2,
+	"Woods":3,
+	"Iron Ingots":2,
 	"Theyril Ingot":1
 }
 },
@@ -126,7 +126,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":1,
-	"Wood":2,
+	"Woods":2,
 	"Iron Ingot":1
 }
 },
@@ -140,7 +140,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":20,
-	"Wood":2,
+	"Woods":2,
 	"Iron Ingot":1,
 	"Selentine Ingot":1
 }
@@ -155,7 +155,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":30,
-	"Wood":2,
+	"Woods":2,
 	"Iron Ingot":1,
 	"Veilron Ingot":1
 }
@@ -170,7 +170,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":75,
-	"Wood":2,
+	"Woods":2,
 	"Iron Ingot":1,
 	"Neithal Ingot":1
 }
@@ -185,7 +185,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":185,
-	"Wood":2,
+	"Woods":2,
 	"Iron Ingot":1,
 	"Leenspar Ingot":1
 }
@@ -200,7 +200,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":465,
-	"Wood":2,
+	"Woods":2,
 	"Iron Ingot":1,
 	"Theyril Ingot":1
 }
@@ -229,7 +229,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":20,
-	"Wood":2,
+	"Wood":1,
 	"Iron Ingot":1,
 	"Selentine Ingot":1
 }
@@ -244,7 +244,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":30,
-	"Wood":2,
+	"Wood":1,
 	"Iron Ingot":1,
 	"Veilron Ingot":1
 }
@@ -259,7 +259,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":75,
-	"Wood":2,
+	"Wood":1,
 	"Iron Ingot":1,
 	"Neithal Ingot":1
 }
@@ -274,7 +274,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":185,
-	"Wood":2,
+	"Wood":1,
 	"Iron Ingot":1,
 	"Leenspar Ingot":1
 }
@@ -289,7 +289,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":465,
-	"Wood":2,
+	"Wood":1,
 	"Iron Ingot":1,
 	"Theyril Ingot":1
 }
@@ -304,8 +304,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":1,
-	"Wood":3,
-	"Iron Ingot":2
+	"Woods":3,
+	"Iron Ingots":2
 }
 },
   {
@@ -318,8 +318,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":20,
-	"Wood":3,
-	"Iron Ingot":2,
+	"Woods":3,
+	"Iron Ingots":2,
 	"Selentine Ingot":1
 }
 },
@@ -333,8 +333,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":30,
-	"Wood":3,
-	"Iron Ingot":2,
+	"Woods":3,
+	"Iron Ingots":2,
 	"Veilron Ingot":1
 }
 },
@@ -348,8 +348,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":75,
-	"Wood":3,
-	"Iron Ingot":2,
+	"Woods":3,
+	"Iron Ingots":2,
 	"Neithal Ingot":1
 }
 },
@@ -363,8 +363,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":185,
-	"Wood":3,
-	"Iron Ingot":2,
+	"Woods":3,
+	"Iron Ingots":2,
 	"Leenspar Ingot":1
 }
 },
@@ -378,8 +378,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":465,
-	"Wood":3,
-	"Iron Ingot":2,
+	"Woods":3,
+	"Iron Ingots":2,
 	"Theyril Ingot":1
 }
 },
@@ -393,8 +393,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":5,
-	"Wood":3,
-	"Iron Ingot":3
+	"Woods":3,
+	"Iron Ingots":3
 }
 },
   {
@@ -407,10 +407,11 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":10,
-	"Wood":5,
-	"Iron Ingot":2,
-	"Stone":10,
-	"Inferior Fragment":2
+	"Woods":4,
+	"Iron Ingots":2,
+	"Cloths":2,
+	"Stones":10,
+	"Inferior Fragments":2
 }
 },
   {
@@ -423,7 +424,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":2,
-	"Wood":2,
+	"Woods":2,
 	"Cloth":1
 }
 },
@@ -437,8 +438,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":2,
-	"Wood":3,
-	"Cloth":2
+	"Woods":3,
+	"Cloths":2
 }
 },
   {
@@ -451,8 +452,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":2,
-	"Wood":5,
-	"Cloth":3
+	"Woods":5,
+	"Cloths":3
 }
 },
   {
@@ -465,9 +466,9 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":300,
-	"Wood":50,
-	"Iron Ingot":25,
-	"Stone":100
+	"Woods":50,
+	"Iron Ingots":25,
+	"Stones":100
 }
 },
   {
@@ -480,8 +481,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":20,
-	"Wood":15,
-	"Iron Ingot":5
+	"Woods":15,
+	"Iron Ingots":5
 }
 },
   {
@@ -494,8 +495,8 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":8,
-	"Wood":5,
-	"Iron Ingot":3
+	"Woods":5,
+	"Iron Ingots":3
 }
 },
   {
@@ -521,7 +522,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":150,
-	"Building Module":3
+	"Building Modules":3
 }
 },
   {
@@ -534,7 +535,7 @@
     "Quantity":"1",
     "Recipe": {
 	"Gold":500,
-	"Building Module":10
+	"Building Modules":10
 }
 }
 ]

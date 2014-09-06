@@ -11,6 +11,23 @@
 	"Gold":10,
 	"Iron Ingots":16,
 	"Leathers":12
+},
+    "Additional": {
+    "Weight":31.2,
+    "Durability":178.02,
+	"Extra": {
+    "Slashing":"9.1 -9.97",
+    "Piercing":"9.52 -10.49",
+    "Bludgeoning":"7.86 -8.68",
+    "Impact":"8.25 -9.08",
+    "Acid":"12.18 -13.42",
+    "Cold":"12.18 -13.42",
+    "Fire":"12.18 -13.42",
+    "Lightning":"11.75 -12.89",
+    "Holy":"12.01 -13.24",
+    "Unholy":"12.01 -13.24",
+    "Density":"0.26 -0.2"
+}
 }
 },
   {
@@ -25,6 +42,23 @@
 	"Gold":1,
 	"Iron Ingot":1,
 	"Leather":1
+},
+    "Additional": {
+    "Weight":1.6,
+    "Durability":16.69,
+	"Extra": {
+    "Slashing":"0.65 - 0.71",
+    "Piercing":"0.68 - 0.75",
+    "Bludgeoning":"0.56 - 0.62",
+    "Impact":"0.59 - 0.65",
+    "Acid":"0.87 - 0.96",
+    "Cold":"0.87 - 0.96",
+    "Fire":"0.87 - 0.96",
+    "Lightning":"0.84 - 0.92",
+    "Holy":"0.86 - 0.95",
+    "Unholy":"0.86 - 0.95",
+    "Density":"0.02 - 0.0"
+}
 }
 },
   {
@@ -39,6 +73,23 @@
 	"Gold":1,
 	"Iron Ingot":1,
 	"Leather":1
+},
+    "Additional": {
+    "Weight":1.6,
+    "Durability":16.69,
+	"Extra": {
+    "Slashing":"0.65 - 0.71",
+    "Piercing":"0.68 - 0.75",
+    "Bludgeoning":"0.56 - 0.62",
+    "Impact":"0.59 - 0.65",
+    "Acid":"0.87 - 0.96",
+    "Cold":"0.87 - 0.96",
+    "Fire":"0.87 - 0.96",
+    "Lightning":"0.84 - 0.92",
+    "Holy":"0.86 - 0.95",
+    "Unholy":"0.86 - 0.95",
+    "Density":"0.02"
+}
 }
 },
   {
@@ -53,6 +104,23 @@
 	"Gold":1,
 	"Iron Ingot":1,
     	"Leather":1
+},
+    "Additional": {
+    "Weight":2.4,
+    "Durability":16.69,
+	"Extra": {
+    "Slashing":"0.65 - 0.71",
+    "Piercing":"0.68 - 0.75",
+    "Bludgeoning":"0.56 - 0.62",
+    "Impact":"0.59 - 0.65",
+    "Acid":"0.87 - 0.96",
+    "Cold":"0.87 - 0.96",
+    "Fire":"0.87 - 0.96",
+    "Lightning":"0.84 - 0.92",
+    "Holy":"0.86 - 0.95",
+    "Unholy":"0.86 - 0.95",
+    "Density":"0.02"
+}
 }
 },
   {
@@ -67,6 +135,24 @@
 	"Gold":1,
 	"Iron Ingot":1,
     	"Leather":1
+},
+    "Additional": {
+    "Weight":3.2,
+    "Durability":16.69,
+	"Extra": {
+    "Slashing":"0.65 - 0.71",
+    "Piercing":"0.68 - 0.75",
+    "Bludgeoning":"0.56 - 0.62",
+    "Impact":"0.59 - 0.65",
+    "Acid":"0.87 - 0.96",
+    "Cold":"0.87 - 0.96",
+    "Fire":"0.87 - 0.96",
+    "Lightning":"0.84 - 0.92",
+    "Holy":"0.86 - 0.95",
+    "Unholy":"0.86 - 0.95",
+    "Density":"0.02"
+
+}
 }
 },
   {
@@ -81,6 +167,23 @@
 	"Gold":1,
 	"Iron Ingot":1,
 	"Leather":1
+},
+    "Additional": {
+    "Weight":1.6,
+    "Durability":16.69,
+	"Extra": {
+    "Slashing":"0.65 - 0.71",
+    "Piercing":"0.68 - 0.75",
+    "Bludgeoning":"0.56 - 0.62",
+    "Impact":"0.59 - 0.65",
+    "Acid":"0.87 - 0.96",
+    "Cold":"0.87 - 0.96",
+    "Fire":"0.87 - 0.96",
+    "Lightning":"0.84 - 0.92",
+    "Holy":"0.86 - 0.95",
+    "Unholy":"0.86 - 0.95",
+    "Density":"0.02"
+}
 }
 },
   {
@@ -95,6 +198,23 @@
 	"Gold":1,
 	"Iron Ingots":2,
     	"Leather":1
+},
+    "Additional": {
+    "Weight":3.2,
+    "Durability":19.47,
+	"Extra": {
+    "Slashing":"1.3 - 1.43",
+    "Piercing":"1.36 - 1.5",
+    "Bludgeoning":"1.13 - 1.24",
+    "Impact":"1.18 - 1.3",
+    "Acid":"1.74 - 1.91",
+    "Cold":"1.74 - 1.91",
+    "Fire":"1.74 - 1.91",
+    "Lightning":"1.68 - 1.85",
+    "Holy":"1.71 - 1.88",
+    "Unholy":"1.71 - 1.88",
+    "Density":"0.0"
+}
 }
 },
   {
@@ -109,6 +229,23 @@
 	"Gold":1,
 	"Iron Ingots":3,
 	"Leathers":2
+},
+    "Additional": {
+    "Weight":4.8,
+    "Durability":19.47,
+	"Extra": {
+    "Slashing":"0.65 - 0.71",
+    "Piercing":"0.68 - 0.75",
+    "Bludgeoning":"0.56 - 0.62",
+    "Impact":"0.59 - 0.65",
+    "Acid":"0.87 - 0.96",
+    "Cold":"0.87 - 0.96",
+    "Fire":"0.87 - 0.96",
+    "Lightning":"0.84 - 0.92",
+    "Holy":"0.86 - 0.95",
+    "Unholy":"0.86 - 0.95",
+    "Density":"0.02"
+}
 }
 },
   {
@@ -123,6 +260,23 @@
 	"Gold":1,
 	"Iron Ingot":1,
 	"Leather":1
+},
+    "Additional": {
+    "Weight":2.4,
+    "Durability":16.69,
+	"Extra": {
+    "Slashing":"0.65 - 0.71",
+    "Piercing":"0.68 - 0.75",
+    "Bludgeoning":"0.56 - 0.62",
+    "Impact":"0.59 - 0.65",
+    "Acid":"0.87 - 0.96",
+    "Cold":"0.87 - 0.96",
+    "Fire":"0.87 - 0.96",
+    "Lightning":"0.84 - 0.92",
+    "Holy":"0.86 - 0.95",
+    "Unholy":"0.86 - 0.95",
+    "Density":"0.02"
+}
 }
 },
   {
@@ -137,6 +291,23 @@
 	"Gold":1,
 	"Iron Ingot":1,
 	"Leather":1
+},
+    "Additional": {
+    "Weight":2.4,
+    "Durability":16.69,
+	"Extra": {
+    "Slashing":"0.65 - 0.71",
+    "Piercing":"0.68 - 0.75",
+    "Bludgeoning":"0.56 - 0.62",
+    "Impact":"0.59 - 0.65",
+    "Acid":"0.87 - 0.96",
+    "Cold":"0.87 - 0.96",
+    "Fire":"0.87 - 0.96",
+    "Lightning":"0.84 - 0.92",
+    "Holy":"0.86 - 0.95",
+    "Unholy":"0.86 - 0.95",
+    "Density":"0.05"
+}
 }
 },
   {
@@ -151,6 +322,23 @@
 	"Gold":1,
 	"Iron Ingots":4,
 	"Leathers":2
+},
+    "Additional": {
+    "Weight":8,
+    "Durability":22.25,
+	"Extra": {
+    "Slashing":"2.6 - 2.86",
+    "Piercing":"2.72 - 2.99",
+    "Bludgeoning":"2.25 - 2.48",
+    "Impact":"2.35 - 2.58",
+    "Acid":"3.48 - 3.83",
+    "Cold":"3.48 - 3.83",
+    "Fire":"3.48 - 3.83",
+    "Lightning":"3.35 - 3.68",
+    "Holy":"3.42 - 3.76",
+    "Unholy":"3.42 - 3.76",
+    "Density":"0.02"
+}
 }
 },
   {
@@ -165,6 +353,23 @@
 	"Gold":80,
 	"Iron Ingots":32,
 	"Leathers":16
+},
+    "Additional": {
+    "Weight":33.3,
+    "Durability":207.67,
+	"Extra": {
+    "Slashing":"12.43 - 13.68",
+    "Piercing":"12.99 - 14.27",
+    "Bludgeoning":"10.75 - 11.85",
+    "Impact":"11.2 - 12.32",
+    "Acid":"16.63 - 18.3",
+    "Cold":"16.63 - 18.3",
+    "Fire":"16.63 - 18.3",
+    "Lightning":"15.98 - 17.55",
+    "Holy":"16.35 - 18.01",
+    "Unholy":"16.35 - 18.01",
+    "Density":"0.28 - 0.28"
+}
 }
 },
   {
@@ -179,6 +384,23 @@
 	"Gold":8,
 	"Iron Ingots":2,
 	"Leather":1
+},
+    "Additional": {
+    "Weight":1.7,
+    "Durability":19.47,
+	"Extra": {
+    "Slashing":"0.89 - 0.98",
+    "Piercing":"0.93 - 1.02",
+    "Bludgeoning":"0.77 - 0.85",
+    "Impact":"0.8 - 0.88",
+    "Acid":"1.19 - 1.31",
+    "Cold":"1.19 - 1.31",
+    "Fire":"1.19 - 1.31",
+    "Lightning":"1.14 - 1.25",
+    "Holy":"1.17 - 1.29",
+    "Unholy":"1.17 - 1.29",
+    "Density":"0.02 - 0.02"
+}
 }
 },
   {
@@ -193,6 +415,23 @@
 	"Gold":8,
     	"Iron Ingots":2,
     	"Leather":1
+},
+    "Additional": {
+    "Weight":1.7,
+    "Durability":19.47,
+	"Extra": {
+    "Slashing":"0.89 - 0.98",
+    "Piercing":"0.93 - 1.02",
+    "Bludgeoning":"0.77 - 0.85",
+    "Impact":"0.8 - 0.88",
+    "Acid":"1.19 - 1.31",
+    "Cold":"1.19 - 1.31",
+    "Fire":"1.19 - 1.31",
+    "Lightning":"1.14 - 1.25",
+    "Holy":"1.17 - 1.29",
+    "Unholy":"1.17 - 1.29",
+    "Density":"0.02"
+}
 }
 },
   {
@@ -207,6 +446,23 @@
 	"Gold":8,
     	"Iron Ingots":2,
     	"Leather":1
+},
+    "Additional": {
+    "Weight":2.6,
+    "Durability":19.47,
+	"Extra": {
+    "Slashing":"0.89 - 0.98",
+    "Piercing":"0.93 - 1.02",
+    "Bludgeoning":"0.77 - 0.85",
+    "Impact":"0.8 - 0.88",
+    "Acid":"1.19 - 1.31",
+    "Cold":"1.19 - 1.31",
+    "Fire":"1.19 - 1.31",
+    "Lightning":"1.14 - 1.25",
+    "Holy":"1.17 - 1.29",
+    "Unholy":"1.17 - 1.29",
+    "Density":"0.02"
+}
 }
 },
   {
@@ -221,6 +477,23 @@
 	"Gold":8,
     	"Iron Ingots":2,
     	"Leather":1
+},
+    "Additional": {
+    "Weight":1.7,
+    "Durability":19.47,
+	"Extra": {
+    "Slashing":"0.89 - 0.98",
+    "Piercing":"0.93 - 1.02",
+    "Bludgeoning":"0.77 - 0.85",
+    "Impact":"0.8 - 0.88",
+    "Acid":"1.19 - 1.31",
+    "Cold":"1.19 - 1.31",
+    "Fire":"1.19 - 1.31",
+    "Lightning":"1.14 - 1.25",
+    "Holy":"1.17 - 1.29",
+    "Unholy":"1.17 - 1.29",
+    "Density":"0.02"
+}
 }
 },
   {
@@ -235,6 +508,23 @@
 	"Gold":8,
     	"Iron Ingots":2,
     	"Leather":1
+},
+    "Additional": {
+    "Weight":3.4,
+    "Durability":19.47,
+	"Extra": {
+    "Slashing":"0.89 - 0.98",
+    "Piercing":"0.93 - 1.02",
+    "Bludgeoning":"0.77 - 0.85",
+    "Impact":"0.8 - 0.88",
+    "Acid":"1.19 - 1.31",
+    "Cold":"1.19 - 1.31",
+    "Fire":"1.19 - 1.31",
+    "Lightning":"1.14 - 1.25",
+    "Holy":"1.17 - 1.29",
+    "Unholy":"1.17 - 1.29",
+    "Density":"0.02"
+}
 }
 },
   {
@@ -249,6 +539,23 @@
 	"Gold":8,
     	"Iron Ingots":4,
     	"Leathers":2
+},
+    "Additional": {
+    "Weight":3.4,
+    "Durability":22.71,
+	"Extra": {
+    "Slashing":"1.77 - 1.95",
+    "Piercing":"1.85 - 2.04",
+    "Bludgeoning":"1.53 - 1.68",
+    "Impact":"1.6 - 1.76",
+    "Acid":"2.37 - 2.61",
+    "Cold":"2.37 - 2.61",
+    "Fire":"2.37 - 2.61",
+    "Lightning":"2.29 - 2.52",
+    "Holy":"2.33 - 2.56",
+    "Unholy":"2.33 - 2.56",
+    "Density":"0.06 - 0.06"
+}
 }
 },
   {
@@ -263,6 +570,23 @@
 	"Gold":8,
 	"Iron Ingots":6,
 	"Leathers":3
+},
+    "Additional": {
+    "Weight":5.1,
+    "Durability":22.71,
+	"Extra": {
+    "Slashing":"0.89 - 0.98",
+    "Piercing":"0.93 - 1.02",
+    "Bludgeoning":"0.77 - 0.85",
+    "Impact":"0.8 - 0.88",
+    "Acid":"1.19 - 1.31",
+    "Cold":"1.19 - 1.31",
+    "Fire":"1.19 - 1.31",
+    "Lightning":"1.14 - 1.25",
+    "Holy":"1.17 - 1.29",
+    "Unholy":"1.17 - 1.29",
+    "Density":"0.02"
+}
 }
 },
   {
@@ -277,6 +601,23 @@
 	"Gold":8,
 	"Iron Ingots":2,
 	"Leather":1
+},
+    "Additional": {
+    "Weight":2.6,
+    "Durability":19.47,
+	"Extra": {
+    "Slashing":"0.89 - 0.98",
+    "Piercing":"0.93 - 1.02",
+    "Bludgeoning":"0.77 - 0.85",
+    "Impact":"0.8 - 0.88",
+    "Acid":"1.19 - 1.31",
+    "Cold":"1.19 - 1.31",
+    "Fire":"1.19 - 1.31",
+    "Lightning":"1.14 - 1.25",
+    "Holy":"1.17 - 1.29",
+    "Unholy":"1.17 - 1.29",
+    "Density":"0.02"
+}
 }
 },
   {
@@ -291,6 +632,23 @@
 	"Gold":8,
 	"Iron Ingots":2,
     	"Leather":1
+},
+    "Additional": {
+    "Weight":2.6,
+    "Durability":19.47,
+	"Extra": {
+    "Slashing":"0.89 - 0.98",
+    "Piercing":"0.93 - 1.02",
+    "Bludgeoning":"0.77 - 0.85",
+    "Impact":"0.8 - 0.88",
+    "Acid":"1.19 - 1.31",
+    "Cold":"1.19 - 1.31",
+    "Fire":"1.19 - 1.31",
+    "Lightning":"1.14 - 1.25",
+    "Holy":"1.17 - 1.29",
+    "Unholy":"1.17 - 1.29",
+    "Density":"0.06 - 0.06"
+}
 }
 },
   {
@@ -305,6 +663,23 @@
 	"Gold":8,
 	"Iron Ingots":8,
 	"Leathers":4
+},
+    "Additional": {
+    "Weight":8.5,
+    "Durability":25.96,
+	"Extra": {
+    "Slashing":"3.54 - 3.89",
+    "Piercing":"3.7 - 4.07",
+    "Bludgeoning":"3.06 - 3.37",
+    "Impact":"3.2 - 3.52",
+    "Acid":"4.74 - 5.21",
+    "Cold":"4.74 - 5.21",
+    "Fire":"4.74 - 5.21",
+    "Lightning":"4.57 - 5.03",
+    "Holy":"4.66 - 5.13",
+    "Unholy":"4.66 - 5.13",
+    "Density":"0.02"
+}
 }
 },
   {
@@ -319,6 +694,23 @@
 	"Gold":250,
 	"Iron Ingots":64,
 	"Leathers":28
+},
+    "Additional": {
+    "Weight":29.4,
+    "Durability":222.51,
+	"Extra": {
+    "Slashing":"14.97 - 16.49",
+    "Piercing":"15.65 - 17.2",
+    "Bludgeoning":"12.9 - 14.18",
+    "Impact":"13.55 - 14.93",
+    "Acid":"20.02 - 22",
+    "Cold":"20.02 - 22",
+    "Fire":"20.02 - 22",
+    "Lightning":"19.31 - 21.26",
+    "Holy":"19.71 - 21.67",
+    "Unholy":"19.71 - 21.67",
+    "Density":"0.38 - 0.38"
+}
 }
 },
   {
@@ -333,6 +725,23 @@
 	"Gold":25,
 	"Iron Ingots":4,
 	"Leathers":2
+},
+    "Additional": {
+    "Weight":1.5,
+    "Durability":20.86,
+	"Extra": {
+    "Slashing":"1.07 - 1.18",
+    "Piercing":"1.12 - 1.23",
+    "Bludgeoning":"0.92 - 1.01",
+    "Impact":"0.97 - 1.07",
+    "Acid":"1.43 - 1.57",
+    "Cold":"1.43 - 1.57",
+    "Fire":"1.43 - 1.57",
+    "Lightning":"1.38 - 1.52",
+    "Holy":"1.41 - 1.55",
+    "Unholy":"1.41 - 1.55",
+    "Density":"0.03"
+}
 }
 },
   {
@@ -347,6 +756,23 @@
 	"Gold":25,
 	"Iron Ingots":4,
 	"Leathers":2
+},
+    "Additional": {
+    "Weight":1.5,
+    "Durability":20.86,
+	"Extra": {
+    "Slashing":"1.07 - 1.18",
+    "Piercing":"1.12 - 1.23",
+    "Bludgeoning":"0.92 - 1.01",
+    "Impact":"0.97 - 1.07",
+    "Acid":"1.43 - 1.57",
+    "Cold":"1.43 - 1.57",
+    "Fire":"1.43 - 1.57",
+    "Lightning":"1.38 - 1.52",
+    "Holy":"1.41 - 1.55",
+    "Unholy":"1.41 - 1.55",
+    "Density":"0.03"
+}
 }
 },
   {
@@ -361,6 +787,23 @@
 	"Gold":25,
 	"Iron Ingots":4,
 	"Leathers":2
+},
+    "Additional": {
+    "Weight":2.3,
+    "Durability":20.86,
+	"Extra": {
+    "Slashing":"1.07 - 1.18",
+    "Piercing":"1.12 - 1.23",
+    "Bludgeoning":"0.92 - 1.01",
+    "Impact":"0.97 - 1.07",
+    "Acid":"1.43 - 1.57",
+    "Cold":"1.43 - 1.57",
+    "Fire":"1.43 - 1.57",
+    "Lightning":"1.38 - 1.52",
+    "Holy":"1.41 - 1.55",
+    "Unholy":"1.41 - 1.55",
+    "Density":"0.03"
+}
 }
 },
   {
@@ -375,6 +818,23 @@
 	"Gold":25,
 	"Iron Ingots":4,
 	"Leathers":2
+},
+    "Additional": {
+    "Weight":1.5,
+    "Durability":20.86,
+	"Extra": {
+    "Slashing":"1.07 - 1.18",
+    "Piercing":"1.12 - 1.23",
+    "Bludgeoning":"0.92 - 1.01",
+    "Impact":"0.97 - 1.07",
+    "Acid":"1.43 - 1.57",
+    "Cold":"1.43 - 1.57",
+    "Fire":"1.43 - 1.57",
+    "Lightning":"1.38 - 1.52",
+    "Holy":"1.41 - 1.55",
+    "Unholy":"1.41 - 1.55",
+    "Density":"0.03"
+}
 }
 },
   {
@@ -389,6 +849,23 @@
 	"Gold":25,
 	"Iron Ingots":4,
 	"Leathers":2
+},
+    "Additional": {
+    "Weight":3,
+    "Durability":20.86,
+	"Extra": {
+    "Slashing":"1.07 - 1.18",
+    "Piercing":"1.12 - 1.23",
+    "Bludgeoning":"0.92 - 1.01",
+    "Impact":"0.97 - 1.07",
+    "Acid":"1.43 - 1.57",
+    "Cold":"1.43 - 1.57",
+    "Fire":"1.43 - 1.57",
+    "Lightning":"1.38 - 1.52",
+    "Holy":"1.41 - 1.55",
+    "Unholy":"1.41 - 1.55",
+    "Density":"0.03"
+}
 }
 },
   {
@@ -403,6 +880,23 @@
 	"Gold":25,
 	"Iron Ingots":8,
 	"Leathers":4
+},
+    "Additional": {
+    "Weight":3,
+    "Durability":24.34,
+	"Extra": {
+    "Slashing":"2.14 - 2.35",
+    "Piercing":"2.23 - 2.45",
+    "Bludgeoning":"1.85 - 2.04",
+    "Impact":"1.93 - 2.12",
+    "Acid":"2.86 - 3.15",
+    "Cold":"2.86 - 3.15",
+    "Fire":"2.86 - 3.15",
+    "Lightning":"2.76 - 3.04",
+    "Holy":"2.81 - 3.09",
+    "Unholy":"2.81 - 3.09",
+    "Density":"0.07"
+}
 }
 },
   {
@@ -417,6 +911,23 @@
 	"Gold":25,
 	"Iron Ingots":12,
 	"Leathers":6
+},
+    "Additional": {
+    "Weight":4.5,
+    "Durability":24.34,
+	"Extra": {
+    "Slashing":"1.07 - 1.18",
+    "Piercing":"1.12 - 1.23",
+    "Bludgeoning":"0.92 - 1.01",
+    "Impact":"0.97 - 1.07",
+    "Acid":"1.43 - 1.57",
+    "Cold":"1.43 - 1.57",
+    "Fire":"1.43 - 1.57",
+    "Lightning":"1.38 - 1.52",
+    "Holy":"1.41 - 1.55",
+    "Unholy":"1.41 - 1.55",
+    "Density":"0.03"
+}
 }
 },
   {
@@ -431,6 +942,23 @@
 	"Gold":25,
 	"Iron Ingots":4,
 	"Leathers":2
+},
+    "Additional": {
+    "Weight":2.3,
+    "Durability":20.86,
+	"Extra": {
+    "Slashing":"1.07 - 1.18",
+    "Piercing":"1.12 - 1.23",
+    "Bludgeoning":"0.92 - 1.01",
+    "Impact":"0.97 - 1.07",
+    "Acid":"1.43 - 1.57",
+    "Cold":"1.43 - 1.57",
+    "Fire":"1.43 - 1.57",
+    "Lightning":"1.38 - 1.52",
+    "Holy":"1.41 - 1.55",
+    "Unholy":"1.41 - 1.55",
+    "Density":"0.03"
+}
 }
 },
   {
@@ -445,6 +973,23 @@
 	"Gold":25,
 	"Iron Ingots":4,
 	"Leathers":2
+},
+    "Additional": {
+    "Weight":2.3,
+    "Durability":20.86,
+	"Extra": {
+    "Slashing":"1.07 - 1.18",
+    "Piercing":"1.12 - 1.23",
+    "Bludgeoning":"0.92 - 1.01",
+    "Impact":"0.97 - 1.07",
+    "Acid":"1.43 - 1.57",
+    "Cold":"1.43 - 1.57",
+    "Fire":"1.43 - 1.57",
+    "Lightning":"1.38 - 1.52",
+    "Holy":"1.41 - 1.55",
+    "Unholy":"1.41 - 1.55",
+    "Density":"0.07"
+}
 }
 },
   {
@@ -459,6 +1004,23 @@
 	"Gold":25,
 	"Iron Ingots":16,
 	"Leathers":4
+},
+    "Additional": {
+    "Weight":7.5,
+    "Durability":27.81,
+	"Extra": {
+    "Slashing":"4.27 - 4.7",
+    "Piercing":"4.46 - 4.91",
+    "Bludgeoning":"3.69 - 4.06",
+    "Impact":"3.86 - 4.25",
+    "Acid":"5.72 - 6.29",
+    "Cold":"5.72 - 6.29",
+    "Fire":"5.72 - 6.29",
+    "Lightning":"5.51 - 6.06",
+    "Holy":"5.62 - 6.18",
+    "Unholy":"5.62 - 6.18",
+    "Density":"0.03"
+}
 }
 },
   {
@@ -473,6 +1035,23 @@
 	"Gold":500,
 	"Iron Ingots":128,
 	"Leathers":45
+},
+    "Additional": {
+    "Weight":35.1,
+    "Durability":252.16,
+	"Extra": {
+    "Slashing":"19.15 - 21.09",
+    "Piercing":"20.01 - 21.99",
+    "Bludgeoning":"16.52 - 18.19",
+    "Impact":"17.33 - 19.03",
+    "Acid":"22.92 - 25.26",
+    "Cold":"22.92 - 25.26",
+    "Fire":"22.92 - 25.26",
+    "Lightning":"22.12 - 24.35",
+    "Holy":"22.54 - 24.78",
+    "Unholy":"22.54 - 24.78",
+    "Density":"0.42 - 0.44"
+}
 }
 },
   {
@@ -487,6 +1066,23 @@
 	"Gold":50,
 	"Iron Ingots":8,
 	"Leathers":3
+},
+    "Additional": {
+    "Weight":1.8,
+    "Durability":23.64,
+	"Extra": {
+    "Slashing":"1.37 - 1.51",
+    "Piercing":"1.43 - 1.57",
+    "Bludgeoning":"1.18 - 1.3",
+    "Impact":"1.24 - 1.36",
+    "Acid":"1.64 - 1.8",
+    "Cold":"1.64 - 1.8",
+    "Fire":"1.64 - 1.8",
+    "Lightning":"1.58 - 1.74",
+    "Holy":"1.61 - 1.77",
+    "Unholy":"1.61 - 1.77",
+    "Density":"0.03"
+}
 }
 },
   {
@@ -501,6 +1097,23 @@
 	"Gold":50,
 	"Iron Ingots":8,
 	"Leathers":3
+},
+    "Additional": {
+    "Weight":2.7,
+    "Durability":23.64,
+	"Extra": {
+    "Slashing":"1.37 - 1.51",
+    "Piercing":"1.43 - 1.57",
+    "Bludgeoning":"1.18 - 1.3",
+    "Impact":"1.24 - 1.36",
+    "Acid":"1.64 - 1.8",
+    "Cold":"1.64 - 1.8",
+    "Fire":"1.64 - 1.8",
+    "Lightning":"1.58 - 1.74",
+    "Holy":"1.61 - 1.77",
+    "Unholy":"1.61 - 1.77",
+    "Density":"0.03"
+}
 }
 },
   {
@@ -515,6 +1128,23 @@
 	"Gold":50,
 	"Iron Ingots":8,
 	"Leathers":3
+},
+    "Additional": {
+    "Weight":1.8,
+    "Durability":23.64,
+	"Extra": {
+    "Slashing":"1.37 - 1.51",
+    "Piercing":"1.43 - 1.57",
+    "Bludgeoning":"1.18 - 1.3",
+    "Impact":"1.24 - 1.36",
+    "Acid":"1.64 - 1.8",
+    "Cold":"1.64 - 1.8",
+    "Fire":"1.64 - 1.8",
+    "Lightning":"1.58 - 1.74",
+    "Holy":"1.61 - 1.77",
+    "Unholy":"1.61 - 1.77",
+    "Density":"0.03"
+}
 }
 },
   {
@@ -529,6 +1159,23 @@
 	"Gold":50,
 	"Iron Ingots":8,
 	"Leathers":3
+},
+    "Additional": {
+    "Weight":1.8,
+    "Durability":23.64,
+	"Extra": {
+    "Slashing":"1.37 - 1.51",
+    "Piercing":"1.43 - 1.57",
+    "Bludgeoning":"1.18 - 1.3",
+    "Impact":"1.24 - 1.36",
+    "Acid":"1.64 - 1.8",
+    "Cold":"1.64 - 1.8",
+    "Fire":"1.64 - 1.8",
+    "Lightning":"1.58 - 1.74",
+    "Holy":"1.61 - 1.77",
+    "Unholy":"1.61 - 1.77",
+    "Density":"0.03"
+}
 }
 },
   {
@@ -543,6 +1190,23 @@
 	"Gold":50,
 	"Iron Ingots":8,
 	"Leathers":3
+},
+    "Additional": {
+    "Weight":3.6,
+    "Durability":23.64,
+	"Extra": {
+    "Slashing":"1.37 - 1.51",
+    "Piercing":"1.43 - 1.57",
+    "Bludgeoning":"1.18 - 1.3",
+    "Impact":"1.24 - 1.36",
+    "Acid":"1.64 - 1.8",
+    "Cold":"1.64 - 1.8",
+    "Fire":"1.64 - 1.8",
+    "Lightning":"1.58 - 1.74",
+    "Holy":"1.61 - 1.77",
+    "Unholy":"1.61 - 1.77",
+    "Density":"0.03"
+}
 }
 },
   {
@@ -557,6 +1221,23 @@
 	"Gold":50,
 	"Iron Ingots":16,
 	"Leathers":6
+},
+    "Additional": {
+    "Weight":3.6,
+    "Durability":27.58,
+	"Extra": {
+    "Slashing":"2.73 - 3",
+    "Piercing":"2.86 - 3.15",
+    "Bludgeoning":"2.36 - 2.6",
+    "Impact":"2.47 - 2.72",
+    "Acid":"3.23 - 3.63",
+    "Cold":"3.23 - 3.63",
+    "Fire":"3.23 - 3.63",
+    "Lightning":"3.16 - 3.48",
+    "Holy":"3.22 - 3.54",
+    "Unholy":"3.22 - 3.54",
+    "Density":"0.09 - 0.1"
+}
 }
 },
   {
@@ -571,6 +1252,23 @@
 	"Gold":50,
 	"Iron Ingots":24,
 	"Leathers":8
+},
+    "Additional": {
+    "Weight":5.4,
+    "Durability":27.58,
+	"Extra": {
+    "Slashing":"1.37 - 1.51",
+    "Piercing":"1.43 - 1.57",
+    "Bludgeoning":"1.18 - 1.3",
+    "Impact":"1.24 - 1.36",
+    "Acid":"1.64 - 1.8",
+    "Cold":"1.64 - 1.8",
+    "Fire":"1.64 - 1.8",
+    "Lightning":"1.58 - 1.74",
+    "Holy":"1.61 - 1.77",
+    "Unholy":"1.61 - 1.77",
+    "Density":"0.03"
+}
 }
 },
   {
@@ -585,6 +1283,23 @@
 	"Gold":50,
 	"Iron Ingots":8,
 	"Leathers":3
+},
+    "Additional": {
+    "Weight":2.7,
+    "Durability":23.64,
+	"Extra": {
+    "Slashing":"1.37 - 1.51",
+    "Piercing":"1.43 - 1.57",
+    "Bludgeoning":"1.18 - 1.3",
+    "Impact":"1.24 - 1.36",
+    "Acid":"1.64 - 1.8",
+    "Cold":"1.64 - 1.8",
+    "Fire":"1.64 - 1.8",
+    "Lightning":"1.58 - 1.74",
+    "Holy":"1.61 - 1.77",
+    "Unholy":"1.61 - 1.77",
+    "Density":"0.03"
+}
 }
 },
   {
@@ -599,6 +1314,23 @@
 	"Gold":50,
 	"Iron Ingots":8,
 	"Leathers":3
+},
+    "Additional": {
+    "Weight":2.7,
+    "Durability":23.64,
+	"Extra": {
+    "Slashing":"1.37 - 1.51",
+    "Piercing":"1.43 - 1.57",
+    "Bludgeoning":"1.18 - 1.3",
+    "Impact":"1.24 - 1.36",
+    "Acid":"1.64 - 1.8",
+    "Cold":"1.64 - 1.8",
+    "Fire":"1.64 - 1.8",
+    "Lightning":"1.58 - 1.74",
+    "Holy":"1.61 - 1.77",
+    "Unholy":"1.61 - 1.77",
+    "Density":"0.09 - 0.1"
+}
 }
 },
   {
@@ -613,6 +1345,23 @@
 	"Gold":50,
 	"Iron Ingots":32,
 	"Leathers":10
+},
+    "Additional": {
+    "Weight":9,
+    "Durability":31.52,
+	"Extra": {
+    "Slashing":"5.46 - 6.01",
+    "Piercing":"5.71 - 6.28",
+    "Bludgeoning":"4.72 - 5.19",
+    "Impact":"4.94 - 5.43",
+    "Acid":"6.57 - 7.23",
+    "Cold":"6.57 - 7.23",
+    "Fire":"6.57 - 7.23",
+    "Lightning":"6.32 - 6.95",
+    "Holy":"6.44 - 7.08",
+    "Unholy":"6.44 - 7.08",
+    "Density":"0.03"
+}
 }
 },
   {
@@ -628,6 +1377,23 @@
 	"Iron Ingots":168,
 	"Leathers":61,
 	"Selentine Ingots":14
+},
+    "Additional": {
+    "Weight":42.9,
+    "Durability":296.65,
+	"Extra": {
+    "Slashing":"22.51 - 24.75",
+    "Piercing":"23.51 - 25.88",
+    "Bludgeoning":"19.45 - 21.41",
+    "Impact":"20.32 - 22.39",
+    "Acid":"27.99 - 30.79",
+    "Cold":"27.99 - 30.79",
+    "Fire":"27.99 - 30.79",
+    "Lightning":"26.9 - 29.57",
+    "Holy":"27.44 - 30.21",
+    "Unholy":"27.44 - 30.21",
+    "Density":"0.54 - 0.56"
+}
 }
 },
   {
@@ -643,6 +1409,23 @@
 	"Iron Ingots":12,
 	"Leathers":4,
 	"Selentine Ingot":1
+},
+    "Additional": {
+    "Weight":2.2,
+    "Durability":27.81,
+	"Extra": {
+    "Slashing":"1.61 - 1.77",
+    "Piercing":"1.68 - 1.85",
+    "Bludgeoning":"1.39 - 1.53",
+    "Impact":"1.45 - 1.6",
+    "Acid":"2 - 2.2",
+    "Cold":"2 - 2.2",
+    "Fire":"2 - 2.2",
+    "Lightning":"1.92 - 2.11",
+    "Holy":"1.96 - 2.16",
+    "Unholy":"1.96 - 2.16",
+    "Density":"0.04 - 0.04"
+}
 }
 },
   {
@@ -658,6 +1441,23 @@
 	"Iron Ingots":12,
 	"Leathers":4,
 	"Selentine Ingot":1
+},
+    "Additional": {
+    "Weight":2.2,
+    "Durability":27.81,
+	"Extra": {
+    "Slashing":"1.61 - 1.77",
+    "Piercing":"1.68 - 1.85",
+    "Bludgeoning":"1.39 - 1.53",
+    "Impact":"1.45 - 1.6",
+    "Acid":"2 - 2.2",
+    "Cold":"2 - 2.2",
+    "Fire":"2 - 2.2",
+    "Lightning":"1.92 - 2.11",
+    "Holy":"1.96 - 2.16",
+    "Unholy":"1.96 - 2.16",
+    "Density":"0.04 - 0.04"
+}
 }
 },
   {
@@ -673,6 +1473,23 @@
 	"Iron Ingots":12,
 	"Leathers":4,
 	"Selentine Ingot":1
+},
+    "Additional": {
+    "Weight":3.3,
+    "Durability":27.81,
+	"Extra": {
+    "Slashing":"1.61 - 1.77",
+    "Piercing":"1.68 - 1.85",
+    "Bludgeoning":"1.39 - 1.53",
+    "Impact":"1.45 - 1.6",
+    "Acid":"2 - 2.2",
+    "Cold":"2 - 2.2",
+    "Fire":"2 - 2.2",
+    "Lightning":"1.92 - 2.11",
+    "Holy":"1.96 - 2.16",
+    "Unholy":"1.96 - 2.16",
+    "Density":"0.04 - 0.04"
+}
 }
 },
   {
@@ -688,6 +1505,23 @@
 	"Iron Ingots":12,
 	"Leathers":4,
 	"Selentine Ingot":1
+},
+    "Additional": {
+    "Weight":2.2,
+    "Durability":27.81,
+	"Extra": {
+    "Slashing":"1.61 - 1.77",
+    "Piercing":"1.68 - 1.85",
+    "Bludgeoning":"1.39 - 1.53",
+    "Impact":"1.45 - 1.6",
+    "Acid":"2 - 2.2",
+    "Cold":"2 - 2.2",
+    "Fire":"2 - 2.2",
+    "Lightning":"1.92 - 2.11",
+    "Holy":"1.96 - 2.16",
+    "Unholy":"1.96 - 2.16",
+    "Density":"0.04 - 0.04"
+}
 }
 },
   {
@@ -703,6 +1537,23 @@
 	"Iron Ingots":12,
 	"Leathers":4,
 	"Selentine Ingot":1
+},
+    "Additional": {
+    "Weight":4.4,
+    "Durability":27.81,
+	"Extra": {
+    "Slashing":"1.61 - 1.77",
+    "Piercing":"1.68 - 1.85",
+    "Bludgeoning":"1.39 - 1.53",
+    "Impact":"1.45 - 1.6",
+    "Acid":"2 - 2.2",
+    "Cold":"2 - 2.2",
+    "Fire":"2 - 2.2",
+    "Lightning":"1.92 - 2.11",
+    "Holy":"1.96 - 2.16",
+    "Unholy":"1.96 - 2.16",
+    "Density":"0.04 - 0.04"
+}
 }
 },
   {
@@ -718,6 +1569,23 @@
 	"Iron Ingots":20,
 	"Leathers":8,
 	"Selentine Ingots":2
+},
+    "Additional": {
+    "Weight":4.4,
+    "Durability":32.45,
+	"Extra": {
+    "Slashing":"3.21 - 3.53",
+    "Piercing":"3.36 - 3.7",
+    "Bludgeoning":"2.78 - 3.06",
+    "Impact":"2.91 - 3.2",
+    "Acid":"4 - 4.4",
+    "Cold":"4 - 4.4",
+    "Fire":"4 - 4.4",
+    "Lightning":"3.85 - 4.23",
+    "Holy":"3.92 - 4.31",
+    "Unholy":"3.92 - 4.31",
+    "Density":"0.11 - 0.12"
+}
 }
 },
   {
@@ -733,6 +1601,23 @@
 	"Iron Ingots":28,
 	"Leathers":10,
 	"Selentine Ingots":2
+},
+    "Additional": {
+    "Weight":6.6,
+    "Durability":32.45,
+	"Extra": {
+    "Slashing":"1.61 - 1.77",
+    "Piercing":"1.68 - 1.85",
+    "Bludgeoning":"1.39 - 1.53",
+    "Impact":"1.45 - 1.6",
+    "Acid":"2 - 2.2",
+    "Cold":"2 - 2.2",
+    "Fire":"2 - 2.2",
+    "Lightning":"1.92 - 2.11",
+    "Holy":"1.96 - 2.16",
+    "Unholy":"1.96 - 2.16",
+    "Density":"0.04 - 0.04"
+}
 }
 },
   {
@@ -748,6 +1633,23 @@
 	"Iron Ingots":12,
 	"Leathers":4,
 	"Selentine Ingot":1
+},
+    "Additional": {
+    "Weight":3.3,
+    "Durability":27.81,
+	"Extra": {
+    "Slashing":"1.61 - 1.77",
+    "Piercing":"1.68 - 1.85",
+    "Bludgeoning":"1.39 - 1.53",
+    "Impact":"1.45 - 1.6",
+    "Acid":"2 - 2.2",
+    "Cold":"2 - 2.2",
+    "Fire":"2 - 2.2",
+    "Lightning":"1.92 - 2.11",
+    "Holy":"1.96 - 2.16",
+    "Unholy":"1.96 - 2.16",
+    "Density":"0.04 - 0.04"
+}
 }
 },
   {
@@ -763,6 +1665,23 @@
 	"Iron Ingots":12,
 	"Leathers":4,
 	"Selentine Ingot":1
+},
+    "Additional": {
+    "Weight":3.3,
+    "Durability":27.81,
+	"Extra": {
+    "Slashing":"1.61 - 1.77",
+    "Piercing":"1.68 - 1.85",
+    "Bludgeoning":"1.39 - 1.53",
+    "Impact":"1.45 - 1.6",
+    "Acid":"2 - 2.2",
+    "Cold":"2 - 2.2",
+    "Fire":"2 - 2.2",
+    "Lightning":"1.92 - 2.11",
+    "Holy":"1.96 - 2.16",
+    "Unholy":"1.96 - 2.16",
+    "Density":"0.11 - 0.12"
+}
 }
 },
   {
@@ -778,6 +1697,23 @@
 	"Iron Ingots":36,
 	"Leathers":15,
 	"Selentine Ingots":3
+},
+    "Additional": {
+    "Weight":11,
+    "Durability":37.08,
+	"Extra": {
+    "Slashing":"6.42 - 7.06",
+    "Piercing":"6.71 - 7.38",
+    "Bludgeoning":"5.55 - 6.11",
+    "Impact":"5.81 - 6.39",
+    "Acid":"7.99 - 8.79",
+    "Cold":"7.99 - 8.79",
+    "Fire":"7.99 - 8.79",
+    "Lightning":"7.69 - 8.46",
+    "Holy":"7.84 - 8.62",
+    "Unholy":"7.84 - 8.62",
+    "Density":"0.04 - 0.04"
+}
 }
 },
   {
@@ -794,6 +1730,23 @@
 	"Leathers":61,
 	"Veilron Ingots":14,
 	"Neithal Ingots":10
+},
+    "Additional": {
+    "Weight":39,
+    "Durability":385.69,
+	"Extra": {
+    "Slashing":"23.94 - 26.32",
+    "Piercing":"25.05 - 27.57",
+    "Bludgeoning":"20.72 - 22.81",
+    "Impact":"21.69 - 23.82",
+    "Acid":"32.08 - 35.3",
+    "Cold":"32.08 - 35.3",
+    "Fire":"32.08 - 35.3",
+    "Lightning":"30.91 - 33.99",
+    "Holy":"31.49 - 34.68",
+    "Unholy":"31.49 - 34.68",
+    "Density":"0.56 - 0.66"
+}
 }
 },
   {
@@ -810,6 +1763,23 @@
 	"Leathers":4,
 	"Veilron Ingot":1,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":2,
+    "Durability":36.16,
+	"Extra": {
+    "Slashing":"1.71 - 1.88",
+    "Piercing":"1.79 - 1.97",
+    "Bludgeoning":"1.48 - 1.63",
+    "Impact":"1.55 - 1.7",
+    "Acid":"2.29 - 2.52",
+    "Cold":"2.29 - 2.52",
+    "Fire":"2.29 - 2.52",
+    "Lightning":"2.21 - 2.43",
+    "Holy":"2.25 - 2.48",
+    "Unholy":"2.25 - 2.48",
+    "Density":"0.04 - 0.05"
+}
 }
 },
   {
@@ -826,6 +1796,23 @@
 	"Leathers":4,
 	"Veilron Ingot":1,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":2,
+    "Durability":36.16,
+	"Extra": {
+    "Slashing":"1.71 - 1.88",
+    "Piercing":"1.79 - 1.97",
+    "Bludgeoning":"1.48 - 1.63",
+    "Impact":"1.55 - 1.7",
+    "Acid":"2.29 - 2.52",
+    "Cold":"2.29 - 2.52",
+    "Fire":"2.29 - 2.52",
+    "Lightning":"2.21 - 2.43",
+    "Holy":"2.25 - 2.48",
+    "Unholy":"2.25 - 2.48",
+    "Density":"0.04 - 0.05"
+}
 }
 },
   {
@@ -842,6 +1829,23 @@
 	"Leathers":4,
 	"Veilron Ingot":1,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":3,
+    "Durability":36.16,
+	"Extra": {
+    "Slashing":"1.71 - 1.88",
+    "Piercing":"1.79 - 1.97",
+    "Bludgeoning":"1.48 - 1.63",
+    "Impact":"1.55 - 1.7",
+    "Acid":"2.29 - 2.52",
+    "Cold":"2.29 - 2.52",
+    "Fire":"2.29 - 2.52",
+    "Lightning":"2.21 - 2.43",
+    "Holy":"2.25 - 2.48",
+    "Unholy":"2.25 - 2.48",
+    "Density":"0.04 - 0.05"
+}
 }
 },
   {
@@ -858,6 +1862,23 @@
 	"Leathers":4,
 	"Veilron Ingot":1,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":2,
+    "Durability":36.16,
+	"Extra": {
+    "Slashing":"1.71 - 1.88",
+    "Piercing":"1.79 - 1.97",
+    "Bludgeoning":"1.48 - 1.63",
+    "Impact":"1.55 - 1.7",
+    "Acid":"2.29 - 2.52",
+    "Cold":"2.29 - 2.52",
+    "Fire":"2.29 - 2.52",
+    "Lightning":"2.21 - 2.43",
+    "Holy":"2.25 - 2.48",
+    "Unholy":"2.25 - 2.48",
+    "Density":"0.04 - 0.05"
+}
 }
 },
   {
@@ -874,6 +1895,23 @@
 	"Leathers":4,
 	"Veilron Ingot":1,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":4,
+    "Durability":36.16,
+	"Extra": {
+    "Slashing":"1.71 - 1.88",
+    "Piercing":"1.79 - 1.97",
+    "Bludgeoning":"1.48 - 1.63",
+    "Impact":"1.55 - 1.7",
+    "Acid":"2.29 - 2.52",
+    "Cold":"2.29 - 2.52",
+    "Fire":"2.29 - 2.52",
+    "Lightning":"2.21 - 2.43",
+    "Holy":"2.25 - 2.48",
+    "Unholy":"2.25 - 2.48",
+    "Density":"0.04 - 0.05"
+}
 }
 },
   {
@@ -890,6 +1928,23 @@
 	"Leathers":8,
 	"Veilron Ingots":2,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":4,
+    "Durability":42.18,
+	"Extra": {
+    "Slashing":"3.42 - 3.76",
+    "Piercing":"3.58 - 3.94",
+    "Bludgeoning":"2.96 - 3.26",
+    "Impact":"3.1 - 3.41",
+    "Acid":"4.59 - 5.05",
+    "Cold":"4.59 - 5.05",
+    "Fire":"4.59 - 5.05",
+    "Lightning":"4.41 - 4.85",
+    "Holy":"4.5 - 4.95",
+    "Unholy":"4.5 - 4.95",
+    "Density":"0.12 - 0.13"
+}
 }
 },
   {
@@ -906,6 +1961,23 @@
 	"Leathers":10,
 	"Veilron Ingots":2,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":6,
+    "Durability":42.18,
+	"Extra": {
+    "Slashing":"1.71 - 1.88",
+    "Piercing":"1.79 - 1.97",
+    "Bludgeoning":"1.48 - 1.63",
+    "Impact":"1.55 - 1.7",
+    "Acid":"2.29 - 2.52",
+    "Cold":"2.29 - 2.52",
+    "Fire":"2.29 - 2.52",
+    "Lightning":"2.21 - 2.43",
+    "Holy":"2.25 - 2.48",
+    "Unholy":"2.25 - 2.48",
+    "Density":"0.04 - 0.05"
+}
 }
 },
   {
@@ -922,6 +1994,23 @@
 	"Leathers":4,
 	"Veilron Ingot":1,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":3,
+    "Durability":36.16,
+	"Extra": {
+    "Slashing":"1.71 - 1.88",
+    "Piercing":"1.79 - 1.97",
+    "Bludgeoning":"1.48 - 1.63",
+    "Impact":"1.55 - 1.7",
+    "Acid":"2.29 - 2.52",
+    "Cold":"2.29 - 2.52",
+    "Fire":"2.29 - 2.52",
+    "Lightning":"2.21 - 2.43",
+    "Holy":"2.25 - 2.48",
+    "Unholy":"2.25 - 2.48",
+    "Density":"0.04 - 0.05"
+}
 }
 },
   {
@@ -938,6 +2027,23 @@
 	"Leathers":4,
 	"Veilron Ingot":1,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":3,
+    "Durability":36.16,
+	"Extra": {
+    "Slashing":"1.71 - 1.88",
+    "Piercing":"1.79 - 1.97",
+    "Bludgeoning":"1.48 - 1.63",
+    "Impact":"1.55 - 1.7",
+    "Acid":"2.29 - 2.52",
+    "Cold":"2.29 - 2.52",
+    "Fire":"2.29 - 2.52",
+    "Lightning":"2.21 - 2.43",
+    "Holy":"2.25 - 2.48",
+    "Unholy":"2.25 - 2.48",
+    "Density":"0.12 - 0.13"
+}
 }
 },
   {
@@ -954,6 +2060,23 @@
 	"Leathers":15,
 	"Veilron Ingots":3,
 	"Neithal Ingot":1
+},
+    "Additional": {
+    "Weight":10,
+    "Durability":48.21,
+	"Extra": {
+    "Slashing":"6.84 - 7.52",
+    "Piercing":"7.15 - 7.87",
+    "Bludgeoning":"5.92 - 6.51",
+    "Impact":"6.19 - 6.81",
+    "Acid":"9.17 - 10.09",
+    "Cold":"9.17 - 10.09",
+    "Fire":"9.17 - 10.09",
+    "Lightning":"8.82 - 9.7",
+    "Holy":"8.99 - 9.89",
+    "Unholy":"8.99 - 9.89",
+    "Density":"0.04 - 0.05"
+}
 }
 },
   {
@@ -972,6 +2095,23 @@
 	"Theyril Ingots":10,
 	"Primal Bloods":10,
 	"Draconian Scales":10
+},
+    "Additional": {
+    "Weight":35.1,
+    "Durability":533.99,
+	"Extra": {
+    "Slashing":"26.71 - 29.37",
+    "Piercing":"27.86 - 30.66",
+    "Bludgeoning":"23.09 - 25.36",
+    "Impact":"24.19 - 26.59",
+    "Acid":"35.72 - 39.25",
+    "Cold":"35.72 - 39.25",
+    "Fire":"35.72 - 39.25",
+    "Lightning":"34.43 - 37.9",
+    "Holy":"35.11 - 38.61",
+    "Unholy":"35.11 - 38.61",
+    "Density":"0.68 - 0.7"
+}
 }
 },
   {
@@ -990,6 +2130,23 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+    "Weight":1.8,
+    "Durability":50.06,
+	"Extra": {
+    "Slashing":"1.91 - 2.1",
+    "Piercing":"1.99 - 2.19",
+    "Bludgeoning":"1.65 - 1.81",
+    "Impact":"1.73 - 1.9",
+    "Acid":"2.55 - 2.8",
+    "Cold":"2.55 - 2.8",
+    "Fire":"2.55 - 2.8",
+    "Lightning":"2.46 - 2.71",
+    "Holy":"2.51 - 2.76",
+    "Unholy":"2.51 - 2.76",
+    "Density":"0.05"
+}
 }
 },
   {
@@ -1008,6 +2165,23 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+    "Weight":1.8,
+    "Durability":50.06,
+	"Extra": {
+    "Slashing":"1.91 - 2.1",
+    "Piercing":"1.99 - 2.19",
+    "Bludgeoning":"1.65 - 1.81",
+    "Impact":"1.73 - 1.9",
+    "Acid":"2.55 - 2.8",
+    "Cold":"2.55 - 2.8",
+    "Fire":"2.55 - 2.8",
+    "Lightning":"2.46 - 2.71",
+    "Holy":"2.51 - 2.76",
+    "Unholy":"2.51 - 2.76",
+    "Density":"0.05"
+}
 }
 },
   {
@@ -1026,6 +2200,23 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+    "Weight":2.7,
+    "Durability":50.06,
+	"Extra": {
+    "Slashing":"1.91 - 2.1",
+    "Piercing":"1.99 - 2.19",
+    "Bludgeoning":"1.65 - 1.81",
+    "Impact":"1.73 - 1.9",
+    "Acid":"2.55 - 2.8",
+    "Cold":"2.55 - 2.8",
+    "Fire":"2.55 - 2.8",
+    "Lightning":"2.46 - 2.71",
+    "Holy":"2.51 - 2.76",
+    "Unholy":"2.51 - 2.76",
+    "Density":"0.05"
+}
 }
 },
   {
@@ -1044,6 +2235,23 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+    "Weight":3.6,
+    "Durability":50.06,
+	"Extra": {
+    "Slashing":"1.91 - 2.1",
+    "Piercing":"1.99 - 2.19",
+    "Bludgeoning":"1.65 - 1.81",
+    "Impact":"1.73 - 1.9",
+    "Acid":"2.55 - 2.8",
+    "Cold":"2.55 - 2.8",
+    "Fire":"2.55 - 2.8",
+    "Lightning":"2.46 - 2.71",
+    "Holy":"2.51 - 2.76",
+    "Unholy":"2.51 - 2.76",
+    "Density":"0.05"
+}
 }
 },
   {
@@ -1062,6 +2270,24 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+	"Weight":0,
+    "Weight":1.8,
+    "Durability":50.06,
+	"Extra": {
+    "Slashing":"1.91 - 2.1",
+    "Piercing":"1.99 - 2.19",
+    "Bludgeoning":"1.65 - 1.81",
+    "Impact":"1.73 - 1.9",
+    "Acid":"2.55 - 2.8",
+    "Cold":"2.55 - 2.8",
+    "Fire":"2.55 - 2.8",
+    "Lightning":"2.46 - 2.71",
+    "Holy":"2.51 - 2.76",
+    "Unholy":"2.51 - 2.76",
+    "Density":"0.05"
+}
 }
 },
   {
@@ -1080,6 +2306,23 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+    "Weight":3.6,
+    "Durability":58.41,
+	"Extra": {
+    "Slashing":"3.81 - 4.19",
+    "Piercing":"3.98 - 4.38",
+    "Bludgeoning":"3.3 - 3.63",
+    "Impact":"3.45 - 3.8",
+    "Acid":"5.11 - 5.62",
+    "Cold":"5.11 - 5.62",
+    "Fire":"5.11 - 5.62",
+    "Lightning":"4.92 - 5.41",
+    "Holy":"5.01 - 5.51",
+    "Unholy":"5.01 - 5.51",
+    "Density":"0.14 - 0.15"
+}
 }
 },
   {
@@ -1098,6 +2341,23 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+    "Weight":5.4,
+    "Durability":58.41,
+	"Extra": {
+    "Slashing":"1.91 - 2.1",
+    "Piercing":"1.99 - 2.19",
+    "Bludgeoning":"1.65 - 1.81",
+    "Impact":"1.73 - 1.9",
+    "Acid":"2.55 - 2.8",
+    "Cold":"2.55 - 2.8",
+    "Fire":"2.55 - 2.8",
+    "Lightning":"2.46 - 2.71",
+    "Holy":"2.51 - 2.76",
+    "Unholy":"2.51 - 2.76",
+    "Density":"0.05"
+}
 }
 },
   {
@@ -1116,6 +2376,23 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+    "Weight":2.7,
+    "Durability":50.06,
+	"Extra": {
+    "Slashing":"1.91 - 2.1",
+    "Piercing":"1.99 - 2.19",
+    "Bludgeoning":"1.65 - 1.81",
+    "Impact":"1.73 - 1.9",
+    "Acid":"2.55 - 2.8",
+    "Cold":"2.55 - 2.8",
+    "Fire":"2.55 - 2.8",
+    "Lightning":"2.46 - 2.71",
+    "Holy":"2.51 - 2.76",
+    "Unholy":"2.51 - 2.76",
+    "Density":"0.05"
+}
 }
 },
   {
@@ -1134,6 +2411,23 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+    "Weight":2.7,
+    "Durability":50.06,
+	"Extra": {
+    "Slashing":"1.91 - 2.1",
+    "Piercing":"1.99 - 2.19",
+    "Bludgeoning":"1.65 - 1.81",
+    "Impact":"1.73 - 1.9",
+    "Acid":"2.55 - 2.8",
+    "Cold":"2.55 - 2.8",
+    "Fire":"2.55 - 2.8",
+    "Lightning":"2.46 - 2.71",
+    "Holy":"2.51 - 2.76",
+    "Unholy":"2.51 - 2.76",
+    "Density":"0.14 - 0.15"
+}
 }
 },
   {
@@ -1152,6 +2446,23 @@
 	"Theyril Ingot":1,
 	"Primal Blood":1,
 	"Draconian Scale":1
+},
+    "Additional": {
+    "Weight":9,
+    "Durability":66.75,
+	"Extra": {
+    "Slashing":"7.62 - 8.38",
+    "Piercing":"7.96 - 8.76",
+    "Bludgeoning":"6.59 - 7.25",
+    "Impact":"6.9 - 7.59",
+    "Acid":"10.21 - 11.23",
+    "Cold":"10.21 - 11.23",
+    "Fire":"10.21 - 11.23",
+    "Lightning":"9.83 - 10.81",
+    "Holy":"10.02 - 11.02",
+    "Unholy":"10.02 - 11.02",
+    "Density":"0.05"
+}
 }
 }
 ]

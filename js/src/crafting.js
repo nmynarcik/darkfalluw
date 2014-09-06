@@ -50,7 +50,7 @@
       }, function(){ //callback
         crafter.createList(crafter.firstDrop,crafter.allItems); //create list; (array to fill, data)
       }).error(function(a,b,c){
-          alert('Error Loading Items: ',arguments);
+          alert('Error Loading Items: ' + arguments);
         });
     },
     createList: function(list,data){
@@ -126,21 +126,28 @@
       //console.log('Showing Item', item);
       crafter.item = item;
       var newEl = $("#item-template").clone()
-                                .attr("id",item.id)
-                                .fadeIn("slow");
+                                .attr("id",item.id.replace(/ /g,'-'));
       newEl.find('#thumb').append('<img src="'+templateDir+'/data/icons/'+item.Icon+'" width="64" height="64"/>');
 
       var details = '<h3><span class="theName">'+item.Name+'</span></h3><p>';
-      details = details + '<strong>Skill:</strong> '+item.Skill+'<br>';
-      details = details + '<strong>Min Level:</strong> '+item["Min Level"]+'<br>';
-      details = details + '<strong>Max Level:</strong> '+item["Max Level"]+'<br>';
-      details = details + '<strong>Quantity:</strong> '+item.Quantity+'<br>';
-      details = details + '<ul class="ingredients">';
+      details += '<strong>Skill:</strong> '+item.Skill+'<br>';
+      details += '<strong>Min Level:</strong> '+item["Min Level"]+'<br>';
+      details += '<strong>Max Level:</strong> '+item["Max Level"]+'<br>';
+      details += '<strong>Quantity:</strong> '+item.Quantity+'<br>';
+      details += '<ul class="ingredients">';
       for(var prop in item.Recipe){
-          details = details + '<li><strong>' + prop + ':</strong> ' + item.Recipe[prop] + '</li>';
+          details += '<li><strong>' + prop + ':</strong> ' + item.Recipe[prop] + '</li>';
       }
-      details = details + '</ul></p>';
-      newEl.find('.ingredients .details').html(details);
+      details += '</ul>';
+
+      var extras = '<ul class="extras">';
+
+      for(var add in item.Additional){
+          if(typeof item.Additional[add] != "object")
+            extras = extras + '<li><strong>' + add + ':</strong> ' + item.Additional[add] + '</li>';
+      }
+      extras = extras + '</ul></p>';
+      newEl.find('.ingredients .details').html(details + extras);
 
       newEl.find('.recipe .well').html(crafter.calculate(item));
 
@@ -150,15 +157,31 @@
                                   .addClass(item.Skill.toLowerCase())
                                   .html(newEl);
 
+      newEl.fadeIn();
+      if(item.Additional && item.Additional.Extra){
+        crafter.popoverSetup(item.Additional.Extra);
+      }
       crafter.changeStyle();
     },
+    popoverSetup: function(arr){
+      var exStats = '<ul id="protections">';
+      for(var ex in arr) {
+        exStats += "<li><strong>" + ex + ":</strong> " + arr[ex] + "</li>";
+      }
+      exStats += '</ul>';
+      $('#item-details div.ingredients').attr('data-content',exStats).popover();
+    },
     calculate: function(item){
-      // var currentName = (crafter.item.Name != $('.theName:first').text() && $('.theName:first').text() != '') ? $('.theName:first').text() : crafter.item.Name;
       var currentName = item.Name;
+      var discount = $('#discount').attr('checked') == 'checked';
       var count = $('#item-count').val();
       var html = '<strong>'+ item.Quantity*crafter.itemCount +'</strong> <span class="theName"> ' + currentName + '</span>: ';
       for(var prop in crafter.item.Recipe){
-        html = html + count*crafter.item.Recipe[prop] + ' ' + prop;
+        if(discount && prop == "Gold"){
+          html += Math.ceil(count*crafter.item.Recipe[prop] - (count*crafter.item.Recipe[prop])*0.10) + ' ' + prop;
+        }else{
+          html += count*crafter.item.Recipe[prop] + ' ' + prop;
+        }
         if(Object.keys(crafter.item.Recipe)[Object.keys(crafter.item.Recipe).length - 1] != prop){
           html = html + ', ';
         }
@@ -227,6 +250,12 @@
     }
   });
 
+  $('#discount').change(function(){
+    if(!isEmpty(crafter.item)){
+      $('#item-details .recipe .well').html(crafter.calculate(crafter.item));
+    }
+  });
+
   $('#item-count').live('change',function(){
     crafter.itemCount = $(this).val();
     $('#item-details .recipe .well').html(crafter.calculate(crafter.item));
@@ -239,7 +268,14 @@
   });
 
   $('.recipe .well').live('click',function(){
-    window.prompt('Copy Recipe',$(this).text());
+    // window.prompt('Copy Recipe',$(this).text());
+    $('#recipeModal #recipeModalLabel').text(crafter.itemCount + ' ' + crafter.item.Name);
+    $('#recipeModal #modalRecipeDetails').text($(this).text());
+    $('#recipeModal').modal('show');
+  });
+
+  $('#recipeModal').on('shown', function () {
+    $('#recipeModal #modalRecipeDetails').select();
   });
 })(jQuery);
 
@@ -263,12 +299,18 @@ Array.prototype.pushIfNotExist = function(element, comparer) {
     }
 };
 
+// Is an object empty?
+function isEmpty(obj) {
+    return Object.keys(obj).length === 0;
+}
+
 
 /********** Combobox Stuff ***********/
 
 (function( $ ) {
     $.widget( "custom.combobox", {
       _create: function() {
+        console.log('COMBOBOX',this);
         this.wrapper = $( "<span>" )
           .addClass( "custom-combobox" )
           .insertAfter( this.element );
@@ -315,7 +357,6 @@ Array.prototype.pushIfNotExist = function(element, comparer) {
         $( "<div>" )
           .attr( "tabIndex", -1 )
           .attr( "title", "Show All Items" )
-          // .tooltip()
           .appendTo( this.wrapper )
           .button({
             icons: {
@@ -394,53 +435,53 @@ Array.prototype.pushIfNotExist = function(element, comparer) {
         this.element.show();
       }
     });
-  })( jQuery );
+})( jQuery );
 
-  (function($) {
-      $("#trade_select").combobox({
-            select: function (event, ui) {
-                crafter.getData(this.value);
-                $('.selection-box:first').find('input').val('').focus();
-            }
-        });
+(function($) {
+    $("#trade_select").combobox({
+          select: function (event, ui) {
+              crafter.getData(this.value);
+              $('.selection-box:first').find('input').val('').focus();
+          }
+      });
 
-      $("#select-two").combobox({
-            select: function (event, ui) {
-                if(!crafter.advanced){
-                    var selection = new RegExp('^\\b' + RegExp.escape(this.value),'gi');
-                    // console.log('RegEx: '+ selection);
-                    for (var i = 0; i < crafter.allItems.length; i++) {
-                      if(crafter.allItems[i].Name.match(selection)){
-                        crafter.showItem(crafter.allItems[i]);
-                      }
+    $("#select-two").combobox({
+          select: function (event, ui) {
+              if(!crafter.advanced){
+                  var selection = new RegExp('^\\b' + RegExp.escape(this.value),'gi');
+                  // console.log('RegEx: '+ selection);
+                  for (var i = 0; i < crafter.allItems.length; i++) {
+                    if(crafter.allItems[i].Name.match(selection)){
+                      crafter.showItem(crafter.allItems[i]);
                     }
-                }else{
-                  crafter.filterList(this.value);
-                }
-                $('.selection-box:last').find('input').val('').focus();
-            }
-        });
-
-      $("#select-three").combobox({
-            select: function (event, ui) {
-                //console.log('Finding Item');
-                var selection = new RegExp(this.value + '\\s(.*)\\s?\\b' + $('#select-two').val(),'gi');
-                if(this.value === $('#select-two').val()){
-                  selection = new RegExp('^'+this.value+'$','i');
-                }
-                //console.log(selection);
-                for (var i = 0; i < crafter.filteredList.length; i++) {
-                  if(crafter.filteredList[i].Name.match(selection)){
-                    crafter.showItem(crafter.filteredList[i]);
                   }
-                }
-            }
-        });
+              }else{
+                crafter.filterList(this.value);
+              }
+              $('.selection-box:last').find('input').val('').focus();
+          }
+      });
 
-    // $( "#toggle" ).click(function() {
-    //   $( "#combobox" ).toggle();
-    // });
-  })(jQuery);
+    $("#select-three").combobox({
+          select: function (event, ui) {
+              //console.log('Finding Item');
+              var selection = new RegExp(this.value + '\\s(.*)\\s?\\b' + $('#select-two').val(),'gi');
+              if(this.value === $('#select-two').val()){
+                selection = new RegExp('^'+this.value+'$','i');
+              }
+              //console.log(selection);
+              for (var i = 0; i < crafter.filteredList.length; i++) {
+                if(crafter.filteredList[i].Name.match(selection)){
+                  crafter.showItem(crafter.filteredList[i]);
+                }
+              }
+          }
+      });
+
+  // $( "#toggle" ).click(function() {
+  //   $( "#combobox" ).toggle();
+  // });
+})(jQuery);
 
 RegExp.escape= function(s) {
   return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
