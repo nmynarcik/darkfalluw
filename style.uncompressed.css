@@ -1556,6 +1556,9 @@ label.excl-legend {
 }
 
 /* Misc */
+blockquote a {
+  color: #ecd547;
+}
 blockquote {
   width: 90%;
   margin: 30px auto;
