@@ -310,7 +310,6 @@ function isEmpty(obj) {
 (function( $ ) {
     $.widget( "custom.combobox", {
       _create: function() {
-        console.log('COMBOBOX',this);
         this.wrapper = $( "<span>" )
           .addClass( "custom-combobox" )
           .insertAfter( this.element );

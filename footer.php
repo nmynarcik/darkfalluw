@@ -56,6 +56,6 @@
   <?php } ?>
 <?php } ?>
 <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/dfuw-wp-theme.js?ver=<?php echo $ver; ?>"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/dfuw-wp-theme.min.js?ver=<?php echo $ver; ?>"></script>
 <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=xa-50c58e77607d7916"></script>
 </html>
