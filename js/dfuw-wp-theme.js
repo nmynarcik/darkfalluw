@@ -16621,9 +16621,9 @@ var firstAvailCol;if(typeof(matrix[rowIndex])=="undefined"){matrix[rowIndex]=[];
         $(this).addClass('blocked');
         // $('body').prepend('<div id="anti-ads">You are currently disabling ads. To help support this site, please consider allowing ads to show.<i class="icon-remove icon-white"></i></div>');
         if($(this).data('adType') == 'long') {
-          $(this).html('<a href="http://www.gamefanshop.com/partner-IamRedSeal/" target="_blank"><img src="http://www.gamefanshop.com/StoreFiles/Styles/vip/banner1.jpg" alt="gamefanshop partner banner" /></a>');
+          $(this).html('<a href="http://www.tshirthell.com/store/clicks.php?partner=iamredseal"><img src=" ' + templateDir + '/images/tshirthell.jpg" width="728" height="90" /></a>');
         }else if($(this).data('adType') == 'square'){
-          $(this).html('<a href="http://www.gamefanshop.com/partner-IamRedSeal/" target="_blank"><img src="http://www.gamefanshop.com/StoreFiles/Styles/vip/banner2t.jpg" width="180" alt="gamefanshop partner banner" /></a>');
+          $(this).html('<a href="http://www.tshirthell.com/store/clicks.php?partner=iamredseal"><img src=" ' + templateDir + '/images/tshirthell-300x250.jpg" width="180" /></a>');
           // setTimeout(function(){
           //   $('#anti-ads').slideDown();
           // }, 5000);
