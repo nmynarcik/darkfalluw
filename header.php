@@ -14,9 +14,13 @@
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@DFUWInfo">
-<meta name="twitter:title" content="Darkfall: Unholy Wars">
-<meta name="twitter:description" content="Your go to information database about everything Darkfall Unholy Wars.">
 <meta name="twitter:creator" content="@DFUWInfo">
+<meta name="twitter:description" content="Your go to information database about everything Darkfall Unholy Wars.">
+<?php if(is_home() || is_page()) { ?>
+<meta name="twitter:title" content="Darkfall: Unholy Wars">
+<?php } else { ?>
+<meta name="twitter:title" content="<?php echo strip_tags($wp_query->post->post_title); ?>">
+<?php } ?>
 <meta name="twitter:image:src" content="http://www.darkfallunholywars.info/wp-content/themes/darkfalluw/images/share-image.png">
 <meta name="twitter:domain" content="darkfallunholywars.info">
 <!-- End Twitter Card -->
