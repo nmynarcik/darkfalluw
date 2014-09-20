@@ -2312,4 +2312,12 @@ pre {
   max-height: 56px;
   overflow: hidden;
   display: block;
+  margin-bottom: 0;
+}
+
+.devtracker p {
+  margin-bottom: 5px;
+}
+.devtracker .item {
+  margin-bottom: 0;
 }
