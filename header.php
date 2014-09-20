@@ -16,7 +16,7 @@
 <meta name="twitter:site" content="@DFUWInfo">
 <meta name="twitter:creator" content="@DFUWInfo">
 <meta name="twitter:description" content="Your go to information database about everything Darkfall Unholy Wars.">
-<?php if(is_home() || is_page()) { ?>
+<?php if(is_home()) { ?>
 <meta name="twitter:title" content="Darkfall: Unholy Wars">
 <?php } else { ?>
 <meta name="twitter:title" content="<?php echo strip_tags($wp_query->post->post_title); ?>">

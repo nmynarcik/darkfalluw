@@ -129,6 +129,8 @@
 
         home.getForumFallFeed();
         $('.blogfeed a.post').ellipsis();
+        $('.devtracker h2 a').ellipsis();
+        $('.devtracker h2 p').ellipsis();
       },
 
       showTwitchChannel: function(list){

@@ -959,6 +959,11 @@ ul.school-list li .icon:hover{
   width: 16px;
   height: 16px;
 }
+.blogfeed a.DevTracker i.icon {
+  background: url(images/icon-tools.png) no-repeat;
+  width: 16px;
+  height: 16px;
+}
 
 .blogfeed p {
   /*height: 55px;
@@ -979,7 +984,7 @@ ul.school-list li .icon:hover{
   margin-bottom: 10px;
 }
 
-.bottom .eventfeed, .bottom .forumfeed {
+.bottom .eventfeed, .bottom .forumfeed, .bottom .devtracker {
   float: right;
   clear:right;
   position: relative;
@@ -2294,4 +2299,17 @@ pre {
   float: left;
   margin-right: 10px;
   margin-bottom: 300px;
+}
+
+
+/* DEVTRACKER */
+.devtracker h4 a {
+  height: 20px;
+  display: block;
+  overflow: hidden;
+}
+.devtracker .item p {
+  max-height: 56px;
+  overflow: hidden;
+  display: block;
 }

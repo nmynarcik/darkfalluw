@@ -4,6 +4,8 @@ Template Name: Darkfall Home Page
 */
 get_header();
 wp_enqueue_script( 'twitch-api', "https://ttv-api.s3.amazonaws.com/twitch.min.js", $ver, true );
+wp_enqueue_script( 'jq-cycle', get_template_directory_uri() . "/js/lib/jquery.cycle2.min.js", $ver, true );
+wp_enqueue_script( 'jq-cycle-vert', get_template_directory_uri() . "/js/lib/jquery.cycle2.scrollVert.min.js", $ver, true );
 ?>
   <!-- CONTENT -->
     <div id="content" class="full-width">
@@ -89,6 +91,42 @@ wp_enqueue_script( 'twitch-api', "https://ttv-api.s3.amazonaws.com/twitch.min.js
                   endforeach;
               ?>
               <a class="btn btn-inverse" href="<?php echo get_bloginfo('url'); ?>/category/blog">View More &raquo;</a>
+            </div>
+            <div class="item devtracker">
+              <h3>DevTracker <a href="<?php echo get_bloginfo('url'); ?>/tag/devtracker/feed" target="_blank" class="icon-rss" rel="nofollow"></a></h3>
+              <p>The latest from AV Devs</p>
+              <div class="cycle-slideshow"
+                                                              data-cycle-fx="flipVert"
+                                                              data-cycle-slides="> div"
+                                                              data-cycle-pause-on-hover="true"
+                                                              data-cycle-speed="200"
+                                                              data-cycle-timeout="3500">
+              <?php
+                $args = array(
+                                      'numberposts'     => 5,
+                                      'tag'                   => 'devtracker',
+                                      'orderby'         => 'post_date',
+                                      'order'           => 'DESC',
+                                      'post_type'       => 'post',
+                                      'post_status'     => 'publish');
+
+                $my_query = null;
+                $my_query = get_posts($args);
+                $count = 0;
+                if(!count($my_query)){
+                  echo '<p style="font-weight:700;">None, yet...</p>';
+                }else{
+                foreach( $my_query as $post ) :  setup_postdata($post); ?>
+                <?php $count++; ?>
+                <div class="item <?php echo ($count == 1) ? 'first' : ''; ?>">
+                    <h4><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>"><?php echo get_the_title(); ?></a></h4>
+                    <p><?php echo get_the_excerpt(); ?></p>
+                </div>
+                   <?php
+                  endforeach;
+                }
+              ?>
+              </div>
             </div>
             <div class="item eventfeed">
               <h3>Current Events <a href="<?php echo get_bloginfo('url'); ?>/category/tournaments/feed/" target="_blank" class="icon-rss" rel="nofollow"></a></h3>
