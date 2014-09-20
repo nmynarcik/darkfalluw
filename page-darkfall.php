@@ -95,12 +95,16 @@ wp_enqueue_script( 'jq-cycle-vert', get_template_directory_uri() . "/js/lib/jque
             <div class="item devtracker">
               <h3>DevTracker <a href="<?php echo get_bloginfo('url'); ?>/tag/devtracker/feed" target="_blank" class="icon-rss" rel="nofollow"></a></h3>
               <p>The latest from AV Devs</p>
+              <div class="cycle-pager"></div>
               <div class="cycle-slideshow"
                                                               data-cycle-fx="scrollVert"
-                                                              data-cycle-slides="> div"
+                                                              data-cycle-slides="> div.item"
                                                               data-cycle-pause-on-hover="true"
                                                               data-cycle-speed="400"
-                                                              data-cycle-timeout="3500">
+                                                              data-cycle-timeout="3500"
+                                                              data-cycle-pager=".cycle-pager"
+                                                              data-cycle-pager-template="<a href=#> {{slideNum}} </a>">
+
               <?php
                 $args = array(
                                       'numberposts'     => 5,
