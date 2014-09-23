@@ -959,10 +959,15 @@ ul.school-list li .icon:hover{
   width: 16px;
   height: 16px;
 }
-.blogfeed a.DevTracker i.icon {
+.blogfeed a.siteupdate i.icon {
   background: url(images/icon-tools.png) no-repeat;
   width: 16px;
   height: 16px;
+}
+.blogfeed a.DevTracker i.icon {
+  background: url(images/icon-av.png) no-repeat;
+  width: 16px;
+  height: 20px;
 }
 
 .blogfeed p {
