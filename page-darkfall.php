@@ -64,7 +64,7 @@ wp_enqueue_script( 'jq-cycle-vert', get_template_directory_uri() . "/js/lib/jque
           <div class="clear"></div>
           <div class="bottom">
             <div class="item blogfeed">
-              <h3>The Feed <a href="<?php echo get_bloginfo('url'); ?>/category/blog/feed/" target="_blank" class="icon-rss" rel="nofollow"></a></h3>
+              <h3><a href="<?php echo get_bloginfo('url'); ?>/category/blog">The Feed</a> <a href="<?php echo get_bloginfo('url'); ?>/category/blog/feed/" target="_blank" class="icon-rss" rel="nofollow"></a></h3>
               <p>Accumulation of all things Darkfall</p>
               <?php
                 $args = array(
@@ -93,7 +93,7 @@ wp_enqueue_script( 'jq-cycle-vert', get_template_directory_uri() . "/js/lib/jque
               <a class="btn btn-inverse" href="<?php echo get_bloginfo('url'); ?>/category/blog">View More &raquo;</a>
             </div>
             <div class="item devtracker">
-              <h3>DevTracker <a href="<?php echo get_bloginfo('url'); ?>/tag/devtracker/feed" target="_blank" class="icon-rss" rel="nofollow"></a></h3>
+              <h3><a href="<?php echo get_bloginfo('url'); ?>/tag/devtracker">DevTracker</a> <a href="<?php echo get_bloginfo('url'); ?>/tag/devtracker/feed" target="_blank" class="icon-rss" rel="nofollow"></a></h3>
               <p>The latest from AV Devs</p>
               <div class="cycle-pager"></div>
               <div class="cycle-slideshow"
@@ -133,7 +133,7 @@ wp_enqueue_script( 'jq-cycle-vert', get_template_directory_uri() . "/js/lib/jque
               </div>
             </div>
             <div class="item eventfeed">
-              <h3>Current Events <a href="<?php echo get_bloginfo('url'); ?>/category/tournaments/feed/" target="_blank" class="icon-rss" rel="nofollow"></a></h3>
+              <h3><a href="<?php echo get_bloginfo('url'); ?>/category/tournaments/">Current Events</a> <a href="<?php echo get_bloginfo('url'); ?>/category/tournaments/feed/" target="_blank" class="icon-rss" rel="nofollow"></a></h3>
               <p>The latest events going on in Agon</p>
               <?php
                 $args = array(
