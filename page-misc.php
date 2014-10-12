@@ -228,47 +228,6 @@ wp_enqueue_script('dfuw_table_sort', get_template_directory_uri().'/js/jquery.ta
       <img src="https://docs.google.com/spreadsheets/d/1P47PRZ7Kb7iIJ1Rd6PM272XF0b_cs7TsMpLzc_AefE4/embed/oimg?id=1P47PRZ7Kb7iIJ1Rd6PM272XF0b_cs7TsMpLzc_AefE4&oid=1244908227&zx=yngpjd2t9poa" />
     </div>
     <br>
-  <div class="misc-info full">
-    <h3>Crosshair Wobble</h3>
-    <p>Default units are in radians with a degree conversion next to them. Change time
-    represents how long it takes to change from one state to the other, such as running
-    wobble to sprinting wobble.</p>
-    <table cellpadding="0" cellspacing="0">
-      <thead>
-        <tr>
-          <th>Weapon Type <i class="icon-chevron-up icon-white"></i></th>
-          <th>Standing Wobble <i class="icon-chevron-up icon-white"></i></th>
-          <th>Running Wobble <i class="icon-chevron-up icon-white"></i></th>
-          <th>Sprinting Wobble <i class="icon-chevron-up icon-white"></i></th>
-          <th>Change Time <i class="icon-chevron-up icon-white"></i></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Bow</td>
-          <td>0</td>
-          <td>0.003r (0.172&deg;)</td>
-          <td>0.006r (0.344&deg;)</td>
-          <td>0.2s</td>
-        </tr>
-        <tr>
-          <td>Magic Staff</td>
-          <td>0</td>
-          <td>0.002r (0.115&deg;)</td>
-          <td>0.004r (0.229&deg;)</td>
-          <td>0.3s</td>
-        </tr>
-        <tr>
-          <td>Throwable Weapon</td>
-          <td>0</td>
-          <td>0.004r (0.229&deg;)</td>
-          <td>0.008r (0.458&deg;)</td>
-          <td>0.4s</td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="clearfix"></div>
-  </div>
   <div class="disclaimer">
     ** Content provided by Kelet
   </div>
