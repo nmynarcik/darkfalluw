@@ -49,7 +49,7 @@ if ( ! empty($comments_by_type['pings'])  && comments_open() ) : ?>
 <?php endif; ?>
 <?php if ( comments_open() ) : ?>
 <div id="respond">
-<?php comment_form(); ?>
+<?php comment_form(array('comment_notes_after' => '')); ?>
 </div>
 <?php endif; ?>
 </div>

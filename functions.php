@@ -150,7 +150,7 @@ $GLOBALS['comment_depth'] = $depth;
 <div class="comment-author vcard"><?php darkfalluw_commenter_link() ?></div>
 <div class="comment-meta"><?php printf(__('Posted %1$s at %2$s', 'darkfalluw' ), get_comment_date(), get_comment_time() ); ?><span class="meta-sep"> | </span> <a href="#comment-<?php echo get_comment_ID(); ?>" title="<?php _e('Permalink to this comment', 'darkfalluw' ); ?>"><?php _e('Permalink', 'darkfalluw' ); ?></a>
 <?php edit_comment_link(__('Edit', 'darkfalluw'), ' <span class="meta-sep"> | </span> <span class="edit-link">', '</span>'); ?></div>
-<?php if ($comment->comment_approved == '0') { echo '\t\t\t\t\t<span class="unapproved">'; _e('Your comment is awaiting moderation.', 'darkfalluw'); echo '</span>\n'; } ?>
+<?php if ($comment->comment_approved == '0') { echo '<span class="unapproved">'; _e('Your comment is awaiting moderation.', 'darkfalluw'); echo '</span>\n'; } ?>
 <div class="comment-content">
 <?php comment_text() ?>
 </div>
