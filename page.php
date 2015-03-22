@@ -17,4 +17,4 @@ the_post_thumbnail();
 <?php comments_template( '', true ); ?>
 </article>
 <?php get_sidebar(); ?>
-<?php get_footer(); ?>asda
+<?php get_footer(); ?>
