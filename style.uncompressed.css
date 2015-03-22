@@ -396,6 +396,12 @@ article #map-container .gad {
   text-align: left;
 }
 
+/* Individual POI Page Map */
+.single-poi #map_canvas {
+  width: 400px;
+  height: 400px;
+}
+
 /* Map Legend */
 #map-container #map-legend {
   width: 36px;
