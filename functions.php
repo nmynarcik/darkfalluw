@@ -443,7 +443,8 @@ function register_post_types()
             'slug' => 'pois'
         ),
         'supports' => array(
-            'title'
+            'title',
+            'comments'
         ),
         'register_meta_box_cb' => 'add_custom_meta_boxes'
     ));

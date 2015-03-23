@@ -180,7 +180,7 @@ function showSearchResults(arr){
     for(var j = 0; j < itemTitle.length; j++){
       contentString = contentString + '<li>' + itemTitle[j] + '</li>';
     }
-    contentString = contentString + '</ul><a href="http://www.darkfallunholywars.info/wp-admin/post.php?post='+arr[j].pid+'&action=edit" class="icon icon-cog" target="_blank" title="Edit POI">Edit POI</a>';
+    contentString = contentString + '</ul><a href="http://www.darkfallunholywars.info/?p='+arr[j].pid+'" class="icon icon-comment" target="_blank" title="Discuss Loot">Loot Table</a><a href="http://www.darkfallunholywars.info/wp-admin/post.php?post='+arr[j].pid+'&action=edit" class="icon icon-cog" target="_blank" title="Edit POI">Edit POI</a>';
 
     var result = new google.maps.Marker({
       position: poiLatLng,
@@ -284,7 +284,7 @@ function createMarkers(){
     }else{
       contentString = contentString + '<li>' + itemTitle + '</li>';
     }
-    contentString = contentString + '</ul><a href="http://www.darkfallunholywars.info/wp-admin/post.php?post='+poiArray[i].pid+'&action=edit" class="icon icon-cog" target="_blank" title="Edit POI">Edit POI</a>';
+    contentString = contentString + '</ul><a href="http://www.darkfallunholywars.info/?p='+poiArray[i].pid+'" class="icon icon-comment" target="_blank" title="Discuss Loot">Loot Table</a><a href="http://www.darkfallunholywars.info/wp-admin/post.php?post='+poiArray[i].pid+'&action=edit" class="icon icon-cog" target="_blank" title="Edit POI">Edit POI</a>';
 
     var poiLatLng = new google.maps.LatLng(poiLoc[0], poiLoc[1]);
     var poiMarker = new google.maps.Marker({

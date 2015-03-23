@@ -12,8 +12,15 @@
 <article id="content">
 <!-- <?php get_template_part( 'nav', 'above-single' ); ?> -->
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-    <h1><?php the_title()?></h1>
-    <div id="map_canvas"></div>
+    <div id="poi-container">
+        <div id="poi-details">
+            <h3><strong><?php the_title()?></strong></h3>
+            <?php if(get_post_meta($post->ID, '_poi_level',true) != 'Select Level'){ ?>
+            <p>Level: <span class="icon mob <?php echo strip_tags(get_post_meta($post->ID, '_poi_level',true)); ?>"><?php echo strip_tags(get_post_meta($post->ID, '_poi_level',true)); ?></span></p>
+            <?php } ?>
+        </div>
+        <div id="map_canvas"></div>
+    </div>
 <?php comments_template('', true); ?>
 <?php endwhile; endif; ?>
  <!-- <?php get_template_part( 'nav', 'below-single' ); ?> -->
